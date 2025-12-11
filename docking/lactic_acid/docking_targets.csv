@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+lactic acid,P0A9U1,32,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/P0A9U1_pocket32_box.txt,0.9606250000000001,0.23535092144186037,0.5142073333333335
+lactic acid,Q8ZIN3,8,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/Q8ZIN3_pocket8_box.txt,0.960175,0.20819160445813206,0.524355
+lactic acid,P27708,6,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/P27708_pocket6_box.txt,0.957875,0.11828189948754322,0.5235496666666667
+lactic acid,Q99798,27,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/Q99798_pocket27_box.txt,0.957725,0.35237715741371006,0.36610666666666664
+lactic acid,P02943,32,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/P02943_pocket32_box.txt,0.9574,0.5687396752508149,0.5105746666666667
+lactic acid,P0A7A7,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/P0A7A7_pocket3_box.txt,0.955925,0.26286859864233375,0.337462
+lactic acid,Q99798,45,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/Q99798_pocket45_box.txt,0.955725,0.6167841650348519,0.3382386666666667
+lactic acid,P0A7S9,8,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactic_acid/P0A7S9_pocket8_box.txt,0.955725,0.49933746883603247,0.47127766666666665

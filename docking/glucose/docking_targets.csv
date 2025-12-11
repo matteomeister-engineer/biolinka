@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+glucose,P40925,2,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/P40925_pocket2_box.txt,0.9676250000000001,0.2747470659436176,0.652209
+glucose,Q8ZIN3,1,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/Q8ZIN3_pocket1_box.txt,0.9621000000000001,0.22817394507844563,0.632931
+glucose,Q99798,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/Q99798_pocket3_box.txt,0.9604750000000001,0.15575911776612603,0.6039816666666667
+glucose,P0AEP9,19,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/P0AEP9_pocket19_box.txt,0.956025,0.24985421242833095,0.552189
+glucose,P75780,2,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/P75780_pocket2_box.txt,0.955875,0.09371446933156424,0.5290996666666667
+glucose,P0A250,1,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/P0A250_pocket1_box.txt,0.955725,0.18118553893411238,0.49513333333333337
+glucose,Q8ZK18,42,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/Q8ZK18_pocket42_box.txt,0.9551000000000001,0.09368255608532282,0.4851933333333333
+glucose,P0A250,8,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/glucose/P0A250_pocket8_box.txt,0.9550500000000001,0.24362304598959927,0.5545873333333333

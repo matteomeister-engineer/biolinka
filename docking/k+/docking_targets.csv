@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+k+,P23919,2,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P23919_pocket2_box.txt,0.97505,0.22096123837580234,0.5139266666666668
+k+,P0A250,10,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P0A250_pocket10_box.txt,0.9750249999999999,0.7137194871039878,0.31897933333333334
+k+,P37349,21,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P37349_pocket21_box.txt,0.975,0.6254938174701318,0.46295200000000003
+k+,P77333,17,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P77333_pocket17_box.txt,0.975,0.4746502421463966,0.4632246666666667
+k+,P0AE78,8,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P0AE78_pocket8_box.txt,0.975,0.18012349065555566,0.47897500000000004
+k+,P10809,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P10809_pocket5_box.txt,0.9505,0.010599699496928969,0.4929676666666667
+k+,P0AEP9,11,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/P0AEP9_pocket11_box.txt,0.95035,0.01240087340667123,0.47718766666666673
+k+,Q9UBQ7,16,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/k+/Q9UBQ7_pocket16_box.txt,0.950075,0.00013863625997214985,0.504799

@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+steroid,P0AAI3,33,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/P0AAI3_pocket33_box.txt,0.978875,0.10531896969109775,0.838804
+steroid,Q99623,13,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/Q99623_pocket13_box.txt,0.9775750000000001,0.15230298125680197,0.851963
+steroid,Q8ZP36,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/Q8ZP36_pocket5_box.txt,0.9775750000000001,0.06984709896442642,0.851052
+steroid,P0A8T1,17,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/P0A8T1_pocket17_box.txt,0.977325,0.06958499607720676,0.810052
+steroid,Q8ZKC0,1,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/Q8ZKC0_pocket1_box.txt,0.9761500000000001,0.10449874865989862,0.8515090000000001
+steroid,P0A9V1,4,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/P0A9V1_pocket4_box.txt,0.9555750000000001,0.08229233432992,0.600581
+steroid,P30084,18,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/P30084_pocket18_box.txt,0.9550500000000001,0.5097386171397458,0.6074573333333334
+steroid,P42345,223,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/steroid/P42345_pocket223_box.txt,0.9550500000000001,0.17171749246732676,0.5650906666666667

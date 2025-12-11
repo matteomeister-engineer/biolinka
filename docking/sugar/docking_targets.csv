@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+sugar,Q8ZQ64,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/Q8ZQ64_pocket5_box.txt,0.9686,0.13447622735668235,0.7347300000000001
+sugar,P04406,22,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/P04406_pocket22_box.txt,0.9656250000000001,0.17603994296913686,0.6776543333333334
+sugar,P75780,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/P75780_pocket3_box.txt,0.9613250000000001,0.1883929130043739,0.655505
+sugar,Q8ZK18,23,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/Q8ZK18_pocket23_box.txt,0.9613250000000001,0.1718915055048552,0.6651416666666667
+sugar,P0A9U1,1,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/P0A9U1_pocket1_box.txt,0.957725,0.196988110792195,0.6402226666666667
+sugar,P0AAI3,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/P0AAI3_pocket3_box.txt,0.9554,0.20917455299526808,0.5881513333333334
+sugar,P0A9C5,10,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/P0A9C5_pocket10_box.txt,0.9553250000000001,0.11061991578083252,0.589793
+sugar,P42345,150,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/sugar/P42345_pocket150_box.txt,0.9552750000000001,0.23601754657609852,0.6009433333333334

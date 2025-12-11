@@ -1,0 +1,11 @@
+center_x = 7.385
+center_y = 27.643
+center_z = -44.358
+
+size_x = 15.803
+size_y = 18.728
+size_z = 21.209
+
+exhaustiveness = 16
+num_modes = 9
+energy_range = 3

@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+lactate,Q8ZK18,58,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/Q8ZK18_pocket58_box.txt,0.979475,0.23463457452860628,0.5336930000000001
+lactate,Q99798,18,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/Q99798_pocket18_box.txt,0.9755499999999999,0.21125964446341802,0.52973
+lactate,P42345,10,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/P42345_pocket10_box.txt,0.975225,0.23562745782914588,0.5251709999999999
+lactate,P0A7A7,2,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/P0A7A7_pocket2_box.txt,0.9750249999999999,0.5484752517617185,0.33668
+lactate,P22303,7,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/P22303_pocket7_box.txt,0.9750249999999999,0.27365306138156925,0.5289483333333335
+lactate,P42345,7,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/P42345_pocket7_box.txt,0.9750249999999999,0.2717516348131651,0.376405
+lactate,P27708,36,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/P27708_pocket36_box.txt,0.9750249999999999,0.24897764305580258,0.4931316666666667
+lactate,P0A7A7,7,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/lactate/P0A7A7_pocket7_box.txt,0.9750249999999999,0.21535888257750052,0.341384

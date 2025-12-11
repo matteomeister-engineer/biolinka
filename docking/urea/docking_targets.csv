@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+urea,Q99814,27,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/Q99814_pocket27_box.txt,0.955725,0.3996771767105571,0.5306773333333333
+urea,Q99798,15,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/Q99798_pocket15_box.txt,0.9555,0.26727395668254594,0.5024573333333333
+urea,P02943,21,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/P02943_pocket21_box.txt,0.95535,0.33243708693887886,0.489468
+urea,P0A7A7,11,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/P0A7A7_pocket11_box.txt,0.9553250000000001,0.3999872541663708,0.538792
+urea,Q8ZK18,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/Q8ZK18_pocket5_box.txt,0.9553,0.2671218921266548,0.369887
+urea,P22303,4,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/P22303_pocket4_box.txt,0.9552750000000001,0.3243984757563461,0.3250166666666667
+urea,Q8ZQ47,2,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/Q8ZQ47_pocket2_box.txt,0.95525,0.5195076788453745,0.35183800000000004
+urea,P0A7A7,43,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/urea/P0A7A7_pocket43_box.txt,0.9552,0.3583970927528301,0.5095793333333334

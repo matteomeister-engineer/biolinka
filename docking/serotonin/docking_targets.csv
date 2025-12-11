@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+serotonin,P15104,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/P15104_pocket3_box.txt,0.9768,0.26746588876785876,0.7964976666666667
+serotonin,Q96C36,1,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/Q96C36_pocket1_box.txt,0.9757,0.1836666161229824,0.6985993333333333
+serotonin,P75780,4,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/P75780_pocket4_box.txt,0.97365,0.12387055755027632,0.7327170000000001
+serotonin,P00374,18,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/P00374_pocket18_box.txt,0.9732000000000001,0.24455750369227822,0.7532153333333333
+serotonin,P00330,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/P00330_pocket5_box.txt,0.9683250000000001,0.25901151459035765,0.711603
+serotonin,Q99798,7,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/Q99798_pocket7_box.txt,0.968025,0.2697779417287765,0.690221
+serotonin,P30084,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/P30084_pocket5_box.txt,0.9636750000000001,0.28435115236338626,0.6575080000000001
+serotonin,P12268,28,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/serotonin/P12268_pocket28_box.txt,0.9635250000000001,0.19767054840136594,0.5837270000000001

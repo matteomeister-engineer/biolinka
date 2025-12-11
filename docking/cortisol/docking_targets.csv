@@ -1,0 +1,9 @@
+analyte,protein_id,pocket_id,box_file,ligand_compat_score,quickshape_score,biosensor_score
+cortisol,Q8ZQ64,5,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/Q8ZQ64_pocket5_box.txt,0.9686,0.1208306523003366,0.7347300000000001
+cortisol,P04406,22,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/P04406_pocket22_box.txt,0.9656250000000001,0.16666988750240666,0.6776543333333334
+cortisol,P75780,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/P75780_pocket3_box.txt,0.9613250000000001,0.16836210715366054,0.655505
+cortisol,Q8ZK18,23,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/Q8ZK18_pocket23_box.txt,0.9613250000000001,0.1533185531891825,0.6651416666666667
+cortisol,P0A9U1,1,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/P0A9U1_pocket1_box.txt,0.957725,0.17597186511372134,0.6402226666666667
+cortisol,P0AAI3,3,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/P0AAI3_pocket3_box.txt,0.9554,0.1870766276291846,0.5881513333333334
+cortisol,P0A9C5,10,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/P0A9C5_pocket10_box.txt,0.9553250000000001,0.09892085222177553,0.589793
+cortisol,P42345,150,/Users/matteomeister/Documents/Medical Devices/Projects/Biosensor/docking/cortisol/P42345_pocket150_box.txt,0.9552750000000001,0.21182646545784026,0.6009433333333334
