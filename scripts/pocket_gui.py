@@ -10,6 +10,7 @@ import subprocess
 import zipfile
 import io
 import base64
+import re
 
 from pathlib import Path
 from urllib.parse import quote
@@ -20,7 +21,14 @@ from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 # ---------------------------------------------------------------------
 # SMALL HELPERS
 # ---------------------------------------------------------------------
-
+def remove_pubmed_refs(text: str) -> str:
+    if not text:
+        return text
+    # Remove patterns like (PubMed:12345, PubMed:67890)
+    text = re.sub(r"\s*\(PubMed:[^)]+\)", "", text)
+    # Remove inline PubMed:12345
+    text = re.sub(r"PubMed:\d+", "", text)
+    return text
 
 def to_streamlit_df(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -181,7 +189,35 @@ st.set_page_config(
     page_title="BioLinka",
     layout="wide",
 )
+st.markdown(
+    """
+    <style>
+    /* Hide Streamlit element toolbars (includes the chain-link icon) */
+    div[data-testid="stElementToolbar"] { 
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+    }
 
+    /* Backward/alternate testids used in some versions */
+    div[data-testid="stToolbar"] { 
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+    }
+
+    /* Ultra-safe fallback: hide any "copy/link" icon buttons */
+    button[aria-label*="Copy link"],
+    button[title*="Copy link"],
+    button[aria-label*="Link"],
+    button[title*="Link"] {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # ---------------------------------------------------------------------
 # DATA LOADING
@@ -784,7 +820,8 @@ def interpret_pocket(row: pd.Series) -> str:
     pol = row.get("polarity_score", np.nan)
     chg = row.get("charge_score", np.nan)
     bios = row.get("biosensor_score", np.nan)
-    fun = row.get("biological_function", "")
+    fun_raw = row.get("biological_function", "")
+    fun = remove_pubmed_refs(fun_raw)
 
     lines: list[str] = []
 
@@ -931,21 +968,7 @@ else:
 # ---------------------------------------------------------------------
 # ANALYTE SELECTION
 # ---------------------------------------------------------------------
-st.markdown(
-    """
-    <style>
-    /* Hide anchor/link icons next to headers and metrics */
-    a[data-testid="stHeaderLink"],
-    a[data-testid="stMetricDelta"],
-    a[data-testid="stMetricValue"],
-    a[data-testid="stMetricLabel"],
-    svg[data-testid="stHeaderLinkIcon"] {
-        display: none !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+
 
 st.markdown(
     """
@@ -1015,7 +1038,7 @@ st.markdown(
     <style>
         /* Reduce space above the search bar */
         div[data-testid="stTextInput"] {
-            margin-top: -3.25rem !important;
+            margin-top: -2.25rem !important;
         }
     </style>
     """,
@@ -1601,11 +1624,8 @@ with left_col:
     st.markdown(
         f"""
         <div style="
-            max-height: 220px;
-            overflow-y: auto;
-            font-size: 0.92rem;
-            line-height: 1.45;
-            padding-right: 0.5rem;
+        font-size: 0.92rem;
+        line-height: 1.45;
         ">
         {interp_html}
         </div>
