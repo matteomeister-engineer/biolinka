@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0734
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.2317
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6061
+HEADER 5  - Mean B-factor of pocket residues  : 0.9589
+HEADER 6  - Hydrophobicity Score              : 34.8571
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 308.8422
+HEADER 10 - Pocket volume (convex hull)       : 7.7456
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM    660  CG1 VAL A  85     -47.331 -26.733  42.255  0.00  0.00           C 0
+ATOM    703   CG LYS A  91     -41.154 -21.211  43.428  0.00  0.00           C 0
+ATOM    714  OE1 GLU A  92     -39.211 -23.471  44.489  0.87  1.07           O 0
+ATOM    715  OE2 GLU A  92     -39.335 -24.009  42.363  0.74  3.21           O 0
+ATOM    705   CE LYS A  91     -41.076 -21.619  45.821  0.00  0.00           C 0
+ATOM    704   CD LYS A  91     -41.799 -20.794  44.750  0.00  0.00           C 0
+ATOM    390   CE MET A  52     -46.254 -21.223  42.019  0.00  0.00           C 0
+ATOM    706   NZ LYS A  91     -41.588 -21.387  47.189  0.00  0.00           N 0
+ATOM    389   SD MET A  52     -45.608 -19.662  42.667  0.00  0.00           S 0
+ATOM    686    O MET A  89     -44.021 -24.975  39.136  0.81  2.14           O 0
+ATOM    695   CG MET A  90     -40.225 -26.684  39.603  0.00  0.00           C 0
+ATOM    691   CA MET A  90     -41.255 -24.390  39.271  0.00  0.00           C 0
+ATOM    698    N LYS A  91     -41.223 -22.348  40.619  0.00  0.00           N 0
+ATOM    661  CG2 VAL A  85     -47.897 -24.437  41.531  0.00  0.00           C 0
+ATOM    659    O VAL A  85     -46.926 -28.450  39.439  0.39  6.43           O 0
+ATOM    679   CA GLY A  88     -44.329 -29.130  37.222  0.00  0.00           C 0
+TER
+END

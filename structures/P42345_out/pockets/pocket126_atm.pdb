@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   126:
+HEADER 0  - Pocket Score                      : -0.1106
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9226
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3770
+HEADER 5  - Mean B-factor of pocket residues  : 0.6976
+HEADER 6  - Hydrophobicity Score              : 6.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.9203
+HEADER 10 - Pocket volume (convex hull)       : 12.0965
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   7712   CE LYS A 985       6.492 -26.863 -23.835  0.00  0.00           C 0
+ATOM   7711   CD LYS A 985       6.598 -26.616 -22.326  0.00  0.00           C 0
+ATOM   9869    N MET A1255       0.996 -32.640 -22.505  0.62  1.09           N 0
+ATOM   9861    O GLY A1253       4.109 -34.701 -23.040  0.50  5.36           O 0
+ATOM   7689    O LEU A 982       7.494 -30.057 -19.001  0.46  5.36           O 0
+ATOM   7710   CG LYS A 985       7.963 -27.048 -21.762  0.00  0.00           C 0
+ATOM   7713   NZ LYS A 985       5.302 -26.182 -24.400  0.00  0.00           N 0
+ATOM   7377    O ASP A 944       0.674 -24.869 -20.546  0.00  0.00           O 0
+ATOM   9875   SD MET A1255       0.246 -28.840 -19.673  0.00  0.00           S 0
+ATOM   9876   CE MET A1255       1.300 -28.497 -18.245  0.00  0.00           C 0
+ATOM   7376   CB ASP A 944      -0.526 -25.675 -23.352  0.00  0.00           C 0
+ATOM   9863   CA PRO A1254       2.120 -33.466 -24.529  0.00  0.00           C 0
+ATOM   9865   CB PRO A1254       1.246 -33.131 -25.741  0.00  0.00           C 0
+ATOM   7380  OD2 ASP A 944      -1.197 -27.247 -24.994  0.00  0.00           O 0
+ATOM   9874   CG MET A1255       0.864 -30.474 -20.153  0.00  0.00           C 0
+ATOM   7686   CA LEU A 982       5.888 -29.708 -17.250  0.00  0.00           C 0
+ATOM   7683    O SER A 981       3.897 -31.729 -17.468  0.24  8.57           O 0
+ATOM   7692  CD2 LEU A 982       4.752 -26.757 -17.790  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0135
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9853
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5981
+HEADER 5  - Mean B-factor of pocket residues  : 0.9372
+HEADER 6  - Hydrophobicity Score              : -10.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 148.6990
+HEADER 10 - Pocket volume (convex hull)       : 1.2820
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM    514    O ASP A  66     -10.245  14.701   9.077  0.04  7.50           O 0
+ATOM    537   CZ ARG A  68      -5.676  18.956   8.849  0.00  0.00           C 0
+ATOM    536  NH2 ARG A  68      -6.171  19.687   9.809  0.00  0.00           N 0
+ATOM    534   NE ARG A  68      -5.542  17.657   9.025  0.00  0.00           N 0
+ATOM    511   CA ASP A  66     -12.615  14.793   8.675  0.00  0.00           C 0
+ATOM    509    O ALA A  65     -13.556  16.654   6.719  0.37  1.07           O 0
+ATOM    516  OD1 ASP A  66     -14.476  16.168  10.279  0.00  0.00           O 0
+ATOM   1188   CG ARG A 150      -9.543  19.298   4.879  0.00  0.00           C 0
+ATOM    532   CG ARG A  68      -6.079  16.129   7.170  0.00  0.00           C 0
+ATOM   1190   NE ARG A 150     -12.016  19.611   5.154  0.00  0.00           N 0
+ATOM   1189   CD ARG A 150     -10.703  20.283   5.094  0.00  0.00           C 0
+ATOM   1193   CZ ARG A 150     -13.099  20.004   5.795  0.00  0.00           C 0
+ATOM   1191  NH1 ARG A 150     -13.188  21.189   6.338  0.00  0.00           N 0
+ATOM   1192  NH2 ARG A 150     -14.114  19.212   5.925  0.45  2.19           N 0
+TER
+END

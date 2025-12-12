@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    57:
+HEADER 0  - Pocket Score                      : -0.0484
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8761
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5076
+HEADER 5  - Mean B-factor of pocket residues  : 0.8704
+HEADER 6  - Hydrophobicity Score              : 21.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.5207
+HEADER 10 - Pocket volume (convex hull)       : 7.5739
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1817  NE1 TRP A 233     -39.795 -24.586  -0.440  0.72  4.37           N 0
+ATOM   1451   CD GLN A 188     -36.896 -28.846  -3.425  0.00  0.00           C 0
+ATOM   1450   CG GLN A 188     -37.122 -28.994  -1.924  0.00  0.00           C 0
+ATOM   1452  NE2 GLN A 188     -37.679 -29.524  -4.231  0.60  6.56           N 0
+ATOM   1813  CD1 TRP A 233     -40.955 -24.677   0.304  0.00  0.00           C 0
+ATOM   1801   CB GLN A 232     -44.618 -23.688  -3.326  0.00  0.00           C 0
+ATOM   1806  OE1 GLN A 232     -44.244 -25.402  -5.564  0.00  0.00           O 0
+ATOM   1847   CB HIS A 236     -46.114 -27.210   1.030  0.00  0.00           C 0
+ATOM   1489  OD1 ASP A 192     -39.969 -31.580   0.142  0.00  0.00           O 0
+ATOM   1800    C GLN A 232     -44.966 -23.188  -0.855  0.00  0.00           C 0
+ATOM   1850  CD2 HIS A 236     -44.472 -29.060   1.721  0.00  0.00           C 0
+ATOM   1849   CG HIS A 236     -45.702 -28.633   1.301  0.00  0.00           C 0
+ATOM   1446   CA GLN A 188     -36.539 -28.039   0.393  0.00  0.00           C 0
+ATOM   1449    O GLN A 188     -37.537 -29.780   1.664  0.00  0.00           O 0
+ATOM   1475   CB PHE A 191     -40.353 -28.141   3.491  0.00  0.00           C 0
+TER
+END

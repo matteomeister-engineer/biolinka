@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.0730
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9695
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6075
+HEADER 5  - Mean B-factor of pocket residues  : 0.5964
+HEADER 6  - Hydrophobicity Score              : 32.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.6369
+HEADER 10 - Pocket volume (convex hull)       : 10.2497
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   4668  CD2 HIS A 597     -40.355  18.256  51.849  0.00  0.00           C 0
+ATOM   4659   CA GLY A 596     -41.169  13.529  49.366  0.00  0.00           C 0
+ATOM   4671  NE2 HIS A 597     -40.003  19.306  51.001  0.00  0.00           N 0
+ATOM   4662    N HIS A 597     -39.906  14.682  51.092  0.61  3.28           N 0
+ATOM   4953   CB PRO A 632     -34.179  14.951  45.014  0.00  0.00           C 0
+ATOM   4669  ND1 HIS A 597     -38.245  18.000  51.247  0.00  0.00           N 0
+ATOM   4658    N GLY A 596     -41.092  13.147  47.947  0.00  0.00           N 0
+ATOM   4660    C GLY A 596     -39.874  13.721  50.161  0.00  0.00           C 0
+ATOM   4661    O GLY A 596     -38.917  12.957  50.068  0.68  2.14           O 0
+ATOM   4670  CE1 HIS A 597     -38.722  19.110  50.657  0.00  0.00           C 0
+ATOM   4987  CD1 LEU A 636     -34.543  19.802  47.560  0.00  0.00           C 0
+ATOM   4642    O PHE A 594     -39.754  11.327  45.603  0.39  7.50           O 0
+ATOM   4657  OE2 GLU A 595     -41.991  14.426  43.108  0.00  0.00           O 0
+ATOM   4652   CB GLU A 595     -43.528  13.212  45.177  0.00  0.00           C 0
+ATOM   4651    C GLU A 595     -42.215  12.815  47.294  0.00  0.00           C 0
+ATOM   4650   CA GLU A 595     -42.201  12.671  45.756  0.00  0.00           C 0
+ATOM   4684  CD1 LEU A 599     -36.899  10.638  47.858  0.00  0.00           C 0
+ATOM   4955   CG PRO A 632     -34.033  13.465  44.688  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    53:
+HEADER 0  - Pocket Score                      : -0.1165
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1041
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6575
+HEADER 5  - Mean B-factor of pocket residues  : 0.9631
+HEADER 6  - Hydrophobicity Score              : 36.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 120.4192
+HEADER 10 - Pocket volume (convex hull)       : 0.4656
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   1510  OE1 GLN A 203       3.190 -30.029  16.030  0.00  0.00           O 0
+ATOM   5772    O PHE A 760       0.719 -30.349   8.241  0.00  0.00           O 0
+ATOM   1345   CB SER A 181      -0.560 -29.760  14.843  0.00  0.00           C 0
+ATOM   1359  CD1 ILE A 183       5.679 -29.823  10.239  0.00  0.00           C 0
+ATOM   1348    N GLY A 182      -0.216 -28.145  12.006  0.61  1.09           N 0
+ATOM   1344    C SER A 181      -1.195 -28.830  12.585  0.00  0.00           C 0
+ATOM   1357  CG1 ILE A 183       4.654 -28.694  10.079  0.00  0.00           C 0
+ATOM   5779  OXT PHE A 760       0.257 -32.548   8.084  0.00  0.00           O 0
+ATOM   1349   CA GLY A 182       0.067 -28.220  10.580  0.00  0.00           C 0
+ATOM   1346    O SER A 181      -1.958 -29.574  11.973  0.63  2.14           O 0
+ATOM   5770    C PHE A 760       0.792 -31.479   7.710  0.00  0.00           C 0
+ATOM   5771   CB PHE A 760       3.116 -31.949   6.959  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0026
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0249
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4673
+HEADER 5  - Mean B-factor of pocket residues  : 0.9925
+HEADER 6  - Hydrophobicity Score              : 9.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.0970
+HEADER 10 - Pocket volume (convex hull)       : 3.5174
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   2544   CB ASP A 335      -0.268  21.107   9.336  0.00  0.00           C 0
+ATOM   2557  OE1 GLN A 336       4.420  16.229   9.353  0.00  0.00           O 0
+ATOM   2552   CB GLN A 336       4.198  18.945   8.672  0.00  0.00           C 0
+ATOM   2545    O ASP A 335       2.643  21.399  10.532  0.70  8.57           O 0
+ATOM   1757   CD LYS A 228      -2.807  18.158  11.184  0.00  0.00           C 0
+ATOM   1772  CG1 ILE A 230       1.791  16.479   6.161  0.00  0.00           C 0
+ATOM   1754   CB LYS A 228      -3.240  18.263   8.721  0.00  0.00           C 0
+ATOM   1759   NZ LYS A 228      -2.325  18.207  13.612  0.00  0.00           N 0
+ATOM   1978    O GLY A 259       2.147  12.254   8.555  0.00  0.00           O 0
+ATOM   1987    O THR A 261      -2.900  12.052   9.679  0.00  0.00           O 0
+ATOM   1774  CD1 ILE A 230       1.987  14.967   6.333  0.00  0.00           C 0
+ATOM   1997   CB ALA A 263      -1.821  15.284   6.467  0.00  0.00           C 0
+TER
+END

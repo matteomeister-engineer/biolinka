@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0944
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9224
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7657
+HEADER 5  - Mean B-factor of pocket residues  : 0.5019
+HEADER 6  - Hydrophobicity Score              : -9.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.3663
+HEADER 10 - Pocket volume (convex hull)       : 2.8886
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   6719    N ALA A 865      10.708  -6.788 -35.817  0.00  0.00           N 0
+ATOM   6712    O ARG A 864       8.864  -7.584 -36.818  0.00  0.00           O 0
+ATOM   6747  NE2 GLN A 868       7.536 -10.498 -37.257  0.59  8.75           N 0
+ATOM   6748  OE1 GLN A 868       6.894 -10.629 -35.191  0.00  0.00           O 0
+ATOM   6711   CB ARG A 864      11.188  -8.483 -38.640  0.00  0.00           C 0
+ATOM   6716  NH1 ARG A 864      12.903 -12.650 -40.561  0.00  0.00           N 0
+ATOM   6714   CD ARG A 864      11.659 -10.076 -40.537  0.00  0.00           C 0
+ATOM   6715   NE ARG A 864      13.051 -10.401 -40.163  0.56  2.19           N 0
+ATOM   6718   CZ ARG A 864      13.598 -11.602 -40.214  0.00  0.00           C 0
+ATOM   6690  OD1 ASP A 861      16.502 -10.869 -38.119  0.58  6.43           O 0
+ATOM   6685   CA ASP A 861      15.397  -8.415 -37.194  0.00  0.00           C 0
+ATOM   6720   CA ALA A 865      10.129  -6.703 -34.479  0.00  0.00           C 0
+ATOM   6722   CB ALA A 865      11.262  -6.804 -33.449  0.00  0.00           C 0
+ATOM   6688    O ASP A 861      13.549  -7.581 -35.933  0.00  0.00           O 0
+ATOM   6687   CB ASP A 861      16.345  -9.279 -36.348  0.00  0.00           C 0
+ATOM   6710    C ARG A 864      10.008  -7.152 -36.890  0.00  0.00           C 0
+TER
+END

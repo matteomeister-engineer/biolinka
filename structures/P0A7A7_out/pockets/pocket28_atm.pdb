@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0609
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1277
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6294
+HEADER 5  - Mean B-factor of pocket residues  : 0.9427
+HEADER 6  - Hydrophobicity Score              : 23.6250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 311.9675
+HEADER 10 - Pocket volume (convex hull)       : 9.6570
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   6267    O GLN A 785      32.231  12.561 -11.283  0.59  2.14           O 0
+ATOM   6300  OE1 GLU A 789      35.258   9.972 -12.726  0.00  0.00           O 0
+ATOM   6298   CG GLU A 789      33.200  10.378 -13.836  0.00  0.00           C 0
+ATOM   6354  NH1 ARG A 796      33.031  15.966 -17.198  0.00  0.00           N 0
+ATOM   6268   CG GLN A 785      35.124  15.520  -9.375  0.00  0.00           C 0
+ATOM   6291   CB ALA A 788      30.631  15.136 -12.940  0.00  0.00           C 0
+ATOM   6293    N GLU A 789      30.582  11.945 -13.819  0.00  0.00           N 0
+ATOM   6259  CE1 TYR A 784      31.107  18.710 -11.010  0.00  0.00           C 0
+ATOM   6387  OE1 GLU A 800      31.470  20.249 -14.381  0.00  0.00           O 0
+ATOM   6270  NE2 GLN A 785      37.220  16.657  -8.878  0.60  9.84           N 0
+ATOM   6352   CD ARG A 796      30.755  17.314 -16.114  0.00  0.00           C 0
+ATOM   6233   SD MET A 781      34.148  19.561  -7.696  0.00  0.00           S 0
+ATOM   5731  CZ3 TRP A 715      31.775  22.358 -10.563  0.00  0.00           C 0
+ATOM   6264   CA GLN A 785      32.986  14.207  -9.727  0.00  0.00           C 0
+ATOM   6269   CD GLN A 785      36.538  15.536  -8.803  0.00  0.00           C 0
+ATOM   6266   CB GLN A 785      34.458  14.138  -9.305  0.00  0.00           C 0
+ATOM   6271  OE1 GLN A 785      37.072  14.573  -8.283  0.52  8.57           O 0
+TER
+END

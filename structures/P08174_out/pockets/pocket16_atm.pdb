@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.1039
+HEADER 1  - Drug Score                        : 0.0061
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0210
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5121
+HEADER 5  - Mean B-factor of pocket residues  : 0.9863
+HEADER 6  - Hydrophobicity Score              : 4.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 406.7046
+HEADER 10 - Pocket volume (convex hull)       : 31.1245
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   2009   CA GLY A 261      40.716  16.982 -35.986  0.00  0.00           C 0
+ATOM   2158    O PRO A 280      35.623  19.917 -36.737  0.52  8.57           O 0
+ATOM   2151    O PRO A 279      34.460  18.235 -34.015  0.76  6.43           O 0
+ATOM   2152   CG PRO A 279      35.344  20.863 -32.100  0.00  0.00           C 0
+ATOM   2012    N GLU A 262      39.262  15.200 -35.182  0.65  4.37           N 0
+ATOM   2004    O ILE A 260      40.453  18.795 -38.146  0.56  7.50           O 0
+ATOM   2171   CB GLU A 282      39.421  22.079 -40.168  0.00  0.00           C 0
+ATOM   2168    N GLU A 282      38.314  19.944 -39.645  0.00  0.00           N 0
+ATOM   2144   CA GLY A 278      32.658  18.026 -30.053  0.00  0.00           C 0
+ATOM   2017   CG GLU A 262      38.609  13.846 -32.497  0.00  0.00           C 0
+ATOM   2141    O SER A 277      32.541  16.309 -27.811  0.24  7.50           O 0
+ATOM   2142   OG SER A 277      31.655  13.646 -30.118  0.75  4.29           O 0
+ATOM   2043  CG2 ILE A 265      32.583  15.204 -33.941  0.00  0.00           C 0
+ATOM   2153   CD PRO A 279      34.510  20.056 -31.103  0.00  0.00           C 0
+ATOM   2015   CB GLU A 262      37.828  13.722 -33.817  0.00  0.00           C 0
+ATOM   2019  OE1 GLU A 262      40.694  13.057 -31.643  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0541
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0717
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5499
+HEADER 5  - Mean B-factor of pocket residues  : 0.2008
+HEADER 6  - Hydrophobicity Score              : -11.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.1346
+HEADER 10 - Pocket volume (convex hull)       : 4.8582
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   1668    N SER A 210       0.793 -16.346 -40.129  0.50  1.09           N 0
+ATOM   1650    N HIS A 208      -4.422 -15.823 -39.655  0.00  0.00           N 0
+ATOM   1645    C PRO A 207      -5.329 -16.758 -39.358  0.00  0.00           C 0
+ATOM   1644   CA PRO A 207      -5.582 -17.054 -37.868  0.00  0.00           C 0
+ATOM   1671   CB SER A 210       1.960 -16.731 -37.925  0.00  0.00           C 0
+ATOM   1660    N ASN A 209      -1.734 -16.246 -41.811  0.00  0.00           N 0
+ATOM   1640    O PRO A 206      -5.043 -14.408 -37.288  0.73  1.07           O 0
+ATOM   1633   CB CYS A 205      -3.026 -12.964 -34.806  0.00  0.00           C 0
+ATOM   1634    O CYS A 205      -5.607 -14.358 -33.990  0.13  5.36           O 0
+ATOM   1654    O HIS A 208      -1.863 -14.441 -40.483  0.33  6.43           O 0
+ATOM   1635   SG CYS A 205      -1.657 -11.770 -34.796  0.00  0.00           S 0
+ATOM   1672    O SER A 210       2.324 -19.049 -39.674  0.00  0.00           O 0
+ATOM   1646   CB PRO A 207      -6.222 -18.425 -37.611  0.00  0.00           C 0
+TER
+END

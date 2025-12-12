@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    72:
+HEADER 0  - Pocket Score                      : -0.0624
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7875
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5813
+HEADER 5  - Mean B-factor of pocket residues  : 0.9559
+HEADER 6  - Hydrophobicity Score              : 26.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.6405
+HEADER 10 - Pocket volume (convex hull)       : 14.2477
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM  12556  CE1 PHE A1644     -37.155  22.566 -21.454  0.00  0.00           C 0
+ATOM  13135  OE1 GLU A1720     -32.622  24.994 -17.920  0.00  0.00           O 0
+ATOM  13149  NH1 ARG A1722     -37.655  26.475 -19.478  0.24  7.66           N 0
+ATOM  13136  OE2 GLU A1720     -34.730  25.375 -17.363  0.62  3.21           O 0
+ATOM  12554  CD1 PHE A1644     -37.038  23.012 -22.783  0.00  0.00           C 0
+ATOM  13108  CG2 THR A1716     -32.477  21.381 -18.569  0.00  0.00           C 0
+ATOM  13617   CB GLN A1777     -30.470  21.402 -26.446  0.00  0.00           C 0
+ATOM  13619   CG GLN A1777     -31.132  22.453 -27.353  0.00  0.00           C 0
+ATOM  13623    N LYS A1778     -27.916  21.397 -24.293  0.00  0.00           N 0
+ATOM  13615   CA GLN A1777     -28.939  21.462 -26.501  0.00  0.00           C 0
+ATOM  13622  OE1 GLN A1777     -33.259  21.758 -26.448  0.93  3.21           O 0
+ATOM  13621  NE2 GLN A1777     -33.299  23.533 -27.713  0.77  5.47           N 0
+ATOM  13620   CD GLN A1777     -32.641  22.551 -27.135  0.00  0.00           C 0
+ATOM  12552    O PHE A1644     -36.857  25.419 -26.851  0.68  5.36           O 0
+ATOM  13086  CD2 LEU A1713     -35.015  19.677 -24.237  0.00  0.00           C 0
+ATOM  13106   CB THR A1716     -33.424  20.186 -18.592  0.00  0.00           C 0
+ATOM  13627    O LYS A1778     -29.562  21.361 -21.985  0.00  0.00           O 0
+ATOM  13637  CG1 VAL A1779     -31.623  18.452 -22.552  0.00  0.00           C 0
+TER
+END

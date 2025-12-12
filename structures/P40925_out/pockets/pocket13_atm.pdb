@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0205
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.2003
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6942
+HEADER 5  - Mean B-factor of pocket residues  : 0.9774
+HEADER 6  - Hydrophobicity Score              : 8.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 402.1629
+HEADER 10 - Pocket volume (convex hull)       : 25.4527
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   2295  OE1 GLU A 301      15.833 -11.501   4.885  0.00  0.00           O 0
+ATOM   2267   CD LYS A 298       9.180 -13.808   5.302  0.00  0.00           C 0
+ATOM   2296  OE2 GLU A 301      17.088 -12.864   3.672  0.00  0.00           O 0
+ATOM   2269   NZ LYS A 298       9.375 -15.883   6.637  0.00  0.00           N 0
+ATOM   2262   CA LYS A 298       8.907 -10.080   4.268  0.00  0.00           C 0
+ATOM   2270    N PHE A 299      10.851  -8.839   3.516  0.00  0.00           N 0
+ATOM   2277  CD2 PHE A 299      13.348  -6.800   5.465  0.00  0.00           C 0
+ATOM   2266   CG LYS A 298       8.642 -12.377   5.337  0.00  0.00           C 0
+ATOM   2260  CZ3 TRP A 297       9.197  -6.127   6.570  0.00  0.00           C 0
+ATOM   2251    O TRP A 297       6.910  -9.749   6.272  0.39  6.43           O 0
+ATOM   2291   CB GLU A 301      16.784 -11.479   1.304  0.00  0.00           C 0
+ATOM   2294   CD GLU A 301      16.388 -11.834   3.814  0.00  0.00           C 0
+ATOM   2274    O PHE A 299      12.213 -10.580   1.798  0.00  0.00           O 0
+ATOM   2293   CG GLU A 301      16.126 -10.944   2.588  0.00  0.00           C 0
+ATOM   2079    O GLY A 275      17.068  -7.125   8.160  0.00  0.00           O 0
+ATOM   2279  CE2 PHE A 299      13.150  -5.758   6.388  0.00  0.00           C 0
+ATOM   2072    O ASP A 274      14.124  -4.928  10.236  0.56  9.64           O 0
+ATOM   2264   CB LYS A 298       9.235 -11.574   4.174  0.00  0.00           C 0
+ATOM   2258  CH2 TRP A 297       8.942  -5.316   7.689  0.00  0.00           C 0
+ATOM   1116   CG GLU A 150       6.815  -6.645  11.748  0.00  0.00           C 0
+TER
+END

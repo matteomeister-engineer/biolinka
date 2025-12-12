@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0103
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9537
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6259
+HEADER 5  - Mean B-factor of pocket residues  : 0.1454
+HEADER 6  - Hydrophobicity Score              : 6.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.8093
+HEADER 10 - Pocket volume (convex hull)       : 6.7671
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1600
+ATOM     49    N THR A   7      23.351   1.681   7.301  0.71  1.09           N 0
+ATOM     53    O THR A   7      21.673   3.516   9.030  0.61  2.14           O 0
+ATOM     46  ND1 HIS A   6      25.780   4.426   5.916  0.57  9.84           N 0
+ATOM     42   CB HIS A   6      24.731   2.588   4.435  0.00  0.00           C 0
+ATOM     73   CB SER A  10      17.884   7.167   4.882  0.00  0.00           C 0
+ATOM     68   CB ALA A   9      20.398   6.868   9.864  0.00  0.00           C 0
+ATOM     75   OG SER A  10      18.256   8.218   4.023  0.54  5.36           O 0
+ATOM     69    O ALA A   9      17.761   8.238   9.009  0.55  1.07           O 0
+ATOM     67    C ALA A   9      18.205   7.173   8.591  0.00  0.00           C 0
+ATOM     71   CA SER A  10      17.551   7.722   6.275  0.00  0.00           C 0
+ATOM     70    N SER A  10      17.990   6.776   7.328  0.38  2.19           N 0
+ATOM     41    C HIS A   6      23.323   1.176   6.070  0.00  0.00           C 0
+ATOM     65    N ALA A   9      19.208   4.869   9.164  0.65  1.09           N 0
+ATOM     43    O HIS A   6      22.329   0.602   5.627  0.19  8.57           O 0
+ATOM     51    C THR A   7      21.341   2.406   8.627  0.00  0.00           C 0
+ATOM     56    N LYS A   8      20.062   2.010   8.547  0.33  6.56           N 0
+TER
+END

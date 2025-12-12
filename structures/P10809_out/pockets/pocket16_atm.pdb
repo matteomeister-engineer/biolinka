@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0128
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1886
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6851
+HEADER 5  - Mean B-factor of pocket residues  : 0.0495
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 302.7848
+HEADER 10 - Pocket volume (convex hull)       : 7.5802
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   4207   CA GLY A 562     -30.303 -27.342 -47.408  0.00  0.00           C 0
+ATOM   4200    C MET A 561     -29.745 -27.175 -45.040  0.00  0.00           C 0
+ATOM   4204   SD MET A 561     -32.070 -30.059 -42.046  0.00  0.00           S 0
+ATOM   4206    N GLY A 562     -29.611 -27.801 -46.208  0.52  1.09           N 0
+ATOM   4202    O MET A 561     -30.382 -26.129 -44.935  0.54  6.43           O 0
+ATOM   4210    N GLY A 563     -30.782 -29.127 -48.990  0.33  8.75           N 0
+ATOM   4203   CG MET A 561     -30.362 -29.642 -42.493  0.00  0.00           C 0
+ATOM   4214    N MET A 564     -31.295 -32.034 -50.046  0.37  2.19           N 0
+ATOM   4218    O MET A 564     -32.883 -34.911 -49.504  0.52  6.43           O 0
+ATOM   4205   CE MET A 561     -31.846 -31.718 -41.361  0.00  0.00           C 0
+ATOM   4212    C GLY A 563     -30.480 -31.106 -50.555  0.00  0.00           C 0
+ATOM   4217   CB MET A 564     -30.167 -34.241 -50.323  0.00  0.00           C 0
+ATOM   4213    O GLY A 563     -29.509 -31.402 -51.236  0.00  0.00           O 0
+ATOM   4208    C GLY A 562     -29.938 -28.151 -48.643  0.00  0.00           C 0
+ATOM   4209    O GLY A 562     -28.941 -27.868 -49.293  0.42  5.36           O 0
+TER
+END

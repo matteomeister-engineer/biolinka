@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0200
+HEADER 1  - Drug Score                        : 0.0056
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9982
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5703
+HEADER 5  - Mean B-factor of pocket residues  : 0.9962
+HEADER 6  - Hydrophobicity Score              : 28.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 187.5265
+HEADER 10 - Pocket volume (convex hull)       : 3.1049
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM     87   CD GLN A  13       3.068   8.124 -21.288  0.00  0.00           C 0
+ATOM     86   CG GLN A  13       2.201   7.122 -20.533  0.00  0.00           C 0
+ATOM     89  OE1 GLN A  13       4.002   8.723 -20.776  0.59  3.21           O 0
+ATOM   1106   CG MET A 140       3.418  12.622 -16.265  0.00  0.00           C 0
+ATOM     85    O GLN A  13       0.009   4.834 -19.442  0.00  0.00           O 0
+ATOM   1090  NH1 ARG A 138      -4.052   7.082 -15.364  0.00  0.00           N 0
+ATOM     79    O SER A  12       0.797   4.604 -16.073  0.00  0.00           O 0
+ATOM     82   CA GLN A  13       1.850   5.898 -18.317  0.00  0.00           C 0
+ATOM   1088   CD ARG A 138      -2.421   9.182 -14.244  0.00  0.00           C 0
+ATOM   1085   CB ARG A 138      -0.453  10.688 -13.716  0.00  0.00           C 0
+ATOM   1097    O ILE A 139       3.494   7.998 -15.663  0.62  1.07           O 0
+ATOM     84   CB GLN A  13       2.818   6.698 -19.196  0.00  0.00           C 0
+ATOM   1102   CA MET A 140       4.514  10.381 -16.833  0.00  0.00           C 0
+ATOM   1104   CB MET A 140       4.585  11.912 -16.948  0.00  0.00           C 0
+TER
+END

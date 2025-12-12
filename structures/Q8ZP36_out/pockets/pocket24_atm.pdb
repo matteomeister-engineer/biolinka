@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0595
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1010
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5966
+HEADER 5  - Mean B-factor of pocket residues  : 0.8187
+HEADER 6  - Hydrophobicity Score              : 10.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 270.9991
+HEADER 10 - Pocket volume (convex hull)       : 4.6612
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2986    O GLU A 393      25.343   5.550 -23.346  0.53  2.14           O 0
+ATOM   1248   NZ LYS A 160      18.023   2.489 -24.182  0.48  6.56           N 0
+ATOM   2987   CG GLU A 393      26.360   3.671 -26.065  0.00  0.00           C 0
+ATOM   3018   CB ARG A 397      24.760   3.654 -20.503  0.00  0.00           C 0
+ATOM   3015    N ARG A 397      23.331   5.552 -21.110  0.68  1.09           N 0
+ATOM   3019    O ARG A 397      22.734   4.496 -17.899  0.52  1.07           O 0
+ATOM   3043   CB ALA A 400      19.230   4.155 -18.412  0.00  0.00           C 0
+ATOM   3020   CG ARG A 397      24.962   2.467 -19.549  0.00  0.00           C 0
+ATOM   3051  OG1 THR A 401      22.851   2.512 -15.315  0.67  7.50           O 0
+ATOM   3016   CA ARG A 397      23.499   4.457 -20.149  0.00  0.00           C 0
+ATOM   3010   CB MET A 396      21.854   6.851 -23.587  0.00  0.00           C 0
+ATOM   3014   CE MET A 396      22.190   6.522 -26.833  0.00  0.00           C 0
+ATOM   3011    O MET A 396      21.229   6.093 -20.479  0.67  2.14           O 0
+ATOM   3009    C MET A 396      22.219   6.295 -21.188  0.00  0.00           C 0
+TER
+END

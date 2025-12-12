@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.0964
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0635
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5682
+HEADER 5  - Mean B-factor of pocket residues  : 0.8123
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 262.9516
+HEADER 10 - Pocket volume (convex hull)       : 10.7275
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM    555  CD2 TYR A  69     -54.466  52.552  -2.645  0.00  0.00           C 0
+ATOM    238   CD LYS A  31     -54.806  49.846  -7.044  0.00  0.00           C 0
+ATOM    235   CB LYS A  31     -55.177  51.953  -8.459  0.00  0.00           C 0
+ATOM    254  OD1 ASP A  33     -49.917  56.130  -8.833  0.55  6.43           O 0
+ATOM    236    O LYS A  31     -55.058  54.135 -10.757  0.71  3.21           O 0
+ATOM    234    C LYS A  31     -55.540  54.207  -9.627  0.00  0.00           C 0
+ATOM    551   CB TYR A  69     -53.416  54.283  -1.117  0.00  0.00           C 0
+ATOM    548    N TYR A  69     -54.658  55.921  -2.486  0.00  0.00           N 0
+ATOM    243    C VAL A  32     -53.976  57.062  -8.295  0.00  0.00           C 0
+ATOM    249   CA ASP A  33     -51.763  58.014  -7.817  0.00  0.00           C 0
+ATOM    552    O TYR A  69     -52.434  57.243  -1.329  0.60  2.14           O 0
+ATOM    245    O VAL A  32     -54.274  56.997  -7.100  0.66  4.29           O 0
+ATOM    538    O THR A  67     -57.252  54.887  -6.458  0.00  0.00           O 0
+ATOM    256    N TYR A  34     -51.800  59.249  -5.717  0.65  5.47           N 0
+ATOM    259   CB TYR A  34     -51.480  60.007  -3.433  0.00  0.00           C 0
+ATOM    571   CB PRO A  71     -48.052  57.944   0.122  0.00  0.00           C 0
+ATOM    547  OG1 THR A  68     -54.765  58.072  -4.649  0.00  0.00           O 0
+TER
+END

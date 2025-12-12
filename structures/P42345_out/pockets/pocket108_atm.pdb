@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   108:
+HEADER 0  - Pocket Score                      : -0.0925
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9645
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5271
+HEADER 5  - Mean B-factor of pocket residues  : 0.8289
+HEADER 6  - Hydrophobicity Score              : 7.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.2622
+HEADER 10 - Pocket volume (convex hull)       : 1.5745
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   7368   CB LEU A 943      -4.655 -22.116 -23.359  0.00  0.00           C 0
+ATOM   7371  CD1 LEU A 943      -6.957 -21.651 -24.252  0.00  0.00           C 0
+ATOM   7379  OD1 ASP A 944      -2.811 -26.275 -23.829  0.46  6.43           O 0
+ATOM   7410  CE2 TYR A 947      -5.488 -23.999 -20.061  0.00  0.00           C 0
+ATOM   9894   NZ LYS A1257      -8.496 -29.877 -24.183  0.40  5.47           N 0
+ATOM  10460   OG SER A1327     -10.714 -25.763 -22.411  0.00  0.00           O 0
+ATOM  10797   NZ LYS A1369     -11.532 -24.018 -26.898  0.00  0.00           N 0
+ATOM   7411   OH TYR A 947      -7.546 -22.930 -20.641  0.00  0.00           O 0
+ATOM   9893   CE LYS A1257      -7.156 -30.218 -23.641  0.00  0.00           C 0
+ATOM  10458   CB SER A1327     -11.414 -24.888 -23.272  0.00  0.00           C 0
+ATOM  10459    O SER A1327     -12.896 -27.092 -24.640  0.42  2.14           O 0
+ATOM  10218   OG SER A1296      -8.701 -28.772 -19.188  0.79  5.36           O 0
+ATOM  10796   CE LYS A1369     -11.024 -22.795 -26.221  0.00  0.00           C 0
+TER
+END

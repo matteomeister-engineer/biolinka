@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.1028
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9873
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5431
+HEADER 5  - Mean B-factor of pocket residues  : 0.8403
+HEADER 6  - Hydrophobicity Score              : 8.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.1461
+HEADER 10 - Pocket volume (convex hull)       : 8.8714
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3600
+ATOM   2510  OD1 ASN A 333     -19.990 -28.828  27.275  0.71  9.64           O 0
+ATOM   1890   CD LYS A 249     -22.222 -26.757  20.106  0.00  0.00           C 0
+ATOM   2455   CA GLY A 326     -18.883 -24.822  22.389  0.00  0.00           C 0
+ATOM   1892   NZ LYS A 249     -20.796 -28.764  20.544  0.58  2.19           N 0
+ATOM   1887   CB LYS A 249     -23.465 -24.587  19.669  0.00  0.00           C 0
+ATOM   1874   OG SER A 247     -23.110 -21.205  22.310  0.00  0.00           O 0
+ATOM   2454    N GLY A 326     -18.661 -23.836  23.450  0.50  1.09           N 0
+ATOM   2511    N LEU A 334     -22.036 -24.625  28.485  0.00  0.00           N 0
+ATOM   2516   CG LEU A 334     -23.543 -22.553  26.604  0.00  0.00           C 0
+ATOM   2499    O LEU A 332     -18.411 -24.922  26.559  0.59  2.14           O 0
+ATOM   2527  OE2 GLU A 335     -23.941 -27.222  29.269  0.82  4.29           O 0
+ATOM   2517  CD1 LEU A 334     -24.713 -22.593  25.616  0.00  0.00           C 0
+ATOM   2526  OE1 GLU A 335     -26.067 -27.457  28.762  0.32  9.64           O 0
+ATOM   2514   CB LEU A 334     -23.957 -23.214  27.928  0.00  0.00           C 0
+ATOM   1897    O LYS A 250     -27.368 -24.011  20.846  0.00  0.00           O 0
+ATOM   1942   CB SER A 256     -27.618 -24.464  27.554  0.00  0.00           C 0
+ATOM   1944   OG SER A 256     -28.691 -24.111  26.687  0.69  3.21           O 0
+ATOM   2504   CA ASN A 333     -20.139 -26.172  28.443  0.00  0.00           C 0
+TER
+END

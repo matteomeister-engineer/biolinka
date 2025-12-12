@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0332
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9112
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5206
+HEADER 5  - Mean B-factor of pocket residues  : 0.3716
+HEADER 6  - Hydrophobicity Score              : -4.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.3972
+HEADER 10 - Pocket volume (convex hull)       : 13.2329
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   2303   CA ASP A 303      16.465   3.711   7.816  0.00  0.00           C 0
+ATOM   2607   CD PRO A 343      18.762  -2.599  10.643  0.00  0.00           C 0
+ATOM   2308  OD1 ASP A 303      15.851   2.436   5.379  0.00  0.00           O 0
+ATOM   2606   CG PRO A 343      20.144  -2.783  10.025  0.00  0.00           C 0
+ATOM   2314    O ARG A 304      18.856   2.495  11.799  0.45  4.29           O 0
+ATOM   2588    O GLU A 341      15.340  -3.894   9.555  0.00  0.00           O 0
+ATOM   2299   CG MET A 302      11.732   0.360   8.355  0.00  0.00           C 0
+ATOM   2300   SD MET A 302      10.899  -0.216   6.848  0.00  0.00           S 0
+ATOM   2310    N ARG A 304      17.442   4.016  10.038  0.00  0.00           N 0
+ATOM   2304    C ASP A 303      17.146   4.600   8.873  0.00  0.00           C 0
+ATOM   2327  OD1 ASP A 305      22.586   3.456  11.509  0.00  0.00           O 0
+ATOM   2297   CB MET A 302      12.535   1.650   8.142  0.00  0.00           C 0
+ATOM   2295   CA MET A 302      13.359   2.029   9.381  0.00  0.00           C 0
+ATOM   2302    N ASP A 303      15.438   2.796   8.348  0.46  5.47           N 0
+ATOM   2600  CD2 LEU A 342      14.022  -1.292  11.728  0.00  0.00           C 0
+TER
+END

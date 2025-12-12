@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0621
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8147
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5187
+HEADER 5  - Mean B-factor of pocket residues  : 0.9670
+HEADER 6  - Hydrophobicity Score              : 61.6667
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.9056
+HEADER 10 - Pocket volume (convex hull)       : 7.4376
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   3091    O GLY A 385       9.763 -11.522 -26.631  0.58  6.43           O 0
+ATOM   3097   CG MET A 386       9.275  -7.529 -23.802  0.00  0.00           C 0
+ATOM   3093   CA MET A 386      10.233  -9.785 -24.462  0.00  0.00           C 0
+ATOM    283    O LEU A  36      10.469  -4.090 -29.698  0.00  0.00           O 0
+ATOM   3095   CB MET A 386       9.108  -9.051 -23.725  0.00  0.00           C 0
+ATOM   3100    N PHE A 387      12.444  -8.804 -24.670  0.65  1.09           N 0
+ATOM   3103   CB PHE A 387      14.639  -8.115 -25.459  0.00  0.00           C 0
+ATOM    296  CG1 ILE A  38       8.642  -2.896 -26.530  0.00  0.00           C 0
+ATOM    298  CD1 ILE A  38       9.600  -3.032 -25.342  0.00  0.00           C 0
+ATOM   3104    O PHE A 387      13.023  -6.035 -23.890  0.82  2.14           O 0
+ATOM    286  CD2 LEU A  36      14.649  -3.720 -27.578  0.00  0.00           C 0
+ATOM    282   CB LEU A  36      12.372  -2.625 -27.948  0.00  0.00           C 0
+ATOM   3099   CE MET A 386       6.620  -7.078 -24.388  0.00  0.00           C 0
+ATOM    290    O GLY A  37       6.871  -2.872 -30.467  0.00  0.00           O 0
+TER
+END

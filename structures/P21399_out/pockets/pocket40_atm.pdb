@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0274
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9713
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5131
+HEADER 5  - Mean B-factor of pocket residues  : 0.7668
+HEADER 6  - Hydrophobicity Score              : 28.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 364.7350
+HEADER 10 - Pocket volume (convex hull)       : 14.1078
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6500
+ATOM   4703  CD1 ILE A 605       4.855 -17.113 -25.284  0.00  0.00           C 0
+ATOM   3779   CG GLU A 484      12.185 -14.798 -23.295  0.00  0.00           C 0
+ATOM   3741  CE1 TYR A 480      10.364 -16.673 -20.983  0.00  0.00           C 0
+ATOM   3782  OE2 GLU A 484      12.912 -16.215 -25.066  0.65  7.50           O 0
+ATOM   4681    O TYR A 603       6.567 -12.596 -23.718  0.62  4.29           O 0
+ATOM   3743   OH TYR A 480      10.121 -19.065 -20.941  0.00  0.00           O 0
+ATOM   4701  CG1 ILE A 605       4.415 -15.926 -24.418  0.00  0.00           C 0
+ATOM   4713    C GLY A 607       4.020 -19.078 -20.304  0.00  0.00           C 0
+ATOM   4712   CA GLY A 607       2.984 -19.527 -21.337  0.00  0.00           C 0
+ATOM   4714    O GLY A 607       4.297 -19.815 -19.363  0.00  0.00           O 0
+ATOM   4751  OE2 GLU A 611       9.181 -20.957 -19.165  0.40  7.50           O 0
+ATOM   4718   CB MET A 608       5.893 -15.897 -20.085  0.00  0.00           C 0
+ATOM   4678   CA TYR A 603       7.118 -11.695 -25.865  0.00  0.00           C 0
+ATOM   4672    O GLN A 602       6.100 -13.030 -28.109  0.43  8.57           O 0
+ATOM   3777   CB GLU A 484      12.168 -13.506 -24.114  0.00  0.00           C 0
+ATOM   4683  CD1 TYR A 603      10.125 -12.170 -27.062  0.00  0.00           C 0
+ATOM   4715    N MET A 608       4.501 -17.838 -20.419  0.00  0.00           N 0
+TER
+END

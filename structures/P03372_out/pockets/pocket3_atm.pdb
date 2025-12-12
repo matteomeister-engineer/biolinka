@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1685
+HEADER 1  - Drug Score                        : 0.0151
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 3.8151
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4968
+HEADER 5  - Mean B-factor of pocket residues  : 0.9810
+HEADER 6  - Hydrophobicity Score              : 24.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.0656
+HEADER 10 - Pocket volume (convex hull)       : 33.6846
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 20.9091
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   4005  CE1 HIS A 513     -12.620  -8.828  -8.946  0.00  0.00           C 0
+ATOM   4006  NE2 HIS A 513     -12.560  -9.354  -7.715  0.00  0.00           N 0
+ATOM   4032  CD2 HIS A 516      -4.670  -9.785  -9.406  0.00  0.00           C 0
+ATOM   4003  CD2 HIS A 513     -11.601  -8.602  -7.017  0.00  0.00           C 0
+ATOM   4031   CG HIS A 516      -4.528  -9.833  -8.045  0.00  0.00           C 0
+ATOM   4029   CB HIS A 516      -5.121  -8.877  -7.041  0.00  0.00           C 0
+ATOM   3318   SD MET A 427      -4.972  -8.006 -12.557  0.00  0.00           S 0
+ATOM   4000   CB HIS A 513     -10.148  -6.508  -7.580  0.00  0.00           C 0
+ATOM   4001    O HIS A 513      -6.892  -5.882  -7.360  0.00  0.00           O 0
+ATOM   4041   CG MET A 517      -5.728  -4.693 -10.301  0.00  0.00           C 0
+ATOM   4004  ND1 HIS A 513     -11.831  -7.748  -9.036  0.48  6.56           N 0
+ATOM   3317   CG MET A 427      -6.079  -7.339 -13.834  0.00  0.00           C 0
+ATOM   4002   CG HIS A 513     -11.161  -7.601  -7.846  0.00  0.00           C 0
+ATOM   3998   CA HIS A 513      -8.968  -6.841  -6.651  0.00  0.00           C 0
+ATOM   3995    O SER A 512      -7.521  -7.980  -4.546  0.00  0.00           O 0
+ATOM   3315   CB MET A 427      -6.480  -5.879 -13.607  0.00  0.00           C 0
+ATOM   3347  OG1 THR A 431     -10.513  -3.736 -11.124  0.56  2.14           O 0
+ATOM   3316    O MET A 427      -9.143  -3.951 -13.531  0.00  0.00           O 0
+ATOM   3339   CB ALA A 430     -11.782  -5.639 -15.564  0.00  0.00           C 0
+ATOM   3313   CA MET A 427      -7.506  -5.346 -14.614  0.00  0.00           C 0
+ATOM   3338    C ALA A 430     -12.884  -3.724 -14.309  0.00  0.00           C 0
+ATOM   3341    N THR A 431     -12.007  -3.203 -13.445  0.00  0.00           N 0
+ATOM   3340    O ALA A 430     -14.091  -3.769 -14.055  0.00  0.00           O 0
+ATOM   3342   CA THR A 431     -12.402  -2.645 -12.144  0.00  0.00           C 0
+ATOM   3366   CD ARG A 434     -16.552  -5.587  -9.996  0.00  0.00           C 0
+TER
+END

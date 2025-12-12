@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0209
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9803
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6594
+HEADER 5  - Mean B-factor of pocket residues  : 0.0781
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 452.0943
+HEADER 10 - Pocket volume (convex hull)       : 32.7820
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM     77  CD1 LEU A  11     -19.746  56.282  -2.845  0.00  0.00           C 0
+ATOM     56   NE ARG A   9     -20.987  56.726 -10.201  0.00  0.00           N 0
+ATOM     59   CZ ARG A   9     -19.897  57.282 -10.710  0.00  0.00           C 0
+ATOM     58  NH2 ARG A   9     -19.025  56.557 -11.352  0.00  0.00           N 0
+ATOM     57  NH1 ARG A   9     -19.649  58.558 -10.596  0.00  0.00           N 0
+ATOM     55   CD ARG A   9     -22.037  57.408  -9.415  0.00  0.00           C 0
+ATOM     54   CG ARG A   9     -23.029  56.412  -8.789  0.00  0.00           C 0
+ATOM     52   CB ARG A   9     -24.007  57.149  -7.860  0.00  0.00           C 0
+ATOM     60    N ARG A  10     -25.266  56.523  -4.718  0.00  0.00           N 0
+ATOM     50   CA ARG A   9     -25.053  56.250  -7.156  0.00  0.00           C 0
+ATOM     71    N LEU A  11     -22.980  56.632  -1.949  0.69  1.09           N 0
+ATOM     62    C ARG A  10     -24.214  56.418  -2.420  0.00  0.00           C 0
+ATOM     64    O ARG A  10     -25.004  55.611  -1.950  0.18  9.64           O 0
+ATOM     72   CA LEU A  11     -22.366  56.150  -0.703  0.00  0.00           C 0
+ATOM     65   CG ARG A  10     -24.960  59.821  -3.711  0.00  0.00           C 0
+ATOM     61   CA ARG A  10     -24.607  57.294  -3.626  0.00  0.00           C 0
+ATOM     74   CB LEU A  11     -20.931  56.732  -0.615  0.00  0.00           C 0
+ATOM     75    O LEU A  11     -23.509  57.821   0.572  0.62  5.36           O 0
+TER
+END

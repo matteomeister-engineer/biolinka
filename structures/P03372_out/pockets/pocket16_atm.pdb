@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0223
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8965
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6317
+HEADER 5  - Mean B-factor of pocket residues  : 0.9796
+HEADER 6  - Hydrophobicity Score              : 31.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.4747
+HEADER 10 - Pocket volume (convex hull)       : 10.3248
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   3369  NH2 ARG A 434     -16.707  -7.274  -6.743  0.00  0.00           N 0
+ATOM   3947   CG GLN A 506     -21.835  -6.712  -4.548  0.00  0.00           C 0
+ATOM   3367   NE ARG A 434     -16.975  -6.057  -8.661  0.42  2.19           N 0
+ATOM   3949  NE2 GLN A 506     -23.794  -7.010  -5.980  0.71  3.28           N 0
+ATOM   3948   CD GLN A 506     -23.078  -6.178  -5.257  0.00  0.00           C 0
+ATOM   3404   CB MET A 438     -21.697  -1.236  -8.604  0.00  0.00           C 0
+ATOM   3950  OE1 GLN A 506     -23.432  -5.013  -5.194  0.35  3.21           O 0
+ATOM   3945   CB GLN A 506     -20.892  -5.584  -4.110  0.00  0.00           C 0
+ATOM   3408   CE MET A 438     -20.392  -1.854  -5.750  0.00  0.00           C 0
+ATOM   3370   CZ ARG A 434     -16.460  -7.088  -8.010  0.00  0.00           C 0
+ATOM   3395    C MET A 437     -22.630  -0.751 -12.086  0.00  0.00           C 0
+ATOM   3396   CB MET A 437     -21.462  -2.163 -13.766  0.00  0.00           C 0
+ATOM   3397    O MET A 437     -23.838  -0.970 -12.073  0.36  6.43           O 0
+ATOM   3365   CG ARG A 434     -17.284  -4.310 -10.427  0.00  0.00           C 0
+ATOM   3399   SD MET A 437     -20.467  -3.993 -15.639  0.00  0.00           S 0
+ATOM   3400   CE MET A 437     -21.935  -5.030 -15.385  0.00  0.00           C 0
+ATOM   3401    N MET A 438     -21.937  -0.544 -10.961  0.00  0.00           N 0
+ATOM   3407   SD MET A 438     -19.302  -1.404  -7.127  0.00  0.00           S 0
+ATOM   3364    O ARG A 434     -18.973  -1.525 -10.941  0.53  2.14           O 0
+TER
+END

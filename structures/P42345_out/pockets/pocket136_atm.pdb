@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   136:
+HEADER 0  - Pocket Score                      : -0.1250
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7379
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5292
+HEADER 5  - Mean B-factor of pocket residues  : 0.7837
+HEADER 6  - Hydrophobicity Score              : -1.4286
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 135.0776
+HEADER 10 - Pocket volume (convex hull)       : 2.4446
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM  17389    C HIS A2189      23.668  10.775 -43.478  0.00  0.00           C 0
+ATOM  17748  ND2 ASN A2233      28.309  13.606 -44.892  0.00  0.00           N 0
+ATOM  17391    O HIS A2189      22.866  11.141 -44.335  0.00  0.00           O 0
+ATOM  17747   CG ASN A2233      28.310  13.987 -43.636  0.00  0.00           C 0
+ATOM  19342  CZ2 TRP A2429      22.699  19.039 -46.093  0.00  0.00           C 0
+ATOM  19341  CH2 TRP A2429      22.203  18.476 -47.283  0.00  0.00           C 0
+ATOM  19353  NH2 ARG A2430      20.424  16.572 -43.082  0.42  6.56           N 0
+ATOM  17739    O THR A2232      26.026  15.995 -41.453  0.54  5.36           O 0
+ATOM  17406    N ASP A2191      22.567  14.421 -40.894  0.63  2.19           N 0
+ATOM  17749  OD1 ASN A2233      28.594  15.145 -43.372  0.61  2.14           O 0
+ATOM  17397    N GLU A2190      23.633  11.277 -42.237  0.00  0.00           N 0
+ATOM  17743   CA ASN A2233      26.999  13.329 -41.483  0.00  0.00           C 0
+ATOM  17409   CB ASP A2191      22.963  16.846 -40.785  0.00  0.00           C 0
+TER
+END

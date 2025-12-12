@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0573
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6754
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4253
+HEADER 5  - Mean B-factor of pocket residues  : 0.9598
+HEADER 6  - Hydrophobicity Score              : 20.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 110.2100
+HEADER 10 - Pocket volume (convex hull)       : 2.6896
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2174
+ATOM   4883    O ASN A 611       6.668   5.256  -8.116  0.29  1.07           O 0
+ATOM   3169   CA ARG A 393       5.748   8.446  -5.364  0.00  0.00           C 0
+ATOM   5220  CD2 LEU A 653      11.987   7.209  -5.375  0.00  0.00           C 0
+ATOM   3171   CB ARG A 393       7.015   9.310  -5.431  0.00  0.00           C 0
+ATOM   4153  ND2 ASN A 517       8.698   3.225  -1.499  0.00  0.00           N 0
+ATOM   3179    N LEU A 394       5.566   7.907  -2.987  0.45  5.47           N 0
+ATOM   5217    O LEU A 653      11.220   4.337  -1.677  0.00  0.00           O 0
+ATOM   5228  CD2 PHE A 654       9.172   6.908   0.800  0.00  0.00           C 0
+ATOM   4915  ND1 HIS A 615       8.428   1.740  -5.613  0.37  1.09           N 0
+ATOM   3173   CG ARG A 393       7.727   9.180  -6.780  0.00  0.00           C 0
+ATOM   4908    N HIS A 615      10.950   2.605  -7.143  0.00  0.00           N 0
+ATOM   5214   CA LEU A 653      12.256   6.370  -2.341  0.00  0.00           C 0
+ATOM   5208    O GLU A 652      11.627   9.096  -2.030  0.44  1.07           O 0
+ATOM   4911   CB HIS A 615      10.825   2.205  -4.747  0.00  0.00           C 0
+ATOM   4154  OD1 ASN A 517       6.670   2.628  -2.042  0.42  2.14           O 0
+ATOM   2467  NH2 ARG A 307       3.297   3.979  -5.115  0.07  1.09           N 0
+TER
+END

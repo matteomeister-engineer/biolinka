@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    98:
+HEADER 0  - Pocket Score                      : -0.1056
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1919
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6042
+HEADER 5  - Mean B-factor of pocket residues  : 0.7304
+HEADER 6  - Hydrophobicity Score              : 33.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 282.9022
+HEADER 10 - Pocket volume (convex hull)       : 6.2541
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM  15297    N ALA A1997       9.808  48.650  54.965  0.00  0.00           N 0
+ATOM  15129  CG2 VAL A1972       4.713  41.836  54.784  0.00  0.00           C 0
+ATOM  15285   CB SER A1995       9.097  46.866  51.230  0.00  0.00           C 0
+ATOM  15300   CB ALA A1997      11.306  46.819  55.483  0.00  0.00           C 0
+ATOM  15288    N GLU A1996       7.667  49.105  53.176  0.51  2.19           N 0
+ATOM  15095    O PHE A1969       4.296  46.930  51.743  0.50  9.64           O 0
+ATOM  15295  OE1 GLU A1996       5.580  50.921  58.624  0.00  0.00           O 0
+ATOM  15293   CG GLU A1996       6.752  50.537  56.589  0.00  0.00           C 0
+ATOM  15333   CG GLN A2002      11.617  52.242  57.892  0.00  0.00           C 0
+ATOM  15335  NE2 GLN A2002      12.598  50.023  57.995  0.00  0.00           N 0
+ATOM  15298   CA ALA A1997      11.138  48.343  55.488  0.00  0.00           C 0
+ATOM  15291   CB GLU A1996       6.777  49.575  55.393  0.00  0.00           C 0
+ATOM  15106    O TYR A1970       2.591  46.815  55.627  0.44  9.64           O 0
+ATOM  15296  OE2 GLU A1996       4.888  49.240  57.357  0.70  3.21           O 0
+ATOM  15294   CD GLU A1996       5.648  50.203  57.604  0.00  0.00           C 0
+TER
+END

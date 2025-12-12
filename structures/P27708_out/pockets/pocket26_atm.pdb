@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : 0.0137
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    37
+HEADER 3  - Mean alpha-sphere radius          : 3.9134
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5043
+HEADER 5  - Mean B-factor of pocket residues  : 0.8628
+HEADER 6  - Hydrophobicity Score              : 6.5714
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.7653
+HEADER 10 - Pocket volume (convex hull)       : 18.7544
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1351
+ATOM  12683    O ARG A1661     -48.746  19.766 -35.611  0.40  5.36           O 0
+ATOM  13003    O PRO A1702     -45.116  16.506 -39.726  0.70  5.36           O 0
+ATOM  13007   CA GLY A1703     -43.594  17.005 -37.388  0.00  0.00           C 0
+ATOM  12897   CB ALA A1688     -44.616  13.789 -36.171  0.00  0.00           C 0
+ATOM  12682   CB ARG A1661     -49.061  20.948 -38.268  0.00  0.00           C 0
+ATOM  13002   CB PRO A1702     -46.026  19.388 -40.567  0.00  0.00           C 0
+ATOM  13004   CG PRO A1702     -46.929  18.591 -41.505  0.00  0.00           C 0
+ATOM  12883  OD2 ASP A1686     -47.403  16.952 -32.874  0.64  5.36           O 0
+ATOM  11286  NE2 HIS A1473     -48.933  12.499 -34.920  0.00  0.00           N 0
+ATOM  12882  OD1 ASP A1686     -48.095  14.856 -32.688  0.81  2.14           O 0
+ATOM  11304  NH2 ARG A1475     -46.354  11.719 -39.521  0.00  0.00           N 0
+ATOM  11504  ND2 ASN A1505     -50.581  11.356 -38.552  0.39  6.56           N 0
+ATOM  11869  CE1 TYR A1558     -54.444  13.946 -36.772  0.00  0.00           C 0
+ATOM  11285  CE1 HIS A1473     -49.788  11.684 -35.516  0.00  0.00           C 0
+ATOM  11901   CB THR A1562     -53.256  16.925 -40.207  0.00  0.00           C 0
+ATOM  11908   CB PHE A1563     -49.022  15.102 -42.752  0.00  0.00           C 0
+ATOM  12142  ND1 HIS A1590     -53.186  18.234 -35.416  0.57  2.19           N 0
+ATOM  11903  CG2 THR A1562     -53.987  17.637 -39.073  0.00  0.00           C 0
+ATOM  11269  NE2 HIS A1471     -51.021  13.490 -32.136  0.65  1.09           N 0
+ATOM  11899   CA THR A1562     -52.646  17.907 -41.223  0.00  0.00           C 0
+ATOM  11905    N PHE A1563     -51.007  16.374 -42.178  0.58  3.28           N 0
+ATOM  12143  CE1 HIS A1590     -52.492  19.318 -35.799  0.00  0.00           C 0
+ATOM  12326  NE2 HIS A1614     -52.108  17.854 -32.599  0.00  0.00           N 0
+TER
+END

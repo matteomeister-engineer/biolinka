@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : 0.0129
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7091
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4739
+HEADER 5  - Mean B-factor of pocket residues  : 0.7071
+HEADER 6  - Hydrophobicity Score              : 5.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.8109
+HEADER 10 - Pocket volume (convex hull)       : 7.8169
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   2613   CB ALA A 342      -8.274  -1.200 -17.117  0.00  0.00           C 0
+ATOM   2611   CA ALA A 342      -7.539  -0.321 -16.097  0.00  0.00           C 0
+ATOM   2988   CE LYS A 391      -9.395   5.461 -18.507  0.00  0.00           C 0
+ATOM   2987   CD LYS A 391      -9.817   5.546 -17.039  0.00  0.00           C 0
+ATOM   2989   NZ LYS A 391      -7.916   5.521 -18.642  0.60  7.66           N 0
+ATOM   2593  OD1 ASN A 339      -3.754  -1.591 -18.887  0.00  0.00           O 0
+ATOM   2591   CG ASN A 339      -4.068  -2.380 -19.756  0.00  0.00           C 0
+ATOM   2589   CB ASN A 339      -5.299  -3.248 -19.623  0.00  0.00           C 0
+ATOM   2610    N ALA A 342      -6.100  -0.372 -16.342  0.00  0.00           N 0
+ATOM   2604    C ASN A 341      -5.250   0.462 -15.733  0.00  0.00           C 0
+ATOM   2605   CB ASN A 341      -3.306   1.082 -17.210  0.00  0.00           C 0
+ATOM   2646  CE1 TYR A 346     -13.008   1.117 -14.802  0.00  0.00           C 0
+ATOM   2614    O ALA A 342      -8.613  -0.008 -13.980  0.00  0.00           O 0
+ATOM   2649   CZ TYR A 346     -12.750   0.010 -15.634  0.00  0.00           C 0
+ATOM   2648   OH TYR A 346     -13.211   0.010 -16.911  0.00  0.00           O 0
+ATOM   2986   CG LYS A 391     -11.311   5.860 -16.888  0.00  0.00           C 0
+TER
+END

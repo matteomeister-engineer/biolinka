@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.1177
+HEADER 1  - Drug Score                        : 0.0587
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1647
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4701
+HEADER 5  - Mean B-factor of pocket residues  : 0.9978
+HEADER 6  - Hydrophobicity Score              : 78.8333
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 306.8389
+HEADER 10 - Pocket volume (convex hull)       : 8.0879
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.9444
+ATOM   1350   CB ALA A 184       2.843  -1.505 -17.089  0.00  0.00           C 0
+ATOM   1379  CD1 LEU A 188       6.790   0.984 -18.780  0.00  0.00           C 0
+ATOM   1827   CZ PHE A 250      -0.521  -0.142 -21.995  0.00  0.00           C 0
+ATOM   1535  CD2 LEU A 210       3.976   4.363 -17.202  0.00  0.00           C 0
+ATOM   1826  CE2 PHE A 250      -0.111  -1.432 -22.371  0.00  0.00           C 0
+ATOM   1378   CG LEU A 188       7.360  -0.192 -19.575  0.00  0.00           C 0
+ATOM   1380  CD2 LEU A 188       7.626   0.284 -21.006  0.00  0.00           C 0
+ATOM   1792  CD1 LEU A 245       2.620   1.020 -26.178  0.00  0.00           C 0
+ATOM   1371   CB ALA A 187       6.262  -5.597 -19.173  0.00  0.00           C 0
+ATOM   1372    O ALA A 187       9.300  -4.706 -20.211  0.62  6.43           O 0
+ATOM   1370    C ALA A 187       8.504  -4.412 -19.316  0.00  0.00           C 0
+ATOM   1793  CD2 LEU A 245       2.835  -1.441 -26.221  0.00  0.00           C 0
+ATOM   1373    N LEU A 188       8.358  -3.144 -18.917  0.00  0.00           N 0
+ATOM   1351    O ALA A 184       6.047  -2.304 -17.520  0.00  0.00           O 0
+ATOM   1348   CA ALA A 184       3.774  -2.704 -16.877  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0245
+HEADER 1  - Drug Score                        : 0.0057
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0968
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7293
+HEADER 5  - Mean B-factor of pocket residues  : 0.9175
+HEADER 6  - Hydrophobicity Score              : 16.2000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.0702
+HEADER 10 - Pocket volume (convex hull)       : 4.6524
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   1452    O ILE A 189      10.909  13.538   4.044  0.63  9.64           O 0
+ATOM   1652  CD1 LEU A 214       8.635  18.198   5.886  0.00  0.00           C 0
+ATOM   1667   CD LYS A 216      11.071  18.927  10.040  0.00  0.00           C 0
+ATOM   1669   NZ LYS A 216      11.319  20.580   8.189  0.00  0.00           N 0
+ATOM   1668   CE LYS A 216      10.382  19.698   8.914  0.00  0.00           C 0
+ATOM   1469   CG PRO A 191      10.343  17.524   1.913  0.00  0.00           C 0
+ATOM   1660   CD PRO A 215       8.372  13.043   8.520  0.00  0.00           C 0
+ATOM   1661    N LYS A 216       8.900  15.396  11.580  0.82  1.09           N 0
+ATOM   1659   CG PRO A 215       8.962  11.865   9.289  0.00  0.00           C 0
+ATOM   1664   CB LYS A 216      10.434  17.286  11.906  0.00  0.00           C 0
+ATOM   1451   CB ILE A 189      10.944  10.619   5.221  0.00  0.00           C 0
+ATOM   1657   CB PRO A 215       8.970  12.310  10.744  0.00  0.00           C 0
+ATOM   1666   CG LYS A 216       9.981  18.061  10.662  0.00  0.00           C 0
+ATOM   1449   CA ILE A 189       9.816  11.657   5.028  0.00  0.00           C 0
+ATOM   1649   CB LEU A 214       7.710  16.481   7.456  0.00  0.00           C 0
+ATOM   1653  CD2 LEU A 214       8.241  15.915   5.030  0.00  0.00           C 0
+TER
+END

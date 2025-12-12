@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0338
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7393
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5363
+HEADER 5  - Mean B-factor of pocket residues  : 0.9973
+HEADER 6  - Hydrophobicity Score              : 7.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.7197
+HEADER 10 - Pocket volume (convex hull)       : 0.9939
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM    985   CA GLY A 135     -19.445  -8.935   1.157  0.00  0.00           C 0
+ATOM   1459   OG SER A 202     -22.975  -5.144  -3.878  0.45  5.36           O 0
+ATOM   1458    O SER A 202     -23.460  -2.802  -1.072  0.55  5.36           O 0
+ATOM   1314    O ASP A 180     -18.273  -6.846  -1.762  0.42  2.14           O 0
+ATOM   1461   CA ALA A 203     -20.678  -2.345  -1.316  0.00  0.00           C 0
+ATOM   1319   CA GLY A 181     -17.997  -5.317   0.459  0.00  0.00           C 0
+ATOM    987    O GLY A 135     -19.396  -7.171   2.786  0.00  0.00           O 0
+ATOM   1470   CG LYS A 204     -23.421  -1.107   2.244  0.00  0.00           C 0
+ATOM   1325   CB LEU A 182     -18.864  -4.161   5.036  0.00  0.00           C 0
+ATOM   1328  CD1 LEU A 182     -20.198  -2.200   5.927  0.00  0.00           C 0
+ATOM   1468   CB LYS A 204     -22.050  -0.727   2.828  0.00  0.00           C 0
+ATOM   1465    N LYS A 204     -20.684  -1.154   0.817  0.67  1.09           N 0
+ATOM   1322    N LEU A 182     -18.242  -4.459   2.709  0.00  0.00           N 0
+TER
+END

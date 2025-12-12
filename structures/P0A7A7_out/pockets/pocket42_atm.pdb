@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.1050
+HEADER 1  - Drug Score                        : 0.0781
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.6924
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4434
+HEADER 5  - Mean B-factor of pocket residues  : 0.8691
+HEADER 6  - Hydrophobicity Score              : 60.1250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.9135
+HEADER 10 - Pocket volume (convex hull)       : 13.4611
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 22.0000
+HEADER 13 - Number of apolar alpha sphere     :    24
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM   1443   CG HIS A 180      -4.068 -32.676  22.445  0.00  0.00           C 0
+ATOM   1444  CD2 HIS A 180      -4.195 -31.769  21.433  0.00  0.00           C 0
+ATOM   1441   CB HIS A 180      -4.784 -33.998  22.565  0.00  0.00           C 0
+ATOM   1490  CD1 ILE A 186      -7.861 -34.563  24.783  0.00  0.00           C 0
+ATOM   1511   CD LYS A 189      -9.053 -30.972  26.015  0.00  0.00           C 0
+ATOM   1447  NE2 HIS A 180      -3.414 -30.656  21.743  0.00  0.00           N 0
+ATOM   1508   CB LYS A 189     -10.712 -30.240  24.278  0.00  0.00           C 0
+ATOM   1445  ND1 HIS A 180      -3.124 -32.179  23.314  0.00  0.00           N 0
+ATOM   1446  CE1 HIS A 180      -2.738 -30.976  22.852  0.00  0.00           C 0
+ATOM   1513   NZ LYS A 189      -7.483 -32.027  27.636  0.33  8.75           N 0
+ATOM   1514    N LEU A 190     -12.243 -30.176  21.492  0.00  0.00           N 0
+ATOM   1415   CE MET A 176      -6.892 -31.199  19.362  0.00  0.00           C 0
+ATOM   1507    C LYS A 189     -12.219 -29.288  22.489  0.00  0.00           C 0
+ATOM   1489  CG2 ILE A 186      -9.035 -34.618  21.640  0.00  0.00           C 0
+ATOM    985   CE MET A 122     -11.129 -29.102  14.424  0.00  0.00           C 0
+ATOM   1370  CG1 VAL A 171      -7.207 -29.452  14.161  0.00  0.00           C 0
+ATOM   1371  CG2 VAL A 171      -7.979 -27.278  13.233  0.00  0.00           C 0
+ATOM   1543  CG1 VAL A 193      -9.985 -24.809  19.235  0.00  0.00           C 0
+ATOM   1544  CG2 VAL A 193     -10.038 -25.734  21.531  0.00  0.00           C 0
+ATOM   1515   CA LEU A 190     -12.424 -29.832  20.074  0.00  0.00           C 0
+ATOM   1521  CD2 LEU A 190     -10.299 -30.863  17.991  0.00  0.00           C 0
+ATOM   1414   SD MET A 176      -5.868 -30.859  17.907  0.00  0.00           S 0
+ATOM   1541   CB VAL A 193     -10.880 -25.501  20.269  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0722
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1231
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7139
+HEADER 5  - Mean B-factor of pocket residues  : 0.9959
+HEADER 6  - Hydrophobicity Score              : -17.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 333.7286
+HEADER 10 - Pocket volume (convex hull)       : 10.4469
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   1982    O GLN A 264     -11.031  14.394 -14.400  0.36  2.14           O 0
+ATOM   1979   CA GLN A 264      -9.982  14.863 -16.511  0.00  0.00           C 0
+ATOM   1983   CG GLN A 264     -12.326  14.523 -17.446  0.00  0.00           C 0
+ATOM   2006  OE2 GLU A 267      -9.128  19.380 -15.240  0.00  0.00           O 0
+ATOM   2001   CB GLU A 267      -9.690  17.913 -12.915  0.00  0.00           C 0
+ATOM   2002    O GLU A 267     -11.826  17.397 -10.691  0.00  0.00           O 0
+ATOM   2000    C GLU A 267     -11.140  16.568 -11.294  0.00  0.00           C 0
+ATOM   1981   CB GLN A 264     -10.817  14.432 -17.724  0.00  0.00           C 0
+ATOM   1978    N GLN A 264      -8.564  14.830 -16.878  0.56  1.09           N 0
+ATOM   2008   CA GLY A 268     -12.926  14.835 -11.276  0.00  0.00           C 0
+ATOM   2007    N GLY A 268     -11.581  15.333 -11.560  0.00  0.00           N 0
+ATOM   1984   CD GLN A 264     -13.184  14.123 -18.640  0.00  0.00           C 0
+ATOM   1953   CE LYS A 260     -10.654  16.477 -24.036  0.00  0.00           C 0
+ATOM   1986  OE1 GLN A 264     -12.723  13.809 -19.724  0.59  5.36           O 0
+ATOM   1951   CG LYS A 260      -8.670  15.576 -22.791  0.00  0.00           C 0
+ATOM   1950    O LYS A 260      -8.080  14.311 -19.716  0.60  2.14           O 0
+ATOM   1975   CD LYS A 263      -5.335  18.604 -17.868  0.00  0.00           C 0
+ATOM   1974   CG LYS A 263      -5.866  17.534 -16.913  0.00  0.00           C 0
+ATOM   1947   CA LYS A 260      -6.653  14.578 -21.599  0.00  0.00           C 0
+TER
+END

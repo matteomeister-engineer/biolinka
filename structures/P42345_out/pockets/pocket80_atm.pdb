@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : -0.0684
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0973
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6837
+HEADER 5  - Mean B-factor of pocket residues  : 0.9468
+HEADER 6  - Hydrophobicity Score              : 6.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 340.5930
+HEADER 10 - Pocket volume (convex hull)       : 14.8923
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM  15257  OE1 GLU A1925      26.144  45.748 -12.623  0.00  0.00           O 0
+ATOM  15256   CD GLU A1925      26.156  45.475 -13.846  0.00  0.00           C 0
+ATOM  15258  OE2 GLU A1925      25.561  46.138 -14.726  0.00  0.00           O 0
+ATOM  15228  OE1 GLU A1921      30.735  49.826 -18.135  0.58  6.43           O 0
+ATOM  15253   CB GLU A1925      27.156  44.053 -15.760  0.00  0.00           C 0
+ATOM  15226   CG GLU A1921      29.340  48.271 -19.273  0.00  0.00           C 0
+ATOM  15248  CG1 VAL A1924      31.694  42.498 -18.920  0.00  0.00           C 0
+ATOM  15278   NZ LYS A1928      33.582  41.897 -16.004  0.91  5.47           N 0
+ATOM  15250    N GLU A1925      28.248  42.695 -17.496  0.00  0.00           N 0
+ATOM  15251   CA GLU A1925      27.807  42.698 -16.096  0.00  0.00           C 0
+ATOM  15255   CG GLU A1925      26.880  44.179 -14.252  0.00  0.00           C 0
+ATOM  15276   CD LYS A1928      31.920  40.352 -15.019  0.00  0.00           C 0
+ATOM  15254    O GLU A1925      27.125  40.708 -14.919  0.55  1.07           O 0
+ATOM  15282   CB ALA A1929      25.177  39.235 -12.224  0.00  0.00           C 0
+ATOM  15279    N ALA A1929      26.956  38.023 -13.323  0.00  0.00           N 0
+ATOM  15274    O LYS A1928      28.638  36.926 -12.318  0.00  0.00           O 0
+ATOM  15280   CA ALA A1929      26.007  37.945 -12.208  0.00  0.00           C 0
+ATOM  15273   CB LYS A1928      30.039  38.922 -14.227  0.00  0.00           C 0
+ATOM  15272    C LYS A1928      28.191  37.521 -13.293  0.00  0.00           C 0
+ATOM  15225    O GLU A1921      27.937  45.046 -19.201  0.00  0.00           O 0
+TER
+END

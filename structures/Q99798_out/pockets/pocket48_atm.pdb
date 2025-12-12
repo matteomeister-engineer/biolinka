@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.0483
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9769
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5264
+HEADER 5  - Mean B-factor of pocket residues  : 0.9914
+HEADER 6  - Hydrophobicity Score              : 23.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.9896
+HEADER 10 - Pocket volume (convex hull)       : 2.6021
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM   3305  CD1 ILE A 435      14.172  -1.101 -27.700  0.00  0.00           C 0
+ATOM   3017   CB ALA A 397      12.779   0.129 -23.472  0.00  0.00           C 0
+ATOM   3280  CE1 TYR A 432      11.133   3.373 -26.624  0.00  0.00           C 0
+ATOM   3278  CD1 TYR A 432      10.835   2.015 -26.417  0.00  0.00           C 0
+ATOM   3020   CA ALA A 398      16.847   2.173 -22.520  0.00  0.00           C 0
+ATOM   3019    N ALA A 398      15.528   1.570 -22.343  0.00  0.00           N 0
+ATOM   3022   CB ALA A 398      16.787   3.639 -22.079  0.00  0.00           C 0
+ATOM   2996    O GLY A 394      13.353   3.353 -21.887  0.61  4.29           O 0
+ATOM   4015    O ASP A 528      16.137   6.904 -22.873  0.66  4.29           O 0
+ATOM   3282   OH TYR A 432      10.668   5.677 -26.180  0.74  3.21           O 0
+ATOM   3042   CD LYS A 401      18.590   0.886 -27.529  0.00  0.00           C 0
+ATOM   3044   NZ LYS A 401      18.721   2.431 -29.465  0.00  0.00           N 0
+ATOM   3018    O ALA A 397      16.031  -0.357 -23.371  0.00  0.00           O 0
+ATOM   3016    C ALA A 397      15.216   0.341 -22.767  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0873
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0864
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5924
+HEADER 5  - Mean B-factor of pocket residues  : 0.9922
+HEADER 6  - Hydrophobicity Score              : 44.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.0859
+HEADER 10 - Pocket volume (convex hull)       : 1.1232
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM   2478  NE1 TRP A 330       9.824  -0.145  21.210  0.71  6.56           N 0
+ATOM   2825   CB LEU A 375       4.984   2.177  22.778  0.00  0.00           C 0
+ATOM   2474  CD1 TRP A 330       8.526  -0.425  21.592  0.00  0.00           C 0
+ATOM   2829  CD2 LEU A 375       5.151   1.918  25.265  0.00  0.00           C 0
+ATOM   2808   CB LYS A 373      10.099   3.741  18.260  0.00  0.00           C 0
+ATOM   3029    O ARG A 402       4.704   5.516  20.210  0.76  1.07           O 0
+ATOM   3051  OG1 THR A 404      10.277   7.168  18.732  0.69  3.21           O 0
+ATOM   2809    O LYS A 373       7.471   5.129  17.396  0.00  0.00           O 0
+ATOM   2816    C ILE A 374       5.481   2.149  19.364  0.00  0.00           C 0
+ATOM   2822    N LEU A 375       4.791   2.650  20.382  0.00  0.00           N 0
+ATOM   3031   CD ARG A 402       6.290   7.793  24.080  0.00  0.00           C 0
+ATOM   3030   CG ARG A 402       5.594   7.770  22.720  0.00  0.00           C 0
+ATOM   3050  CG2 THR A 404       9.251   8.741  20.188  0.00  0.00           C 0
+ATOM   2807    C LYS A 373       7.819   3.952  17.347  0.00  0.00           C 0
+ATOM   2811   CD LYS A 373      12.307   3.865  19.388  0.00  0.00           C 0
+ATOM   3032   NE ARG A 402       7.444   8.713  24.108  0.00  0.00           N 0
+TER
+END

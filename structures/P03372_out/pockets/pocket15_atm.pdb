@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0239
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0035
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6944
+HEADER 5  - Mean B-factor of pocket residues  : 0.9887
+HEADER 6  - Hydrophobicity Score              : 10.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.5498
+HEADER 10 - Pocket volume (convex hull)       : 3.9570
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   3884   CB GLN A 499     -30.371  -3.710  -1.012  0.00  0.00           C 0
+ATOM   3885    O GLN A 499     -27.182  -3.957  -0.339  0.63  1.07           O 0
+ATOM   3917  OE1 GLN A 502     -28.793  -8.169  -2.481  0.00  0.00           O 0
+ATOM   3886   CG GLN A 499     -31.409  -4.404  -1.909  0.00  0.00           C 0
+ATOM   3882   CA GLN A 499     -29.448  -4.691  -0.278  0.00  0.00           C 0
+ATOM   3887   CD GLN A 499     -32.535  -3.452  -2.301  0.00  0.00           C 0
+ATOM   3888  NE2 GLN A 499     -33.011  -3.476  -3.524  0.00  0.00           N 0
+ATOM   3854   CG LEU A 495     -29.616   0.232  -1.438  0.00  0.00           C 0
+ATOM   3950  OE1 GLN A 506     -23.432  -5.013  -5.194  0.35  3.21           O 0
+ATOM   3949  NE2 GLN A 506     -23.794  -7.010  -5.980  0.71  3.28           N 0
+ATOM   3912   CB GLN A 502     -26.303  -7.401  -1.327  0.00  0.00           C 0
+ATOM   3921   CB ARG A 503     -24.572  -2.374  -1.670  0.00  0.00           C 0
+ATOM   3918    N ARG A 503     -24.557  -4.756  -1.034  0.00  0.00           N 0
+ATOM   3924   CD ARG A 503     -24.660  -0.004  -2.574  0.00  0.00           C 0
+ATOM   3856  CD2 LEU A 495     -28.173  -0.275  -1.492  0.00  0.00           C 0
+ATOM   3926  NH1 ARG A 503     -24.301   0.520  -5.439  0.52  6.56           N 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0254
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9539
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5892
+HEADER 5  - Mean B-factor of pocket residues  : 0.9737
+HEADER 6  - Hydrophobicity Score              : 32.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 168.0199
+HEADER 10 - Pocket volume (convex hull)       : 2.8267
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM    362    N THR A  46      18.749   5.912 -18.232  0.00  0.00           N 0
+ATOM    358   CG GLU A  45      19.300   5.148 -21.316  0.00  0.00           C 0
+ATOM    365   CB THR A  46      20.408   6.505 -16.508  0.00  0.00           C 0
+ATOM   1146   OH TYR A 142      20.247   1.426 -21.005  0.76  9.64           O 0
+ATOM   1144  CE1 TYR A 142      19.181   1.355 -18.846  0.00  0.00           C 0
+ATOM    368  OG1 THR A  46      20.029   5.397 -15.715  0.00  0.00           O 0
+ATOM     73  CE1 TYR A   9      24.146   7.592 -17.408  0.00  0.00           C 0
+ATOM    360  OE1 GLU A  45      21.043   5.337 -22.926  0.35  8.57           O 0
+ATOM   1155  NE2 GLN A 143      19.822   2.213 -14.969  0.65  4.37           N 0
+ATOM    649    O ILE A  81      23.154   2.633 -13.007  0.00  0.00           O 0
+ATOM     75   OH TYR A   9      25.665   7.108 -15.616  0.60  9.64           O 0
+ATOM    366    O THR A  46      20.346   8.167 -19.113  0.87  1.07           O 0
+ATOM     71  CD1 TYR A   9      23.567   8.529 -18.285  0.00  0.00           C 0
+TER
+END

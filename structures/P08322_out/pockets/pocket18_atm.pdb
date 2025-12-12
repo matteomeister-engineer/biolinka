@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0366
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8044
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6336
+HEADER 5  - Mean B-factor of pocket residues  : 0.5956
+HEADER 6  - Hydrophobicity Score              : 19.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.2576
+HEADER 10 - Pocket volume (convex hull)       : 4.2230
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM     85   CZ ARG A  11     -61.090   0.904  45.180  0.00  0.00           C 0
+ATOM     52    O LEU A   7     -58.586  -2.346  48.275  0.00  0.00           O 0
+ATOM     82   NE ARG A  11     -60.154  -0.029  45.181  0.00  0.00           N 0
+ATOM     83  NH1 ARG A  11     -60.835   2.140  45.511  0.00  0.00           N 0
+ATOM     81   CD ARG A  11     -58.742   0.154  45.563  0.00  0.00           C 0
+ATOM     57   CA SER A   8     -57.244  -0.990  50.276  0.00  0.00           C 0
+ATOM     59   CB SER A   8     -57.130   0.021  51.424  0.00  0.00           C 0
+ATOM     51   CB LEU A   7     -61.408  -2.991  49.669  0.00  0.00           C 0
+ATOM     55  CD2 LEU A   7     -62.644  -4.191  47.813  0.00  0.00           C 0
+ATOM     54  CD1 LEU A   7     -63.875  -3.470  49.836  0.00  0.00           C 0
+ATOM     84  NH2 ARG A  11     -62.314   0.612  44.842  0.00  0.00           N 0
+ATOM     50    C LEU A   7     -58.923  -2.572  49.437  0.00  0.00           C 0
+ATOM     31    O GLY A   4     -60.483  -1.495  52.929  0.00  0.00           O 0
+ATOM     29   CA GLY A   4     -62.597  -1.917  53.971  0.00  0.00           C 0
+ATOM     56    N SER A   8     -58.365  -1.921  50.467  0.00  0.00           N 0
+TER
+END

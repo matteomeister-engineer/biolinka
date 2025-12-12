@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.2799
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.3206
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4927
+HEADER 5  - Mean B-factor of pocket residues  : 0.4970
+HEADER 6  - Hydrophobicity Score              : 43.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 359.1226
+HEADER 10 - Pocket volume (convex hull)       : 10.4776
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM    463    O ALA A  63      -1.862  -8.564  13.610  0.00  0.00           O 0
+ATOM    330  CG2 VAL A  45       3.760  -8.986  18.398  0.00  0.00           C 0
+ATOM    329  CG1 VAL A  45       2.797 -10.641  16.822  0.00  0.00           C 0
+ATOM    327   CB VAL A  45       3.770  -9.458  16.937  0.00  0.00           C 0
+ATOM   1949  OD1 ASP A 255       3.650  -1.258  14.655  0.00  0.00           O 0
+ATOM    343  CD2 LEU A  47       1.565  -8.783  12.120  0.00  0.00           C 0
+ATOM    328    O VAL A  45       4.813  -9.627  14.130  0.00  0.00           O 0
+ATOM    342  CD1 LEU A  47       2.414  -7.964   9.907  0.00  0.00           C 0
+ATOM    341   CG LEU A  47       2.586  -9.016  11.004  0.00  0.00           C 0
+ATOM   1967  CD1 LEU A 258       0.483  -3.453  11.658  0.00  0.00           C 0
+ATOM   1942  CD2 LEU A 254       4.589  -2.438   9.183  0.00  0.00           C 0
+ATOM    321   CA GLY A  44       8.299  -7.620  16.270  0.00  0.00           C 0
+ATOM    318    O SER A  43       7.033  -6.568  18.494  0.00  0.00           O 0
+ATOM    324    N VAL A  45       6.141  -8.740  16.609  0.65  4.37           N 0
+TER
+END

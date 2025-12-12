@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0098
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9897
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6272
+HEADER 5  - Mean B-factor of pocket residues  : 0.9695
+HEADER 6  - Hydrophobicity Score              : 1.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 205.8351
+HEADER 10 - Pocket volume (convex hull)       : 3.8516
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1739
+ATOM   1393  OD2 ASP A 175      23.631   5.656  -6.846  0.00  0.00           O 0
+ATOM   1375    O ASN A 173      24.097   0.068  -8.851  0.00  0.00           O 0
+ATOM   1037  OG1 THR A 127      27.363   4.823 -13.904  0.50  5.36           O 0
+ATOM   1392  OD1 ASP A 175      25.434   5.562  -5.555  0.56  9.64           O 0
+ATOM   1060    O ALA A 131      24.193   9.072  -9.659  0.00  0.00           O 0
+ATOM   1006   NE ARG A 123      24.404  -0.457 -11.775  0.54  2.19           N 0
+ATOM   1008  NH2 ARG A 123      26.466  -1.404 -11.877  0.00  0.00           N 0
+ATOM   1078  OG1 THR A 133      21.755   4.057  -8.108  0.70  1.07           O 0
+ATOM   1002   CB ARG A 123      23.092   1.665 -13.392  0.00  0.00           C 0
+ATOM   1004   CG ARG A 123      22.506   1.097 -12.090  0.00  0.00           C 0
+ATOM   1031    N THR A 127      25.678   7.099 -13.996  0.72  1.09           N 0
+ATOM   1032   CA THR A 127      27.118   7.203 -14.269  0.00  0.00           C 0
+ATOM   1030    O ALA A 126      25.468   9.157 -13.123  0.00  0.00           O 0
+ATOM   1028    C ALA A 126      24.965   8.081 -13.437  0.00  0.00           C 0
+ATOM   1003    O ARG A 123      24.269   4.565 -14.421  0.00  0.00           O 0
+ATOM   1029   CB ALA A 126      23.128   6.885 -12.188  0.00  0.00           C 0
+ATOM   1077  CG2 THR A 133      21.105   5.198 -10.064  0.00  0.00           C 0
+ATOM   1000   CA ARG A 123      22.570   3.070 -13.702  0.00  0.00           C 0
+TER
+END

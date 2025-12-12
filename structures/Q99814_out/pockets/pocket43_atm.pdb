@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.1251
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7599
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7251
+HEADER 5  - Mean B-factor of pocket residues  : 0.0519
+HEADER 6  - Hydrophobicity Score              : 11.4286
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 237.7663
+HEADER 10 - Pocket volume (convex hull)       : 3.6551
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.5714
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   6357   CB HIS A 817     -21.580  -2.597 -22.366  0.00  0.00           C 0
+ATOM   6371   CE LYS A 818     -25.086   2.863 -19.551  0.00  0.00           C 0
+ATOM   6341    O SER A 814     -25.188  -2.139 -18.932  0.57  5.36           O 0
+ATOM   6369   CG LYS A 818     -22.947   1.597 -19.339  0.00  0.00           C 0
+ATOM   6337    N SER A 814     -28.086  -2.931 -18.856  0.70  2.19           N 0
+ATOM   6340   CB SER A 814     -26.710  -4.167 -20.467  0.00  0.00           C 0
+ATOM   6336  CD2 LEU A 813     -28.336   1.602 -18.653  0.00  0.00           C 0
+ATOM   6312   CA TYR A 811     -34.887  -0.101 -17.072  0.00  0.00           C 0
+ATOM   6323    N SER A 812     -33.851  -2.275 -17.466  0.66  1.09           N 0
+ATOM   6307    O ASP A 810     -36.452  -1.735 -18.708  0.00  0.00           O 0
+ATOM   6317  CD1 TYR A 811     -34.050   2.966 -18.186  0.00  0.00           C 0
+ATOM   6327    O SER A 812     -31.159  -3.116 -19.230  0.83  4.29           O 0
+ATOM   6328   OG SER A 812     -33.621  -4.389 -19.452  0.68  7.50           O 0
+ATOM   6325    C SER A 812     -31.528  -2.755 -18.111  0.00  0.00           C 0
+ATOM   6330   CA LEU A 813     -29.563  -1.288 -17.821  0.00  0.00           C 0
+ATOM   6334   CG LEU A 813     -29.510   1.273 -17.724  0.00  0.00           C 0
+ATOM   6329    N LEU A 813     -30.858  -1.830 -17.422  0.00  0.00           N 0
+ATOM   6313    C TYR A 811     -33.847  -1.173 -16.710  0.00  0.00           C 0
+TER
+END

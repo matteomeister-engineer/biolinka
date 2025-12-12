@@ -1,0 +1,52 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   124:
+HEADER 0  - Pocket Score                      : -0.1083
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 4.0439
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5513
+HEADER 5  - Mean B-factor of pocket residues  : 0.9262
+HEADER 6  - Hydrophobicity Score              : 31.1818
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 416.0157
+HEADER 10 - Pocket volume (convex hull)       : 46.8818
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.7143
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM  16365  NE2 GLN A2063      43.501   5.811 -40.987  0.43  2.19           N 0
+ATOM  16032  CZ2 TRP A2023      40.025   2.906 -45.447  0.00  0.00           C 0
+ATOM  16339   CB ARG A2060      44.208   6.959 -45.477  0.00  0.00           C 0
+ATOM  16350    O GLY A2061      43.846   2.850 -44.346  0.72  1.07           O 0
+ATOM  16342   CD ARG A2060      42.569   8.846 -45.147  0.00  0.00           C 0
+ATOM  16344  NH1 ARG A2060      40.444  10.539 -44.143  0.00  0.00           N 0
+ATOM  16316   CG MET A2057      38.404   6.606 -46.883  0.00  0.00           C 0
+ATOM  16317   SD MET A2057      36.645   6.268 -46.635  0.00  0.00           S 0
+ATOM  15982   CA ARG A2018      34.125   4.885 -38.260  0.00  0.00           C 0
+ATOM  15979  CG2 ILE A2017      32.896   9.523 -38.679  0.00  0.00           C 0
+ATOM  16008    O ILE A2021      32.089   3.794 -42.135  0.60  2.14           O 0
+ATOM  16059   SD MET A2026      33.196   6.172 -45.971  0.00  0.00           S 0
+ATOM  16011  CD1 ILE A2021      28.890   8.123 -42.445  0.00  0.00           C 0
+ATOM  16007   CB ILE A2021      29.875   5.727 -42.484  0.00  0.00           C 0
+ATOM  15977    O ILE A2017      31.809   6.427 -38.751  0.61  1.07           O 0
+ATOM  16315    O MET A2057      41.627   6.003 -47.344  0.00  0.00           O 0
+ATOM  16030  NE1 TRP A2023      37.614   3.461 -44.817  0.81  6.56           N 0
+ATOM  15986   CG ARG A2018      36.184   3.376 -38.557  0.00  0.00           C 0
+ATOM  16026  CD1 TRP A2023      36.371   2.953 -45.140  0.00  0.00           C 0
+ATOM  16364   CD GLN A2063      42.974   4.818 -40.306  0.00  0.00           C 0
+ATOM  15989  NH1 ARG A2018      39.548   3.760 -39.164  0.50  3.28           N 0
+ATOM  15981    N ARG A2018      33.652   6.069 -37.510  0.66  1.09           N 0
+ATOM  15984   CB ARG A2018      35.495   4.456 -37.702  0.00  0.00           C 0
+ATOM  15951    O GLU A2014      35.560   7.577 -35.697  0.76  7.50           O 0
+ATOM  16399  OE2 GLU A2067      40.414   1.569 -41.903  0.70  1.07           O 0
+ATOM  16366  OE1 GLN A2063      42.130   5.064 -39.448  0.23  4.29           O 0
+ATOM  15991   CZ ARG A2018      39.307   4.020 -37.910  0.00  0.00           C 0
+ATOM  15990  NH2 ARG A2018      40.122   4.832 -37.304  0.23  7.66           N 0
+ATOM  16060   CE MET A2026      33.339   7.773 -46.811  0.00  0.00           C 0
+ATOM  16010  CG2 ILE A2021      30.048   5.644 -44.005  0.00  0.00           C 0
+TER
+END

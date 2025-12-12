@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    99:
+HEADER 0  - Pocket Score                      : -0.1058
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0077
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5947
+HEADER 5  - Mean B-factor of pocket residues  : 0.8345
+HEADER 6  - Hydrophobicity Score              : -1.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.6660
+HEADER 10 - Pocket volume (convex hull)       : 1.1624
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   7745    O ASN A1007       3.915  24.920  11.737  0.53  5.36           O 0
+ATOM   7117    O PHE A 930       8.154  26.950   6.725  0.00  0.00           O 0
+ATOM   7128    O ARG A 931       4.762  29.398   5.270  0.71  8.57           O 0
+ATOM   7747  ND2 ASN A1007       5.767  27.396  13.038  0.00  0.00           N 0
+ATOM   7137    C THR A 932       2.653  26.343   5.835  0.00  0.00           C 0
+ATOM   7142    N PRO A 933       1.549  26.765   6.478  0.56  1.09           N 0
+ATOM   7145   CB PRO A 933      -0.135  26.907   8.154  0.00  0.00           C 0
+ATOM   7148   CD PRO A 933       0.754  27.953   6.191  0.00  0.00           C 0
+ATOM   7143   CA PRO A 933       0.928  25.991   7.543  0.00  0.00           C 0
+ATOM   7736    O GLU A1006       5.899  23.690   9.545  0.54  1.07           O 0
+ATOM   7744   CB ASN A1007       6.659  25.233  12.418  0.00  0.00           C 0
+ATOM   7139    O THR A 932       3.233  25.296   6.119  0.00  0.00           O 0
+ATOM   7126    C ARG A 931       5.322  28.359   4.935  0.00  0.00           C 0
+TER
+END

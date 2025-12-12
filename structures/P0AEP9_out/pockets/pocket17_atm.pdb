@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0664
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7946
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4568
+HEADER 5  - Mean B-factor of pocket residues  : 0.6447
+HEADER 6  - Hydrophobicity Score              : 28.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.8779
+HEADER 10 - Pocket volume (convex hull)       : 9.3215
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4800
+ATOM   3153   CD GLU A 418     -11.867  15.373  -8.114  0.00  0.00           C 0
+ATOM   3152   CG GLU A 418     -11.240  15.035  -6.742  0.00  0.00           C 0
+ATOM   3331   CB ALA A 443      -7.812  17.277  -6.137  0.00  0.00           C 0
+ATOM   3155  OE2 GLU A 418     -13.030  15.850  -8.206  0.27  8.57           O 0
+ATOM   3332    O ALA A 443      -7.057  19.104  -3.583  0.25  6.43           O 0
+ATOM   3672  CE1 HIS A 487     -10.770  23.493  -8.059  0.00  0.00           C 0
+ATOM   3329   CA ALA A 443      -6.698  18.279  -5.804  0.00  0.00           C 0
+ATOM   3326    O CYS A 442      -4.782  20.034  -6.861  0.00  0.00           O 0
+ATOM   3654  ND1 HIS A 485     -12.200  18.851 -11.255  0.50  5.47           N 0
+ATOM   3673  NE2 HIS A 487     -10.102  23.929  -9.134  0.69  2.19           N 0
+ATOM   3154  OE1 GLU A 418     -11.182  15.188  -9.143  0.69  1.07           O 0
+ATOM   3625  CD1 PHE A 481      -6.573  17.805 -11.620  0.00  0.00           C 0
+ATOM   3631   CA GLY A 482      -7.204  22.362 -13.013  0.00  0.00           C 0
+ATOM   3603    O CYS A 478      -3.687  21.617 -12.756  0.38  4.29           O 0
+ATOM   3325   CB CYS A 442      -3.407  18.539  -9.163  0.00  0.00           C 0
+ATOM   3650   CB HIS A 485     -11.535  21.155 -12.213  0.00  0.00           C 0
+ATOM   3627  CE1 PHE A 481      -7.529  17.061 -10.906  0.00  0.00           C 0
+ATOM   3652   CG HIS A 485     -11.503  19.644 -12.141  0.00  0.00           C 0
+ATOM   3630    N GLY A 482      -6.386  21.285 -13.572  0.00  0.00           N 0
+ATOM   3655  CE1 HIS A 485     -11.849  17.571 -11.480  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.1278
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8749
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5620
+HEADER 5  - Mean B-factor of pocket residues  : 0.9583
+HEADER 6  - Hydrophobicity Score              : 11.5556
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 241.9062
+HEADER 10 - Pocket volume (convex hull)       : 10.2627
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   1905  OE2 GLU A 247       5.871 -23.267  17.600  0.48  3.21           O 0
+ATOM   1878   NZ LYS A 244       5.465 -25.684  18.756  0.00  0.00           N 0
+ATOM   1735    O CYS A 227      13.524 -25.065  19.000  0.00  0.00           O 0
+ATOM   1877   CE LYS A 244       6.154 -25.702  20.073  0.00  0.00           C 0
+ATOM   1729  NE2 GLN A 226      10.920 -25.138  12.243  0.00  0.00           N 0
+ATOM   1867  NH1 ARG A 243      11.059 -20.306  15.532  0.00  0.00           N 0
+ATOM   1838    O CYS A 240      10.680 -20.740  20.629  0.53  2.14           O 0
+ATOM   1837   CB CYS A 240      13.636 -21.161  19.307  0.00  0.00           C 0
+ATOM   1876   CD LYS A 244       6.594 -24.274  20.370  0.00  0.00           C 0
+ATOM   1749  CG1 ILE A 229      11.758 -24.383  22.011  0.00  0.00           C 0
+ATOM   1904  OE1 GLU A 247       7.060 -21.476  17.074  0.28  3.21           O 0
+ATOM   1728   CD GLN A 226      12.102 -24.581  12.372  0.00  0.00           C 0
+ATOM   1744    N ILE A 229      12.551 -27.206  21.597  0.00  0.00           N 0
+ATOM   1747   CB ILE A 229      11.341 -25.522  22.972  0.00  0.00           C 0
+ATOM   1738   CA THR A 228      13.868 -27.807  19.605  0.00  0.00           C 0
+ATOM   1873   CB LYS A 244       8.009 -22.597  21.597  0.00  0.00           C 0
+ATOM   1730  OE1 GLN A 226      12.174 -23.365  12.309  0.70  5.36           O 0
+ATOM   1718    O ASN A 225      13.527 -21.347  14.941  0.00  0.00           O 0
+ATOM   1724    C GLN A 226      14.819 -24.780  15.593  0.00  0.00           C 0
+ATOM   1726    O GLN A 226      14.762 -26.008  15.578  0.36  7.50           O 0
+ATOM   1748    O ILE A 229      10.634 -28.307  23.704  0.76  5.36           O 0
+ATOM   1723   CA GLN A 226      14.461 -23.946  14.343  0.00  0.00           C 0
+TER
+END

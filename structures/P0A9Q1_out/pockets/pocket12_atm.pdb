@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0698
+HEADER 1  - Drug Score                        : 0.0618
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0893
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5598
+HEADER 5  - Mean B-factor of pocket residues  : 0.9376
+HEADER 6  - Hydrophobicity Score              : 58.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.0668
+HEADER 10 - Pocket volume (convex hull)       : 2.4709
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.9333
+ATOM    527  NH1 ARG A  67      -9.761  -0.617 -11.872  0.00  0.00           N 0
+ATOM    751  CD1 ILE A  95      -4.057   3.144  -8.225  0.00  0.00           C 0
+ATOM    505  CD2 LEU A  64      -5.525   1.811 -15.187  0.00  0.00           C 0
+ATOM    721  CD1 LEU A  91      -7.597   6.074  -7.995  0.00  0.00           C 0
+ATOM    525   CD ARG A  67      -7.057  -1.417 -11.284  0.00  0.00           C 0
+ATOM    749  CG1 ILE A  95      -4.917   2.191  -7.393  0.00  0.00           C 0
+ATOM    494    O LEU A  63      -2.674   1.780 -10.947  0.00  0.00           O 0
+ATOM    522   CB ARG A  67      -4.657  -1.305 -10.608  0.00  0.00           C 0
+ATOM    493   CB LEU A  63      -2.548   5.085 -11.225  0.00  0.00           C 0
+ATOM    492    C LEU A  63      -2.229   2.628 -11.720  0.00  0.00           C 0
+ATOM    722  CD2 LEU A  91      -6.506   7.717  -9.484  0.00  0.00           C 0
+ATOM    484  ND2 ASN A  61      -2.966   6.115 -16.056  0.63  5.47           N 0
+ATOM    496  CD1 LEU A  63      -3.024   7.485 -10.777  0.00  0.00           C 0
+ATOM    485  OD1 ASN A  61      -2.008   4.669 -14.764  0.00  0.00           O 0
+ATOM    503   CG LEU A  64      -4.168   2.424 -15.535  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0155
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8520
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5720
+HEADER 5  - Mean B-factor of pocket residues  : 0.9243
+HEADER 6  - Hydrophobicity Score              : 2.2000
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 258.9619
+HEADER 10 - Pocket volume (convex hull)       : 15.4834
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   2017   CB GLN A 271       1.961  23.487   3.664  0.00  0.00           C 0
+ATOM   2570  OE1 GLU A 343       4.170  19.104   8.835  0.00  0.00           O 0
+ATOM   2022  OE1 GLN A 271       2.206  25.860   5.205  0.00  0.00           O 0
+ATOM   2020   CD GLN A 271       1.103  25.349   5.188  0.00  0.00           C 0
+ATOM   2019   CG GLN A 271       0.764  24.070   4.427  0.00  0.00           C 0
+ATOM   2004    O THR A 269      -0.861  20.179   6.898  0.62  5.36           O 0
+ATOM   2014    N GLN A 271       1.085  21.176   3.579  0.06  1.09           N 0
+ATOM   2569   CD GLU A 343       4.381  18.496   7.765  0.00  0.00           C 0
+ATOM   2556  CG2 THR A 341       6.293  21.688   4.182  0.00  0.00           C 0
+ATOM   2049  OG1 THR A 275       9.487  27.562   7.205  0.00  0.00           O 0
+ATOM   2032    O LYS A 273       6.151  24.819   2.896  0.53  4.29           O 0
+ATOM   2048  CG2 THR A 275       8.847  28.858   5.332  0.00  0.00           C 0
+ATOM   2043    N THR A 275       9.780  26.048   4.744  0.00  0.00           N 0
+ATOM   2097  OE1 GLU A 281       9.839  21.314   6.422  0.51  2.14           O 0
+ATOM   2056  CD1 LEU A 276      11.140  22.604   9.452  0.00  0.00           C 0
+ATOM   2124  NH1 ARG A 284       7.770  19.824   8.614  0.21  3.28           N 0
+ATOM   2042   OG SER A 274      10.370  23.225   4.849  0.00  0.00           O 0
+ATOM   2038   CA SER A 274       8.876  24.261   3.361  0.00  0.00           C 0
+ATOM   2571  OE2 GLU A 343       5.437  18.686   7.122  0.00  0.00           O 0
+ATOM   2055   CG LEU A 276      11.620  23.846   8.698  0.00  0.00           C 0
+TER
+END

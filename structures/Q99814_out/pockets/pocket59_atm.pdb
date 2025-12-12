@@ -1,0 +1,67 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    59:
+HEADER 0  - Pocket Score                      : -0.3178
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    66
+HEADER 3  - Mean alpha-sphere radius          : 4.1534
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4783
+HEADER 5  - Mean B-factor of pocket residues  : 0.3688
+HEADER 6  - Hydrophobicity Score              : 12.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.9231
+HEADER 9  - Pocket volume (Monte Carlo)       : 1125.5115
+HEADER 10 - Pocket volume (convex hull)       : 345.4713
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.8462
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.3939
+ATOM   6747  NE2 GLN A 868       7.536 -10.498 -37.257  0.59  8.75           N 0
+ATOM   1685   CB CYS A 212       7.279 -17.692 -37.720  0.00  0.00           C 0
+ATOM   1687   SG CYS A 212       8.871 -18.099 -36.956  0.00  0.00           S 0
+ATOM   6748  OE1 GLN A 868       6.894 -10.629 -35.191  0.00  0.00           O 0
+ATOM   1695   CB TYR A 214       6.564 -17.520 -32.442  0.00  0.00           C 0
+ATOM   1626    O ASN A 204      -3.704 -13.588 -31.777  0.30  5.36           O 0
+ATOM   1716   CB GLU A 216       2.190 -13.490 -29.788  0.00  0.00           C 0
+ATOM   1717    O GLU A 216       0.822 -15.643 -27.809  0.00  0.00           O 0
+ATOM   1713    N GLU A 216       2.424 -15.932 -30.026  0.55  2.19           N 0
+ATOM   1635   SG CYS A 205      -1.657 -11.770 -34.796  0.00  0.00           S 0
+ATOM   1633   CB CYS A 205      -3.026 -12.964 -34.806  0.00  0.00           C 0
+ATOM   1705   CA LYS A 215       2.341 -18.306 -30.603  0.00  0.00           C 0
+ATOM   1625   CB ASN A 204      -1.976 -11.102 -30.596  0.00  0.00           C 0
+ATOM   1621  OD1 ASN A 203      -5.044 -15.319 -28.350  0.00  0.00           O 0
+ATOM   1707   CB LYS A 215       1.551 -19.353 -29.806  0.00  0.00           C 0
+ATOM   1710   CD LYS A 215       0.097 -21.396 -29.879  0.00  0.00           C 0
+ATOM   1709   CG LYS A 215       0.987 -20.462 -30.703  0.00  0.00           C 0
+ATOM   1699  CD2 TYR A 214       8.801 -18.316 -33.322  0.00  0.00           C 0
+ATOM   1682    N CYS A 212       5.568 -18.724 -39.085  0.00  0.00           N 0
+ATOM   1674    N LEU A 211       3.703 -17.750 -40.878  0.00  0.00           N 0
+ATOM   1677   CB LEU A 211       5.238 -18.318 -42.692  0.00  0.00           C 0
+ATOM   1736  CD2 LEU A 218      -4.202 -15.293 -25.337  0.00  0.00           C 0
+ATOM   1734   CG LEU A 218      -3.314 -15.916 -24.266  0.00  0.00           C 0
+ATOM   1735  CD1 LEU A 218      -4.199 -16.787 -23.371  0.00  0.00           C 0
+ATOM   1721  OE2 GLU A 216       1.624 -10.965 -30.819  0.69  9.64           O 0
+ATOM   6745   CG GLN A 868       5.946  -8.809 -36.512  0.00  0.00           C 0
+ATOM   1714   CA GLU A 216       2.650 -14.801 -29.123  0.00  0.00           C 0
+ATOM   1697   CG TYR A 214       8.018 -17.894 -32.233  0.00  0.00           C 0
+ATOM   1696    O TYR A 214       3.620 -17.523 -32.972  0.52  6.43           O 0
+ATOM   1671   CB SER A 210       1.960 -16.731 -37.925  0.00  0.00           C 0
+ATOM   1678    O LEU A 211       6.555 -20.012 -40.633  0.00  0.00           O 0
+ATOM   1676    C LEU A 211       5.659 -19.228 -40.321  0.00  0.00           C 0
+ATOM   6746   CD GLN A 868       6.824 -10.034 -36.255  0.00  0.00           C 0
+ATOM   6741   CA GLN A 868       5.048  -6.595 -35.629  0.00  0.00           C 0
+ATOM   6744    O GLN A 868       3.684  -6.555 -33.644  0.45  4.29           O 0
+ATOM   1718   CG GLU A 216       2.797 -12.232 -29.132  0.00  0.00           C 0
+ATOM   6743   CB GLN A 868       5.763  -7.916 -35.279  0.00  0.00           C 0
+ATOM   1698  CD1 TYR A 214       8.579 -17.852 -30.941  0.00  0.00           C 0
+ATOM   1728   CD PRO A 217       3.900 -14.332 -26.412  0.00  0.00           C 0
+ATOM   1673   OG SER A 210       3.294 -16.845 -37.463  0.57  8.57           O 0
+ATOM   1686    O CYS A 212       4.831 -18.910 -36.284  0.00  0.00           O 0
+ATOM   1669   CA SER A 210       2.064 -16.650 -39.445  0.00  0.00           C 0
+ATOM   1664    O ASN A 209       1.906 -15.527 -41.879  0.00  0.00           O 0
+ATOM   1708    O LYS A 215       3.520 -17.429 -28.740  0.60  8.57           O 0
+ATOM   1719   CD GLU A 216       2.351 -10.917 -29.803  0.00  0.00           C 0
+TER
+END

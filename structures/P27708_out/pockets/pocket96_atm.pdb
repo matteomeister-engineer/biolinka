@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    96:
+HEADER 0  - Pocket Score                      : -0.1020
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.8749
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4547
+HEADER 5  - Mean B-factor of pocket residues  : 0.4763
+HEADER 6  - Hydrophobicity Score              : 30.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.0300
+HEADER 10 - Pocket volume (convex hull)       : 18.0881
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM  10429    O TRP A1364      -9.306 -41.860  18.755  0.40  9.64           O 0
+ATOM  10468  OE2 GLU A1367      -3.704 -44.251  22.643  0.00  0.00           O 0
+ATOM  10466   CD GLU A1367      -3.261 -43.138  22.292  0.00  0.00           C 0
+ATOM  10806   NZ LYS A1411     -10.563 -40.511  22.728  0.00  0.00           N 0
+ATOM  10465   CG GLU A1367      -3.050 -42.833  20.797  0.00  0.00           C 0
+ATOM  10452   CB PHE A1366      -5.507 -39.551  17.563  0.00  0.00           C 0
+ATOM  10449    N PHE A1366      -6.615 -41.719  17.125  0.00  0.00           N 0
+ATOM  10463   CB GLU A1367      -3.233 -44.031  19.846  0.00  0.00           C 0
+ATOM  10831  NH1 ARG A1414      -3.718 -37.694  19.218  0.26  3.28           N 0
+ATOM  10467  OE1 GLU A1367      -3.054 -42.183  23.082  0.64  7.50           O 0
+ATOM  10446  ND1 HIS A1365      -9.022 -46.392  16.935  0.74  5.47           N 0
+ATOM  10460    N GLU A1367      -4.200 -42.798  17.925  0.57  1.09           N 0
+ATOM  10464    O GLU A1367      -3.883 -45.342  16.953  0.37  7.50           O 0
+ATOM  10805   CE LYS A1411      -9.635 -39.351  22.589  0.00  0.00           C 0
+ATOM  10456  CD2 PHE A1366      -7.541 -38.167  18.143  0.00  0.00           C 0
+ATOM  10803   CG LYS A1411      -9.357 -36.929  21.866  0.00  0.00           C 0
+ATOM  10788    O VAL A1409      -4.521 -33.812  22.874  0.52  9.64           O 0
+ATOM  10832  NH2 ARG A1414      -1.863 -36.612  19.725  0.00  0.00           N 0
+ATOM  10440   CA HIS A1365      -8.495 -43.169  16.506  0.00  0.00           C 0
+TER
+END

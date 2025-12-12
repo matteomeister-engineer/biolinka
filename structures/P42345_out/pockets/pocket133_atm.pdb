@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   133:
+HEADER 0  - Pocket Score                      : -0.1200
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8185
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4752
+HEADER 5  - Mean B-factor of pocket residues  : 0.8012
+HEADER 6  - Hydrophobicity Score              : -4.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.2229
+HEADER 10 - Pocket volume (convex hull)       : 4.3656
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   4653    O GLU A 595     -43.261  12.645  47.924  0.00  0.00           O 0
+ATOM   4189   CG LYS A 533     -49.678  11.452  44.291  0.00  0.00           C 0
+ATOM   4190   CD LYS A 533     -50.329  12.747  44.783  0.00  0.00           C 0
+ATOM   4191   CE LYS A 533     -49.479  13.928  44.309  0.00  0.00           C 0
+ATOM   4192   NZ LYS A 533     -49.956  15.209  44.880  0.00  0.00           N 0
+ATOM   4652   CB GLU A 595     -43.528  13.212  45.177  0.00  0.00           C 0
+ATOM   4244  CD1 LEU A 540     -43.097   7.669  49.746  0.00  0.00           C 0
+ATOM   4224  OD1 ASP A 537     -48.070   8.941  50.339  0.19  9.64           O 0
+ATOM   4212   CB GLN A 536     -45.963   7.404  45.884  0.00  0.00           C 0
+ATOM   4225  OD2 ASP A 537     -50.103   9.138  49.484  0.50  7.50           O 0
+ATOM   4217  OE1 GLN A 536     -45.971   9.827  44.312  0.73  2.14           O 0
+ATOM   4185   CA LYS A 533     -49.609   8.946  44.568  0.00  0.00           C 0
+ATOM   4188    O LYS A 533     -49.447   7.474  46.416  0.00  0.00           O 0
+ATOM   4187   CB LYS A 533     -50.417  10.222  44.832  0.00  0.00           C 0
+TER
+END

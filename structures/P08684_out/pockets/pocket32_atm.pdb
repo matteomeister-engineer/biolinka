@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0935
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8122
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6677
+HEADER 5  - Mean B-factor of pocket residues  : 0.9835
+HEADER 6  - Hydrophobicity Score              : 15.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 178.7391
+HEADER 10 - Pocket volume (convex hull)       : 3.4612
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM    500   SG CYS A  64       0.235   6.161 -21.573  0.00  0.00           S 0
+ATOM    490    O GLU A  63      -4.350   4.969 -23.013  0.70  1.07           O 0
+ATOM    526   CD LYS A  67      -2.985   6.490 -27.450  0.00  0.00           C 0
+ATOM    538  CE2 TYR A  68       0.357   5.207 -25.473  0.00  0.00           C 0
+ATOM    468  CE2 PHE A  60       1.892   9.054 -20.275  0.00  0.00           C 0
+ATOM    466  CD2 PHE A  60       0.818   9.426 -19.447  0.00  0.00           C 0
+ATOM    398   OG SER A  52       2.412  12.693 -21.488  0.00  0.00           O 0
+ATOM    313   CB PRO A  41       3.052   8.741 -24.935  0.00  0.00           C 0
+ATOM    489   CB GLU A  63      -4.864   7.703 -21.187  0.00  0.00           C 0
+ATOM    494  OE2 GLU A  63      -7.171   8.460 -22.851  0.62  8.57           O 0
+ATOM    463    O PHE A  60      -1.751   6.698 -19.104  0.00  0.00           O 0
+ATOM    495    N CYS A  64      -2.851   5.214 -21.363  0.00  0.00           N 0
+ATOM    496   CA CYS A  64      -1.828   4.413 -22.031  0.00  0.00           C 0
+ATOM    488    C GLU A  63      -4.056   5.422 -21.904  0.00  0.00           C 0
+ATOM    539   OH TYR A  68       0.553   6.926 -27.125  0.73  5.36           O 0
+TER
+END

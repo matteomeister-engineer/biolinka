@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.2535
+HEADER 1  - Drug Score                        : 0.0060
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.3256
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3629
+HEADER 5  - Mean B-factor of pocket residues  : 0.9473
+HEADER 6  - Hydrophobicity Score              : 26.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 407.4406
+HEADER 10 - Pocket volume (convex hull)       : 3.5340
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   2046  CD1 PHE A 262       4.941  -0.457 -24.838  0.00  0.00           C 0
+ATOM   3576  CG2 VAL A 461      -0.992   0.520 -29.510  0.00  0.00           C 0
+ATOM   2045   CG PHE A 262       4.020  -0.522 -23.775  0.00  0.00           C 0
+ATOM   2043   CB PHE A 262       3.608   0.744 -23.050  0.00  0.00           C 0
+ATOM   3605  OE2 GLU A 464       2.219   0.828 -33.484  0.00  0.00           O 0
+ATOM   3575  CG1 VAL A 461      -1.282  -1.495 -30.899  0.00  0.00           C 0
+ATOM   2048  CE1 PHE A 262       5.350  -1.633 -25.490  0.00  0.00           C 0
+ATOM   2047  CD2 PHE A 262       3.517  -1.770 -23.361  0.00  0.00           C 0
+ATOM   2050   CZ PHE A 262       4.846  -2.878 -25.075  0.00  0.00           C 0
+ATOM   2049  CE2 PHE A 262       3.933  -2.947 -24.009  0.00  0.00           C 0
+ATOM   3562  NE2 HIS A 459      -4.198   1.705 -26.114  0.59  5.47           N 0
+ATOM   2481   CG LYS A 321      -2.919  -1.849 -19.965  0.00  0.00           C 0
+ATOM   3561  CE1 HIS A 459      -3.454   1.360 -27.173  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    54:
+HEADER 0  - Pocket Score                      : -0.2104
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0525
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5147
+HEADER 5  - Mean B-factor of pocket residues  : 0.1790
+HEADER 6  - Hydrophobicity Score              : 39.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 414.1797
+HEADER 10 - Pocket volume (convex hull)       : 27.4180
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   6631    O GLY A 852      31.611 -13.818 -33.350  0.19  8.57           O 0
+ATOM   4100  OD1 ASN A 522      37.103 -17.862 -29.376  0.00  0.00           O 0
+ATOM   4132  CD1 LEU A 526      34.631  -9.857 -27.939  0.00  0.00           C 0
+ATOM   4097    O ASN A 522      33.945 -17.640 -25.994  0.00  0.00           O 0
+ATOM   4095    C ASN A 522      35.099 -17.711 -25.588  0.00  0.00           C 0
+ATOM   4096   CB ASN A 522      35.688 -18.952 -27.768  0.00  0.00           C 0
+ATOM   4098   CG ASN A 522      36.653 -18.908 -28.936  0.00  0.00           C 0
+ATOM   4094   CA ASN A 522      36.220 -18.237 -26.505  0.00  0.00           C 0
+ATOM   4084    C PHE A 521      38.471 -19.102 -25.907  0.00  0.00           C 0
+ATOM   4113   CB LEU A 524      37.396 -13.953 -21.226  0.00  0.00           C 0
+ATOM   4085   CB PHE A 521      40.614 -19.448 -24.609  0.00  0.00           C 0
+ATOM   4086    O PHE A 521      39.052 -18.369 -26.705  0.73  7.50           O 0
+ATOM   4101    N GLU A 523      35.428 -17.356 -24.342  0.39  1.09           N 0
+ATOM   4088  CD1 PHE A 521      40.800 -19.515 -22.082  0.00  0.00           C 0
+ATOM   4110    N LEU A 524      35.531 -14.717 -22.674  0.47  4.37           N 0
+ATOM   4105    O GLU A 523      35.410 -16.403 -21.202  0.50  2.14           O 0
+ATOM   4103    C GLU A 523      35.147 -15.954 -22.314  0.00  0.00           C 0
+ATOM   4114    O LEU A 524      36.348 -11.896 -23.250  0.72  3.21           O 0
+TER
+END

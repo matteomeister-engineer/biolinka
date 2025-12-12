@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0062
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8717
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5260
+HEADER 5  - Mean B-factor of pocket residues  : 0.4400
+HEADER 6  - Hydrophobicity Score              : 23.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.2154
+HEADER 10 - Pocket volume (convex hull)       : 5.5193
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   3709  CE1 HIS A 476      -7.945  -5.450  14.612  0.00  0.00           C 0
+ATOM   3571   CZ TYR A 459      -6.522  -9.132  10.860  0.00  0.00           C 0
+ATOM   3568  CE1 TYR A 459      -5.553 -10.068  11.287  0.00  0.00           C 0
+ATOM   3570   OH TYR A 459      -7.692  -9.016  11.540  0.74  2.14           O 0
+ATOM   3710  NE2 HIS A 476      -7.455  -4.748  13.584  0.93  1.09           N 0
+ATOM   3601   CB SER A 463       2.471 -10.603  14.631  0.00  0.00           C 0
+ATOM   3566  CD1 TYR A 459      -4.339 -10.187  10.585  0.00  0.00           C 0
+ATOM   3564    O TYR A 459       0.160 -10.087   9.512  0.00  0.00           O 0
+ATOM   3603   OG SER A 463       2.203 -11.450  15.732  0.00  0.00           O 0
+ATOM   3558  CG1 VAL A 458      -4.823  -5.021  10.986  0.00  0.00           C 0
+ATOM   3557    O VAL A 458      -2.197  -6.547  11.274  0.46  3.21           O 0
+ATOM   3561   CA TYR A 459      -1.687  -8.589   9.415  0.00  0.00           C 0
+ATOM   3674   NZ LYS A 472      -0.982  -6.825  15.863  0.62  4.37           N 0
+ATOM   3672   CD LYS A 472      -2.677  -5.178  16.631  0.00  0.00           C 0
+ATOM   3598    N SER A 463       2.673  -8.194  14.096  0.45  1.09           N 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0174
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0578
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7579
+HEADER 5  - Mean B-factor of pocket residues  : 0.9979
+HEADER 6  - Hydrophobicity Score              : 1.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 2.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.7652
+HEADER 10 - Pocket volume (convex hull)       : 3.7640
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   1683   OG SER A 222     -25.580   8.041  10.741  0.56  4.29           O 0
+ATOM   1861    O GLY A 245     -25.521   7.424  13.520  0.00  0.00           O 0
+ATOM   1716   CB ALA A 226     -31.768   8.817  12.416  0.00  0.00           C 0
+ATOM   1860    C GLY A 245     -26.437   7.144  14.284  0.00  0.00           C 0
+ATOM   1682    O SER A 222     -28.699   7.127  10.904  0.51  1.07           O 0
+ATOM   1689   CG LYS A 223     -29.117   9.884   7.027  0.00  0.00           C 0
+ATOM   1685   CA LYS A 223     -29.983   8.025   8.536  0.00  0.00           C 0
+ATOM   1894   CB SER A 249     -23.143   9.720  12.770  0.00  0.00           C 0
+ATOM   1863   CA GLN A 246     -25.239   8.196  16.162  0.00  0.00           C 0
+ATOM   1896   OG SER A 249     -22.825   9.951  14.131  0.66  3.21           O 0
+ATOM   1849  OG1 THR A 243     -29.034   7.623  16.947  0.56  2.14           O 0
+ATOM   1717    O ALA A 226     -31.903   8.286  15.571  0.53  5.36           O 0
+ATOM   1714   CA ALA A 226     -31.387   7.647  13.328  0.00  0.00           C 0
+ATOM   1862    N GLN A 246     -26.393   7.498  15.573  0.00  0.00           N 0
+ATOM   1867   CG GLN A 246     -26.483   9.819  17.712  0.00  0.00           C 0
+TER
+END

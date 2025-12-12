@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0053
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8629
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4306
+HEADER 5  - Mean B-factor of pocket residues  : 0.9279
+HEADER 6  - Hydrophobicity Score              : 1.5455
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.8672
+HEADER 10 - Pocket volume (convex hull)       : 10.2659
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    845   OG SER A 110      -1.141  13.592  -0.769  0.41  5.36           O 0
+ATOM   2181    O VAL A 296      -0.565  10.140  -2.886  0.41  2.14           O 0
+ATOM   2188    N ASN A 298      -4.296   9.947  -4.097  0.00  0.00           N 0
+ATOM   2191   CB ASN A 298      -5.664  11.906  -4.593  0.00  0.00           C 0
+ATOM   1218   CE LYS A 161      -0.305  10.833  -7.398  0.00  0.00           C 0
+ATOM    852  ND2 ASN A 111       0.615  16.619  -2.086  0.00  0.00           N 0
+ATOM   2165    N TYR A 295       4.206  10.650  -3.296  0.44  2.19           N 0
+ATOM   2158    O GLY A 293       6.276  12.727  -6.317  0.26  6.43           O 0
+ATOM   2168   CB TYR A 295       3.304  11.722  -1.311  0.00  0.00           C 0
+ATOM    830  OD1 ASN A 108      -2.142  16.379  -6.141  0.00  0.00           O 0
+ATOM    824   CA ASN A 108      -3.662  16.662  -3.608  0.00  0.00           C 0
+ATOM    822    O GLY A 107      -5.384  15.025  -5.258  0.18  1.07           O 0
+ATOM   2160   CA SER A 294       5.434  10.230  -5.338  0.00  0.00           C 0
+ATOM   1247   OG SER A 165       3.261  10.102  -9.131  0.66  2.14           O 0
+ATOM    853  OD1 ASN A 111       2.212  16.752  -0.603  0.00  0.00           O 0
+ATOM   1219   NZ LYS A 161      -1.474  11.423  -8.085  0.42  6.56           N 0
+TER
+END

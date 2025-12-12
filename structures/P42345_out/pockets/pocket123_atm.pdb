@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   123:
+HEADER 0  - Pocket Score                      : -0.1063
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5142
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3506
+HEADER 5  - Mean B-factor of pocket residues  : 0.8732
+HEADER 6  - Hydrophobicity Score              : 47.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.8193
+HEADER 10 - Pocket volume (convex hull)       : 3.3697
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM   8170  CD1 PHE A1041      19.215 -25.554   9.201  0.00  0.00           C 0
+ATOM   7899  NH1 ARG A1009      15.269 -25.110  10.511  0.00  0.00           N 0
+ATOM   8232  CD1 ILE A1048      17.597 -31.231  11.265  0.00  0.00           C 0
+ATOM   8195  CG2 VAL A1043      22.257 -29.222  12.970  0.00  0.00           C 0
+ATOM   8168    O PHE A1041      21.300 -29.758   9.342  0.00  0.00           O 0
+ATOM   7875   CA GLY A1006      12.629 -27.167  11.819  0.00  0.00           C 0
+ATOM   7877    O GLY A1006      12.218 -29.101  10.477  0.68  2.14           O 0
+ATOM   7897   CD ARG A1009      16.047 -26.145   7.854  0.00  0.00           C 0
+ATOM   7894   CB ARG A1009      13.664 -27.055   7.745  0.00  0.00           C 0
+ATOM   7896   CG ARG A1009      14.941 -26.723   6.965  0.00  0.00           C 0
+ATOM   7907   CG GLU A1010      13.579 -32.447   8.857  0.00  0.00           C 0
+ATOM   8230  CG1 ILE A1048      17.138 -32.360  10.332  0.00  0.00           C 0
+ATOM   7902    N GLU A1010      12.649 -30.100   7.066  0.00  0.00           N 0
+ATOM   8231  CG2 ILE A1048      18.758 -31.885   8.455  0.00  0.00           C 0
+ATOM   7937  CD2 PHE A1013      16.759 -29.433   4.631  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0371
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7852
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4691
+HEADER 5  - Mean B-factor of pocket residues  : 0.9346
+HEADER 6  - Hydrophobicity Score              : 58.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.2747
+HEADER 10 - Pocket volume (convex hull)       : 7.1468
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6190
+ATOM  12928   CD GLN A1634     -22.212  24.781  -4.433  0.00  0.00           C 0
+ATOM  12927   CG GLN A1634     -21.446  24.727  -3.101  0.00  0.00           C 0
+ATOM  13117   OH TYR A1656     -19.277  27.471  -4.471  0.76  2.14           O 0
+ATOM  12929  NE2 GLN A1634     -23.524  24.886  -4.437  0.00  0.00           N 0
+ATOM  12923   CA GLN A1634     -19.077  24.168  -2.088  0.00  0.00           C 0
+ATOM  13089  CZ3 TRP A1653     -18.497  30.441   0.512  0.00  0.00           C 0
+ATOM  11761  NE1 TRP A1490     -25.953  27.473  -1.618  0.45  7.66           N 0
+ATOM  12954  CD1 LEU A1637     -15.954  27.388  -0.007  0.00  0.00           C 0
+ATOM  12951   CB LEU A1637     -17.360  26.149   1.682  0.00  0.00           C 0
+ATOM  13087  CH2 TRP A1653     -18.876  29.806   1.708  0.00  0.00           C 0
+ATOM  13118   CZ TYR A1656     -18.078  27.996  -4.124  0.00  0.00           C 0
+ATOM  12961   CG MET A1638     -22.651  24.419   1.789  0.00  0.00           C 0
+ATOM  13197  CD1 LEU A1668     -21.832  30.483  -6.213  0.00  0.00           C 0
+ATOM  11739   CA GLY A1488     -25.551  27.428  -6.235  0.00  0.00           C 0
+ATOM  13115  CE1 TYR A1656     -17.965  29.349  -3.739  0.00  0.00           C 0
+ATOM  13229  OG1 THR A1672     -18.674  33.008  -3.709  0.83  4.29           O 0
+ATOM  11741    O GLY A1488     -26.637  29.355  -5.277  0.19  4.29           O 0
+ATOM  12926    O GLN A1634     -19.879  23.781   0.136  0.00  0.00           O 0
+TER
+END

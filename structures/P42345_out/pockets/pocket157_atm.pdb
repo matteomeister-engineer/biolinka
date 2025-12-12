@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   157:
+HEADER 0  - Pocket Score                      : -0.1417
+HEADER 1  - Drug Score                        : 0.0046
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9198
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6360
+HEADER 5  - Mean B-factor of pocket residues  : 0.9045
+HEADER 6  - Hydrophobicity Score              : 29.8889
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.5690
+HEADER 10 - Pocket volume (convex hull)       : 19.8242
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.9444
+ATOM  13415  CG2 VAL A1696     -11.968  40.555   0.653  0.00  0.00           C 0
+ATOM  13403   CB GLN A1695      -6.579  40.926  -0.137  0.00  0.00           C 0
+ATOM  13409    N VAL A1696      -9.820  41.692  -1.087  0.00  0.00           N 0
+ATOM  13385    C HIS A1693      -9.889  44.560   1.365  0.00  0.00           C 0
+ATOM  13399   CD PRO A1694      -7.836  45.621   2.322  0.00  0.00           C 0
+ATOM  13400    N GLN A1695      -7.519  43.158  -0.353  0.00  0.00           N 0
+ATOM  13053   CB MET A1650     -10.751  36.820   4.115  0.00  0.00           C 0
+ATOM  13096  CD1 LEU A1654      -9.555  37.373  -0.237  0.00  0.00           C 0
+ATOM  13058    N ARG A1651      -9.322  34.191   3.141  0.70  2.19           N 0
+ATOM  13405   CG GLN A1695      -6.188  39.548  -0.708  0.00  0.00           C 0
+ATOM  13059   CA ARG A1651      -8.376  33.519   2.224  0.00  0.00           C 0
+ATOM  13061   CB ARG A1651      -7.115  33.064   2.991  0.00  0.00           C 0
+ATOM  13384   CA HIS A1693     -10.590  44.578   2.732  0.00  0.00           C 0
+ATOM  13390  ND1 HIS A1693     -11.659  43.726   5.444  0.75  5.47           N 0
+ATOM  13380    O VAL A1692     -10.285  46.208   5.010  0.60  9.64           O 0
+ATOM  13055   CG MET A1650     -11.623  37.732   4.981  0.00  0.00           C 0
+ATOM  13057   CE MET A1650     -13.570  39.630   5.369  0.00  0.00           C 0
+ATOM  13391  CE1 HIS A1693     -12.499  43.429   6.448  0.00  0.00           C 0
+ATOM  13027    O HIS A1647     -13.224  37.162   8.066  0.00  0.00           O 0
+ATOM  13386   CB HIS A1693     -11.699  43.524   2.867  0.00  0.00           C 0
+ATOM  13388   CG HIS A1693     -12.277  43.396   4.256  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.1252
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1631
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5433
+HEADER 5  - Mean B-factor of pocket residues  : 0.9248
+HEADER 6  - Hydrophobicity Score              : 15.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 342.3842
+HEADER 10 - Pocket volume (convex hull)       : 14.6755
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   1376    O SER A 172      -5.468 -32.984  13.605  0.00  0.00           O 0
+ATOM   1370  CG1 VAL A 171      -7.207 -29.452  14.161  0.00  0.00           C 0
+ATOM   1403   CD ARG A 175      -0.510 -31.167  14.343  0.00  0.00           C 0
+ATOM   1372    N SER A 172      -5.693 -31.053  11.380  0.56  1.09           N 0
+ATOM   1414   SD MET A 176      -5.868 -30.859  17.907  0.00  0.00           S 0
+ATOM   1366   CA VAL A 171      -7.052 -29.050  11.651  0.00  0.00           C 0
+ATOM   1405  NH1 ARG A 175       0.890 -28.626  13.908  0.00  0.00           N 0
+ATOM   1375   CB SER A 172      -3.920 -32.720  11.051  0.00  0.00           C 0
+ATOM   1404   NE ARG A 175       0.322 -30.391  15.256  0.28  1.09           N 0
+ATOM   1437  OE2 GLU A 179      -0.442 -31.004  18.918  0.59  8.57           O 0
+ATOM   1407   CZ ARG A 175       0.955 -29.267  15.045  0.00  0.00           C 0
+ATOM   1363    O SER A 170      -5.995 -27.121   9.904  0.48  5.36           O 0
+ATOM   1371  CG2 VAL A 171      -7.979 -27.278  13.233  0.00  0.00           C 0
+ATOM   1364   OG SER A 170      -6.382 -28.381   6.879  0.00  0.00           O 0
+TER
+END

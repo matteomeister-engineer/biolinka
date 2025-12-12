@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0339
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2861
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7812
+HEADER 5  - Mean B-factor of pocket residues  : 0.9888
+HEADER 6  - Hydrophobicity Score              : -36.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.8553
+HEADER 10 - Pocket volume (convex hull)       : 1.1210
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   2905  OE1 GLU A 382      19.915   8.328   8.584  0.00  0.00           O 0
+ATOM   2891   CA ASN A 381      22.251   4.452   4.574  0.00  0.00           C 0
+ATOM   2898    N GLU A 382      21.918   6.836   5.065  0.69  3.28           N 0
+ATOM   2903   CG GLU A 382      21.957   8.939   7.503  0.00  0.00           C 0
+ATOM   2892    C ASN A 381      21.331   5.674   4.774  0.00  0.00           C 0
+ATOM   2886    O ASP A 380      22.905   1.830   5.356  0.00  0.00           O 0
+ATOM   2884    C ASP A 380      21.804   2.030   4.843  0.00  0.00           C 0
+ATOM   2890    N ASN A 381      21.462   3.238   4.387  0.00  0.00           N 0
+ATOM   2877    O LYS A 379      18.291   1.957   5.590  0.00  0.00           O 0
+ATOM   2894    O ASN A 381      20.113   5.586   4.639  0.00  0.00           O 0
+ATOM   2883   CA ASP A 380      20.778   0.889   4.697  0.00  0.00           C 0
+ATOM   3586   CB PRO A 471      16.526   4.489   7.430  0.00  0.00           C 0
+TER
+END

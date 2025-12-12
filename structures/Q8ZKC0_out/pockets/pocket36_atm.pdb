@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.0559
+HEADER 1  - Drug Score                        : 0.0050
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9736
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6932
+HEADER 5  - Mean B-factor of pocket residues  : 0.6738
+HEADER 6  - Hydrophobicity Score              : 69.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.7191
+HEADER 10 - Pocket volume (convex hull)       : 13.2140
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   2946  CG2 VAL A 386     -14.506  16.762 -10.439  0.00  0.00           C 0
+ATOM   2936    O LEU A 385     -12.733  12.278 -11.056  0.50  1.07           O 0
+ATOM   2941   CA VAL A 386     -12.859  15.072 -11.357  0.00  0.00           C 0
+ATOM   2940    N VAL A 386     -12.710  14.321 -10.103  0.00  0.00           N 0
+ATOM   2935   CB LEU A 385     -13.718  12.247  -7.913  0.00  0.00           C 0
+ATOM   2934    C LEU A 385     -12.642  12.987 -10.055  0.00  0.00           C 0
+ATOM   2995   OG SER A 392     -14.878   9.752 -11.685  0.54  4.29           O 0
+ATOM   3028  CD1 ILE A 396     -19.283   9.574  -9.498  0.00  0.00           C 0
+ATOM   2966    O GLY A 389     -13.877  10.147 -14.170  0.52  3.21           O 0
+ATOM   2944    O VAL A 386     -11.808  14.601 -13.446  0.24  8.57           O 0
+ATOM   3001   CG LEU A 393     -18.678   8.330 -14.518  0.00  0.00           C 0
+ATOM   3003  CD2 LEU A 393     -19.791   9.044 -13.746  0.00  0.00           C 0
+ATOM   2915  CD2 LEU A 382     -16.930  15.561  -4.711  0.00  0.00           C 0
+ATOM   2912    O LEU A 382     -13.196  15.784  -7.540  0.66  1.07           O 0
+ATOM   2938  CD1 LEU A 385     -14.979  11.401  -5.911  0.00  0.00           C 0
+ATOM   2973  CD1 TRP A 390     -16.534  11.482 -18.073  0.00  0.00           C 0
+ATOM   2968   CA TRP A 390     -15.101   9.315 -16.554  0.00  0.00           C 0
+ATOM   2965    C GLY A 389     -13.504  10.663 -15.226  0.00  0.00           C 0
+ATOM   2964   CA GLY A 389     -12.423  11.740 -15.260  0.00  0.00           C 0
+TER
+END

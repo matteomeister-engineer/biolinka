@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0616
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0614
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6055
+HEADER 5  - Mean B-factor of pocket residues  : 0.9276
+HEADER 6  - Hydrophobicity Score              : 22.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.7587
+HEADER 10 - Pocket volume (convex hull)       : 4.3989
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.7619
+ATOM   2056  CD1 ILE A 275       8.502  -7.436 -16.731  0.00  0.00           C 0
+ATOM   2032   CG GLU A 272      12.881  -5.894 -15.864  0.00  0.00           C 0
+ATOM   2030   CB GLU A 272      12.534  -5.375 -14.459  0.00  0.00           C 0
+ATOM   2055  CG2 ILE A 275       7.584  -8.960 -14.187  0.00  0.00           C 0
+ATOM   1825    O LYS A 247      16.728  -9.124 -13.197  0.08  5.36           O 0
+ATOM   1824   CB LYS A 247      15.961 -11.232 -11.195  0.00  0.00           C 0
+ATOM   2064  CD1 ILE A 276      11.506  -7.539  -9.400  0.00  0.00           C 0
+ATOM   1800   CB ASP A 244      12.158 -10.851  -7.842  0.00  0.00           C 0
+ATOM   1801    O ASP A 244      14.893  -9.523  -8.606  0.00  0.00           O 0
+ATOM   1836  CG2 VAL A 248      14.643  -6.158 -10.122  0.00  0.00           C 0
+ATOM   2035  OE2 GLU A 272      15.043  -6.431 -15.027  0.28  1.07           O 0
+ATOM   2086  OE1 GLN A 279       6.880 -12.263 -10.719  0.29  3.21           O 0
+ATOM   1803  OD1 ASP A 244      11.759 -13.111  -8.481  0.50  2.14           O 0
+ATOM   2085  NE2 GLN A 279       6.392 -11.910 -12.808  0.73  5.47           N 0
+ATOM   2062  CG1 ILE A 276      10.103  -8.011  -9.803  0.00  0.00           C 0
+ATOM   2031    O GLU A 272       9.931  -5.676 -12.402  0.70  1.07           O 0
+ATOM   1827   CD LYS A 247      14.839 -13.293 -10.257  0.00  0.00           C 0
+ATOM   1831   CA VAL A 248      16.379  -6.587 -11.951  0.00  0.00           C 0
+ATOM   1823    C LYS A 247      16.863  -9.020 -11.985  0.00  0.00           C 0
+TER
+END

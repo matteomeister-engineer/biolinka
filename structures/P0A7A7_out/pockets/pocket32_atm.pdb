@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0681
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9672
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5488
+HEADER 5  - Mean B-factor of pocket residues  : 0.8326
+HEADER 6  - Hydrophobicity Score              : 30.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 168.6849
+HEADER 10 - Pocket volume (convex hull)       : 2.4172
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1567   SD MET A 196     -12.139 -20.801  23.817  0.00  0.00           S 0
+ATOM   1564   CB MET A 196     -13.097 -20.264  21.251  0.00  0.00           C 0
+ATOM   1603  NH1 ARG A 200      -8.111 -17.035  19.627  0.00  0.00           N 0
+ATOM   1543  CG1 VAL A 193      -9.985 -24.809  19.235  0.00  0.00           C 0
+ATOM   1544  CG2 VAL A 193     -10.038 -25.734  21.531  0.00  0.00           C 0
+ATOM   1539   CA VAL A 193     -12.131 -24.668  20.617  0.00  0.00           C 0
+ATOM   1605   CZ ARG A 200      -8.946 -16.532  20.494  0.00  0.00           C 0
+ATOM   1604  NH2 ARG A 200      -8.569 -16.485  21.742  0.00  0.00           N 0
+ATOM   1542    O VAL A 193     -12.832 -22.980  19.082  0.00  0.00           O 0
+ATOM   1569    N HIS A 197     -13.388 -20.344  18.086  0.00  0.00           N 0
+ATOM   2369  NE2 HIS A 295      -9.642 -17.756  15.213  0.00  0.00           N 0
+ATOM   1572   CB HIS A 197     -12.699 -21.342  15.980  0.00  0.00           C 0
+ATOM   1576  ND1 HIS A 197     -11.069 -20.693  14.144  0.00  0.00           N 0
+ATOM   1570   CA HIS A 197     -13.046 -20.034  16.700  0.00  0.00           C 0
+TER
+END

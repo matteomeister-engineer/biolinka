@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1784
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0983
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4125
+HEADER 5  - Mean B-factor of pocket residues  : 0.6246
+HEADER 6  - Hydrophobicity Score              : 2.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 361.7715
+HEADER 10 - Pocket volume (convex hull)       : 9.8819
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2039   CG GLN A 255     -11.415   8.196  -9.221  0.00  0.00           C 0
+ATOM    169   OH TYR A  20     -10.404  -0.588 -11.072  0.00  0.00           O 0
+ATOM   2030    O ASN A 254      -8.290   6.911  -8.070  0.00  0.00           O 0
+ATOM   2041  NE2 GLN A 255     -13.643   7.200  -9.304  0.00  0.00           N 0
+ATOM   2029   CB ASN A 254      -5.513   7.498  -7.342  0.00  0.00           C 0
+ATOM    404   CE LYS A  50      -5.409   2.893  -4.409  0.00  0.00           C 0
+ATOM    379  CG2 VAL A  47      -2.958   1.513 -10.595  0.00  0.00           C 0
+ATOM    403   CD LYS A  50      -4.340   1.897  -4.882  0.00  0.00           C 0
+ATOM    412  ND2 ASN A  51      -7.363  -0.634  -8.548  0.00  0.00           N 0
+ATOM    413  OD1 ASN A  51      -9.359  -0.516  -7.664  0.53  7.50           O 0
+ATOM    405   NZ LYS A  50      -5.002   4.329  -4.354  0.69  1.09           N 0
+ATOM   2032  ND2 ASN A 254      -3.080   7.592  -7.412  0.40  7.66           N 0
+ATOM    378  CG1 VAL A  47      -4.859   0.005 -11.056  0.00  0.00           C 0
+ATOM    123  OE1 GLU A  15      -4.866   1.382 -14.632  0.00  0.00           O 0
+TER
+END

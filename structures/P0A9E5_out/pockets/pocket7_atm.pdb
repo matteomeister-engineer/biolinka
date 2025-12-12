@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0418
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9990
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6139
+HEADER 5  - Mean B-factor of pocket residues  : 0.9936
+HEADER 6  - Hydrophobicity Score              : -11.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 306.6616
+HEADER 10 - Pocket volume (convex hull)       : 12.6306
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   1672   CG ARG A 213     -24.974  -0.531   8.365  0.00  0.00           C 0
+ATOM   1671    O ARG A 213     -22.457  -3.189  10.976  0.00  0.00           O 0
+ATOM   1668   CA ARG A 213     -22.847  -1.342   9.522  0.00  0.00           C 0
+ATOM   1737   NZ LYS A 220     -26.951  -2.853  16.765  0.00  0.00           N 0
+ATOM   1670   CB ARG A 213     -23.906  -1.633   8.443  0.00  0.00           C 0
+ATOM   1705   NE ARG A 217     -24.210  -7.982  10.491  0.00  0.00           N 0
+ATOM   1735   CD LYS A 220     -25.148  -4.449  17.393  0.00  0.00           C 0
+ATOM   1703   CG ARG A 217     -22.908  -7.951  12.620  0.00  0.00           C 0
+ATOM   1695   CA GLY A 216     -21.114  -2.139  14.279  0.00  0.00           C 0
+ATOM   1665    O SER A 212     -20.789  -0.107  10.994  0.00  0.00           O 0
+ATOM   1699   CA ARG A 217     -22.075  -5.850  13.813  0.00  0.00           C 0
+ATOM   1698    N ARG A 217     -21.744  -4.430  13.613  0.00  0.00           N 0
+ATOM   1732   CB LYS A 220     -23.358  -6.038  18.125  0.00  0.00           C 0
+ATOM   1696    C GLY A 216     -21.596  -3.554  14.615  0.00  0.00           C 0
+ATOM   1736   CE LYS A 220     -25.669  -3.015  17.495  0.00  0.00           C 0
+ATOM   1701   CB ARG A 217     -22.447  -6.491  12.467  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.1707
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5855
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3715
+HEADER 5  - Mean B-factor of pocket residues  : 0.7617
+HEADER 6  - Hydrophobicity Score              : 72.5556
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.6315
+HEADER 10 - Pocket volume (convex hull)       : 7.2761
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.9091
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5500
+ATOM   2955    N LEU A 388      -9.588  12.242 -12.264  0.00  0.00           N 0
+ATOM   1429   CB ALA A 191      -3.424  13.668 -10.578  0.00  0.00           C 0
+ATOM   2949    C MET A 387      -9.089  13.238 -13.004  0.00  0.00           C 0
+ATOM   2950   CB MET A 387      -7.960  14.955 -11.592  0.00  0.00           C 0
+ATOM   2961  CD1 LEU A 388      -7.901   8.645 -11.103  0.00  0.00           C 0
+ATOM   2951    O MET A 387      -8.598  13.036 -14.112  0.00  0.00           O 0
+ATOM   2693  CD1 ILE A 352      -8.877   9.204  -6.699  0.00  0.00           C 0
+ATOM   2931  CD2 LEU A 384      -6.100  13.900  -6.633  0.00  0.00           C 0
+ATOM   1430    O ALA A 191      -2.661  11.002  -8.733  0.56  8.57           O 0
+ATOM   1453  CD1 PHE A 194      -4.786   9.963  -4.199  0.00  0.00           C 0
+ATOM   2928    O LEU A 384      -9.714  12.676  -9.360  0.69  1.07           O 0
+ATOM   1458    N TRP A 195      -1.410   8.343  -5.493  0.00  0.00           N 0
+ATOM   2661  ND2 ASN A 348      -4.719   5.015  -8.827  0.73  8.75           N 0
+ATOM   2660   CG ASN A 348      -5.626   4.666  -7.946  0.00  0.00           C 0
+ATOM   2658   CB ASN A 348      -7.069   5.069  -8.200  0.00  0.00           C 0
+ATOM   1493  CG2 VAL A 198      -4.543   6.075  -2.860  0.00  0.00           C 0
+ATOM   2691  CG1 ILE A 352      -9.074   8.880  -5.212  0.00  0.00           C 0
+TER
+END

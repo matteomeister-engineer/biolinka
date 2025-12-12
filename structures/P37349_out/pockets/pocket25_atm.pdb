@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0536
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9231
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5114
+HEADER 5  - Mean B-factor of pocket residues  : 0.9933
+HEADER 6  - Hydrophobicity Score              : 30.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 158.8528
+HEADER 10 - Pocket volume (convex hull)       : 2.1944
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0909
+ATOM   2921  CD2 LEU A 383       6.694  14.763   9.708  0.00  0.00           C 0
+ATOM   2915   CA LEU A 383       4.300  15.449  11.657  0.00  0.00           C 0
+ATOM   2120    O ARG A 284       9.709  13.832  11.514  0.00  0.00           O 0
+ATOM   2918    O LEU A 383       4.372  17.800  12.145  0.42  2.14           O 0
+ATOM   2121   CG ARG A 284      10.784  18.243  11.246  0.00  0.00           C 0
+ATOM   2154  OE1 GLN A 287      11.995  15.095  16.391  0.58  9.64           O 0
+ATOM   2117   CA ARG A 284      11.157  15.696  11.194  0.00  0.00           C 0
+ATOM   2936  NE2 GLN A 385       6.102  19.270  16.902  0.39  1.09           N 0
+ATOM   2123   NE ARG A 284       8.628  19.362  10.739  0.53  3.28           N 0
+ATOM   2908    O HIS A 382       4.019  15.200  14.434  0.41  5.36           O 0
+ATOM   2149   CB GLN A 287      11.182  12.777  14.755  0.00  0.00           C 0
+ATOM   2185  CE2 PHE A 291       8.504  12.167  18.188  0.00  0.00           C 0
+ATOM   2183  CD2 PHE A 291       7.669  11.349  17.409  0.00  0.00           C 0
+ATOM   2155    N ALA A 288       8.805  11.429  13.125  0.00  0.00           N 0
+ATOM   2156   CA ALA A 288       7.395  11.068  12.999  0.00  0.00           C 0
+ATOM   2158   CB ALA A 288       6.758  11.961  11.941  0.00  0.00           C 0
+ATOM   2119   CB ARG A 284      10.440  16.906  10.578  0.00  0.00           C 0
+TER
+END

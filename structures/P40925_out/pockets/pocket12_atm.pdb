@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0163
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9359
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5249
+HEADER 5  - Mean B-factor of pocket residues  : 0.6402
+HEADER 6  - Hydrophobicity Score              : -3.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 410.5939
+HEADER 10 - Pocket volume (convex hull)       : 19.6014
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5238
+ATOM    238  OD1 ASP A  33     -18.969 -14.835  -0.978  0.00  0.00           O 0
+ATOM      2   CA MET A   1     -21.020 -15.498   6.350  0.00  0.00           C 0
+ATOM      6   CG MET A   1     -22.852 -14.177   5.170  0.00  0.00           C 0
+ATOM      1    N MET A   1     -21.676 -16.777   6.701  0.00  0.00           N 0
+ATOM    470  CD2 LEU A  64     -20.041  -8.971   1.046  0.00  0.00           C 0
+ATOM      7   SD MET A   1     -23.977 -12.748   5.196  0.00  0.00           S 0
+ATOM    227    O LYS A  32     -18.860 -11.181  -1.309  0.00  0.00           O 0
+ATOM    236    O ASP A  33     -17.815 -12.747   3.207  0.71  2.14           O 0
+ATOM    235   CB ASP A  33     -17.455 -14.267   0.761  0.00  0.00           C 0
+ATOM    460    O PRO A  63     -23.919  -6.969   2.552  0.28  9.64           O 0
+ATOM    459   CB PRO A  63     -25.163  -7.137  -0.313  0.00  0.00           C 0
+ATOM    254   CG PRO A  35     -19.812 -10.277   6.022  0.00  0.00           C 0
+ATOM      9    N SER A   2     -18.724 -14.828   6.854  0.00  0.00           N 0
+ATOM     14   OG SER A   2     -16.120 -15.032   5.914  0.00  0.00           O 0
+ATOM    233   CA ASP A  33     -17.767 -12.765   0.806  0.00  0.00           C 0
+ATOM    486   CE LYS A  66     -23.612  -8.640   6.844  0.00  0.00           C 0
+TER
+END

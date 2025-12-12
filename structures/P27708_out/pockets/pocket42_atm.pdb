@@ -1,0 +1,65 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0112
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    84
+HEADER 3  - Mean alpha-sphere radius          : 3.8032
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4327
+HEADER 5  - Mean B-factor of pocket residues  : 0.8450
+HEADER 6  - Hydrophobicity Score              : -2.3333
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.8667
+HEADER 9  - Pocket volume (Monte Carlo)       : 583.6351
+HEADER 10 - Pocket volume (convex hull)       : 160.0406
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 13.2941
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.2024
+ATOM  11520   NE ARG A1507     -49.171   7.629 -46.921  0.43  7.66           N 0
+ATOM  11928   CD GLU A1565     -55.529  10.307 -48.595  0.00  0.00           C 0
+ATOM  11927   CG GLU A1565     -55.491  11.445 -47.559  0.00  0.00           C 0
+ATOM  11929  OE1 GLU A1565     -54.702  10.370 -49.535  0.00  0.00           O 0
+ATOM  11909    O PHE A1563     -50.895  13.449 -44.375  0.40  6.43           O 0
+ATOM  11922    N GLU A1565     -55.233  12.383 -44.716  0.00  0.00           N 0
+ATOM  11523   CZ ARG A1507     -48.183   8.159 -47.617  0.00  0.00           C 0
+ATOM  11521  NH1 ARG A1507     -47.520   7.473 -48.507  0.00  8.75           N 0
+ATOM  11519   CD ARG A1507     -49.635   6.233 -47.007  0.00  0.00           C 0
+ATOM  11522  NH2 ARG A1507     -47.846   9.405 -47.436  0.21  6.56           N 0
+ATOM  11354   CE LYS A1482     -43.086   9.070 -44.167  0.00  0.00           C 0
+ATOM  11325    O GLY A1478     -46.268   3.639 -45.645  0.48  8.57           O 0
+ATOM  11345  CE1 HIS A1481     -41.811   6.056 -45.865  0.00  0.00           C 0
+ATOM  11518   CG ARG A1507     -50.579   5.884 -45.852  0.00  0.00           C 0
+ATOM  11930  OE2 GLU A1565     -56.311   9.347 -48.415  0.50  7.50           O 0
+ATOM  11326    N GLY A1479     -45.840   3.309 -43.470  0.00  0.00           N 0
+ATOM  11324    C GLY A1478     -46.510   3.049 -44.593  0.00  0.00           C 0
+ATOM  11507   CA THR A1506     -51.232   5.361 -41.096  0.00  0.00           C 0
+ATOM  11502    O ASN A1505     -50.569   8.109 -40.410  0.75  7.50           O 0
+ATOM  11911  CD1 PHE A1563     -47.923  13.121 -43.898  0.00  0.00           C 0
+ATOM  11913  CE1 PHE A1563     -47.138  12.574 -44.929  0.00  0.00           C 0
+ATOM  11303  NH1 ARG A1475     -47.963  10.281 -40.099  0.56  5.47           N 0
+ATOM  11919   CB SER A1564     -53.814  12.439 -41.879  0.00  0.00           C 0
+ATOM  11510    O THR A1506     -52.596   5.934 -42.997  0.59  4.29           O 0
+ATOM  11500    C ASN A1505     -51.685   7.645 -40.140  0.00  0.00           C 0
+ATOM  11534   CB PRO A1509     -56.218   6.325 -42.157  0.00  0.00           C 0
+ATOM  11925   CB GLU A1565     -56.596  11.357 -46.489  0.00  0.00           C 0
+ATOM  11508    C THR A1506     -51.715   5.199 -42.546  0.00  0.00           C 0
+ATOM  11499   CA ASN A1505     -52.794   8.498 -39.482  0.00  0.00           C 0
+ATOM  11355   NZ LYS A1482     -43.368  10.482 -44.478  0.37  2.19           N 0
+ATOM  11301   CD ARG A1475     -46.196   8.048 -39.632  0.00  0.00           C 0
+ATOM  11299    O ARG A1475     -46.485   3.396 -40.770  0.70  1.07           O 0
+ATOM  11327   CA GLY A1479     -44.737   4.269 -43.346  0.00  0.00           C 0
+ATOM  11513    N ARG A1507     -51.150   4.257 -43.317  0.00  0.00           N 0
+ATOM  11319    O PRO A1477     -49.124   2.462 -42.256  0.00  0.00           O 0
+ATOM  11936   CG LEU A1566     -57.545  10.222 -41.286  0.00  0.00           C 0
+ATOM  11537   CD PRO A1509     -55.975   5.117 -44.203  0.00  0.00           C 0
+ATOM  11516   CB ARG A1507     -50.713   4.359 -45.768  0.00  0.00           C 0
+ATOM  11525   CA PRO A1508     -54.383   2.650 -44.685  0.00  0.00           C 0
+ATOM  11917   CA SER A1564     -53.416  13.038 -43.231  0.00  0.00           C 0
+ATOM  11536   CG PRO A1509     -56.928   6.073 -43.487  0.00  0.00           C 0
+ATOM  11514   CA ARG A1507     -51.656   3.884 -44.655  0.00  0.00           C 0
+ATOM  11302   NE ARG A1475     -45.900   9.486 -39.476  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0075
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8714
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5018
+HEADER 5  - Mean B-factor of pocket residues  : 0.9658
+HEADER 6  - Hydrophobicity Score              : -3.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 239.5680
+HEADER 10 - Pocket volume (convex hull)       : 4.2417
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4286
+ATOM   2954  OG1 THR A 382      -2.746   6.101  23.322  0.75  7.50           O 0
+ATOM   2936    O ASN A 380      -7.507   5.422  22.413  0.59  2.14           O 0
+ATOM   2921   CG PRO A 378      -7.679   2.817  26.616  0.00  0.00           C 0
+ATOM   2919   CB PRO A 378      -8.593   3.573  25.652  0.00  0.00           C 0
+ATOM   2953  CG2 THR A 382      -4.236   7.899  22.937  0.00  0.00           C 0
+ATOM   2961  OG1 THR A 383      -0.254   2.766  22.148  0.00  0.00           O 0
+ATOM   2922   CD PRO A 378      -7.756   1.380  26.106  0.00  0.00           C 0
+ATOM   2915   CE MET A 377      -5.285  -1.700  22.280  0.00  0.00           C 0
+ATOM   2753   CA GLY A 354      -1.068  -1.810  22.323  0.00  0.00           C 0
+ATOM   2947  OD1 ASN A 381      -3.791   2.217  20.161  0.54  1.07           O 0
+ATOM   2948    N THR A 382      -4.484   5.418  21.210  0.00  0.00           N 0
+ATOM   2945   CG ASN A 381      -4.874   1.709  19.914  0.00  0.00           C 0
+ATOM   2941   CA ASN A 381      -6.162   3.780  20.557  0.00  0.00           C 0
+ATOM   2607  OD1 ASN A 334      -7.787  -0.145  20.706  0.00  0.00           O 0
+ATOM   2755    O GLY A 354      -2.636  -0.785  20.866  0.52  1.07           O 0
+TER
+END

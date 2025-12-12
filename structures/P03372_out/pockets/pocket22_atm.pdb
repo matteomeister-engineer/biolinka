@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0036
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0919
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7655
+HEADER 5  - Mean B-factor of pocket residues  : 0.1804
+HEADER 6  - Hydrophobicity Score              : -26.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.3956
+HEADER 10 - Pocket volume (convex hull)       : 7.9403
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   2110    N ASP A 273     -22.605  -0.710  58.076  0.68  2.19           N 0
+ATOM   2103   CA ASP A 272     -22.989  -2.038  56.130  0.00  0.00           C 0
+ATOM   2096   CG ARG A 271     -24.550  -0.732  51.855  0.00  0.00           C 0
+ATOM   2114    O ASP A 273     -21.137   2.044  58.322  0.00  0.00           O 0
+ATOM   2092   CA ARG A 271     -22.428  -1.984  52.472  0.00  0.00           C 0
+ATOM   2085   CB GLN A 270     -18.001  -2.032  50.737  0.00  0.00           C 0
+ATOM   2084    C GLN A 270     -20.459  -2.465  51.004  0.00  0.00           C 0
+ATOM   2086    O GLN A 270     -20.760  -1.711  50.082  0.00  0.00           O 0
+ATOM   2087   CG GLN A 270     -16.848  -2.121  51.753  0.00  0.00           C 0
+ATOM   2106    O ASP A 272     -20.789  -1.572  56.972  0.18  8.57           O 0
+ATOM   2118    N GLY A 274     -22.748   2.223  59.891  0.41  2.19           N 0
+ATOM   2112    C ASP A 273     -21.925   1.519  59.111  0.00  0.00           C 0
+ATOM   2119   CA GLY A 274     -22.911   3.669  59.897  0.00  0.00           C 0
+ATOM   2104    C ASP A 272     -22.002  -1.413  57.121  0.00  0.00           C 0
+ATOM   2108  OD1 ASP A 272     -25.772  -2.060  56.250  0.31  8.57           O 0
+ATOM   2099  NH1 ARG A 271     -28.351  -0.122  51.691  0.00  0.00           N 0
+ATOM   2101   CZ ARG A 271     -27.608   0.898  51.364  0.00  0.00           C 0
+ATOM   2100  NH2 ARG A 271     -28.150   2.082  51.434  0.00  0.00           N 0
+ATOM   2098   NE ARG A 271     -26.348   0.766  50.981  0.42  4.37           N 0
+ATOM   2102    N ASP A 272     -22.316  -2.349  54.868  0.52  2.19           N 0
+ATOM   2091    N ARG A 271     -21.297  -2.795  51.993  0.45  2.19           N 0
+TER
+END

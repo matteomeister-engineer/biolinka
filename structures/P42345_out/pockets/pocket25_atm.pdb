@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 0.0031
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.5812
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4478
+HEADER 5  - Mean B-factor of pocket residues  : 0.8052
+HEADER 6  - Hydrophobicity Score              : 22.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.8826
+HEADER 10 - Pocket volume (convex hull)       : 4.3140
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3600
+ATOM   7522  OD2 ASP A 961       0.993 -12.888   3.777  0.00  0.00           O 0
+ATOM  10325   OH TYR A1310      -3.842 -14.280   0.717  0.61  7.50           O 0
+ATOM   7480   CD ARG A 957      -0.182 -11.944  -4.060  0.00  0.00           C 0
+ATOM   7479   CG ARG A 957       1.191 -12.579  -3.786  0.00  0.00           C 0
+ATOM  10338   CB PRO A1312      -7.198 -14.463  -1.642  0.00  0.00           C 0
+ATOM  10323  CE1 TYR A1310      -4.386 -16.381  -0.279  0.00  0.00           C 0
+ATOM   7482  NH1 ARG A 957      -2.472 -12.889  -5.514  0.22  4.37           N 0
+ATOM   7490  CG1 ILE A 958      -0.654 -17.538  -1.404  0.00  0.00           C 0
+ATOM   7478    O ARG A 957       3.041 -14.522  -1.404  0.56  2.14           O 0
+ATOM   7544  CD1 LEU A 964      -0.841 -15.937   2.710  0.00  0.00           C 0
+ATOM   7476    C ARG A 957       2.517 -15.143  -2.320  0.00  0.00           C 0
+ATOM   7492  CD1 ILE A 958      -1.768 -18.577  -1.521  0.00  0.00           C 0
+ATOM  10373  OD2 ASP A1316      -4.707 -14.264  -6.035  0.56  1.07           O 0
+ATOM  10343   CA MET A1313      -6.327 -18.089  -4.457  0.00  0.00           C 0
+ATOM  10349   CE MET A1313      -2.413 -19.570  -4.880  0.00  0.00           C 0
+ATOM   7457    O ALA A 954       0.267 -17.344  -5.135  0.00  0.00           O 0
+ATOM   7486   CA ILE A 958       1.724 -16.951  -0.813  0.00  0.00           C 0
+ATOM   7485    N ILE A 958       1.903 -16.315  -2.134  0.00  0.00           N 0
+ATOM  10342    N MET A1313      -6.825 -17.234  -3.363  0.00  0.00           N 0
+TER
+END

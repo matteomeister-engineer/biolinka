@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1225
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0403
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5405
+HEADER 5  - Mean B-factor of pocket residues  : 0.8150
+HEADER 6  - Hydrophobicity Score              : 28.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 388.9105
+HEADER 10 - Pocket volume (convex hull)       : 30.2335
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM   2529   CE LYS A 330      -1.206  12.825  21.736  0.00  0.00           C 0
+ATOM   2655    O GLN A 348       4.497  14.467  20.743  0.40  9.64           O 0
+ATOM   2654   CB GLN A 348       4.658  16.519  22.640  0.00  0.00           C 0
+ATOM   2530   NZ LYS A 330      -0.529  12.058  22.809  0.71  5.47           N 0
+ATOM   2659  OE1 GLN A 348       2.614  18.226  23.538  0.72  4.29           O 0
+ATOM   2528   CD LYS A 330      -0.643  12.422  20.375  0.00  0.00           C 0
+ATOM   2527   CG LYS A 330      -1.451  13.018  19.217  0.00  0.00           C 0
+ATOM   2624  CE2 TYR A 343       4.317  17.254  13.239  0.00  0.00           C 0
+ATOM   2622  CD2 TYR A 343       4.075  18.014  12.085  0.00  0.00           C 0
+ATOM   2580  CD1 LEU A 337       0.177  20.262  11.868  0.00  0.00           C 0
+ATOM   2631    O THR A 344       5.998  20.204  14.739  0.00  0.00           O 0
+ATOM   2646   OG SER A 346       4.983  18.209  19.190  0.42  4.29           O 0
+ATOM   2526    O LYS A 330      -0.519  13.547  14.757  0.69  4.29           O 0
+ATOM   2525   CB LYS A 330      -0.890  12.467  17.899  0.00  0.00           C 0
+ATOM   2539  NH1 ARG A 331       4.750  11.782  15.352  0.67  7.66           N 0
+ATOM   2625   OH TYR A 343       5.672  15.671  14.394  0.43  3.21           O 0
+ATOM   2556   CA ALA A 334       1.156  15.491  11.965  0.00  0.00           C 0
+ATOM   2555    N ALA A 334      -0.237  15.231  12.329  0.78  1.09           N 0
+ATOM   2558   CB ALA A 334       2.065  14.582  12.803  0.00  0.00           C 0
+ATOM   2523   CA LYS A 330      -1.745  12.805  16.669  0.00  0.00           C 0
+ATOM   2553  CD1 LEU A 333      -4.645  16.352  15.464  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0187
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7715
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6066
+HEADER 5  - Mean B-factor of pocket residues  : 0.8958
+HEADER 6  - Hydrophobicity Score              : -16.4286
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.5077
+HEADER 10 - Pocket volume (convex hull)       : 16.3733
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   1968    O ASP A 254     -13.772   2.280  14.783  0.60  5.36           O 0
+ATOM   1973   CA ALA A 255     -16.045   1.363  13.430  0.00  0.00           C 0
+ATOM   2087  NH1 ARG A 271     -15.905   5.545  16.536  0.00  0.00           N 0
+ATOM   1996  NH1 ARG A 258     -12.273   8.118  13.371  0.00  0.00           N 0
+ATOM   1994   CD ARG A 258     -12.287   6.520  15.797  0.00  0.00           C 0
+ATOM   1976    O ALA A 255     -17.501   2.531  14.939  0.41  3.21           O 0
+ATOM   1955  OE2 GLU A 252     -15.708  -1.349   7.388  0.86  6.43           O 0
+ATOM   1950   CB GLU A 252     -14.328  -2.294   9.652  0.00  0.00           C 0
+ATOM   1953   CD GLU A 252     -14.480  -1.551   7.220  0.00  0.00           C 0
+ATOM   1975   CB ALA A 255     -16.837   0.656  12.330  0.00  0.00           C 0
+ATOM   1971  OD2 ASP A 254     -10.908   1.441  11.794  0.00  0.00           O 0
+ATOM   1972    N ALA A 255     -14.784   0.648  13.633  0.00  0.00           N 0
+ATOM   1970  OD1 ASP A 254     -11.763  -0.604  11.989  0.83  5.36           O 0
+ATOM   1952   CG GLU A 252     -13.737  -2.425   8.241  0.00  0.00           C 0
+ATOM   1954  OE1 GLU A 252     -13.824  -1.121   6.242  0.00  0.00           O 0
+ATOM   2291  ND2 ASN A 298      -8.468  -1.918   6.980  0.59  7.66           N 0
+ATOM   2288   CB ASN A 298      -6.761  -1.204   8.552  0.00  0.00           C 0
+ATOM   2299   CD ARG A 299      -7.708   3.833  11.007  0.00  0.00           C 0
+ATOM   2298   CG ARG A 299      -6.869   2.558  11.119  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.3693
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    63
+HEADER 3  - Mean alpha-sphere radius          : 3.9058
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4708
+HEADER 5  - Mean B-factor of pocket residues  : 0.9182
+HEADER 6  - Hydrophobicity Score              : -7.8696
+HEADER 7  - Polarity Score                    :    19
+HEADER 8  - Amino Acid based volume Score     : 4.6957
+HEADER 9  - Pocket volume (Monte Carlo)       : 559.4069
+HEADER 10 - Pocket volume (convex hull)       : 168.4530
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 1.5000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.0635
+ATOM    554  OD1 ASP A  71      -3.648   3.784  -2.265  0.00  0.00           O 0
+ATOM    272   NZ LYS A  35     -10.273   2.163  -3.623  0.79  2.19           N 0
+ATOM    246  OE1 GLU A  32      -8.983   4.335  -7.876  0.63  2.14           O 0
+ATOM    161  OE2 GLU A  21      -6.164   0.218  -4.410  0.43  3.21           O 0
+ATOM    529   CB ASP A  68      -7.481   8.326  -3.579  0.00  0.00           C 0
+ATOM    245   CD GLU A  32      -8.219   3.431  -8.264  0.00  0.00           C 0
+ATOM    533  OD2 ASP A  68      -6.969   8.507  -5.918  0.00  0.00           O 0
+ATOM    531   CG ASP A  68      -7.875   8.441  -5.058  0.00  0.00           C 0
+ATOM    225   CE LYS A  30      -3.486   3.095  -9.372  0.00  0.00           C 0
+ATOM    441   OH TYR A  56      -1.453   3.599  -3.916  0.53  6.43           O 0
+ATOM    439  CE1 TYR A  56      -2.166   1.314  -4.092  0.00  0.00           C 0
+ATOM    808   NZ LYS A 105      -0.653   6.784  -3.554  0.44  4.37           N 0
+ATOM   1115   OH TYR A 142       2.008   6.252  -9.014  0.29  3.21           O 0
+ATOM    794  OD2 ASP A 103       0.611   8.907  -4.830  0.00  0.00           O 0
+ATOM    759  OD2 ASP A  98       0.984  11.292  -8.598  0.00  0.00           O 0
+ATOM    521  OD2 ASP A  66      -3.653  10.235  -2.970  0.55  1.07           O 0
+ATOM    226   NZ LYS A  30      -4.586   3.953  -9.908  0.15  9.84           N 0
+ATOM    247  OE2 GLU A  32      -7.261   3.568  -9.078  0.89  1.07           O 0
+ATOM    517   CB ASP A  66      -4.289  12.347  -3.879  0.00  0.00           C 0
+ATOM    790   CB ASP A 103       0.938  11.062  -3.770  0.00  0.00           C 0
+ATOM    758  OD1 ASP A  98       0.891  13.451  -8.063  0.00  0.00           O 0
+ATOM    782    O GLU A 102      -0.752  14.016  -2.477  0.67  2.14           O 0
+ATOM    772   CB ALA A 100      -2.053  14.648  -9.269  0.00  0.00           C 0
+ATOM    555  OD2 ASP A  71      -2.841   5.811  -2.488  0.54  3.21           O 0
+ATOM    792   CG ASP A 103       0.368   9.647  -3.841  0.00  0.00           C 0
+ATOM    774    N GLY A 101      -0.014  16.318  -7.082  0.00  0.00           N 0
+ATOM    271   CE LYS A  35     -11.094   3.407  -3.652  0.00  0.00           C 0
+ATOM    339  NH1 ARG A  44      -2.533   4.889 -12.562  0.57  5.47           N 0
+ATOM   1125   NZ LYS A 143       1.526   9.682 -10.711  0.30  2.19           N 0
+ATOM    767  OE1 GLU A  99       0.638  11.640 -12.659  0.38  4.29           O 0
+ATOM   1172   NZ LYS A 149      -0.917   8.251 -15.374  0.00  0.00           N 0
+ATOM   1124   CE LYS A 143       1.835   8.364 -11.357  0.00  0.00           C 0
+ATOM    518    O ASP A  66      -7.019  13.289  -5.051  0.32  5.36           O 0
+ATOM    244   CG GLU A  32      -8.476   2.045  -7.665  0.00  0.00           C 0
+ATOM    450   CB TYR A  58      -6.936   2.105   0.108  0.00  0.00           C 0
+ATOM    540   CD PRO A  69      -9.661   6.470  -1.631  0.00  0.00           C 0
+ATOM    538    O PRO A  69      -6.263   6.384  -0.232  0.00  0.00           O 0
+ATOM    340  NH2 ARG A  44      -0.339   5.036 -12.220  0.00  0.00           N 0
+ATOM    408   OH TYR A  52       0.638   0.749  -7.790  0.68  1.07           O 0
+ATOM   1083  CE1 PHE A 139       3.462   3.721  -4.734  0.00  0.00           C 0
+TER
+END

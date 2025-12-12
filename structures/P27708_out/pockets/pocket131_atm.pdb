@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   131:
+HEADER 0  - Pocket Score                      : -0.2372
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1200
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5241
+HEADER 5  - Mean B-factor of pocket residues  : 0.2805
+HEADER 6  - Hydrophobicity Score              : 8.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.1667
+HEADER 10 - Pocket volume (convex hull)       : 11.2849
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM  10489  CG2 VAL A1370      -2.193 -50.156  21.769  0.00  0.00           C 0
+ATOM  10483    N VAL A1370      -2.931 -50.592  18.944  0.00  0.00           N 0
+ATOM  10463   CB GLU A1367      -3.233 -44.031  19.846  0.00  0.00           C 0
+ATOM  10473    O GLU A1368      -1.841 -47.732  18.295  0.60  2.14           O 0
+ATOM  10468  OE2 GLU A1367      -3.704 -44.251  22.643  0.00  0.00           O 0
+ATOM  10464    O GLU A1367      -3.883 -45.342  16.953  0.37  7.50           O 0
+ATOM  10479   CA ALA A1369      -3.339 -49.565  16.767  0.00  0.00           C 0
+ATOM  10446  ND1 HIS A1365      -9.022 -46.392  16.935  0.74  5.47           N 0
+ATOM  10501    O GLY A1372      -8.215 -54.525  18.040  0.36  6.43           O 0
+ATOM  10447  CE1 HIS A1365     -10.026 -47.266  17.115  0.00  0.00           C 0
+ATOM  10516   SG CYS A1374     -12.060 -52.748  19.869  0.00  0.00           S 0
+ATOM  10487    O VAL A1370      -4.514 -52.880  19.189  0.60  2.14           O 0
+ATOM  10514   CB CYS A1374     -11.870 -52.448  18.087  0.00  0.00           C 0
+ATOM  10481   CB ALA A1369      -3.872 -50.343  15.556  0.00  0.00           C 0
+ATOM  10515    O CYS A1374     -11.820 -53.530  14.973  0.39  7.50           O 0
+ATOM  10448  NE2 HIS A1365     -11.061 -46.955  16.324  0.67  2.19           N 0
+ATOM  10521    O PRO A1375     -13.762 -51.131  14.193  0.44  4.29           O 0
+TER
+END

@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1355
+HEADER 1  - Drug Score                        : 0.0118
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 4.1628
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6003
+HEADER 5  - Mean B-factor of pocket residues  : 0.9620
+HEADER 6  - Hydrophobicity Score              : 8.2222
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 510.4757
+HEADER 10 - Pocket volume (convex hull)       : 31.5397
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4231
+ATOM    314  ND2 ASN A  44      -9.042  -7.914  -7.707  0.58  9.84           N 0
+ATOM    270    O GLN A  38      -4.486  -5.832 -11.787  0.00  0.00           O 0
+ATOM    267   CA GLN A  38      -4.401  -3.440 -11.895  0.00  0.00           C 0
+ATOM    315  OD1 ASN A  44      -9.789  -6.283  -6.476  0.58  6.43           O 0
+ATOM    305   CB SER A  43      -7.212  -2.570  -5.517  0.00  0.00           C 0
+ATOM    265    O ALA A  37      -3.107  -3.785  -9.428  0.42  1.07           O 0
+ATOM    307   OG SER A  43      -6.459  -1.453  -5.953  0.00  0.00           O 0
+ATOM    264   CB ALA A  37      -2.162  -0.561  -9.157  0.00  0.00           C 0
+ATOM    241   CG GLN A  34      -4.782   2.830 -13.479  0.00  0.00           C 0
+ATOM    240    O GLN A  34      -3.070  -0.011 -12.670  0.00  0.00           O 0
+ATOM    237   CA GLN A  34      -2.482   2.311 -12.517  0.00  0.00           C 0
+ATOM    233  CE1 PHE A  33      -1.030   3.434  -7.540  0.00  0.00           C 0
+ATOM    292   CA GLY A  41      -4.407  -7.032  -8.124  0.00  0.00           C 0
+ATOM    313   CG ASN A  44      -9.092  -7.272  -6.564  0.00  0.00           C 0
+ATOM    308    N ASN A  44      -7.359  -5.621  -4.695  0.54  1.09           N 0
+ATOM    271   CG GLN A  38      -6.118  -3.557 -13.782  0.00  0.00           C 0
+ATOM    269   CB GLN A  38      -4.951  -2.770 -13.162  0.00  0.00           C 0
+ATOM    231  CD1 PHE A  33      -0.629   3.863  -8.818  0.00  0.00           C 0
+ATOM    208   CA GLY A  30       0.553   7.715 -13.225  0.00  0.00           C 0
+ATOM    878  NH2 ARG A 113      -0.523   7.430  -6.055  0.00  0.00           N 0
+ATOM    228   CB PHE A  33       1.153   4.169 -10.592  0.00  0.00           C 0
+ATOM    210    O GLY A  30      -0.636   5.632 -13.325  0.00  0.00           O 0
+ATOM    239   CB GLN A  34      -3.326   3.299 -13.336  0.00  0.00           C 0
+ATOM    244  OE1 GLN A  34      -5.715   4.984 -13.981  0.00  0.00           O 0
+ATOM    266    N GLN A  38      -3.369  -2.581 -11.310  0.62  1.09           N 0
+TER
+END

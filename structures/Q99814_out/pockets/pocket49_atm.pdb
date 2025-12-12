@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.1680
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0076
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5845
+HEADER 5  - Mean B-factor of pocket residues  : 0.1149
+HEADER 6  - Hydrophobicity Score              : 3.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 343.5606
+HEADER 10 - Pocket volume (convex hull)       : 20.7748
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.8261
+ATOM   5749   CG LYS A 738     -10.137 -50.729  -0.085  0.00  0.00           C 0
+ATOM   5748    O LYS A 738      -8.562 -52.653  -2.650  0.60  4.29           O 0
+ATOM   5754   CA ARG A 739      -6.159 -50.992  -2.274  0.00  0.00           C 0
+ATOM   5758   CG ARG A 739      -5.452 -53.437  -2.552  0.00  0.00           C 0
+ATOM   5750   CD LYS A 738     -10.986 -51.303   1.065  0.00  0.00           C 0
+ATOM   5779   CE LYS A 741      -5.647 -51.528   6.048  0.00  0.00           C 0
+ATOM   5751   CE LYS A 738     -10.583 -50.758   2.439  0.00  0.00           C 0
+ATOM   5780   NZ LYS A 741      -5.903 -52.756   6.849  0.72  9.84           N 0
+ATOM   5752   NZ LYS A 738     -11.540 -51.200   3.491  0.00  0.00           N 0
+ATOM   5777   CG LYS A 741      -4.120 -50.413   4.346  0.00  0.00           C 0
+ATOM   5772    N LYS A 741      -3.000 -48.846   1.710  0.48  4.37           N 0
+ATOM   5765   CA MET A 740      -3.584 -50.196  -0.389  0.00  0.00           C 0
+ATOM   5778   CD LYS A 741      -4.491 -51.726   5.058  0.00  0.00           C 0
+ATOM   5769   CG MET A 740      -2.269 -52.444  -0.125  0.00  0.00           C 0
+ATOM   5764    N MET A 740      -4.234 -49.479  -1.514  0.59  2.19           N 0
+ATOM   5755    C ARG A 739      -5.282 -49.716  -2.320  0.00  0.00           C 0
+ATOM   5745   CA LYS A 738     -10.034 -50.789  -2.723  0.00  0.00           C 0
+ATOM   5753    N ARG A 739      -7.554 -50.634  -2.671  0.58  4.37           N 0
+ATOM   5757    O ARG A 739      -5.577 -48.868  -3.146  0.00  0.00           O 0
+ATOM   5775   CB LYS A 741      -2.889 -50.632   3.452  0.00  0.00           C 0
+TER
+END

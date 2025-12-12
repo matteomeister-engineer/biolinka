@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    95:
+HEADER 0  - Pocket Score                      : -0.0823
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9598
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5780
+HEADER 5  - Mean B-factor of pocket residues  : 0.7953
+HEADER 6  - Hydrophobicity Score              : 1.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 140.6829
+HEADER 10 - Pocket volume (convex hull)       : 1.2540
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   6752    N THR A 863       3.114   5.360   0.229  0.00  0.00           N 0
+ATOM   6757  CG2 THR A 863       4.451   2.665  -0.224  0.00  0.00           C 0
+ATOM   6783  OE2 GLU A 866       1.460   2.093  -2.448  0.00  0.00           O 0
+ATOM   6748   CB PRO A 862       4.368   7.791  -1.571  0.00  0.00           C 0
+ATOM   6747    C PRO A 862       2.585   6.470  -0.294  0.00  0.00           C 0
+ATOM   6782  OE1 GLU A 866       0.647   3.099  -4.248  0.00  0.00           O 0
+ATOM   7077    O ILE A 903       5.523   6.507  -7.843  0.00  0.00           O 0
+ATOM   7079  CG2 ILE A 903       2.799   5.359  -7.989  0.00  0.00           C 0
+ATOM   7074   CA ILE A 903       3.622   7.448  -6.687  0.00  0.00           C 0
+ATOM   6750   CG PRO A 862       5.736   7.331  -1.066  0.00  0.00           C 0
+ATOM   7069    O ASN A 902       4.754   9.161  -4.703  0.19  2.14           O 0
+ATOM   7078  CG1 ILE A 903       1.358   6.400  -6.207  0.00  0.00           C 0
+TER
+END

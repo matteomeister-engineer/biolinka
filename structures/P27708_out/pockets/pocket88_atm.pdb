@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    88:
+HEADER 0  - Pocket Score                      : -0.0861
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9845
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5379
+HEADER 5  - Mean B-factor of pocket residues  : 0.7335
+HEADER 6  - Hydrophobicity Score              : -1.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 172.5525
+HEADER 10 - Pocket volume (convex hull)       : 3.2656
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM  13004   CG PRO A1702     -46.929  18.591 -41.505  0.00  0.00           C 0
+ATOM  11894   CG GLU A1561     -53.382  21.584 -44.087  0.00  0.00           C 0
+ATOM  12686   NE ARG A1661     -48.919  23.801 -40.878  0.78  1.09           N 0
+ATOM  12688  NH2 ARG A1661     -47.591  24.375 -42.640  0.04  7.66           N 0
+ATOM  12684   CG ARG A1661     -48.834  21.656 -39.611  0.00  0.00           C 0
+ATOM  11900    C THR A1562     -52.062  17.153 -42.405  0.00  0.00           C 0
+ATOM  11893    O GLU A1561     -52.919  20.588 -40.419  0.69  1.07           O 0
+ATOM  11902    O THR A1562     -52.583  17.213 -43.515  0.82  5.36           O 0
+ATOM  11906   CA PHE A1563     -50.426  15.518 -43.218  0.00  0.00           C 0
+ATOM  13005   CD PRO A1702     -45.978  18.156 -42.620  0.00  0.00           C 0
+ATOM  12670  OE1 GLU A1659     -45.083  23.292 -42.945  0.79  6.43           O 0
+ATOM  11895   CD GLU A1561     -52.955  22.687 -45.069  0.00  0.00           C 0
+ATOM  11896  OE1 GLU A1561     -52.648  22.326 -46.226  0.00  0.00           O 0
+ATOM  11899   CA THR A1562     -52.646  17.907 -41.223  0.00  0.00           C 0
+ATOM  11912  CD2 PHE A1563     -47.590  15.349 -44.819  0.00  0.00           C 0
+ATOM  11905    N PHE A1563     -51.007  16.374 -42.178  0.58  3.28           N 0
+TER
+END

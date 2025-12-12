@@ -1,0 +1,54 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   111:
+HEADER 0  - Pocket Score                      : -0.1316
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    40
+HEADER 3  - Mean alpha-sphere radius          : 3.8283
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4984
+HEADER 5  - Mean B-factor of pocket residues  : 0.9162
+HEADER 6  - Hydrophobicity Score              : 26.2857
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.9286
+HEADER 9  - Pocket volume (Monte Carlo)       : 474.8758
+HEADER 10 - Pocket volume (convex hull)       : 53.0071
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 8.9091
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.2750
+ATOM  12119    O ILE A1587     -61.467  14.002 -27.021  0.00  0.00           O 0
+ATOM  12293    N HIS A1611     -60.512  16.207 -25.386  0.00  0.00           N 0
+ATOM  12284    O SER A1609     -64.977  14.727 -24.942  0.00  0.00           O 0
+ATOM  12285   OG SER A1609     -65.156  13.369 -22.256  0.00  0.00           O 0
+ATOM  13319  NE2 HIS A1741     -62.732   7.464 -19.459  0.80  6.56           N 0
+ATOM  12094    O HIS A1584     -65.080   6.540 -21.445  0.67  2.14           O 0
+ATOM  12088    O SER A1583     -68.272   9.473 -22.519  0.71  4.29           O 0
+ATOM  12091   CA HIS A1584     -67.428   6.937 -21.542  0.00  0.00           C 0
+ATOM  13318  CE1 HIS A1741     -62.528   7.299 -18.148  0.00  0.00           C 0
+ATOM  12093   CB HIS A1584     -67.819   5.641 -20.821  0.00  0.00           C 0
+ATOM  12288    C VAL A1610     -61.504  16.867 -24.793  0.00  0.00           C 0
+ATOM  12109   CA PRO A1586     -62.349   9.969 -24.930  0.00  0.00           C 0
+ATOM  13295    O ILE A1739     -59.604   9.690 -20.757  0.64  5.36           O 0
+ATOM  12469    O PRO A1633     -64.138  17.910 -21.320  0.59  1.07           O 0
+ATOM  12283   CB SER A1609     -65.059  14.708 -21.809  0.00  0.00           C 0
+ATOM  12484  CG2 THR A1635     -58.990  16.842 -19.226  0.00  0.00           C 0
+ATOM  12468   CB PRO A1633     -66.187  17.688 -19.363  0.00  0.00           C 0
+ATOM  12092    C HIS A1584     -66.027   6.828 -22.167  0.00  0.00           C 0
+ATOM  12115    N ILE A1587     -62.804  11.552 -26.693  0.00  0.00           N 0
+ATOM  13297  CG2 ILE A1739     -57.858  12.417 -21.056  0.00  0.00           C 0
+ATOM  12485  OG1 THR A1635     -58.761  16.154 -21.469  0.80  3.21           O 0
+ATOM  13288  NH1 ARG A1738     -59.467  14.452 -14.011  0.00  0.00           N 0
+ATOM  12466   CA PRO A1633     -65.220  18.878 -19.383  0.00  0.00           C 0
+ATOM  12111   CB PRO A1586     -60.902   9.984 -24.426  0.00  0.00           C 0
+ATOM  12108    N PRO A1586     -62.855   8.640 -24.631  0.00  0.00           N 0
+ATOM  13292   CA ILE A1739     -58.232  10.772 -19.127  0.00  0.00           C 0
+ATOM  13296  CG1 ILE A1739     -57.315  13.092 -18.684  0.00  0.00           C 0
+ATOM  12467    C PRO A1633     -64.152  18.815 -20.490  0.00  0.00           C 0
+ATOM  12102    C LEU A1585     -64.168   8.349 -24.643  0.00  0.00           C 0
+ATOM  12104    O LEU A1585     -65.019   9.157 -25.033  0.00  0.00           O 0
+ATOM  12476    O VAL A1634     -60.584  19.864 -19.599  0.59  7.50           O 0
+ATOM  12296   CB HIS A1611     -58.364  15.150 -24.910  0.00  0.00           C 0
+TER
+END

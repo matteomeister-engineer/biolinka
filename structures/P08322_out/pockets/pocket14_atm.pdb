@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0768
+HEADER 1  - Drug Score                        : 0.0148
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9357
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6626
+HEADER 5  - Mean B-factor of pocket residues  : 0.9585
+HEADER 6  - Hydrophobicity Score              : 28.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.0555
+HEADER 10 - Pocket volume (convex hull)       : 1.2709
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6364
+ATOM   1104   CZ ARG A 141     -14.450  11.526  -4.822  0.00  0.00           C 0
+ATOM   1056  CE2 TRP A 136     -13.987  14.420   0.423  0.00  0.00           C 0
+ATOM   1058  NE1 TRP A 136     -13.087  13.697  -0.335  0.00  0.00           N 0
+ATOM   1119  OE1 GLU A 143     -12.650  13.501  -3.316  0.62  4.29           O 0
+ATOM   1101   NE ARG A 141     -13.783  11.021  -3.803  0.00  0.00           N 0
+ATOM   1102  NH1 ARG A 141     -15.587  11.035  -5.223  0.00  0.00           N 0
+ATOM   1100   CD ARG A 141     -14.162   9.879  -2.951  0.00  0.00           C 0
+ATOM   1060  CZ2 TRP A 136     -14.459  15.739   0.359  0.00  0.00           C 0
+ATOM   1087  CE2 TYR A 139     -18.884  10.835   1.297  0.00  0.00           C 0
+ATOM   1057  CE3 TRP A 136     -15.459  13.945   2.296  0.00  0.00           C 0
+ATOM   1103  NH2 ARG A 141     -13.988  12.564  -5.446  0.15  4.37           N 0
+ATOM   1061  CZ3 TRP A 136     -15.923  15.273   2.249  0.00  0.00           C 0
+ATOM   1059  CH2 TRP A 136     -15.425  16.169   1.286  0.00  0.00           C 0
+ATOM   1085  CD2 TYR A 139     -17.831   9.934   1.064  0.00  0.00           C 0
+ATOM   1055  CD2 TRP A 136     -14.476  13.490   1.389  0.00  0.00           C 0
+ATOM   1053   CG TRP A 136     -13.820  12.209   1.166  0.00  0.00           C 0
+TER
+END

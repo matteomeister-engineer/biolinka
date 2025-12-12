@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1276
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8493
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5687
+HEADER 5  - Mean B-factor of pocket residues  : 0.9617
+HEADER 6  - Hydrophobicity Score              : 3.6000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.5351
+HEADER 10 - Pocket volume (convex hull)       : 14.7524
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2216   CB HIS A 281       7.511 -14.977   5.175  0.00  0.00           C 0
+ATOM   2191    O SER A 278       9.255 -15.620   8.996  0.67  5.36           O 0
+ATOM   2467    N PHE A 312      12.118 -14.371   3.591  0.00  0.00           N 0
+ATOM   2470   CB PHE A 312      11.213 -13.563   5.739  0.00  0.00           C 0
+ATOM   2213    N HIS A 281       5.839 -15.169   6.944  0.62  2.19           N 0
+ATOM   2223    N GLN A 282       4.803 -16.473   4.509  0.00  0.00           N 0
+ATOM   2228   CG GLN A 282       5.353 -19.139   3.135  0.00  0.00           C 0
+ATOM   2197    O LYS A 279       5.736 -17.722  10.410  0.00  0.00           O 0
+ATOM   2226   CB GLN A 282       3.996 -18.620   3.649  0.00  0.00           C 0
+ATOM   2455    O ASN A 310      10.734 -17.485   1.387  0.00  0.00           O 0
+ATOM   2230  NE2 GLN A 282       6.814 -18.465   1.278  0.00  0.00           N 0
+ATOM   2219  CD2 HIS A 281       7.793 -15.050   2.625  0.00  0.00           C 0
+ATOM   2203   CA ARG A 280       4.525 -15.604   8.973  0.00  0.00           C 0
+ATOM   2888  OD1 ASP A 366       0.431 -21.327   7.018  0.50  3.21           O 0
+ATOM   2232    N TYR A 283       1.964 -16.489   5.017  0.00  0.00           N 0
+ATOM   2235   CB TYR A 283       0.422 -15.943   6.844  0.00  0.00           C 0
+ATOM   2881    O GLY A 365      -0.461 -18.837  10.158  0.00  0.00           O 0
+ATOM   2207   CG ARG A 280       2.962 -15.735  10.948  0.00  0.00           C 0
+ATOM   2879   CA GLY A 365      -0.498 -20.607  11.788  0.00  0.00           C 0
+ATOM   2880    C GLY A 365      -0.881 -19.958  10.453  0.00  0.00           C 0
+ATOM   2878    N GLY A 365       0.205 -19.702  12.709  0.00  0.00           N 0
+TER
+END

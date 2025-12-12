@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   135:
+HEADER 0  - Pocket Score                      : -0.1229
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.2497
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6702
+HEADER 5  - Mean B-factor of pocket residues  : 0.9457
+HEADER 6  - Hydrophobicity Score              : 36.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.9792
+HEADER 10 - Pocket volume (convex hull)       : 1.1164
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1818
+ATOM  15220  OD1 ASN A1920      30.291  43.087 -25.421  0.69  1.07           O 0
+ATOM  15495   CZ ARG A1955      37.169  42.771 -28.140  0.00  0.00           C 0
+ATOM  15488   CB ARG A1955      35.653  38.947 -27.682  0.00  0.00           C 0
+ATOM  15470    O LEU A1952      32.327  40.526 -28.291  0.71  3.21           O 0
+ATOM  15472  CD1 LEU A1952      33.254  44.887 -27.860  0.00  0.00           C 0
+ATOM  15219  ND2 ASN A1920      31.117  44.773 -24.290  0.00  0.00           N 0
+ATOM  15493  NH1 ARG A1955      38.089  42.996 -27.242  0.00  0.00           N 0
+ATOM  15494  NH2 ARG A1955      36.472  43.793 -28.545  0.68  9.84           N 0
+ATOM  15496    N LEU A1956      32.954  37.804 -26.383  0.72  1.09           N 0
+ATOM  15499   CB LEU A1956      31.056  38.537 -25.027  0.00  0.00           C 0
+ATOM  15489    O ARG A1955      34.643  36.397 -25.883  0.66  3.21           O 0
+ATOM  15530  OE1 GLN A1959      34.561  37.589 -20.494  0.85  1.07           O 0
+ATOM  15497   CA LEU A1956      32.146  37.462 -25.210  0.00  0.00           C 0
+ATOM  15487    C ARG A1955      34.141  37.242 -26.620  0.00  0.00           C 0
+ATOM  15502  CD1 LEU A1956      31.107  38.472 -22.475  0.00  0.00           C 0
+ATOM  15249  CG2 VAL A1924      31.049  42.225 -21.274  0.00  0.00           C 0
+TER
+END

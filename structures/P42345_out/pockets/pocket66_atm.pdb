@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    66:
+HEADER 0  - Pocket Score                      : -0.0562
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9569
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6147
+HEADER 5  - Mean B-factor of pocket residues  : 0.9842
+HEADER 6  - Hydrophobicity Score              : -3.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.6051
+HEADER 10 - Pocket volume (convex hull)       : 13.6090
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM  16687    O ASP A2102      33.101  -3.639 -63.661  0.00  0.00           O 0
+ATOM  16726   CB HIS A2106      33.455  -6.054 -61.223  0.00  0.00           C 0
+ATOM  16689  OD1 ASP A2102      32.059  -4.784 -66.896  0.50  7.50           O 0
+ATOM  16690  OD2 ASP A2102      34.096  -5.485 -67.409  0.42  8.57           O 0
+ATOM  16759  NH1 ARG A2109      28.293  -6.886 -64.168  0.00  0.00           N 0
+ATOM  16698  CD2 LEU A2103      38.312  -4.217 -62.988  0.00  0.00           C 0
+ATOM  16479  OD1 ASP A2077      39.947  -6.489 -58.287  0.50  5.36           O 0
+ATOM  16478   CG ASP A2077      38.821  -5.949 -58.181  0.00  0.00           C 0
+ATOM  16732  NE2 HIS A2106      35.192  -8.814 -59.563  0.00  0.00           N 0
+ATOM  16480  OD2 ASP A2077      37.787  -6.574 -57.820  0.52  1.07           O 0
+ATOM  16728   CG HIS A2106      33.950  -7.343 -60.621  0.00  0.00           C 0
+ATOM  16731  CE1 HIS A2106      34.270  -9.475 -60.287  0.00  0.00           C 0
+ATOM  16730  ND1 HIS A2106      33.463  -8.616 -60.923  0.47  9.84           N 0
+ATOM  16729  CD2 HIS A2106      34.999  -7.465 -59.756  0.00  0.00           C 0
+TER
+END

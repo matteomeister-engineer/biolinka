@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.0365
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9019
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4731
+HEADER 5  - Mean B-factor of pocket residues  : 0.9705
+HEADER 6  - Hydrophobicity Score              : 16.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.5372
+HEADER 10 - Pocket volume (convex hull)       : 2.8420
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5882
+ATOM  17149   CD PRO A2158      30.002  -6.567 -26.027  0.00  0.00           C 0
+ATOM  16963  NH1 ARG A2134      34.016  -4.515 -20.317  0.00  0.00           N 0
+ATOM  16964  NH2 ARG A2134      34.788  -5.137 -22.320  0.00  0.00           N 0
+ATOM  17134    O ILE A2156      31.497  -2.966 -24.997  0.50  1.07           O 0
+ATOM  17129   OG SER A2155      31.295  -2.383 -20.450  0.00  0.00           O 0
+ATOM  17139   CA ALA A2157      28.990  -3.770 -25.888  0.00  0.00           C 0
+ATOM  17287   CE MET A2175      25.881  -3.664 -18.915  0.00  0.00           C 0
+ATOM  17141   CB ALA A2157      27.486  -3.804 -26.172  0.00  0.00           C 0
+ATOM  17327  OE1 GLU A2181      23.478  -5.186 -21.399  0.60  5.36           O 0
+ATOM  17138    N ALA A2157      29.384  -2.409 -25.536  0.00  0.00           N 0
+ATOM  17283   CB MET A2175      28.001  -1.113 -19.579  0.00  0.00           C 0
+ATOM  17280    N MET A2175      27.399   0.371 -21.442  0.72  1.09           N 0
+ATOM  17270  CG2 THR A2173      23.884  -1.799 -24.364  0.00  0.00           C 0
+ATOM  17269    O THR A2173      27.145  -0.491 -25.713  0.00  0.00           O 0
+TER
+END

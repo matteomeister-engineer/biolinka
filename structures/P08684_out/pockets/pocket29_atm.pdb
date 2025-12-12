@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0783
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0642
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6042
+HEADER 5  - Mean B-factor of pocket residues  : 0.9956
+HEADER 6  - Hydrophobicity Score              : 16.4545
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.5455
+HEADER 9  - Pocket volume (Monte Carlo)       : 327.8627
+HEADER 10 - Pocket volume (convex hull)       : 18.3247
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6316
+ATOM   3516  CD2 PHE A 435      -2.364  -5.002   0.953  0.00  0.00           C 0
+ATOM   3507   CG PRO A 434      -4.106  -4.748  -2.524  0.00  0.00           C 0
+ATOM   3491  CE1 TYR A 432      -6.710  -7.368  -3.214  0.00  0.00           C 0
+ATOM   2895  OD1 ASN A 361      -8.354  -6.992   0.767  0.44  9.64           O 0
+ATOM   3619  CD1 LEU A 449      -4.499  -7.177   4.839  0.00  0.00           C 0
+ATOM   3518  CE2 PHE A 435      -3.302  -4.427   1.826  0.00  0.00           C 0
+ATOM   3584   SD MET A 445      -0.560  -8.198   2.174  0.00  0.00           S 0
+ATOM   3508   CD PRO A 434      -3.664  -5.245  -3.899  0.00  0.00           C 0
+ATOM   3487    O TYR A 432      -3.411  -8.020  -5.854  0.00  0.00           O 0
+ATOM   3523    O GLY A 436       1.710  -7.512  -3.355  0.42  5.36           O 0
+ATOM   3558  ND2 ASN A 441       4.005  -9.120   0.631  0.26  5.47           N 0
+ATOM   3585   CE MET A 445      -0.200  -9.666   3.173  0.00  0.00           C 0
+ATOM   3459   CB PRO A 429      -2.180 -13.007  -6.409  0.00  0.00           C 0
+ATOM   3460    O PRO A 429      -1.035 -10.286  -7.217  0.53  1.07           O 0
+ATOM   3529   OG SER A 437       3.078 -11.050  -5.481  0.00  0.00           O 0
+ATOM   3512   CB PHE A 435      -0.014  -5.173   0.020  0.00  0.00           C 0
+ATOM   3509    N PHE A 435      -0.839  -4.191  -2.048  0.00  0.00           N 0
+ATOM   3525   CA SER A 437       3.820  -8.973  -4.479  0.00  0.00           C 0
+ATOM   3530    N GLY A 438       5.594 -10.555  -4.010  0.56  5.47           N 0
+TER
+END

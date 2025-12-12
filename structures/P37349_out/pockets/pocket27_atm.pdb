@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0694
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8572
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5869
+HEADER 5  - Mean B-factor of pocket residues  : 0.8980
+HEADER 6  - Hydrophobicity Score              : 54.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.7772
+HEADER 10 - Pocket volume (convex hull)       : 3.0543
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    685  CD1 LEU A  95      -9.132  -0.036 -24.495  0.00  0.00           C 0
+ATOM    538  CD1 LEU A  75      -8.409   5.091 -20.639  0.00  0.00           C 0
+ATOM    566  OE1 GLU A  79     -11.913   1.086 -20.357  0.00  0.00           O 0
+ATOM    682   CB LEU A  95      -6.626  -0.107 -24.785  0.00  0.00           C 0
+ATOM    693    N ALA A  97      -1.781   2.875 -22.852  0.56  2.19           N 0
+ATOM    696   CB ALA A  97      -1.840   3.554 -20.524  0.00  0.00           C 0
+ATOM    499   SD MET A  69      -7.330   4.664 -24.626  0.00  0.00           S 0
+ATOM    683    O LEU A  95      -3.660  -0.686 -24.038  0.00  0.00           O 0
+ATOM    537   CG LEU A  75      -9.553   4.782 -21.608  0.00  0.00           C 0
+ATOM    694   CA ALA A  97      -1.823   4.049 -21.976  0.00  0.00           C 0
+ATOM    691    O CYS A  96      -2.898   3.787 -24.589  0.00  0.00           O 0
+ATOM    689    C CYS A  96      -2.323   2.830 -24.072  0.00  0.00           C 0
+ATOM    681    C LEU A  95      -4.079   0.004 -24.965  0.00  0.00           C 0
+ATOM    539  CD2 LEU A  75     -10.715   4.229 -20.785  0.00  0.00           C 0
+TER
+END

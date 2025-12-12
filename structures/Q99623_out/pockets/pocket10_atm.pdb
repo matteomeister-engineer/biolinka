@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0311
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.3321
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7045
+HEADER 5  - Mean B-factor of pocket residues  : 0.7744
+HEADER 6  - Hydrophobicity Score              : 25.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 175.0867
+HEADER 10 - Pocket volume (convex hull)       : 0.9017
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   1978   CZ ARG A 252      23.305  14.079 -66.813  0.00  0.00           C 0
+ATOM   1971   CB ARG A 252      21.983  14.920 -70.807  0.00  0.00           C 0
+ATOM   1984   CG LYS A 253      24.989  18.794 -73.366  0.00  0.00           C 0
+ATOM   1950  CD1 ILE A 249      27.200  12.909 -71.177  0.00  0.00           C 0
+ATOM   1949  CG2 ILE A 249      27.182  14.945 -73.439  0.00  0.00           C 0
+ATOM   1972    O ARG A 252      20.613  17.828 -71.158  0.59  2.14           O 0
+ATOM   1980   CA LYS A 253      22.445  18.893 -73.028  0.00  0.00           C 0
+ATOM   2010   CB ALA A 256      20.673  20.606 -69.435  0.00  0.00           C 0
+ATOM   1979    N LYS A 253      22.167  17.472 -72.751  0.73  1.09           N 0
+ATOM   1977  NH2 ARG A 252      23.259  14.944 -65.840  0.00  0.00           N 0
+ATOM   1947    O ILE A 249      24.051  15.560 -73.763  0.00  0.00           O 0
+ATOM   1970    C ARG A 252      21.251  17.059 -71.867  0.00  0.00           C 0
+ATOM   1975   NE ARG A 252      22.483  14.185 -67.847  0.21  6.56           N 0
+TER
+END

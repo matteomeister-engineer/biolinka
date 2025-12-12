@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.1171
+HEADER 1  - Drug Score                        : 0.0098
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8306
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5163
+HEADER 5  - Mean B-factor of pocket residues  : 0.9948
+HEADER 6  - Hydrophobicity Score              : -1.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.6958
+HEADER 10 - Pocket volume (convex hull)       : 5.0154
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM    875   CE LYS A 114     -26.891  -3.082   7.091  0.00  0.00           C 0
+ATOM    549  OE2 GLU A  74     -32.575   0.357   8.855  0.00  0.00           O 0
+ATOM    876   NZ LYS A 114     -25.870  -2.717   8.102  0.00  0.00           N 0
+ATOM    634  CD2 TYR A  84     -28.855   2.900   5.278  0.00  0.00           C 0
+ATOM    630   CB TYR A  84     -28.982   0.771   3.966  0.00  0.00           C 0
+ATOM    615   OG SER A  82     -32.108  -2.412   7.678  0.33  3.21           O 0
+ATOM    632   CG TYR A  84     -28.274   2.058   4.316  0.00  0.00           C 0
+ATOM    874   CD LYS A 114     -27.997  -3.975   7.668  0.00  0.00           C 0
+ATOM    635  CE1 TYR A  84     -26.447   3.648   4.033  0.00  0.00           C 0
+ATOM    636  CE2 TYR A  84     -28.246   4.118   5.608  0.00  0.00           C 0
+ATOM    633  CD1 TYR A  84     -27.068   2.428   3.687  0.00  0.00           C 0
+ATOM    863  OE1 GLN A 112     -24.451  -1.934   3.559  0.51  4.29           O 0
+ATOM    638   CZ TYR A  84     -27.040   4.500   4.989  0.00  0.00           C 0
+ATOM    862  NE2 GLN A 112     -24.247  -0.352   2.039  0.33  4.37           N 0
+TER
+END

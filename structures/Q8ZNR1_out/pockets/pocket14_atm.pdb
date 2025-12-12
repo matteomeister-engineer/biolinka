@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0284
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4594
+HEADER 5  - Mean B-factor of pocket residues  : 0.9533
+HEADER 6  - Hydrophobicity Score              : 6.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.0752
+HEADER 10 - Pocket volume (convex hull)       : 1.2522
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2029    O ARG A 257     -25.907 -12.595  21.526  0.00  0.00           O 0
+ATOM   2032   NE ARG A 257     -27.372 -17.450  20.302  0.41  2.19           N 0
+ATOM   2042  OD1 ASP A 258     -27.166 -15.428  24.145  0.00  0.00           O 0
+ATOM   2034  NH2 ARG A 257     -29.335 -17.765  19.190  0.00  0.00           N 0
+ATOM   2233   CA LEU A 284     -27.269 -15.456  14.063  0.00  0.00           C 0
+ATOM   2240    N ALA A 285     -28.469 -13.491  14.888  0.64  2.19           N 0
+ATOM   2231    O GLY A 283     -29.605 -16.615  15.049  0.28  1.07           O 0
+ATOM   2035   CZ ARG A 257     -28.136 -18.170  19.501  0.00  0.00           C 0
+ATOM   2028   CB ARG A 257     -25.120 -15.393  20.111  0.00  0.00           C 0
+ATOM   2243   CB ALA A 285     -30.250 -12.122  15.809  0.00  0.00           C 0
+ATOM   2245    N ASN A 286     -26.851 -11.380  15.720  0.00  0.00           N 0
+ATOM   2248   CB ASN A 286     -25.127 -10.922  17.413  0.00  0.00           C 0
+ATOM   2252  OD1 ASN A 286     -24.597 -13.025  16.399  0.00  0.00           O 0
+TER
+END

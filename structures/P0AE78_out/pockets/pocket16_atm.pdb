@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0440
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8648
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5471
+HEADER 5  - Mean B-factor of pocket residues  : 0.1633
+HEADER 6  - Hydrophobicity Score              : 3.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.4844
+HEADER 10 - Pocket volume (convex hull)       : 8.1652
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM    116   CB LYS A  16     -53.067  22.333  15.002  0.00  0.00           C 0
+ATOM     97   CA ASN A  14     -57.811  21.503  19.030  0.00  0.00           C 0
+ATOM    103  OD1 ASN A  14     -57.764  23.624  20.839  0.68  7.50           O 0
+ATOM     96    N ASN A  14     -58.847  22.124  18.194  0.52  5.47           N 0
+ATOM    113    N LYS A  16     -54.308  20.576  16.266  0.53  2.19           N 0
+ATOM    104    N LYS A  15     -56.932  19.905  17.290  0.46  1.09           N 0
+ATOM     94    O SER A  13     -59.886  20.398  17.201  0.56  3.21           O 0
+ATOM     86    O ILE A  12     -61.008  23.768  15.236  0.00  0.00           O 0
+ATOM     88  CG2 ILE A  12     -60.899  21.357  12.969  0.00  0.00           C 0
+ATOM     92    C SER A  13     -59.923  21.534  17.671  0.00  0.00           C 0
+ATOM    122    N GLY A  17     -52.240  21.072  18.174  0.46  2.19           N 0
+ATOM    118   CG LYS A  16     -53.698  22.100  13.618  0.00  0.00           C 0
+ATOM    119   CD LYS A  16     -53.588  23.348  12.731  0.00  0.00           C 0
+ATOM    107   CB LYS A  15     -56.678  17.897  15.840  0.00  0.00           C 0
+ATOM    120   CE LYS A  16     -54.166  23.062  11.338  0.00  0.00           C 0
+TER
+END

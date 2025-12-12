@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : 0.0227
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6408
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4127
+HEADER 5  - Mean B-factor of pocket residues  : 0.8866
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 85.5058
+HEADER 10 - Pocket volume (convex hull)       : 0.4054
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   7230  NH1 ARG A 944       2.474  -2.712  17.614  0.50  5.47           N 0
+ATOM   7469   OH TYR A 974       5.129   1.513  12.446  0.39  1.07           O 0
+ATOM   7830  CD2 LEU A1019       3.210   3.073  14.938  0.00  0.00           C 0
+ATOM   7829  CD1 LEU A1019       3.906   2.986  17.317  0.00  0.00           C 0
+ATOM   7231  NH2 ARG A 944       1.262  -0.927  17.223  0.17  2.19           N 0
+ATOM   7208  CG1 VAL A 942       3.921  -2.631  11.977  0.00  0.00           C 0
+ATOM   5947   CB GLU A 785       6.599   0.402  18.846  0.00  0.00           C 0
+ATOM   7197    O SER A 940       0.262   1.871  12.485  0.11  3.21           O 0
+ATOM   7232   CZ ARG A 944       1.543  -2.153  16.893  0.00  0.00           C 0
+ATOM   5944    N GLU A 785       7.756  -1.346  17.587  0.56  2.19           N 0
+ATOM   5933    O VAL A 783       6.964  -4.225  13.916  0.58  1.07           O 0
+ATOM   5925    O MET A 782       7.315  -0.974  12.237  0.31  2.14           O 0
+ATOM   7229   NE ARG A 944       0.916  -2.764  15.889  0.00  0.00           N 0
+TER
+END

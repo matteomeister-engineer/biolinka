@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.2061
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.3441
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5777
+HEADER 5  - Mean B-factor of pocket residues  : 0.8440
+HEADER 6  - Hydrophobicity Score              : -2.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.1095
+HEADER 10 - Pocket volume (convex hull)       : 2.7610
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   1625   CD PRO A 206     -17.653  14.259  11.692  0.00  0.00           C 0
+ATOM   1619    N PRO A 206     -17.546  12.926  11.118  0.00  0.00           N 0
+ATOM     12   CB ALA A   2     -26.186  10.794  13.363  0.00  0.00           C 0
+ATOM   1624   CG PRO A 206     -18.519  15.044  10.712  0.00  0.00           C 0
+ATOM   1620   CA PRO A 206     -17.868  12.961   9.693  0.00  0.00           C 0
+ATOM   1603    C GLU A 204     -17.622  10.871  15.232  0.00  0.00           C 0
+ATOM   1610    N LYS A 205     -17.139  10.731  13.989  0.00  0.00           N 0
+ATOM   1612    C LYS A 205     -17.202  11.787  11.747  0.00  0.00           C 0
+ATOM   1605    O GLU A 204     -17.800  11.983  15.730  0.58  6.43           O 0
+ATOM   1598    O THR A 203     -20.092   8.247  14.790  0.25  9.64           O 0
+ATOM     18    O ALA A   3     -24.549   7.399  10.980  0.56  2.14           O 0
+ATOM     35   CG ARG A   5     -19.409   7.167   9.286  0.00  0.00           C 0
+ATOM     30    N ARG A   5     -21.925   5.645  10.309  0.36  1.09           N 0
+ATOM     36   CD ARG A   5     -18.688   8.254   8.497  0.00  0.00           C 0
+ATOM     33   CB ARG A   5     -20.588   6.630   8.465  0.00  0.00           C 0
+ATOM   1614    O LYS A 205     -17.273  10.694  11.182  0.00  0.00           O 0
+TER
+END

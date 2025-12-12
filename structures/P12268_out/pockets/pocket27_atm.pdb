@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0726
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9509
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4887
+HEADER 5  - Mean B-factor of pocket residues  : 0.8165
+HEADER 6  - Hydrophobicity Score              : -10.3636
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.1818
+HEADER 9  - Pocket volume (Monte Carlo)       : 318.4825
+HEADER 10 - Pocket volume (convex hull)       : 20.5536
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM    883   CB ASP A 117     -26.578   2.276  12.159  0.00  0.00           C 0
+ATOM    849  OE1 GLN A 112     -20.519   5.150  12.093  0.46  2.14           O 0
+ATOM    880    N ASP A 117     -26.019   4.374  13.250  0.38  1.09           N 0
+ATOM    884    O ASP A 117     -24.751   1.418  14.161  0.62  1.07           O 0
+ATOM    879  OG1 THR A 116     -26.035   6.489  10.546  0.09  8.57           O 0
+ATOM    848  NE2 GLN A 112     -19.859   4.275  10.227  0.50  2.19           N 0
+ATOM    818   CE LYS A 109     -21.969  -0.172  10.167  0.00  0.00           C 0
+ATOM   1879  NE2 GLN A 243     -20.082   5.850   7.594  0.40  7.66           N 0
+ATOM    805   CB LYS A 108     -17.549   2.358   5.443  0.00  0.00           C 0
+ATOM   1880  OE1 GLN A 243     -19.472   6.112   5.531  0.71  7.50           O 0
+ATOM   2053    O ALA A 266     -20.252   0.278   3.117  0.00  0.00           O 0
+ATOM   2055   CA GLY A 267     -20.620   2.128   1.003  0.00  0.00           C 0
+ATOM   2044    O GLN A 265     -24.177  -0.344   2.144  0.00  0.00           O 0
+ATOM   1862   NZ LYS A 241     -23.987   8.043   3.299  0.00  0.00           N 0
+ATOM    816   CG LYS A 109     -19.559   0.696   9.956  0.00  0.00           C 0
+ATOM   2050   CA ALA A 266     -21.610  -1.434   2.135  0.00  0.00           C 0
+ATOM    782   NE ARG A 105     -22.232  -3.761   6.393  0.50  7.66           N 0
+ATOM    780   CG ARG A 105     -20.283  -2.473   7.279  0.00  0.00           C 0
+TER
+END

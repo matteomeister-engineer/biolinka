@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0233
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8796
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5225
+HEADER 5  - Mean B-factor of pocket residues  : 0.7946
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 145.5259
+HEADER 10 - Pocket volume (convex hull)       : 0.9713
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM   1489    O PHE A 189       8.648   3.168  22.128  0.27  4.29           O 0
+ATOM   1499    O GLY A 190       5.811   3.735  24.768  0.00  0.00           O 0
+ATOM   2074   OG SER A 259      12.030   6.616  27.998  0.00  0.00           O 0
+ATOM   1506  CG2 VAL A 191       7.823   6.528  23.025  0.00  0.00           C 0
+ATOM   2083  NH1 ARG A 260       9.570  -0.136  25.567  0.00  0.00           N 0
+ATOM   2110  OD2 ASP A 263      10.531   1.625  31.262  0.00  0.00           O 0
+ATOM   2047    O MET A 256      13.516   5.265  23.781  0.41  2.14           O 0
+ATOM   2144  CE1 HIS A 267      11.551  -0.472  28.879  0.00  0.00           C 0
+ATOM   2075    N ARG A 260      14.297   4.058  26.488  0.00  0.00           N 0
+ATOM   2076   CA ARG A 260      14.206   2.591  26.501  0.00  0.00           C 0
+ATOM   2078   CB ARG A 260      13.999   2.101  25.056  0.00  0.00           C 0
+ATOM   2085   CZ ARG A 260      10.201  -0.130  24.426  0.00  0.00           C 0
+ATOM   2082   NE ARG A 260      11.505   0.000  24.327  0.00  0.00           N 0
+ATOM   2081   CD ARG A 260      12.487   0.062  25.420  0.00  0.00           C 0
+ATOM   2073    O SER A 259      14.010   4.320  28.699  0.35  1.07           O 0
+TER
+END

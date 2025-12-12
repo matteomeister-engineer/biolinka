@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.1868
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1718
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5107
+HEADER 5  - Mean B-factor of pocket residues  : 0.9704
+HEADER 6  - Hydrophobicity Score              : 59.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 214.2496
+HEADER 10 - Pocket volume (convex hull)       : 4.3653
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   2253  CG1 ILE A 300      -8.436 -13.233 -15.862  0.00  0.00           C 0
+ATOM   2249   CA ILE A 300      -9.044 -11.060 -14.691  0.00  0.00           C 0
+ATOM   2275  CD1 LEU A 303      -5.805 -10.892 -10.826  0.00  0.00           C 0
+ATOM   2254  CG2 ILE A 300      -8.412 -11.070 -17.168  0.00  0.00           C 0
+ATOM   3516  OE1 GLU A 454      -3.109 -12.117 -19.229  0.50  6.43           O 0
+ATOM   2272   CB LEU A 303      -6.386  -8.676 -11.867  0.00  0.00           C 0
+ATOM   2252    O ILE A 300      -8.597  -8.709 -14.774  0.39  1.07           O 0
+ATOM   2110  CG2 VAL A 282      -1.570 -10.269 -10.704  0.00  0.00           C 0
+ATOM   3493  CD1 LEU A 451       1.586 -10.662 -16.148  0.00  0.00           C 0
+ATOM   2109  CG1 VAL A 282      -1.748 -12.613 -10.004  0.00  0.00           C 0
+ATOM   3525  CD1 ILE A 455      -0.883  -7.991 -15.222  0.00  0.00           C 0
+ATOM   2282   CG LYS A 304      -6.548  -7.181 -17.139  0.00  0.00           C 0
+ATOM   2284   CE LYS A 304      -6.362  -8.393 -19.368  0.00  0.00           C 0
+ATOM   3523  CG1 ILE A 455      -1.815  -7.684 -16.387  0.00  0.00           C 0
+ATOM   2277    N LYS A 304      -6.930  -6.491 -14.061  0.54  1.09           N 0
+TER
+END

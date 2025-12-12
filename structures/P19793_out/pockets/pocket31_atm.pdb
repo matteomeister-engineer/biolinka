@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0841
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7693
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4540
+HEADER 5  - Mean B-factor of pocket residues  : 0.9909
+HEADER 6  - Hydrophobicity Score              : -8.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 167.1716
+HEADER 10 - Pocket volume (convex hull)       : 1.7250
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   1789    N ALA A 238     -20.301  -9.256  -0.567  0.00  0.00           N 0
+ATOM   2156  NH1 ARG A 285     -19.245 -15.192   0.596  0.00  0.00           N 0
+ATOM   1782    C GLU A 237     -21.431  -9.725  -0.028  0.00  0.00           C 0
+ATOM   1783   CB GLU A 237     -22.855 -10.549  -1.901  0.00  0.00           C 0
+ATOM   1761  NH1 ARG A 234     -21.703 -14.502  -6.355  0.00  0.00           N 0
+ATOM   2153   CG ARG A 285     -16.559 -13.330  -0.691  0.00  0.00           C 0
+ATOM   1788  OE2 GLU A 237     -23.281 -12.363  -3.978  0.64  4.29           O 0
+ATOM   1759   CD ARG A 234     -21.772 -11.698  -6.832  0.00  0.00           C 0
+ATOM   2152    O ARG A 285     -16.764 -10.907  -4.307  0.65  6.43           O 0
+ATOM   2151   CB ARG A 285     -16.480 -12.044  -1.514  0.00  0.00           C 0
+ATOM   1757    O ARG A 234     -20.180  -8.792  -3.441  0.62  2.14           O 0
+ATOM   2154   CD ARG A 285     -17.299 -13.053   0.620  0.00  0.00           C 0
+ATOM   2149   CA ARG A 285     -15.544 -12.180  -2.720  0.00  0.00           C 0
+ATOM   2143    O LYS A 284     -13.532 -13.797  -3.841  0.00  0.00           O 0
+TER
+END

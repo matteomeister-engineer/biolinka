@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0294
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7716
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5044
+HEADER 5  - Mean B-factor of pocket residues  : 0.8601
+HEADER 6  - Hydrophobicity Score              : 35.1250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.1033
+HEADER 10 - Pocket volume (convex hull)       : 2.1450
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   1456    N LEU A 195       2.434  -4.900 -13.548  0.00  0.00           N 0
+ATOM   1459   CB LEU A 195       0.623  -3.755 -14.743  0.00  0.00           C 0
+ATOM    134   CB SER A  19      -1.530  -5.738  -9.128  0.00  0.00           C 0
+ATOM   1464    N ALA A 196       2.745  -2.145 -12.868  0.66  3.28           N 0
+ATOM    106   CB ALA A  15      -3.131  -2.549 -11.799  0.00  0.00           C 0
+ATOM   1467   CB ALA A 196       2.990  -0.730 -10.904  0.00  0.00           C 0
+ATOM   1452   CB THR A 194       3.511  -5.423 -10.760  0.00  0.00           C 0
+ATOM   1455  OG1 THR A 194       4.235  -4.220 -10.687  0.00  0.00           O 0
+ATOM     95    O GLY A  13      -3.562  -2.207  -7.645  0.24  4.29           O 0
+ATOM    695   OG SER A  91      -0.924  -2.286  -4.246  0.14  4.29           O 0
+ATOM    694    O SER A  91      -1.638   0.071  -5.238  0.00  0.00           O 0
+ATOM    137    N ILE A  20       0.564  -6.656  -6.840  0.00  0.00           N 0
+ATOM   1454  CG2 THR A 194       3.797  -6.179  -9.468  0.00  0.00           C 0
+ATOM    144  CD1 ILE A  20       4.252  -5.261  -5.062  0.00  0.00           C 0
+ATOM    140   CB ILE A  20       1.831  -6.127  -4.774  0.00  0.00           C 0
+ATOM    132   CA SER A  19      -0.424  -6.798  -9.066  0.00  0.00           C 0
+ATOM    142  CG1 ILE A  20       3.205  -6.311  -5.458  0.00  0.00           C 0
+TER
+END

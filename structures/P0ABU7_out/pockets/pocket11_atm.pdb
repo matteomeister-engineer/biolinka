@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0404
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.3524
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5637
+HEADER 5  - Mean B-factor of pocket residues  : 0.2060
+HEADER 6  - Hydrophobicity Score              : 12.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 329.9810
+HEADER 10 - Pocket volume (convex hull)       : 6.9869
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2609
+ATOM   1836   NE ARG A 242      46.241  19.183 -50.709  0.00  0.00           N 0
+ATOM   1810  NE2 GLN A 239      46.669  17.638 -42.210  0.00  0.00           N 0
+ATOM   1837  NH1 ARG A 242      47.194  21.269 -50.581  0.45  7.66           N 0
+ATOM   1839   CZ ARG A 242      46.146  20.503 -50.708  0.00  0.00           C 0
+ATOM   1835   CD ARG A 242      47.498  18.409 -50.628  0.00  0.00           C 0
+ATOM   1816    O LYS A 240      46.100  13.633 -48.152  0.75  2.14           O 0
+ATOM   1832   CB ARG A 242      48.615  16.175 -50.892  0.00  0.00           C 0
+ATOM   1829    N ARG A 242      48.392  13.937 -49.847  0.51  3.28           N 0
+ATOM   1834   CG ARG A 242      47.265  16.894 -50.738  0.00  0.00           C 0
+ATOM   1808   CG GLN A 239      45.637  15.497 -42.819  0.00  0.00           C 0
+ATOM   1806   CB GLN A 239      46.139  14.220 -43.508  0.00  0.00           C 0
+ATOM   1822   CA LEU A 241      48.425  11.923 -48.480  0.00  0.00           C 0
+ATOM   1807    O GLN A 239      46.467  11.864 -45.180  0.67  3.21           O 0
+ATOM   1811  OE1 GLN A 239      47.798  15.822 -41.808  0.00  0.00           O 0
+ATOM   1828  CD2 LEU A 241      51.022  10.509 -46.975  0.00  0.00           C 0
+ATOM   1809   CD GLN A 239      46.782  16.328 -42.245  0.00  0.00           C 0
+TER
+END

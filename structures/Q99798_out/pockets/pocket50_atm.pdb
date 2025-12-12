@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0610
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6470
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4502
+HEADER 5  - Mean B-factor of pocket residues  : 0.0334
+HEADER 6  - Hydrophobicity Score              : 72.5000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 94.9812
+HEADER 10 - Pocket volume (convex hull)       : 0.5810
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM    190    N VAL A  25     -24.181  39.630 -21.985  0.00  0.00           N 0
+ATOM    202   CG LEU A  26     -18.946  39.602 -20.786  0.00  0.00           C 0
+ATOM    193   CB VAL A  25     -23.162  40.287 -24.171  0.00  0.00           C 0
+ATOM    203  CD1 LEU A  26     -18.602  40.865 -19.996  0.00  0.00           C 0
+ATOM    177  CG1 VAL A  22     -22.791  46.086 -21.861  0.00  0.00           C 0
+ATOM    180   CA ALA A  23     -25.162  42.804 -18.495  0.00  0.00           C 0
+ATOM    176    O VAL A  22     -23.860  45.226 -18.931  0.71  4.29           O 0
+ATOM    183    O ALA A  23     -25.398  40.457 -18.052  0.00  0.00           O 0
+ATOM    200   CB LEU A  26     -19.843  38.680 -19.937  0.00  0.00           C 0
+ATOM    174    C VAL A  22     -24.725  44.898 -19.731  0.00  0.00           C 0
+ATOM    179    N ALA A  23     -25.457  43.794 -19.544  0.72  1.09           N 0
+ATOM    181    C ALA A  23     -25.477  41.345 -18.891  0.00  0.00           C 0
+ATOM    197    N LEU A  26     -21.823  38.248 -21.341  0.50  4.37           N 0
+TER
+END

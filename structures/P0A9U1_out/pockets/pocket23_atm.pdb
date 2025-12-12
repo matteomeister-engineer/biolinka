@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0541
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0879
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5805
+HEADER 5  - Mean B-factor of pocket residues  : 0.8473
+HEADER 6  - Hydrophobicity Score              : -22.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 304.6542
+HEADER 10 - Pocket volume (convex hull)       : 19.8164
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1739
+ATOM   1815  OE2 GLU A 240      22.584  17.693  -1.969  0.00  0.00           O 0
+ATOM   1845   CD LYS A 244      20.840  15.792  -5.163  0.00  0.00           C 0
+ATOM   1847   NZ LYS A 244      22.007  16.096  -7.328  0.00  0.00           N 0
+ATOM   1882  NH2 ARG A 248      25.158  16.336  -1.363  0.38  3.28           N 0
+ATOM   1878   CG ARG A 248      22.824  14.544   1.798  0.00  0.00           C 0
+ATOM   1904   CE LYS A 251      23.486   8.351   1.854  0.00  0.00           C 0
+ATOM   1905   NZ LYS A 251      24.540   8.106   0.850  0.53  4.37           N 0
+ATOM   1903   CD LYS A 251      24.081   8.748   3.206  0.00  0.00           C 0
+ATOM   1883   CZ ARG A 248      24.967  16.063  -0.107  0.00  0.00           C 0
+ATOM   1846   CE LYS A 244      21.109  15.210  -6.551  0.00  0.00           C 0
+ATOM   1844   CG LYS A 244      19.906  14.861  -4.385  0.00  0.00           C 0
+ATOM   3869  OE1 GLU A 508      21.502   8.405  -3.894  0.69  3.21           O 0
+ATOM   1881  NH1 ARG A 248      25.943  15.587   0.619  0.00  0.00           N 0
+ATOM   1880   NE ARG A 248      23.781  16.312   0.389  0.52  1.09           N 0
+ATOM   1872  OE1 GLN A 247      19.456  11.044  -2.891  0.67  5.36           O 0
+ATOM   1842   CB LYS A 244      19.688  15.431  -2.982  0.00  0.00           C 0
+ATOM   1867   CB GLN A 247      19.475  10.725  -0.009  0.00  0.00           C 0
+ATOM   1873    N ARG A 248      20.593  12.492   2.401  0.00  0.00           N 0
+ATOM   1843    O LYS A 244      19.770  14.218   0.080  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0447
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7686
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3688
+HEADER 5  - Mean B-factor of pocket residues  : 0.5433
+HEADER 6  - Hydrophobicity Score              : 29.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 179.6898
+HEADER 10 - Pocket volume (convex hull)       : 7.0824
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5417
+ATOM   2785  OE2 GLU A 348     -31.414  -4.117   5.187  0.30  6.43           O 0
+ATOM   2542  NE1 TRP A 318     -28.387  -3.446   4.383  0.59  2.19           N 0
+ATOM   5550  CD1 LEU A 712     -31.564  -6.133  -1.950  0.00  0.00           C 0
+ATOM   2784  OE1 GLU A 348     -31.134  -2.119   4.295  0.52  4.29           O 0
+ATOM   2544  CZ2 TRP A 318     -27.096  -5.519   3.623  0.00  0.00           C 0
+ATOM   5544    N LEU A 712     -27.753  -6.952  -3.765  0.00  0.00           N 0
+ATOM   5538   CB GLN A 711     -24.694  -6.485  -2.445  0.00  0.00           C 0
+ATOM   5537    C GLN A 711     -26.737  -7.755  -3.418  0.00  0.00           C 0
+ATOM   5511    O LEU A 708     -27.367  -3.838  -3.939  0.00  0.00           O 0
+ATOM   5514  CD2 LEU A 708     -28.786  -1.514  -1.574  0.00  0.00           C 0
+ATOM   5540   CG GLN A 711     -24.159  -7.425  -1.348  0.00  0.00           C 0
+ATOM   2543  CH2 TRP A 318     -25.790  -6.021   3.470  0.00  0.00           C 0
+ATOM   5581  OE2 GLU A 715     -30.017  -9.368   1.126  0.56  6.43           O 0
+ATOM   5539    O GLN A 711     -26.914  -8.913  -3.043  0.54  2.14           O 0
+ATOM   2545  CZ3 TRP A 318     -24.683  -5.228   3.824  0.00  0.00           C 0
+ATOM   5512   CG LEU A 708     -27.299  -1.251  -1.341  0.00  0.00           C 0
+ATOM   2441  OE1 GLN A 306     -22.651  -1.807  -0.256  0.32  1.07           O 0
+ATOM   5543  OE1 GLN A 711     -22.749  -5.610  -0.581  0.69  1.07           O 0
+ATOM   2540  CE2 TRP A 318     -27.274  -4.221   4.125  0.00  0.00           C 0
+TER
+END

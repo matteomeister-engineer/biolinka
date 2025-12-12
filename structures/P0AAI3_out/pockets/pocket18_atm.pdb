@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0424
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.6500
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4925
+HEADER 5  - Mean B-factor of pocket residues  : 0.9558
+HEADER 6  - Hydrophobicity Score              : 27.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.5473
+HEADER 10 - Pocket volume (convex hull)       : 12.7707
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.6000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   3842   NE ARG A 501      13.881  18.123   8.244  0.00  0.00           N 0
+ATOM   4224  CG2 VAL A 549      19.741  17.368   6.635  0.00  0.00           C 0
+ATOM   4198  OD1 ASP A 546      17.735  22.568   7.902  0.64  8.57           O 0
+ATOM   4190  CG2 ILE A 545      18.722  18.837  10.390  0.00  0.00           C 0
+ATOM   3840   CG ARG A 501      15.324  16.280   7.460  0.00  0.00           C 0
+ATOM   4223  CG1 VAL A 549      19.520  17.913   4.240  0.00  0.00           C 0
+ATOM   3843  NH1 ARG A 501      13.270  19.950   6.990  0.00  0.00           N 0
+ATOM   3812  CG2 THR A 497      15.492  18.189   1.480  0.00  0.00           C 0
+ATOM   4193   CA ASP A 546      20.523  22.038   7.709  0.00  0.00           C 0
+ATOM   4196    O ASP A 546      22.007  21.653   5.843  0.65  3.21           O 0
+ATOM   4228   CB LYS A 550      23.558  21.620   2.943  0.00  0.00           C 0
+ATOM   4225    N LYS A 550      22.783  19.506   3.924  0.00  0.00           N 0
+ATOM   4226   CA LYS A 550      23.397  20.108   2.736  0.00  0.00           C 0
+ATOM   4254  CD1 ILE A 553      19.954  17.445   0.339  0.00  0.00           C 0
+ATOM   3841   CD ARG A 501      14.140  17.191   7.133  0.00  0.00           C 0
+ATOM   3845   CZ ARG A 501      13.556  19.398   8.137  0.00  0.00           C 0
+ATOM   3838   CB ARG A 501      15.751  15.523   6.200  0.00  0.00           C 0
+ATOM   4230   CG LYS A 550      24.093  22.282   1.667  0.00  0.00           C 0
+ATOM   4253  CG2 ILE A 553      22.123  17.619  -1.899  0.00  0.00           C 0
+TER
+END

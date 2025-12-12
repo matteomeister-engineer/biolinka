@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.1044
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6956
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5356
+HEADER 5  - Mean B-factor of pocket residues  : 0.7533
+HEADER 6  - Hydrophobicity Score              : 6.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.7885
+HEADER 10 - Pocket volume (convex hull)       : 9.2608
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   4114   CZ TYR A 516     -30.273 -83.157  40.355  0.00  0.00           C 0
+ATOM   4140  OE1 GLN A 519     -29.321 -78.036  39.941  0.83  2.14           O 0
+ATOM   4102  OE1 GLN A 515     -27.213 -80.330  46.238  0.40  3.21           O 0
+ATOM   4113   OH TYR A 516     -29.313 -83.964  39.835  0.00  0.00           O 0
+ATOM   4139  NE2 GLN A 519     -27.561 -76.873  40.478  0.27  8.75           N 0
+ATOM   4112  CE2 TYR A 516     -30.870 -83.492  41.588  0.00  0.00           C 0
+ATOM   4071   CB SER A 512     -29.901 -84.331  45.949  0.00  0.00           C 0
+ATOM   4069   CA SER A 512     -30.225 -82.934  46.485  0.00  0.00           C 0
+ATOM   4073   OG SER A 512     -28.577 -84.687  46.288  0.37  4.29           O 0
+ATOM   4111  CE1 TYR A 516     -30.677 -81.994  39.668  0.00  0.00           C 0
+ATOM   4097   CB GLN A 515     -29.541 -78.804  45.436  0.00  0.00           C 0
+ATOM   4108   CG TYR A 516     -32.265 -81.494  41.453  0.00  0.00           C 0
+ATOM   4103    N TYR A 516     -32.158 -79.156  43.630  0.00  0.00           N 0
+ATOM   4110  CD2 TYR A 516     -31.872 -82.665  42.130  0.00  0.00           C 0
+ATOM   4109  CD1 TYR A 516     -31.671 -81.165  40.219  0.00  0.00           C 0
+ATOM   4072    O SER A 512     -31.635 -81.635  45.071  0.00  0.00           O 0
+ATOM   4100   CD GLN A 515     -27.327 -79.184  46.632  0.00  0.00           C 0
+ATOM   4270   CB SER A 536     -25.933 -74.793  44.929  0.00  0.00           C 0
+ATOM   4101  NE2 GLN A 515     -26.255 -78.585  47.107  0.55  7.66           N 0
+TER
+END

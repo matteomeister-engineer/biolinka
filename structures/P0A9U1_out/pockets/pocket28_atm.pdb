@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0698
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9012
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6089
+HEADER 5  - Mean B-factor of pocket residues  : 0.9154
+HEADER 6  - Hydrophobicity Score              : 19.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.0838
+HEADER 10 - Pocket volume (convex hull)       : 8.2946
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1429
+ATOM   3298    O ALA A 436      23.973 -15.039  -9.975  0.00  0.00           O 0
+ATOM   3267  CD2 LEU A 432      22.170 -13.366 -14.534  0.00  0.00           C 0
+ATOM   3328   CB LYS A 440      21.799 -12.622  -9.033  0.00  0.00           C 0
+ATOM   3331   CD LYS A 440      21.908 -10.079  -9.341  0.00  0.00           C 0
+ATOM   3295   CA ALA A 436      25.764 -16.145 -11.137  0.00  0.00           C 0
+ATOM   3324  OE2 GLU A 439      28.707 -14.415  -7.383  0.76  5.36           O 0
+ATOM   3297   CB ALA A 436      25.976 -15.706 -12.591  0.00  0.00           C 0
+ATOM   3621  OE1 GLU A 478      23.053  -7.617 -12.402  0.48  7.50           O 0
+ATOM   3325    N LYS A 440      23.166 -13.834  -7.376  0.00  0.00           N 0
+ATOM   3322   CD GLU A 439      28.163 -13.534  -6.672  0.00  0.00           C 0
+ATOM   3321   CG GLU A 439      26.795 -13.838  -6.048  0.00  0.00           C 0
+ATOM   3319   CB GLU A 439      26.059 -14.971  -6.771  0.00  0.00           C 0
+ATOM   3323  OE1 GLU A 439      28.656 -12.417  -6.405  0.59  3.21           O 0
+ATOM   3356  NH1 ARG A 443      26.632  -8.255  -6.436  0.45  7.66           N 0
+ATOM   3333   NZ LYS A 440      21.995  -7.662  -9.970  0.00  0.00           N 0
+ATOM   2395    O ILE A 317      24.013  -5.776  -8.762  0.47  4.29           O 0
+ATOM   3354   CD ARG A 443      25.359 -10.210  -4.650  0.00  0.00           C 0
+ATOM   3326   CA LYS A 440      22.177 -12.763  -7.548  0.00  0.00           C 0
+TER
+END

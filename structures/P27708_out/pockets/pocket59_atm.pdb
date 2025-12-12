@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    59:
+HEADER 0  - Pocket Score                      : -0.0453
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8691
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5681
+HEADER 5  - Mean B-factor of pocket residues  : 0.8906
+HEADER 6  - Hydrophobicity Score              : 21.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.2247
+HEADER 10 - Pocket volume (convex hull)       : 1.9564
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   2043   CB ARG A 270      21.945  23.091 -19.899  0.00  0.00           C 0
+ATOM   2062   CZ TYR A 271      19.153  18.778 -18.049  0.00  0.00           C 0
+ATOM   2059  CE1 TYR A 271      19.618  20.041 -17.619  0.00  0.00           C 0
+ATOM   2061   OH TYR A 271      17.842  18.591 -18.349  0.62  6.43           O 0
+ATOM   2039   CE MET A 269      20.822  17.082 -24.210  0.00  0.00           C 0
+ATOM   2035   CB MET A 269      23.236  19.420 -23.765  0.00  0.00           C 0
+ATOM   2060  CE2 TYR A 271      20.049  17.693 -18.132  0.00  0.00           C 0
+ATOM   2063    N GLY A 272      23.896  17.954 -20.425  0.00  0.00           N 0
+ATOM   2408  OD2 ASP A 317      17.687  16.380 -23.311  0.96  3.21           O 0
+ATOM   2037   CG MET A 269      22.833  18.792 -25.100  0.00  0.00           C 0
+ATOM   2020  CE2 TYR A 267      20.993  21.698 -27.493  0.00  0.00           C 0
+ATOM   2040    N ARG A 270      23.046  21.999 -21.775  0.48  5.47           N 0
+ATOM   2051    N TYR A 271      23.569  20.467 -19.342  0.00  0.00           N 0
+ATOM   2033   CA MET A 269      23.599  20.901 -23.888  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,60 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0470
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    53
+HEADER 3  - Mean alpha-sphere radius          : 4.0033
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4871
+HEADER 5  - Mean B-factor of pocket residues  : 0.8020
+HEADER 6  - Hydrophobicity Score              : 28.0909
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8182
+HEADER 9  - Pocket volume (Monte Carlo)       : 661.6761
+HEADER 10 - Pocket volume (convex hull)       : 153.8526
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.4615
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.2453
+ATOM     41    O TYR A   5      -8.153   1.342 -26.970  0.62  7.50           O 0
+ATOM   1697  CD2 HIS A 221      -3.469  -0.506 -24.721  0.00  0.00           C 0
+ATOM     40   CB TYR A   5      -8.772  -0.374 -29.242  0.00  0.00           C 0
+ATOM   1700  NE2 HIS A 221      -2.654  -0.759 -25.828  0.00  0.00           N 0
+ATOM    109   NZ LYS A  13      -9.153   8.675 -22.565  0.00  0.00           N 0
+ATOM     50   CA PRO A   6      -9.923   3.284 -26.154  0.00  0.00           C 0
+ATOM     36  OE1 GLN A   4      -6.371   7.711 -29.213  0.00  0.00           O 0
+ATOM     34   CD GLN A   4      -5.381   7.001 -29.177  0.00  0.00           C 0
+ATOM     31   CB GLN A   4      -6.682   5.101 -30.281  0.00  0.00           C 0
+ATOM     33   CG GLN A   4      -5.302   5.643 -29.877  0.00  0.00           C 0
+ATOM     35  NE2 GLN A   4      -4.334   7.423 -28.503  0.00  0.00           N 0
+ATOM     20    O TYR A   3      -5.706   1.508 -32.315  0.00  0.00           O 0
+ATOM     13    O PRO A   2      -3.672   3.983 -33.768  0.70  1.07           O 0
+ATOM     14   CG PRO A   2      -0.535   3.046 -33.305  0.00  0.00           C 0
+ATOM   1699  CE1 HIS A 221      -1.859   0.312 -25.960  0.00  0.00           C 0
+ATOM     12   CB PRO A   2      -1.347   1.873 -33.857  0.00  0.00           C 0
+ATOM     52   CB PRO A   6     -11.000   4.379 -26.207  0.00  0.00           C 0
+ATOM     54   CG PRO A   6     -11.169   4.645 -27.702  0.00  0.00           C 0
+ATOM     56    N ALA A   7      -9.324   2.125 -24.087  0.60  2.19           N 0
+ATOM   1716  CD2 TYR A 223      -6.739   8.797 -18.484  0.00  0.00           C 0
+ATOM   1710   CA TYR A 223      -4.990   6.311 -17.806  0.00  0.00           C 0
+ATOM   1705    O ILE A 222      -2.571   5.352 -18.851  0.00  0.00           O 0
+ATOM     37    N TYR A   5      -7.822   1.793 -29.864  0.55  1.09           N 0
+ATOM     44  CD2 TYR A   5      -7.761  -1.051 -31.468  0.00  0.00           C 0
+ATOM   1712   CB TYR A 223      -6.521   6.363 -17.841  0.00  0.00           C 0
+ATOM    108   CE LYS A  13      -9.631   7.947 -21.367  0.00  0.00           C 0
+ATOM     61    N LEU A   8     -10.957   3.036 -22.001  0.00  0.00           N 0
+ATOM     59   CB ALA A   7      -8.233   1.115 -22.167  0.00  0.00           C 0
+ATOM   1698  ND1 HIS A 221      -2.149   1.238 -25.033  0.00  0.00           N 0
+ATOM     29   CA GLN A   4      -6.615   3.666 -30.837  0.00  0.00           C 0
+ATOM     64   CB LEU A   8     -11.247   4.298 -19.907  0.00  0.00           C 0
+ATOM     66   CG LEU A   8     -10.408   3.358 -19.024  0.00  0.00           C 0
+ATOM     67  CD1 LEU A   8      -9.616   4.221 -18.045  0.00  0.00           C 0
+ATOM   1694   CB HIS A 221      -3.764   1.409 -23.042  0.00  0.00           C 0
+ATOM   1692   CA HIS A 221      -2.727   1.939 -22.036  0.00  0.00           C 0
+ATOM   1696   CG HIS A 221      -3.162   0.740 -24.247  0.00  0.00           C 0
+ATOM   1695    O HIS A 221      -4.565   2.813 -20.738  0.00  0.00           O 0
+ATOM   1693    C HIS A 221      -3.377   2.484 -20.755  0.00  0.00           C 0
+TER
+END

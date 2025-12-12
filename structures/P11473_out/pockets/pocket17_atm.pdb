@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0002
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8430
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6141
+HEADER 5  - Mean B-factor of pocket residues  : 0.9027
+HEADER 6  - Hydrophobicity Score              : 44.8571
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 269.3127
+HEADER 10 - Pocket volume (convex hull)       : 7.0893
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM    162  NH1 ARG A  22     -40.775 -30.233  23.114  0.52  1.09           N 0
+ATOM    242  CD2 PHE A  34     -39.315 -27.744  26.816  0.00  0.00           C 0
+ATOM    163  NH2 ARG A  22     -39.892 -30.490  21.099  0.57  6.56           N 0
+ATOM    164   CZ ARG A  22     -40.885 -30.069  21.825  0.00  0.00           C 0
+ATOM    223    O ALA A  31     -46.028 -23.707  21.535  0.58  5.36           O 0
+ATOM    160   CD ARG A  22     -43.116 -28.912  21.920  0.00  0.00           C 0
+ATOM    228    O THR A  32     -41.924 -22.127  22.453  0.57  6.43           O 0
+ATOM    226    C THR A  32     -42.942 -22.423  23.065  0.00  0.00           C 0
+ATOM    159   CG ARG A  22     -44.317 -28.793  20.974  0.00  0.00           C 0
+ATOM    157   CB ARG A  22     -45.489 -28.048  21.645  0.00  0.00           C 0
+ATOM    161   NE ARG A  22     -41.948 -29.522  21.254  0.33  3.28           N 0
+ATOM    244  CE2 PHE A  34     -39.525 -29.106  26.540  0.00  0.00           C 0
+ATOM    111  CE2 PHE A  16     -36.269 -33.124  23.045  0.00  0.00           C 0
+ATOM    231    N GLY A  33     -42.940 -23.288  24.080  0.81  1.09           N 0
+ATOM    232   CA GLY A  33     -41.757 -23.981  24.569  0.00  0.00           C 0
+ATOM    287   CE MET A  39     -42.385 -28.123  25.199  0.00  0.00           C 0
+TER
+END

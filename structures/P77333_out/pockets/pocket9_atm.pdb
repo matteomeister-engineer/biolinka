@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0509
+HEADER 1  - Drug Score                        : 0.0101
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1644
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6392
+HEADER 5  - Mean B-factor of pocket residues  : 0.9936
+HEADER 6  - Hydrophobicity Score              : 35.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 356.5639
+HEADER 10 - Pocket volume (convex hull)       : 6.0546
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   1990   CG LYS A 256      17.953  -3.323 -19.847  0.00  0.00           C 0
+ATOM   1988   CB LYS A 256      16.612  -3.535 -20.559  0.00  0.00           C 0
+ATOM   2018  CD1 ILE A 259      14.457   2.751 -23.592  0.00  0.00           C 0
+ATOM   1991   CD LYS A 256      19.088  -3.690 -20.808  0.00  0.00           C 0
+ATOM   1318   CG PRO A 172      13.090  -1.089 -24.287  0.00  0.00           C 0
+ATOM   1989    O LYS A 256      14.070  -3.030 -21.698  0.72  5.36           O 0
+ATOM   1986   CA LYS A 256      15.380  -3.203 -19.698  0.00  0.00           C 0
+ATOM   2007    O LEU A 258      13.222   0.538 -18.839  0.61  2.14           O 0
+ATOM   1963    O ILE A 253      15.714  -1.654 -16.617  0.00  0.00           O 0
+ATOM   2022   CB ARG A 260      13.190   5.783 -15.836  0.00  0.00           C 0
+ATOM   2023    O ARG A 260      14.135   7.287 -18.403  0.00  0.00           O 0
+ATOM   1965  CG2 ILE A 253      14.950   1.215 -15.137  0.00  0.00           C 0
+ATOM   2019    N ARG A 260      13.021   4.689 -18.045  0.76  3.28           N 0
+ATOM   2012   CA ILE A 259      13.023   3.148 -19.943  0.00  0.00           C 0
+ATOM   2017  CG2 ILE A 259      14.414   4.804 -21.266  0.00  0.00           C 0
+ATOM   2016  CG1 ILE A 259      14.092   2.430 -22.138  0.00  0.00           C 0
+TER
+END

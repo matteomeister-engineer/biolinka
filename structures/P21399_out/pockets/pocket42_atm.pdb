@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0382
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7513
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4369
+HEADER 5  - Mean B-factor of pocket residues  : 0.8674
+HEADER 6  - Hydrophobicity Score              : 10.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.3009
+HEADER 10 - Pocket volume (convex hull)       : 15.6768
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   4976    O SER A 638      15.661 -14.884  24.558  0.50  4.29           O 0
+ATOM   4973   CA SER A 638      14.373 -16.913  24.529  0.00  0.00           C 0
+ATOM   4975   CB SER A 638      14.590 -17.436  25.951  0.00  0.00           C 0
+ATOM   5027   CE LYS A 644       9.694 -10.982  25.243  0.00  0.00           C 0
+ATOM   5026   CD LYS A 644      10.239 -11.047  23.804  0.00  0.00           C 0
+ATOM   5025   CG LYS A 644       9.605 -12.210  23.028  0.00  0.00           C 0
+ATOM   4954    O TRP A 636      11.365 -19.816  23.194  0.61  6.43           O 0
+ATOM   4953   CB TRP A 636       8.791 -18.666  22.470  0.00  0.00           C 0
+ATOM   5415   OH TYR A 695      14.453  -8.937  23.936  0.30  1.07           O 0
+ATOM   4991    O SER A 640      14.998 -12.621  20.771  0.26  2.14           O 0
+ATOM   4968    O ASN A 637      13.690 -16.801  21.819  0.52  2.14           O 0
+ATOM   5021   CA LYS A 644       9.118 -13.240  20.748  0.00  0.00           C 0
+ATOM   5032   CB SER A 645       5.547 -15.274  23.412  0.00  0.00           C 0
+ATOM   5029    N SER A 645       7.192 -14.148  21.935  0.77  1.09           N 0
+ATOM   5033    O SER A 645       6.082 -12.423  23.978  0.77  5.36           O 0
+ATOM   5449  NH2 ARG A 699      16.157 -10.612  26.237  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    76:
+HEADER 0  - Pocket Score                      : -0.0750
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0196
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5477
+HEADER 5  - Mean B-factor of pocket residues  : 0.9104
+HEADER 6  - Hydrophobicity Score              : 2.8889
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.8804
+HEADER 10 - Pocket volume (convex hull)       : 8.4886
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3810
+ATOM   5767   CA THR A 723       9.279  -4.897  -0.480  0.00  0.00           C 0
+ATOM   5610    O GLY A 700      10.928   0.602  -0.217  0.43  3.21           O 0
+ATOM   5771  CG2 THR A 723      10.163  -4.748   1.887  0.00  0.00           C 0
+ATOM   5770    O THR A 723      10.659  -5.489  -2.309  0.35  7.50           O 0
+ATOM   6159   CB LYS A 776      13.326  -3.874   5.221  0.00  0.00           C 0
+ATOM   6162   CD LYS A 776      13.595  -6.395   5.007  0.00  0.00           C 0
+ATOM   6129    O SER A 771      18.069  -1.745   1.498  0.00  0.00           O 0
+ATOM   5769   CB THR A 723      10.068  -5.616   0.628  0.00  0.00           C 0
+ATOM   5800   CA PRO A 727      12.859   0.241  -3.493  0.00  0.00           C 0
+ATOM   5802   CB PRO A 727      14.171  -0.543  -3.373  0.00  0.00           C 0
+ATOM   6161   CG LYS A 776      14.247  -5.082   5.460  0.00  0.00           C 0
+ATOM   6163   CE LYS A 776      14.608  -7.540   5.040  0.00  0.00           C 0
+ATOM   6078    O ALA A 763      19.343  -4.595   5.793  0.43  5.36           O 0
+ATOM   6140   OG SER A 773      12.407  -1.211   3.037  0.77  2.14           O 0
+ATOM   6138   CB SER A 773      12.860   0.104   2.748  0.00  0.00           C 0
+ATOM   5832  CH2 TRP A 730      17.513  -0.327  -2.285  0.00  0.00           C 0
+ATOM   5833  CZ2 TRP A 730      17.275   0.220  -1.014  0.00  0.00           C 0
+ATOM   5812   CD PRO A 728      13.700   1.894  -1.094  0.00  0.00           C 0
+TER
+END

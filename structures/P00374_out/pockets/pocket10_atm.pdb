@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0482
+HEADER 1  - Drug Score                        : 0.0107
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.9767
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4586
+HEADER 5  - Mean B-factor of pocket residues  : 0.6125
+HEADER 6  - Hydrophobicity Score              : 11.4545
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.2727
+HEADER 9  - Pocket volume (Monte Carlo)       : 577.5771
+HEADER 10 - Pocket volume (convex hull)       : 87.2288
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3103
+ATOM      9    N VAL A   2     -21.265   2.226   4.634  0.43  3.28           N 0
+ATOM      6   CG MET A   1     -24.726   3.410   2.794  0.00  0.00           C 0
+ATOM   1009  CE1 HIS A 128     -19.547  -0.927  -0.990  0.00  0.00           C 0
+ATOM      2   CA MET A   1     -23.653   2.393   4.886  0.00  0.00           C 0
+ATOM     12   CB VAL A   2     -18.954   1.469   4.320  0.00  0.00           C 0
+ATOM     15  CG2 VAL A   2     -19.260   0.132   5.026  0.00  0.00           C 0
+ATOM    807  OE1 GLU A 102     -22.074   0.084   7.371  0.65  2.14           O 0
+ATOM   1015    O PRO A 129     -20.512   1.551  -3.192  0.59  1.07           O 0
+ATOM   1016   CG PRO A 129     -22.468  -1.214  -4.029  0.00  0.00           C 0
+ATOM   1014   CB PRO A 129     -22.805  -0.040  -4.948  0.00  0.00           C 0
+ATOM      7   SD MET A   1     -25.538   4.826   1.988  0.00  0.00           S 0
+ATOM   1022    N HIS A 131     -20.077   5.940  -3.058  0.60  5.47           N 0
+ATOM   1508  OD1 ASP A 187     -24.222   6.769  -4.020  0.51  6.43           O 0
+ATOM   1025   CB HIS A 131     -19.374   8.094  -2.208  0.00  0.00           C 0
+ATOM   1019   CA GLY A 130     -21.529   4.117  -3.675  0.00  0.00           C 0
+ATOM   1018    N GLY A 130     -21.646   2.946  -4.541  0.00  0.00           N 0
+ATOM   1013    C PRO A 129     -21.146   1.751  -4.231  0.00  0.00           C 0
+ATOM     13    O VAL A   2     -20.108   4.108   3.017  0.00  0.00           O 0
+ATOM     20    N SER A   4     -17.626   7.225   2.324  0.66  4.37           N 0
+ATOM      5    O MET A   1     -22.129   3.969   5.771  0.38  5.36           O 0
+ATOM     17   CA GLY A   3     -18.692   6.184   4.255  0.00  0.00           C 0
+ATOM   1026    O HIS A 131     -17.223   5.919  -2.115  0.75  2.14           O 0
+ATOM   1008  ND1 HIS A 128     -18.948  -0.454  -2.091  0.00  0.00           N 0
+ATOM     31   CG LEU A   5     -15.204   2.550   0.062  0.00  0.00           C 0
+ATOM     19    O GLY A   3     -17.366   5.007   2.626  0.67  2.14           O 0
+TER
+END

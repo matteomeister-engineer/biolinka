@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    75:
+HEADER 0  - Pocket Score                      : -0.0662
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6615
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4630
+HEADER 5  - Mean B-factor of pocket residues  : 0.9529
+HEADER 6  - Hydrophobicity Score              : 2.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 117.2959
+HEADER 10 - Pocket volume (convex hull)       : 1.7512
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   7691    O ASP A1001      11.489  18.096  12.504  0.62  1.07           O 0
+ATOM   7693  OD1 ASP A1001      14.586  16.031  15.372  0.08  4.29           O 0
+ATOM   7729   CG LEU A1005      13.023  19.887  10.388  0.00  0.00           C 0
+ATOM   7723  OE2 GLU A1004      13.358  20.148  17.144  0.25  7.50           O 0
+ATOM   6852   SG CYS A 897      19.141  19.663  13.954  0.00  0.00           S 0
+ATOM   7718   CB GLU A1004      11.295  20.939  15.359  0.00  0.00           C 0
+ATOM   7730  CD1 LEU A1005      13.360  18.565   9.694  0.00  0.00           C 0
+ATOM   6859   CD PRO A 898      17.534  15.689  11.754  0.00  0.00           C 0
+ATOM   7690   CB ASP A1001      13.182  15.357  13.536  0.00  0.00           C 0
+ATOM   6850   CB CYS A 897      19.137  18.900  12.303  0.00  0.00           C 0
+ATOM   7731  CD2 LEU A1005      14.072  20.918   9.962  0.00  0.00           C 0
+ATOM   7719    O GLU A1004      10.496  23.124  13.053  0.44  7.50           O 0
+ATOM   7717    C GLU A1004      10.447  21.900  13.181  0.00  0.00           C 0
+ATOM   7724    N LEU A1005      10.702  21.062  12.167  0.00  0.00           N 0
+TER
+END

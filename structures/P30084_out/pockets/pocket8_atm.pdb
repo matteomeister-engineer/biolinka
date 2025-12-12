@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0325
+HEADER 1  - Drug Score                        : 0.0073
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8274
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4703
+HEADER 5  - Mean B-factor of pocket residues  : 0.9994
+HEADER 6  - Hydrophobicity Score              : 32.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.5573
+HEADER 10 - Pocket volume (convex hull)       : 5.9158
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5833
+ATOM   1323  CG2 THR A 176       3.776  14.836 -12.835  0.00  0.00           C 0
+ATOM   1422   CE MET A 189       8.820  20.779 -10.274  0.00  0.00           C 0
+ATOM   1421   SD MET A 189       9.919  19.362 -10.490  0.00  0.00           S 0
+ATOM   1445  CG1 VAL A 192       7.913  14.064 -13.201  0.00  0.00           C 0
+ATOM   1321   CB THR A 176       2.925  15.381 -11.681  0.00  0.00           C 0
+ATOM   1322    O THR A 176       2.543  16.144  -8.781  0.20  5.36           O 0
+ATOM   1359  OG1 THR A 180       4.521  16.178  -6.941  0.43  4.29           O 0
+ATOM   1420   CG MET A 189      10.411  19.043  -8.773  0.00  0.00           C 0
+ATOM   1358  CG2 THR A 180       4.578  17.868  -5.300  0.00  0.00           C 0
+ATOM   1391    O LYS A 185       9.967  18.060  -5.611  0.00  0.00           O 0
+ATOM   1319   CA THR A 176       2.948  14.464 -10.452  0.00  0.00           C 0
+ATOM   1446  CG2 VAL A 192       7.570  12.947 -11.037  0.00  0.00           C 0
+ATOM   1443   CB VAL A 192       8.638  13.605 -11.927  0.00  0.00           C 0
+ATOM   1392   CG LYS A 185       8.924  21.093  -5.227  0.00  0.00           C 0
+ATOM   1413   CB ALA A 188       7.667  14.962  -6.146  0.00  0.00           C 0
+ATOM   1415    N MET A 189      10.251  16.018  -7.754  0.00  0.00           N 0
+ATOM   1412    C ALA A 188       9.606  14.844  -7.780  0.00  0.00           C 0
+ATOM   1414    O ALA A 188       9.504  14.182  -8.807  0.00  0.00           O 0
+ATOM   1416   CA MET A 189      10.956  16.557  -8.923  0.00  0.00           C 0
+TER
+END

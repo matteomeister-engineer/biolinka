@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0088
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0025
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7589
+HEADER 5  - Mean B-factor of pocket residues  : 0.1996
+HEADER 6  - Hydrophobicity Score              : 36.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 356.7826
+HEADER 10 - Pocket volume (convex hull)       : 18.2809
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0455
+ATOM  19772    C GLY A2486      30.301  28.784 -52.783  0.00  0.00           C 0
+ATOM  19774    N LEU A2487      30.650  30.039 -53.093  0.66  1.09           N 0
+ATOM  19770    N GLY A2486      31.531  27.997 -54.860  0.63  6.56           N 0
+ATOM  19776    C LEU A2487      28.662  31.559 -52.996  0.00  0.00           C 0
+ATOM  19778    O LEU A2487      28.453  32.506 -53.755  0.77  5.36           O 0
+ATOM  19768  OD1 ASP A2485      31.979  28.842 -59.485  0.00  0.00           O 0
+ATOM  19777   CB LEU A2487      31.063  32.409 -52.554  0.00  0.00           C 0
+ATOM  19763   CA ASP A2485      32.906  27.759 -56.873  0.00  0.00           C 0
+ATOM  19771   CA GLY A2486      30.938  27.629 -53.566  0.00  0.00           C 0
+ATOM  19788  CG2 VAL A2488      25.459  28.746 -52.696  0.00  0.00           C 0
+ATOM  19759   CA GLY A2484      36.708  28.104 -56.398  0.00  0.00           C 0
+ATOM  19762    N ASP A2485      34.371  27.729 -56.969  0.52  1.09           N 0
+ATOM  19769  OD2 ASP A2485      33.171  27.135 -60.265  0.00  0.00           O 0
+ATOM  19754    O ILE A2483      37.665  30.637 -55.511  0.00  0.00           O 0
+ATOM  19761    O GLY A2484      34.851  28.618 -54.947  0.68  2.14           O 0
+ATOM  19782    N VAL A2488      27.671  30.786 -52.546  0.00  0.00           N 0
+ATOM  19760    C GLY A2484      35.219  28.176 -56.036  0.00  0.00           C 0
+ATOM  19783   CA VAL A2488      26.250  31.153 -52.639  0.00  0.00           C 0
+TER
+END

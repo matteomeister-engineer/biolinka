@@ -1,0 +1,64 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    78:
+HEADER 0  - Pocket Score                      : -0.0731
+HEADER 1  - Drug Score                        : 0.0190
+HEADER 2  - Number of alpha spheres           :    57
+HEADER 3  - Mean alpha-sphere radius          : 3.8144
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4657
+HEADER 5  - Mean B-factor of pocket residues  : 0.8911
+HEADER 6  - Hydrophobicity Score              : 16.4375
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 3.5625
+HEADER 9  - Pocket volume (Monte Carlo)       : 525.9908
+HEADER 10 - Pocket volume (convex hull)       : 130.8444
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.9474
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   3357  OE1 GLN A 444     -22.019   8.202   0.992  0.54  3.21           O 0
+ATOM   9453    N ASP A1233     -20.425   9.353   7.377  0.63  5.47           N 0
+ATOM   9445    O GLY A1231     -24.501   8.439   5.620  0.36  6.43           O 0
+ATOM   9444    C GLY A1231     -24.115   7.413   6.177  0.00  0.00           C 0
+ATOM   3353    O GLN A 444     -17.215   8.337  -1.374  0.61  7.50           O 0
+ATOM   7387   NZ LYS A 964     -15.169  14.168   0.873  0.00  3.28           N 0
+ATOM   9460  OD2 ASP A1233     -16.303  10.393   5.211  0.61  5.36           O 0
+ATOM   3354   CG GLN A 444     -20.967   7.387  -1.019  0.00  0.00           C 0
+ATOM   3359   CA GLY A 445     -17.734   8.489  -4.135  0.00  0.00           C 0
+ATOM   3358    N GLY A 445     -18.258   7.509  -3.183  0.00  0.00           N 0
+ATOM   3355   CD GLN A 444     -22.129   7.913  -0.184  0.00  0.00           C 0
+ATOM   7324    N GLY A 957      -9.530   9.206   5.267  0.00  0.00           N 0
+ATOM   3348   OG SER A 443     -13.605   4.883   1.459  0.81  2.14           O 0
+ATOM   7322  CG1 VAL A 956      -7.882   8.130   2.191  0.00  0.00           C 0
+ATOM   7296    O TRP A 953      -9.891   6.549   6.273  0.61  1.07           O 0
+ATOM  11164    O SER A1458     -23.903   9.696  -6.105  0.44  4.29           O 0
+ATOM  11163   CB SER A1458     -21.310   8.034  -5.912  0.00  0.00           C 0
+ATOM   3356  NE2 GLN A 444     -23.296   8.070  -0.768  0.00  0.00           N 0
+ATOM   7302  NE1 TRP A 953     -13.272   4.352   4.225  0.00  0.00           N 0
+ATOM   7325   CA GLY A 957     -10.769   9.976   5.420  0.00  0.00           C 0
+ATOM   3352   CB GLN A 444     -19.761   6.966  -0.165  0.00  0.00           C 0
+ATOM   3349    N GLN A 444     -17.646   5.744  -0.187  0.63  3.28           N 0
+ATOM  11161   CA SER A1458     -22.726   7.721  -5.422  0.00  0.00           C 0
+ATOM   7298  CD1 TRP A 953     -12.064   3.707   4.375  0.00  0.00           C 0
+ATOM   3325  CG1 VAL A 440      -9.530   4.993   0.199  0.00  0.00           C 0
+ATOM   7304  CZ2 TRP A 953     -14.906   5.499   5.809  0.00  0.00           C 0
+ATOM   7300  CE2 TRP A 953     -13.751   4.798   5.437  0.00  0.00           C 0
+ATOM   7350  OE1 GLN A 960     -11.525  10.545   0.910  0.56  4.29           O 0
+ATOM   3346   CB SER A 443     -14.547   5.455   0.587  0.00  0.00           C 0
+ATOM   9425   CE LYS A1228     -16.270   2.187   3.791  0.00  0.00           C 0
+ATOM   3344   CA SER A 443     -15.656   4.441   0.303  0.00  0.00           C 0
+ATOM   9423   CG LYS A1228     -18.641   2.370   4.613  0.00  0.00           C 0
+ATOM  11151   SD MET A1456     -21.403   3.402   0.904  0.00  0.00           S 0
+ATOM   9416    O SER A1227     -21.708   4.871   7.208  0.00  0.00           O 0
+ATOM   9446    N VAL A1232     -23.277   7.439   7.220  0.00  0.00           N 0
+ATOM   9414    C SER A1227     -20.758   4.213   7.632  0.00  0.00           C 0
+ATOM   9415   CB SER A1227     -18.708   5.252   8.594  0.00  0.00           C 0
+ATOM   9419   CA LYS A1228     -20.904   2.594   5.761  0.00  0.00           C 0
+ATOM   9443   CA GLY A1231     -24.630   6.053   5.696  0.00  0.00           C 0
+ATOM   9456   CB ASP A1233     -18.367  10.134   6.336  0.00  0.00           C 0
+ATOM   9454   CA ASP A1233     -18.971   9.382   7.531  0.00  0.00           C 0
+ATOM   9458   CG ASP A1233     -16.838  10.073   6.292  0.00  0.00           C 0
+TER
+END

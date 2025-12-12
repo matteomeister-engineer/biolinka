@@ -1,0 +1,53 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.0235
+HEADER 1  - Drug Score                        : 0.0078
+HEADER 2  - Number of alpha spheres           :    43
+HEADER 3  - Mean alpha-sphere radius          : 3.9061
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5998
+HEADER 5  - Mean B-factor of pocket residues  : 0.9309
+HEADER 6  - Hydrophobicity Score              : 9.5556
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 407.7687
+HEADER 10 - Pocket volume (convex hull)       : 24.4382
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 21.6154
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.6047
+ATOM  13474  OG1 THR A1759     -23.759  18.854 -24.656  0.69  3.21           O 0
+ATOM  13449    O GLU A1757     -23.875  15.365 -18.976  0.00  0.00           O 0
+ATOM  13448   CB GLU A1757     -24.742  17.825 -17.278  0.00  0.00           C 0
+ATOM  13454    N TRP A1758     -25.606  16.223 -20.102  0.00  0.00           N 0
+ATOM  13108  CG2 THR A1716     -32.477  21.381 -18.569  0.00  0.00           C 0
+ATOM  13135  OE1 GLU A1720     -32.622  24.994 -17.920  0.00  0.00           O 0
+ATOM  13133   CG GLU A1720     -33.168  24.744 -15.616  0.00  0.00           C 0
+ATOM  13642   CB LYS A1780     -29.471  18.961 -16.133  0.00  0.00           C 0
+ATOM  13645   CD LYS A1780     -28.427  19.529 -13.884  0.00  0.00           C 0
+ATOM  13452  OE1 GLU A1757     -25.241  20.559 -14.816  0.00  0.00           O 0
+ATOM  13630   CE LYS A1778     -22.906  22.904 -22.872  0.00  0.00           C 0
+ATOM  13453  OE2 GLU A1757     -23.711  20.269 -16.397  0.00  0.00           O 0
+ATOM  13631   NZ LYS A1778     -21.912  23.566 -21.992  0.00  0.00           N 0
+ATOM  13629   CD LYS A1778     -24.244  22.744 -22.150  0.00  0.00           C 0
+ATOM  13125   CB SER A1719     -32.297  20.205 -13.184  0.00  0.00           C 0
+ATOM  13126    O SER A1719     -32.682  22.835 -11.337  0.65  7.50           O 0
+ATOM  13124    C SER A1719     -33.308  22.303 -12.250  0.00  0.00           C 0
+ATOM  13107    O THR A1716     -34.266  21.595 -15.654  0.00  0.00           O 0
+ATOM  13455   CA TRP A1758     -25.156  15.772 -21.417  0.00  0.00           C 0
+ATOM  13447    C GLU A1757     -24.934  15.990 -18.978  0.00  0.00           C 0
+ATOM  13626   CB LYS A1778     -26.537  21.742 -22.270  0.00  0.00           C 0
+ATOM  13458    O TRP A1758     -26.595  17.499 -22.300  0.00  0.00           O 0
+ATOM  13628   CG LYS A1778     -25.209  21.928 -23.013  0.00  0.00           C 0
+ATOM  13451   CD GLU A1757     -24.738  19.916 -15.770  0.00  0.00           C 0
+ATOM  13450   CG GLU A1757     -25.467  18.628 -16.189  0.00  0.00           C 0
+ATOM  13636    O VAL A1779     -28.137  17.722 -19.484  0.86  1.07           O 0
+ATOM  13456    C TRP A1758     -25.706  16.678 -22.521  0.00  0.00           C 0
+ATOM  13639    N LYS A1780     -30.037  18.310 -18.418  0.00  0.00           N 0
+ATOM  13627    O LYS A1778     -29.562  21.361 -21.985  0.00  0.00           O 0
+ATOM  13634    C VAL A1779     -29.261  18.229 -19.498  0.00  0.00           C 0
+ATOM  13625    C LYS A1778     -28.713  20.495 -22.174  0.00  0.00           C 0
+TER
+END

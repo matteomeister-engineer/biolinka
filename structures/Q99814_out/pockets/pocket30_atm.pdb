@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0719
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.3680
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7711
+HEADER 5  - Mean B-factor of pocket residues  : 0.1815
+HEADER 6  - Hydrophobicity Score              : 1.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 358.3163
+HEADER 10 - Pocket volume (convex hull)       : 5.0637
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   4220   CB GLU A 538      38.069  23.488 -18.558  0.00  0.00           C 0
+ATOM   4222   CG GLU A 538      39.525  23.018 -18.829  0.00  0.00           C 0
+ATOM   4232  OD1 ASP A 539      38.133  25.890 -23.801  0.00  0.00           O 0
+ATOM   4225  OE2 GLU A 538      40.287  24.066 -16.807  0.53  6.43           O 0
+ATOM   4226    N ASP A 539      35.996  23.539 -21.626  0.66  2.19           N 0
+ATOM   4219    C GLU A 538      37.117  23.299 -20.935  0.00  0.00           C 0
+ATOM   4218   CA GLU A 538      36.982  22.850 -19.463  0.00  0.00           C 0
+ATOM   4250   CG GLN A 541      31.604  30.239 -21.300  0.00  0.00           C 0
+ATOM   4245    N GLN A 541      31.995  27.853 -23.373  0.40  2.19           N 0
+ATOM   4253  OE1 GLN A 541      32.961  32.234 -21.317  0.00  0.00           O 0
+ATOM   4234    N PHE A 540      34.162  25.632 -24.047  0.31  4.37           N 0
+ATOM   4221    O GLU A 538      38.221  23.446 -21.436  0.60  6.43           O 0
+ATOM   4230    O ASP A 539      33.560  23.792 -22.902  0.55  4.29           O 0
+ATOM   4228    C ASP A 539      34.429  24.591 -23.247  0.00  0.00           C 0
+ATOM   4236    C PHE A 540      31.774  26.593 -23.772  0.00  0.00           C 0
+ATOM   4238    O PHE A 540      30.675  26.064 -23.603  0.04  5.36           O 0
+ATOM   4227   CA ASP A 539      35.901  24.421 -22.802  0.00  0.00           C 0
+TER
+END

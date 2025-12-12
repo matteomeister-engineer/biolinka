@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0547
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9245
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5721
+HEADER 5  - Mean B-factor of pocket residues  : 0.9733
+HEADER 6  - Hydrophobicity Score              : 4.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 2.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 182.3008
+HEADER 10 - Pocket volume (convex hull)       : 2.7754
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM    352   CA SER A  48      12.607   7.751  -2.399  0.00  0.00           C 0
+ATOM    970  OE1 GLN A 127       8.226  11.929   1.615  0.00  0.00           O 0
+ATOM    344    O ALA A  46       9.766   7.933   0.918  0.56  2.14           O 0
+ATOM    349    O SER A  47      13.630   7.314   0.152  0.50  5.36           O 0
+ATOM    968   CD GLN A 127       7.694  10.841   1.496  0.00  0.00           C 0
+ATOM    355    O SER A  48      10.475   7.745  -3.528  0.82  1.07           O 0
+ATOM    953  CG2 THR A 125       6.994   8.671  -3.998  0.00  0.00           C 0
+ATOM    353    C SER A  48      11.608   8.224  -3.456  0.00  0.00           C 0
+ATOM    357    N SER A  49      12.056   9.096  -4.364  0.00  0.00           N 0
+ATOM    952    O THR A 125       6.443  12.059  -5.385  0.65  5.36           O 0
+ATOM    358   CA SER A  49      11.280   9.498  -5.547  0.00  0.00           C 0
+ATOM    967   CG GLN A 127       6.417  10.648   0.690  0.00  0.00           C 0
+ATOM    962    N GLN A 127       4.563  12.057  -1.275  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0721
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0491
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5459
+HEADER 5  - Mean B-factor of pocket residues  : 0.9982
+HEADER 6  - Hydrophobicity Score              : 29.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 294.9894
+HEADER 10 - Pocket volume (convex hull)       : 9.6968
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   1780    C HIS A 226      -9.992   7.276 -12.997  0.00  0.00           C 0
+ATOM   1781   CB HIS A 226      -9.897   5.005 -11.931  0.00  0.00           C 0
+ATOM   1820  OE2 GLU A 230     -14.706   7.031 -16.214  0.00  0.00           O 0
+ATOM   1782    O HIS A 226      -9.993   7.399 -14.218  0.00  0.00           O 0
+ATOM   1788    N ARG A 227     -10.724   8.071 -12.207  0.00  0.00           N 0
+ATOM    301    O LEU A  40     -15.032   0.381 -10.508  0.38  7.50           O 0
+ATOM   1783   CG HIS A 226      -9.046   3.804 -11.629  0.00  0.00           C 0
+ATOM   1784  CD2 HIS A 226      -9.115   3.030 -10.505  0.00  0.00           C 0
+ATOM   1787  NE2 HIS A 226      -8.205   1.986 -10.652  0.55  1.09           N 0
+ATOM   1760  CE2 PHE A 223     -15.167   5.843  -8.708  0.00  0.00           C 0
+ATOM    321   SG CYS A  42     -18.502   5.596 -10.457  0.00  0.00           S 0
+ATOM   1758  CD2 PHE A 223     -14.055   5.437  -7.958  0.00  0.00           C 0
+ATOM   1785  ND1 HIS A 226      -8.095   3.240 -12.453  0.00  0.00           N 0
+ATOM   1786  CE1 HIS A 226      -7.599   2.156 -11.836  0.00  0.00           C 0
+ATOM   1794   CD ARG A 227     -14.710   8.796 -12.083  0.00  0.00           C 0
+ATOM   1793   CG ARG A 227     -13.571   8.896 -11.064  0.00  0.00           C 0
+ATOM    297    N LEU A  40     -13.038  -1.035  -9.054  0.55  3.28           N 0
+ATOM    294   CA GLY A  39     -12.045  -3.183  -9.607  0.00  0.00           C 0
+ATOM    300   CB LEU A  40     -13.210   1.191  -8.032  0.00  0.00           C 0
+TER
+END

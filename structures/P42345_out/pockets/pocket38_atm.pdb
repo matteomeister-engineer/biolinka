@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0266
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9137
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5947
+HEADER 5  - Mean B-factor of pocket residues  : 0.8356
+HEADER 6  - Hydrophobicity Score              : -2.3750
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 306.5620
+HEADER 10 - Pocket volume (convex hull)       : 9.8778
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2381
+ATOM  11447   CG LYS A1452     -26.459  13.259 -18.161  0.00  0.00           C 0
+ATOM  11446    O LYS A1452     -22.566  15.051 -18.171  0.00  0.00           O 0
+ATOM  11443   CA LYS A1452     -24.909  15.271 -18.063  0.00  0.00           C 0
+ATOM  11174   OG SER A1418     -24.437   9.501 -17.053  0.39  2.14           O 0
+ATOM  11195    O ASN A1421     -17.340  12.306 -15.294  0.00  0.00           O 0
+ATOM  11204   CG LYS A1422     -20.871   9.101 -14.230  0.00  0.00           C 0
+ATOM  11199    N LYS A1422     -18.765  10.685 -15.886  0.00  0.00           N 0
+ATOM  11200   CA LYS A1422     -18.483   9.826 -14.717  0.00  0.00           C 0
+ATOM  11194   CB ASN A1421     -19.521  13.486 -17.538  0.00  0.00           C 0
+ATOM  11173    O SER A1418     -21.246   9.728 -17.356  0.00  0.00           O 0
+ATOM  11441  OE2 GLU A1451     -30.090  15.956 -15.599  0.42  1.07           O 0
+ATOM  11699  NH1 ARG A1482     -29.932  14.648 -13.145  0.00  0.00           N 0
+ATOM  11438   CG GLU A1451     -28.409  17.698 -15.542  0.00  0.00           C 0
+ATOM  11489  CH2 TRP A1456     -24.932  18.694 -12.633  0.00  0.00           C 0
+ATOM  11437    O GLU A1451     -25.114  17.524 -16.399  0.56  1.07           O 0
+ATOM  11467  CE1 HIS A1454     -21.346  16.369 -13.946  0.00  0.00           C 0
+ATOM  11206   CE LYS A1422     -23.275   8.387 -14.028  0.00  0.00           C 0
+ATOM  11468  NE2 HIS A1454     -20.258  16.043 -14.662  0.00  0.00           N 0
+ATOM  11193    C ASN A1421     -18.143  11.850 -16.108  0.00  0.00           C 0
+TER
+END

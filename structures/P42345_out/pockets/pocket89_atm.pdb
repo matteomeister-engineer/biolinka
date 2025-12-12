@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    89:
+HEADER 0  - Pocket Score                      : -0.0790
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    42
+HEADER 3  - Mean alpha-sphere radius          : 4.0811
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5237
+HEADER 5  - Mean B-factor of pocket residues  : 0.7413
+HEADER 6  - Hydrophobicity Score              : 3.4667
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.4667
+HEADER 9  - Pocket volume (Monte Carlo)       : 747.3038
+HEADER 10 - Pocket volume (convex hull)       : 122.1583
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.8000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.3571
+ATOM   1213  OD1 ASP A 159     -40.352 -45.111  12.145  0.57  5.36           O 0
+ATOM   1565   CD PRO A 201     -44.808 -40.747  17.344  0.00  0.00           C 0
+ATOM   1987    O LYS A 253     -47.837 -46.027  13.669  0.84  4.29           O 0
+ATOM   1564   CG PRO A 201     -44.938 -41.632  18.580  0.00  0.00           C 0
+ATOM   1266  NH1 ARG A 165     -40.432 -41.519  14.158  0.59  9.84           N 0
+ATOM   1993   CA GLY A 254     -48.803 -45.389  16.251  0.00  0.00           C 0
+ATOM   1994    C GLY A 254     -49.220 -44.050  16.864  0.00  0.00           C 0
+ATOM   2001   CG MET A 255     -49.133 -40.603  14.862  0.00  0.00           C 0
+ATOM   1977   CB GLU A 252     -50.684 -44.129   9.635  0.00  0.00           C 0
+ATOM   2002   SD MET A 255     -49.280 -39.256  13.668  0.00  0.00           S 0
+ATOM   1978    O GLU A 252     -51.743 -45.310  12.496  0.67  7.50           O 0
+ATOM   2048  NH2 ARG A 260     -51.250 -40.475  10.604  0.79  5.47           N 0
+ATOM   1982  OE2 GLU A 252     -50.691 -41.606   8.237  0.00  0.00           O 0
+ATOM   1541    O TRP A 199     -46.202 -38.575  14.322  0.62  5.36           O 0
+ATOM   1552   CA ASP A 200     -44.000 -38.196  15.923  0.00  0.00           C 0
+ATOM   1523  CG1 VAL A 196     -41.210 -38.935   9.473  0.00  0.00           C 0
+ATOM   1522    O VAL A 196     -42.548 -37.454  12.005  0.00  0.00           O 0
+ATOM   1907   CB LYS A 243     -52.989 -33.856   5.879  0.00  0.00           C 0
+ATOM   1910   CD LYS A 243     -51.699 -33.913   3.718  0.00  0.00           C 0
+ATOM   1889  OE2 GLU A 240     -48.291 -33.473   5.103  0.00  0.00           O 0
+ATOM   1958  CD1 LEU A 249     -54.535 -37.529   5.932  0.00  0.00           C 0
+ATOM   1981  OE1 GLU A 252     -49.430 -42.657   6.723  0.00  0.00           O 0
+ATOM   1519   CA VAL A 196     -42.406 -36.689   9.731  0.00  0.00           C 0
+ATOM   1543  CD1 TRP A 199     -46.978 -35.646   9.766  0.00  0.00           C 0
+ATOM   1524  CG2 VAL A 196     -41.523 -37.511   7.476  0.00  0.00           C 0
+ATOM   1545  CE2 TRP A 199     -48.497 -34.005  10.167  0.00  0.00           C 0
+ATOM   1914   CA GLY A 244     -53.543 -33.360  10.434  0.00  0.00           C 0
+ATOM   1913    N GLY A 244     -53.584 -33.048   9.003  0.00  0.00           N 0
+ATOM   1908    O LYS A 243     -54.618 -34.930   8.375  0.67  1.07           O 0
+ATOM   1906    C LYS A 243     -54.146 -33.832   8.081  0.00  0.00           C 0
+ATOM   2046   NE ARG A 260     -52.110 -38.963  12.024  0.71  1.09           N 0
+ATOM   1544  CD2 TRP A 199     -48.327 -34.793  11.345  0.00  0.00           C 0
+ATOM   2045   CD ARG A 260     -53.036 -37.956  12.570  0.00  0.00           C 0
+ATOM   1540   CB TRP A 199     -46.710 -36.862  11.969  0.00  0.00           C 0
+ATOM   1542   CG TRP A 199     -47.315 -35.820  11.066  0.00  0.00           C 0
+ATOM   1547  NE1 TRP A 199     -47.674 -34.583   9.230  0.79  1.09           N 0
+ATOM   2049   CZ ARG A 260     -52.247 -39.726  10.959  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0019
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8172
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5663
+HEADER 5  - Mean B-factor of pocket residues  : 0.9219
+HEADER 6  - Hydrophobicity Score              : 20.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.8109
+HEADER 10 - Pocket volume (convex hull)       : 13.2514
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   1700  OD1 ASP A 227      27.048  -0.885 -15.183  0.00  0.00           O 0
+ATOM   1702    N ILE A 228      24.947  -2.701 -12.866  0.61  1.09           N 0
+ATOM   1689    O LYS A 226      27.790  -3.252 -10.918  0.00  0.00           O 0
+ATOM   1909  NH2 ARG A 258      26.119   4.127 -10.717  0.37  9.84           N 0
+ATOM   1695   CA ASP A 227      27.195  -3.164 -13.666  0.00  0.00           C 0
+ATOM   1697   CB ASP A 227      28.010  -3.087 -14.962  0.00  0.00           C 0
+ATOM   1715  CG1 VAL A 229      24.232   2.888 -16.063  0.00  0.00           C 0
+ATOM   1908  NH1 ARG A 258      27.562   5.190 -12.044  0.44  9.84           N 0
+ATOM   1713   CB VAL A 229      24.444   1.821 -14.980  0.00  0.00           C 0
+ATOM   1716  CG2 VAL A 229      24.182   2.493 -13.622  0.00  0.00           C 0
+ATOM   1705   CB ILE A 228      22.915  -2.106 -11.570  0.00  0.00           C 0
+ATOM   1885   CB ALA A 255      22.216   3.085  -9.779  0.00  0.00           C 0
+ATOM   1710    N VAL A 229      23.854  -0.460 -14.191  0.63  1.09           N 0
+ATOM   1707  CG1 ILE A 228      23.338  -3.046 -10.424  0.00  0.00           C 0
+TER
+END

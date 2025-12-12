@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0005
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0145
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6467
+HEADER 5  - Mean B-factor of pocket residues  : 0.9578
+HEADER 6  - Hydrophobicity Score              : 19.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.1549
+HEADER 10 - Pocket volume (convex hull)       : 6.0588
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2066  OE2 GLU A 278      41.331  27.758 -29.176  0.00  0.00           O 0
+ATOM   2039   CB GLN A 275      39.580  31.553 -27.656  0.00  0.00           C 0
+ATOM   2042   CD GLN A 275      40.871  32.481 -25.653  0.00  0.00           C 0
+ATOM   2044  OE1 GLN A 275      41.316  33.389 -26.336  0.00  0.00           O 0
+ATOM   2065  OE1 GLU A 278      43.019  27.501 -30.614  0.32  8.57           O 0
+ATOM   2018   OH TYR A 272      44.536  26.390 -27.721  0.00  0.00           O 0
+ATOM   2024    O LEU A 273      40.231  28.136 -24.736  0.52  2.14           O 0
+ATOM   2064   CD GLU A 278      41.805  27.542 -30.320  0.00  0.00           C 0
+ATOM   2063   CG GLU A 278      40.817  27.387 -31.481  0.00  0.00           C 0
+ATOM   2040    O GLN A 275      38.647  30.268 -30.460  0.41  4.29           O 0
+ATOM   2058    N GLU A 278      38.217  28.315 -32.679  0.00  0.00           N 0
+ATOM   2052   CB LYS A 277      38.388  30.248 -35.361  0.00  0.00           C 0
+ATOM   2041   CG GLN A 275      39.804  31.508 -26.137  0.00  0.00           C 0
+ATOM   2043  NE2 GLN A 275      41.315  32.339 -24.424  0.63  6.56           N 0
+ATOM   2019   CZ TYR A 272      43.964  25.600 -26.781  0.00  0.00           C 0
+ATOM   2017  CE2 TYR A 272      44.766  24.962 -25.810  0.00  0.00           C 0
+TER
+END

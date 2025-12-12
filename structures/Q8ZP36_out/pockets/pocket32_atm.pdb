@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.1783
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.2416
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5183
+HEADER 5  - Mean B-factor of pocket residues  : 0.9079
+HEADER 6  - Hydrophobicity Score              : -15.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 204.0785
+HEADER 10 - Pocket volume (convex hull)       : 3.1566
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1257  OE1 GLN A 161       8.729   2.457 -29.820  0.00  0.00           O 0
+ATOM    159    O GLU A  21      13.679  -3.022 -30.822  0.61  5.36           O 0
+ATOM    177   CG PRO A  23      11.436  -3.382 -34.313  0.00  0.00           C 0
+ATOM   1256  NE2 GLN A 161      10.706   3.319 -30.175  0.00  0.00           N 0
+ATOM    173   CA PRO A  23      10.578  -5.408 -33.339  0.00  0.00           C 0
+ATOM    175   CB PRO A  23      10.343  -4.432 -34.499  0.00  0.00           C 0
+ATOM   1238   CG PRO A 159       9.237  -2.495 -25.936  0.00  0.00           C 0
+ATOM    201  CD1 TRP A  26       6.638  -5.919 -29.148  0.00  0.00           C 0
+ATOM   1265   CE LYS A 162       5.038  -2.043 -27.722  0.00  0.00           C 0
+ATOM    163  OE2 GLU A  21      13.447  -0.549 -27.127  0.79  7.50           O 0
+ATOM   1255   CD GLN A 161       9.722   3.001 -29.365  0.00  0.00           C 0
+ATOM    152    O PRO A  20      11.558  -4.807 -27.619  0.42  2.14           O 0
+ATOM   1236   CB PRO A 159      10.668  -1.963 -25.956  0.00  0.00           C 0
+ATOM    200   CG TRP A  26       7.829  -6.444 -28.785  0.00  0.00           C 0
+ATOM    198   CB TRP A  26       8.892  -6.952 -29.709  0.00  0.00           C 0
+TER
+END

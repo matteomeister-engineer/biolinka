@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1183
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6105
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3829
+HEADER 5  - Mean B-factor of pocket residues  : 0.9942
+HEADER 6  - Hydrophobicity Score              : 61.4444
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 115.9166
+HEADER 10 - Pocket volume (convex hull)       : 1.2276
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7368
+ATOM    298  CD1 PHE A  37     -20.316  -2.607 -12.148  0.00  0.00           C 0
+ATOM   2432   CZ PHE A 309     -15.207  -3.141  -8.755  0.00  0.00           C 0
+ATOM    295   CB PHE A  37     -19.364  -1.229 -10.253  0.00  0.00           C 0
+ATOM   2699   CB MET A 342     -20.678  -6.958 -11.154  0.00  0.00           C 0
+ATOM   1736    O GLY A 215     -13.629  -6.122  -9.284  0.39  4.29           O 0
+ATOM    334  CG2 VAL A  41     -17.880  -5.312  -6.069  0.00  0.00           C 0
+ATOM   2430  CE1 PHE A 309     -15.804  -1.990  -9.295  0.00  0.00           C 0
+ATOM    296    O PHE A  37     -19.589  -2.394  -7.205  0.00  0.00           O 0
+ATOM   2701   CG MET A 342     -21.471  -6.659  -9.882  0.00  0.00           C 0
+ATOM   2702   SD MET A 342     -20.734  -7.499  -8.456  0.00  0.00           S 0
+ATOM   2670  CD2 LEU A 337     -18.221  -9.847 -11.617  0.00  0.00           C 0
+ATOM   2700    O MET A 342     -19.046  -6.096 -13.377  0.00  0.00           O 0
+ATOM   1615   CB PRO A 198     -17.453  -9.792  -6.148  0.00  0.00           C 0
+ATOM   1526    O VAL A 188     -14.281 -11.596  -8.710  0.34  2.14           O 0
+ATOM   2457  CG2 VAL A 312     -14.537  -7.170 -12.809  0.00  0.00           C 0
+ATOM   2451    N VAL A 312     -15.280  -4.491 -13.867  0.00  0.00           N 0
+TER
+END

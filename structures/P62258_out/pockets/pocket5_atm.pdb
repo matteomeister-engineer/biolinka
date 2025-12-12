@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0497
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9954
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5633
+HEADER 5  - Mean B-factor of pocket residues  : 0.2141
+HEADER 6  - Hydrophobicity Score              : -15.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 563.0244
+HEADER 10 - Pocket volume (convex hull)       : 47.8446
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1852
+ATOM   2018   CA GLU A 253      -6.966   8.581  -3.060  0.00  0.00           C 0
+ATOM   2020   CB GLU A 253      -6.415   9.913  -2.524  0.00  0.00           C 0
+ATOM   2026    N ASN A 254      -7.092   7.978  -5.434  0.48  1.09           N 0
+ATOM   2034    N GLN A 255      -8.563   9.158  -8.184  0.00  0.00           N 0
+ATOM   2039   CG GLN A 255     -11.415   8.196  -9.221  0.00  0.00           C 0
+ATOM   2013    O ASP A 252      -9.093   7.250  -1.880  0.00  0.00           O 0
+ATOM   2040   CD GLN A 255     -12.933   8.305  -9.393  0.00  0.00           C 0
+ATOM   2041  NE2 GLN A 255     -13.643   7.200  -9.304  0.00  0.00           N 0
+ATOM   2030    O ASN A 254      -8.290   6.911  -8.070  0.00  0.00           O 0
+ATOM   2027   CA ASN A 254      -6.740   8.290  -6.829  0.00  0.00           C 0
+ATOM   1750  CD2 LEU A 219      -3.926  12.822  -4.802  0.00  0.00           C 0
+ATOM   1720   CE LYS A 215      -4.340  15.556 -10.230  0.00  0.00           C 0
+ATOM   2033  OD1 ASN A 254      -4.122   9.403  -6.810  0.81  7.50           O 0
+ATOM   1721   NZ LYS A 215      -4.919  14.576 -11.184  0.00  0.00           N 0
+ATOM   1728  OD1 ASP A 216      -0.116  12.804  -9.093  0.62  4.29           O 0
+ATOM   2023   CD GLU A 253      -6.938  11.897  -0.966  0.00  0.00           C 0
+ATOM   2025  OE2 GLU A 253      -5.847  12.374  -1.351  0.00  0.00           O 0
+ATOM   1749  CD1 LEU A 219      -4.967  14.589  -3.402  0.00  0.00           C 0
+ATOM   2028    C ASN A 254      -7.955   8.053  -7.746  0.00  0.00           C 0
+ATOM   2038    O GLN A 255      -8.309  11.571  -9.487  0.08  8.57           O 0
+ATOM   2043  OXT GLN A 255      -8.063  10.383 -11.346  0.00  0.00           O 0
+ATOM   2031   CG ASN A 254      -4.193   8.235  -7.142  0.00  0.00           C 0
+ATOM   2032  ND2 ASN A 254      -3.080   7.592  -7.412  0.40  7.66           N 0
+ATOM   2029   CB ASN A 254      -5.513   7.498  -7.342  0.00  0.00           C 0
+ATOM   2022   CG GLU A 253      -7.291  10.462  -1.379  0.00  0.00           C 0
+TER
+END

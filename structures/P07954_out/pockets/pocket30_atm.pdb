@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0307
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9951
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5887
+HEADER 5  - Mean B-factor of pocket residues  : 0.9883
+HEADER 6  - Hydrophobicity Score              : -26.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 412.3470
+HEADER 10 - Pocket volume (convex hull)       : 15.9337
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM   3342   CD LYS A 447     -35.516  -9.743  24.904  0.00  0.00           C 0
+ATOM   3307  OE1 GLU A 443     -39.280 -10.676  19.473  0.00  0.00           O 0
+ATOM   3341   CG LYS A 447     -35.783  -8.340  25.465  0.00  0.00           C 0
+ATOM   3339   CB LYS A 447     -35.748  -7.319  24.319  0.00  0.00           C 0
+ATOM   3305   CG GLU A 443     -38.529  -8.444  19.134  0.00  0.00           C 0
+ATOM   3291  ND2 ASN A 441     -32.475  -9.677  16.495  0.00  0.00           N 0
+ATOM   2632  NH2 ARG A 350     -35.243 -18.862  19.293  0.00  0.00           N 0
+ATOM   2630   NE ARG A 350     -33.161 -18.180  19.919  0.48  4.37           N 0
+ATOM   3306   CD GLU A 443     -38.961  -9.824  18.614  0.00  0.00           C 0
+ATOM   3292  OD1 ASN A 441     -34.155  -8.287  16.612  0.53  4.29           O 0
+ATOM   3308  OE2 GLU A 443     -38.933 -10.037  17.381  0.00  0.00           O 0
+ATOM   3309    N ARG A 444     -34.983  -7.171  19.467  0.00  0.00           N 0
+ATOM   3312   CB ARG A 444     -32.866  -8.351  19.742  0.00  0.00           C 0
+ATOM   3310   CA ARG A 444     -33.926  -7.489  20.431  0.00  0.00           C 0
+ATOM   3304    O GLU A 443     -36.396  -6.339  21.005  0.43  5.36           O 0
+ATOM   3317  NH1 ARG A 444     -30.720 -11.688  22.356  0.00  0.00           N 0
+ATOM   3314   CG ARG A 444     -31.759  -8.765  20.713  0.00  0.00           C 0
+ATOM   3315   CD ARG A 444     -30.928  -9.895  20.110  0.00  0.00           C 0
+ATOM   2620    O PRO A 349     -29.579 -14.216  18.783  0.72  8.57           O 0
+ATOM   2628   CG ARG A 350     -30.967 -17.075  20.296  0.00  0.00           C 0
+TER
+END

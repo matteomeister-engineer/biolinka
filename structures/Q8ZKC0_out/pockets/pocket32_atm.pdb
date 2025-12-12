@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0264
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9865
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7128
+HEADER 5  - Mean B-factor of pocket residues  : 0.5953
+HEADER 6  - Hydrophobicity Score              : 66.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.8502
+HEADER 10 - Pocket volume (convex hull)       : 7.8205
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   3004    N TYR A 394     -17.132   4.390 -12.373  0.62  2.19           N 0
+ATOM   3007   CB TYR A 394     -15.873   2.309 -12.196  0.00  0.00           C 0
+ATOM   2971    O TRP A 390     -15.731   7.216 -15.608  0.67  2.14           O 0
+ATOM   2985    O LYS A 391     -13.789   5.118 -13.179  0.00  0.00           O 0
+ATOM   2999   CB LEU A 393     -18.509   6.876 -14.043  0.00  0.00           C 0
+ATOM   3036  CD1 ILE A 397     -21.169   3.471 -13.947  0.00  0.00           C 0
+ATOM   3005   CA TYR A 394     -17.176   3.030 -11.840  0.00  0.00           C 0
+ATOM   2970   CB TRP A 390     -15.454   9.170 -18.037  0.00  0.00           C 0
+ATOM   2969    C TRP A 390     -14.804   7.936 -15.964  0.00  0.00           C 0
+ATOM   2986   CG LYS A 391     -11.311   5.860 -16.888  0.00  0.00           C 0
+ATOM   2646  CE1 TYR A 346     -13.008   1.117 -14.802  0.00  0.00           C 0
+ATOM   2982   CA LYS A 391     -13.176   6.279 -15.178  0.00  0.00           C 0
+ATOM   2648   OH TYR A 346     -13.211   0.010 -16.911  0.00  0.00           O 0
+ATOM   2981    N LYS A 391     -13.532   7.565 -15.789  0.00  0.00           N 0
+ATOM   3011  CD2 TYR A 394     -16.591  -0.115 -12.158  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : 0.0018
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7822
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4697
+HEADER 5  - Mean B-factor of pocket residues  : 0.8143
+HEADER 6  - Hydrophobicity Score              : -2.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.7437
+HEADER 10 - Pocket volume (convex hull)       : 7.0010
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   9150    O ASN A1154      23.657  -2.134 -43.072  0.00  0.00           O 0
+ATOM   7959  CD2 LEU A1006      18.625  -1.489 -40.683  0.00  0.00           C 0
+ATOM   6699   NZ LYS A 842      21.876  -0.143 -35.516  0.32  7.66           N 0
+ATOM   7948    O ASP A1005      19.538   2.795 -39.931  0.00  0.00           O 0
+ATOM   9175    N GLU A1158      22.526  -5.812 -39.742  0.59  1.09           N 0
+ATOM   9172   CA GLY A1157      24.984  -5.869 -39.656  0.00  0.00           C 0
+ATOM   9173    C GLY A1157      23.607  -6.249 -39.092  0.00  0.00           C 0
+ATOM   7953   CA LEU A1006      18.046   1.344 -41.819  0.00  0.00           C 0
+ATOM   7974  CG2 THR A1008      22.193   3.922 -43.952  0.00  0.00           C 0
+ATOM   7956    O LEU A1006      18.619   1.962 -44.081  0.63  3.21           O 0
+ATOM   9149   CB ASN A1154      24.229   0.170 -44.980  0.00  0.00           C 0
+ATOM   9178   CB GLU A1158      20.177  -5.243 -40.110  0.00  0.00           C 0
+ATOM   9183  OE2 GLU A1158      18.904  -4.379 -37.711  0.80  1.07           O 0
+ATOM   9174    O GLY A1157      23.525  -6.967 -38.099  0.00  0.00           O 0
+ATOM   7427  NE2 HIS A 939      19.415  -4.604 -34.752  0.00  0.00           N 0
+ATOM   7424  CD2 HIS A 939      20.426  -4.795 -33.816  0.00  0.00           C 0
+TER
+END

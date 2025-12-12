@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0488
+HEADER 1  - Drug Score                        : 0.3406
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1931
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6348
+HEADER 5  - Mean B-factor of pocket residues  : 0.9749
+HEADER 6  - Hydrophobicity Score              : 15.7778
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 345.9852
+HEADER 10 - Pocket volume (convex hull)       : 9.5260
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   1096  CG1 VAL A 144     -14.037  -4.904  -0.125  0.00  0.00           C 0
+ATOM    225    N ALA A  31     -11.126  -7.574  -0.875  0.00  0.00           N 0
+ATOM   1047   CA GLY A 138     -18.371  -7.982   3.452  0.00  0.00           C 0
+ATOM    223   CB ALA A  30     -13.452  -7.053  -3.114  0.00  0.00           C 0
+ATOM   1040   CB GLU A 137     -18.016  -4.664   0.701  0.00  0.00           C 0
+ATOM   1046    N GLY A 138     -18.591  -6.611   2.992  0.00  0.00           N 0
+ATOM   1045  OE2 GLU A 137     -18.368  -4.948  -2.061  0.00  0.00           O 0
+ATOM    216   CB THR A  29     -11.243 -11.713  -1.726  0.00  0.00           C 0
+ATOM   1054    O ASN A 139     -17.069 -11.947   6.444  0.00  0.00           O 0
+ATOM    218  CG2 THR A  29     -11.306 -13.230  -1.554  0.00  0.00           C 0
+ATOM   1064   CD PRO A 140     -14.668 -11.003   7.518  0.00  0.00           C 0
+ATOM   1041    O GLU A 137     -16.544  -5.839   3.513  0.69  1.07           O 0
+ATOM   1062    O PRO A 140     -15.697  -7.920   6.101  0.00  0.00           O 0
+ATOM   1083  CG2 VAL A 142     -12.724  -6.593   4.438  0.00  0.00           C 0
+ATOM   1050    N ASN A 139     -18.334  -9.470   5.352  0.64  2.19           N 0
+ATOM    228   CB ALA A  31     -10.724  -7.937   1.492  0.00  0.00           C 0
+ATOM   1063   CG PRO A 140     -13.642  -9.963   7.960  0.00  0.00           C 0
+ATOM   1039    C GLU A 137     -17.643  -5.669   2.983  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    74:
+HEADER 0  - Pocket Score                      : -0.0658
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.9019
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4533
+HEADER 5  - Mean B-factor of pocket residues  : 0.4343
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.4412
+HEADER 10 - Pocket volume (convex hull)       : 3.0003
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4783
+ATOM  14698  CD2 HIS A1919     -14.823  49.161  29.019  0.00  0.00           C 0
+ATOM  14662  OG1 THR A1914     -14.169  47.600  22.029  0.73  6.43           O 0
+ATOM  14661  CG2 THR A1914     -16.375  48.341  21.591  0.00  0.00           C 0
+ATOM  14659   CB THR A1914     -14.911  48.753  21.721  0.00  0.00           C 0
+ATOM  14695   CB HIS A1919     -13.135  50.979  28.341  0.00  0.00           C 0
+ATOM  14667    O SER A1915     -12.252  52.399  23.214  0.63  3.21           O 0
+ATOM  14670   CA PRO A1916      -9.769  51.340  23.919  0.00  0.00           C 0
+ATOM  14660    O THR A1914     -12.117  49.618  21.132  0.69  1.07           O 0
+ATOM  14858  ND1 HIS A1939     -14.218  45.232  27.488  0.48  3.28           N 0
+ATOM  14859  CE1 HIS A1939     -13.027  45.808  27.239  0.00  0.00           C 0
+ATOM  14687   CB LEU A1918     -14.685  54.784  24.206  0.00  0.00           C 0
+ATOM  14686    C LEU A1918     -14.218  54.080  26.596  0.00  0.00           C 0
+ATOM  14688    O LEU A1918     -15.308  54.341  27.108  0.40  8.57           O 0
+ATOM  14693   CA HIS A1919     -13.891  52.309  28.215  0.00  0.00           C 0
+ATOM  17081  OXT PHE A2225      -9.378  47.023  25.141  0.48  5.36           O 0
+ATOM  14692    N HIS A1919     -13.453  53.084  27.057  0.67  1.09           N 0
+TER
+END

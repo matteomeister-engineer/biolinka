@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0348
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9011
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5582
+HEADER 5  - Mean B-factor of pocket residues  : 0.8671
+HEADER 6  - Hydrophobicity Score              : 9.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 360.7738
+HEADER 10 - Pocket volume (convex hull)       : 33.6236
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0909
+ATOM  16064    O VAL A2099     -28.600  35.495  45.786  0.00  0.00           O 0
+ATOM  16250    O GLY A2123     -32.421  39.774  46.837  0.00  0.00           O 0
+ATOM  16261   CB LYS A2125     -31.716  35.030  49.419  0.00  0.00           C 0
+ATOM  16258    N LYS A2125     -30.672  37.194  48.820  0.57  2.19           N 0
+ATOM  16050   CA ARG A2098     -28.733  36.581  41.231  0.00  0.00           C 0
+ATOM  16252   CA THR A2124     -29.819  39.220  47.707  0.00  0.00           C 0
+ATOM  16072   OG SER A2100     -30.159  32.345  47.173  0.62  5.36           O 0
+ATOM  15854   CA GLY A2072     -28.569  30.987  40.446  0.00  0.00           C 0
+ATOM  16053    O ARG A2098     -28.266  34.280  41.578  0.00  0.00           O 0
+ATOM  15855    C GLY A2072     -27.775  30.231  41.510  0.00  0.00           C 0
+ATOM  16067    N SER A2100     -27.689  33.478  46.171  0.00  0.00           N 0
+ATOM  16052   CB ARG A2098     -29.844  36.137  40.269  0.00  0.00           C 0
+ATOM  16051    C ARG A2098     -28.183  35.411  42.042  0.00  0.00           C 0
+ATOM  16054   CG ARG A2098     -30.574  37.325  39.637  0.00  0.00           C 0
+ATOM  15856    O GLY A2072     -28.270  29.226  42.006  0.00  0.00           O 0
+ATOM  16041    O TYR A2097     -27.025  38.513  42.222  0.57  3.21           O 0
+ATOM  16257  OG1 THR A2124     -27.958  40.171  46.486  0.43  2.14           O 0
+ATOM  16240    O ARG A2122     -30.596  43.197  45.396  0.00  0.00           O 0
+ATOM  16062    C VAL A2099     -27.864  34.572  45.435  0.00  0.00           C 0
+ATOM  16025    O THR A2095     -26.655  42.188  42.793  0.62  7.50           O 0
+ATOM  16032    O GLN A2096     -25.611  41.173  38.866  0.52  7.50           O 0
+ATOM  16039    C TYR A2097     -26.837  38.138  41.065  0.00  0.00           C 0
+TER
+END

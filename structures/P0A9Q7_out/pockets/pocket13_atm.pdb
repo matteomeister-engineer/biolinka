@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0456
+HEADER 1  - Drug Score                        : 0.0071
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.7017
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4779
+HEADER 5  - Mean B-factor of pocket residues  : 0.9878
+HEADER 6  - Hydrophobicity Score              : 34.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 339.0334
+HEADER 10 - Pocket volume (convex hull)       : 32.4021
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 12.8000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.5172
+ATOM   2351   NZ LYS A 317      44.301  15.790 -14.484  0.00  0.00           N 0
+ATOM   1993   CB HIS A 269      43.571  21.497 -13.103  0.00  0.00           C 0
+ATOM   1996  CD2 HIS A 269      44.807  21.509 -10.840  0.00  0.00           C 0
+ATOM   1994    O HIS A 269      43.591  19.630 -15.305  0.76  2.14           O 0
+ATOM   1710  CG1 VAL A 231      38.795  22.040 -11.963  0.00  0.00           C 0
+ATOM   1995   CG HIS A 269      44.184  22.141 -11.883  0.00  0.00           C 0
+ATOM   1963   NE ARG A 265      42.194  23.679  -8.529  0.00  0.00           N 0
+ATOM   1741   CB MET A 236      38.267  12.659 -11.461  0.00  0.00           C 0
+ATOM   1738    N MET A 236      38.073  14.382 -13.159  0.00  0.00           N 0
+ATOM   1716    O ALA A 232      38.466  15.838 -10.626  0.69  3.21           O 0
+ATOM   1739   CA MET A 236      38.195  12.937 -12.965  0.00  0.00           C 0
+ATOM   1767  OG1 THR A 239      39.659  12.340 -16.619  0.70  5.36           O 0
+ATOM   1736  CD1 LEU A 235      40.547  19.266 -13.850  0.00  0.00           C 0
+ATOM   1713   CA ALA A 232      39.058  17.927  -9.601  0.00  0.00           C 0
+ATOM   1715   CB ALA A 232      39.797  17.756  -8.270  0.00  0.00           C 0
+ATOM   1965  NH2 ARG A 265      43.587  22.336  -7.338  0.32  3.28           N 0
+ATOM   1991   CA HIS A 269      44.423  21.699 -14.369  0.00  0.00           C 0
+ATOM   1733   CB LEU A 235      39.223  17.152 -14.050  0.00  0.00           C 0
+ATOM   1743   CG MET A 236      38.413  11.169 -11.141  0.00  0.00           C 0
+ATOM   1712    N ALA A 232      38.350  19.209  -9.592  0.00  0.00           N 0
+ATOM   1732    C LEU A 235      38.028  14.951 -14.365  0.00  0.00           C 0
+TER
+END

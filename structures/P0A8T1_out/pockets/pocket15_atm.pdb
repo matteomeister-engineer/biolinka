@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0421
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2757
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6447
+HEADER 5  - Mean B-factor of pocket residues  : 0.3492
+HEADER 6  - Hydrophobicity Score              : 26.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.5858
+HEADER 10 - Pocket volume (convex hull)       : 6.9049
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM    713   CE LYS A  93       8.154   4.516 -29.559  0.00  0.00           C 0
+ATOM    734  CH2 TRP A  95      10.672   3.537 -23.685  0.00  0.00           C 0
+ATOM    712   CD LYS A  93       8.326   5.335 -28.283  0.00  0.00           C 0
+ATOM    714   NZ LYS A  93       7.472   3.247 -29.210  0.00  0.00           N 0
+ATOM    676    O GLN A  89      16.678   5.668 -30.177  0.56  6.43           O 0
+ATOM    695   CD GLU A  91      11.575   7.407 -33.261  0.00  0.00           C 0
+ATOM    694   CG GLU A  91      12.638   7.874 -32.247  0.00  0.00           C 0
+ATOM    696  OE1 GLU A  91      11.861   7.495 -34.478  0.00  0.00           O 0
+ATOM    697  OE2 GLU A  91      10.486   6.955 -32.834  0.70  4.29           O 0
+ATOM    689    N GLU A  91      14.075   7.771 -29.456  0.62  2.19           N 0
+ATOM    692   CB GLU A  91      12.066   8.186 -30.852  0.00  0.00           C 0
+ATOM    688  CD2 LEU A  90      15.262   4.443 -25.867  0.00  0.00           C 0
+ATOM    735  CZ2 TRP A  95      11.242   4.768 -24.050  0.00  0.00           C 0
+ATOM    693    O GLU A  91      12.216   8.720 -27.681  0.36  5.36           O 0
+ATOM    682   CA LEU A  90      15.670   6.879 -27.869  0.00  0.00           C 0
+TER
+END

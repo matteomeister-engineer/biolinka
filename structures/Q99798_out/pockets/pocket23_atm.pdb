@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : 0.0872
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9560
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6147
+HEADER 5  - Mean B-factor of pocket residues  : 0.9978
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8182
+HEADER 9  - Pocket volume (Monte Carlo)       : 344.4457
+HEADER 10 - Pocket volume (convex hull)       : 18.9542
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM   2491    O PRO A 328      -1.036  29.479  -4.757  0.58  5.36           O 0
+ATOM   2483   CB VAL A 327      -1.360  27.570  -8.457  0.00  0.00           C 0
+ATOM   2492   CG PRO A 328       0.518  26.463  -4.219  0.00  0.00           C 0
+ATOM   2493   CD PRO A 328      -0.325  26.067  -5.429  0.00  0.00           C 0
+ATOM   2453   NZ LYS A 323       0.589  27.928 -15.257  0.40  9.84           N 0
+ATOM   2073  OD1 ASP A 273       6.225  23.742 -14.111  0.00  0.00           O 0
+ATOM   2262    N HIS A 301       2.705  23.346 -16.720  0.00  0.00           N 0
+ATOM   2269  ND1 HIS A 301       6.024  23.530 -16.979  0.00  0.00           N 0
+ATOM   2265   CB HIS A 301       4.050  23.974 -18.629  0.00  0.00           C 0
+ATOM   2257   CB ASN A 300       2.809  22.987 -13.754  0.00  0.00           C 0
+ATOM   2074  OD2 ASP A 273       7.106  24.901 -12.441  0.00  0.00           O 0
+ATOM   2255   CA ASN A 300       1.563  23.371 -14.575  0.00  0.00           C 0
+ATOM   2063   CB VAL A 272       6.725  21.402  -8.850  0.00  0.00           C 0
+ATOM   2065  CG1 VAL A 272       5.425  21.103  -9.600  0.00  0.00           C 0
+ATOM   2048    O GLY A 269       8.439  23.858  -7.343  0.47  2.14           O 0
+ATOM   2240   CG PRO A 298       1.953  22.945  -8.040  0.00  0.00           C 0
+ATOM   2038   CB HIS A 268       4.688  23.714  -3.295  0.00  0.00           C 0
+ATOM   2045    N GLY A 269       7.210  24.255  -4.889  0.00  0.00           N 0
+ATOM   2238   CB PRO A 298       0.548  23.510  -8.241  0.00  0.00           C 0
+ATOM   2246    O TYR A 299       0.018  24.676 -12.628  0.53  1.07           O 0
+ATOM   2452   CE LYS A 323      -0.253  28.352 -14.118  0.00  0.00           C 0
+ATOM   2036   CA HIS A 268       5.373  22.744  -4.273  0.00  0.00           C 0
+ATOM   2485  CG1 VAL A 327      -1.103  27.081  -9.889  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   207:
+HEADER 0  - Pocket Score                      : -0.2740
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.2992
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4530
+HEADER 5  - Mean B-factor of pocket residues  : 0.6359
+HEADER 6  - Hydrophobicity Score              : -8.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 615.5519
+HEADER 10 - Pocket volume (convex hull)       : 9.6866
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM  14373   CD GLN A1809      13.393  46.108 -40.165  0.00  0.00           C 0
+ATOM  14405   CG GLU A1813      10.976  48.519 -46.393  0.00  0.00           C 0
+ATOM  14372   CG GLN A1809      13.276  47.591 -40.514  0.00  0.00           C 0
+ATOM  14407  OE1 GLU A1813      13.097  48.638 -47.517  0.50  8.57           O 0
+ATOM  14374  NE2 GLN A1809      14.579  45.540 -40.213  0.00  0.00           N 0
+ATOM  19864  CG2 ILE A2498      12.009  37.681 -44.208  0.00  0.00           C 0
+ATOM  14408  OE2 GLU A1813      11.351  47.853 -48.644  0.61  7.50           O 0
+ATOM  19897  ND2 ASN A2502       8.115  37.692 -43.962  0.00  0.00           N 0
+ATOM  14406   CD GLU A1813      11.888  48.290 -47.606  0.00  0.00           C 0
+ATOM  19865  CD1 ILE A2498      15.092  38.438 -44.272  0.00  0.00           C 0
+ATOM  14435   NZ LYS A1816      15.405  50.266 -47.299  0.00  0.00           N 0
+ATOM  14399  OD2 ASP A1812      15.251  51.929 -45.198  0.60  5.36           O 0
+ATOM  14370   CB GLN A1809      11.871  47.980 -41.001  0.00  0.00           C 0
+ATOM  14375  OE1 GLN A1809      12.441  45.426 -39.832  0.00  0.00           O 0
+ATOM  14368   CA GLN A1809      11.760  49.484 -41.304  0.00  0.00           C 0
+ATOM  14371    O GLN A1809      10.746  50.110 -43.388  0.00  0.00           O 0
+TER
+END

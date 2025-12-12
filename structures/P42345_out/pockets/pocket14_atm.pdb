@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0337
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0705
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7338
+HEADER 5  - Mean B-factor of pocket residues  : 0.3413
+HEADER 6  - Hydrophobicity Score              : -11.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 335.0872
+HEADER 10 - Pocket volume (convex hull)       : 14.0325
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   9663   CB GLU A1227      33.865 -62.867 -27.763  0.00  0.00           C 0
+ATOM   9664    O GLU A1227      32.530 -63.974 -25.380  0.00  0.00           O 0
+ATOM   9661   CA GLU A1227      33.583 -62.106 -26.449  0.00  0.00           C 0
+ATOM   9665   CG GLU A1227      33.802 -61.974 -29.017  0.00  0.00           C 0
+ATOM   9667  OE1 GLU A1227      33.026 -62.305 -31.259  0.00  0.00           O 0
+ATOM   9666   CD GLU A1227      33.708 -62.786 -30.324  0.00  0.00           C 0
+ATOM   9668  OE2 GLU A1227      34.301 -63.888 -30.388  0.77  6.43           O 0
+ATOM   9707  CD2 TYR A1232      28.592 -58.395 -23.291  0.00  0.00           C 0
+ATOM   9655    O GLU A1226      33.195 -59.552 -25.338  0.38  5.36           O 0
+ATOM   9682   CG PRO A1229      30.395 -66.299 -23.820  0.00  0.00           C 0
+ATOM   9680   CB PRO A1229      29.456 -65.787 -22.731  0.00  0.00           C 0
+ATOM   9678   CA PRO A1229      30.192 -64.566 -22.159  0.00  0.00           C 0
+ATOM   9703   CB TYR A1232      28.989 -60.446 -21.867  0.00  0.00           C 0
+ATOM   9706  CD1 TYR A1232      26.661 -59.687 -22.548  0.00  0.00           C 0
+ATOM   9681    O PRO A1229      28.940 -63.881 -20.237  0.46  1.07           O 0
+ATOM   9717   CG GLN A1233      25.809 -64.111 -18.818  0.00  0.00           C 0
+ATOM   9705   CG TYR A1232      28.056 -59.492 -22.589  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0747
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9759
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6077
+HEADER 5  - Mean B-factor of pocket residues  : 0.7620
+HEADER 6  - Hydrophobicity Score              : -4.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 285.0083
+HEADER 10 - Pocket volume (convex hull)       : 11.4745
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.5000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   3485   CG PRO A 450       5.851 -10.933 -23.244  0.00  0.00           C 0
+ATOM   3469    O LEU A 448       6.128  -5.766 -24.012  0.33  5.36           O 0
+ATOM   3572  OE1 GLU A 460       4.997  -6.292 -29.652  0.69  5.36           O 0
+ATOM   3481   CA PRO A 450       4.230  -9.468 -22.286  0.00  0.00           C 0
+ATOM   3570   CG GLU A 460       2.610  -6.243 -29.994  0.00  0.00           C 0
+ATOM   3508   OG SER A 453       1.127  -6.517 -24.765  0.45  2.14           O 0
+ATOM   3571   CD GLU A 460       4.040  -6.699 -30.357  0.00  0.00           C 0
+ATOM   3506   CB SER A 453       1.955  -6.163 -23.675  0.00  0.00           C 0
+ATOM   3484    O PRO A 450       2.083  -8.914 -21.419  0.60  2.14           O 0
+ATOM   3483   CB PRO A 450       4.482 -10.951 -22.569  0.00  0.00           C 0
+ATOM   3509    N GLU A 454      -0.252  -7.342 -21.662  0.00  0.00           N 0
+ATOM   3512   CB GLU A 454      -1.174  -9.438 -20.795  0.00  0.00           C 0
+ATOM   3510   CA GLU A 454      -1.500  -8.037 -21.346  0.00  0.00           C 0
+ATOM   3562  ND1 HIS A 459      -4.101  -7.007 -26.904  0.13  8.75           N 0
+ATOM   3514   CG GLU A 454      -2.428 -10.309 -20.612  0.00  0.00           C 0
+ATOM   3563  CE1 HIS A 459      -5.220  -7.246 -26.200  0.00  0.00           C 0
+ATOM   2285   NZ LYS A 304      -6.082  -8.131 -20.795  0.03  3.28           N 0
+ATOM   3513    O GLU A 454      -3.565  -7.101 -20.570  0.00  0.00           O 0
+TER
+END

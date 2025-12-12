@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.2728
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    53
+HEADER 3  - Mean alpha-sphere radius          : 4.2986
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4754
+HEADER 5  - Mean B-factor of pocket residues  : 0.7923
+HEADER 6  - Hydrophobicity Score              : 13.1667
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 5.0833
+HEADER 9  - Pocket volume (Monte Carlo)       : 811.3075
+HEADER 10 - Pocket volume (convex hull)       : 121.9900
+HEADER 11 - Charge Score                      :     6
+HEADER 12 - Local hydrophobic density Score   : 9.1667
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.2264
+ATOM   1063  CE1 PHE A 139     -18.912  -1.136  17.755  0.00  0.00           C 0
+ATOM    815    O LYS A 109     -16.370   2.586  12.216  0.00  0.00           O 0
+ATOM   1045    O HIS A 137     -15.893  -3.520  17.315  0.50  5.36           O 0
+ATOM    814   CB LYS A 109     -18.152   0.785  10.599  0.00  0.00           C 0
+ATOM    790    O LYS A 106     -14.363  -0.435   9.238  0.00  0.00           O 0
+ATOM    813    C LYS A 109     -16.124   2.293  11.051  0.00  0.00           C 0
+ATOM   1061  CD1 PHE A 139     -17.715  -0.929  18.461  0.00  0.00           C 0
+ATOM    821   CA TYR A 110     -13.707   2.466  11.437  0.00  0.00           C 0
+ATOM    827  CD2 TYR A 110     -10.807   1.169  12.332  0.00  0.00           C 0
+ATOM    824    O TYR A 110     -13.291   4.015  13.213  0.52  4.29           O 0
+ATOM   1048  ND1 HIS A 137     -20.322  -5.499  15.988  0.00  0.00           N 0
+ATOM   1044   CB HIS A 137     -18.732  -4.536  17.754  0.00  0.00           C 0
+ATOM   1058   CB PHE A 139     -16.455  -0.306  20.564  0.00  0.00           C 0
+ATOM   1732  OG1 THR A 225     -13.428   6.426  19.434  0.66  7.50           O 0
+ATOM   1731  CG2 THR A 225     -11.794   6.044  21.102  0.00  0.00           C 0
+ATOM   1054    O GLY A 138     -13.476  -2.340  20.579  0.00  0.00           O 0
+ATOM   1766   NZ LYS A 229     -11.926   4.793  15.372  0.00  0.00           N 0
+ATOM   1729   CB THR A 225     -12.062   6.637  19.717  0.00  0.00           C 0
+ATOM   1765   CE LYS A 229     -10.512   5.200  15.549  0.00  0.00           C 0
+ATOM    791   CG LYS A 106     -14.958  -4.983   9.225  0.00  0.00           C 0
+ATOM   1034    O ARG A 136     -17.166  -7.856  16.313  0.00  0.00           O 0
+ATOM   1042   CA HIS A 137     -17.444  -5.332  17.519  0.00  0.00           C 0
+ATOM    817   CD LYS A 109     -20.526  -0.236  10.727  0.00  0.00           C 0
+ATOM    758  OD1 ASN A 102     -19.009  -7.347   7.995  0.00  0.00           O 0
+ATOM   1035   CG ARG A 136     -19.892  -9.520  16.847  0.00  0.00           C 0
+ATOM   1049  CE1 HIS A 137     -21.514  -6.115  15.983  0.00  0.00           C 0
+ATOM    793   CE LYS A 106     -14.515  -7.474   9.546  0.00  0.00           C 0
+ATOM    787   CA LYS A 106     -15.285  -2.511   8.537  0.00  0.00           C 0
+ATOM    779    O ARG A 105     -17.437  -0.845   7.839  0.00  0.00           O 0
+ATOM    786    N LYS A 106     -16.269  -2.730   7.461  0.00  0.00           N 0
+ATOM    780   CG ARG A 105     -20.283  -2.473   7.279  0.00  0.00           C 0
+ATOM    777    C ARG A 105     -17.245  -1.861   7.173  0.00  0.00           C 0
+ATOM    757  ND2 ASN A 102     -17.376  -8.823   8.113  0.53  8.75           N 0
+ATOM    781   CD ARG A 105     -21.424  -3.451   7.590  0.00  0.00           C 0
+ATOM    819   NZ LYS A 109     -23.022  -0.710  11.092  0.58  2.19           N 0
+ATOM    789   CB LYS A 106     -14.324  -3.703   8.658  0.00  0.00           C 0
+ATOM    596  CD1 ILE A  80     -10.150  -0.770   9.360  0.00  0.00           C 0
+TER
+END

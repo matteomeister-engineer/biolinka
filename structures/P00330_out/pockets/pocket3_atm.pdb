@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0661
+HEADER 1  - Drug Score                        : 0.0051
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7775
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4999
+HEADER 5  - Mean B-factor of pocket residues  : 0.5354
+HEADER 6  - Hydrophobicity Score              : 34.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5833
+HEADER 9  - Pocket volume (Monte Carlo)       : 320.3531
+HEADER 10 - Pocket volume (convex hull)       : 25.1840
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.7778
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3600
+ATOM   1838  CG1 VAL A 248      13.146   3.361   1.079  0.00  0.00           C 0
+ATOM   1831    O SER A 247      14.600   2.822  -2.901  0.56  1.07           O 0
+ATOM   1997    O GLY A 270      11.049   7.575   0.202  0.53  5.36           O 0
+ATOM   1834   CA VAL A 248      15.333   3.198  -0.183  0.00  0.00           C 0
+ATOM   2010    O PRO A 272      14.718   9.041   4.664  0.42  7.50           O 0
+ATOM   1999   CA MET A 271      10.765   7.849   3.030  0.00  0.00           C 0
+ATOM   2001   CB MET A 271       9.547   8.458   3.746  0.00  0.00           C 0
+ATOM   2003   CG MET A 271       8.560   9.148   2.799  0.00  0.00           C 0
+ATOM   1872  CD1 ILE A 253      16.439   6.527  -2.974  0.00  0.00           C 0
+ATOM   2026    O ALA A 275      17.538  11.692   1.522  0.28  9.64           O 0
+ATOM   1985  CD1 LEU A 268      13.575  11.301  -4.865  0.00  0.00           C 0
+ATOM   1994    N GLY A 270       9.700   5.631  -1.290  0.00  0.00           N 0
+ATOM   2029    C LYS A 276      19.520  11.256  -1.838  0.00  0.00           C 0
+ATOM   2025   CB ALA A 275      17.879   8.513   2.004  0.00  0.00           C 0
+ATOM   1816    O ASN A 245      11.248   3.913  -4.573  0.00  0.00           O 0
+ATOM   2011   CG PRO A 272      15.004   6.875   2.277  0.00  0.00           C 0
+ATOM   1982   CB LEU A 268      11.742   9.584  -4.834  0.00  0.00           C 0
+ATOM   1986  CD2 LEU A 268      14.032   9.059  -5.822  0.00  0.00           C 0
+ATOM   2036    N CYS A 277      18.925  11.947  -2.804  0.00  0.00           N 0
+ATOM   2039   CB CYS A 277      17.613  11.731  -4.831  0.00  0.00           C 0
+ATOM   2012   CD PRO A 272      13.489   6.925   2.195  0.00  0.00           C 0
+ATOM   1987    N VAL A 269       9.709   6.966  -3.942  0.76  1.09           N 0
+ATOM   1980   CA LEU A 268      11.015   8.383  -5.473  0.00  0.00           C 0
+ATOM   2024    C ALA A 275      18.485  10.897   1.519  0.00  0.00           C 0
+TER
+END

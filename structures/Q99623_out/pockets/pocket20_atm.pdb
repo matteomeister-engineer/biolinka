@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1815
+HEADER 1  - Drug Score                        : 0.0074
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.2363
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5389
+HEADER 5  - Mean B-factor of pocket residues  : 0.2935
+HEADER 6  - Hydrophobicity Score              : 37.5714
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 402.8977
+HEADER 10 - Pocket volume (convex hull)       : 19.9033
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM     91  CD2 LEU A  12     -52.476  18.236  41.899  0.00  0.00           C 0
+ATOM    161  CD2 LEU A  23     -55.381  11.957  39.710  0.00  0.00           C 0
+ATOM     90  CD1 LEU A  12     -52.112  15.810  42.226  0.00  0.00           C 0
+ATOM     87   CB LEU A  12     -53.568  17.026  43.868  0.00  0.00           C 0
+ATOM    160  CD1 LEU A  23     -54.959  11.900  37.266  0.00  0.00           C 0
+ATOM     88    O LEU A  12     -55.581  17.434  46.102  0.00  0.00           O 0
+ATOM     96    O PRO A  13     -58.040  18.415  43.899  0.43  4.29           O 0
+ATOM    100   CA ALA A  14     -59.933  17.095  45.568  0.00  0.00           C 0
+ATOM    104    N GLY A  15     -60.695  17.524  43.281  0.00  0.00           N 0
+ATOM    139   CA GLY A  20     -60.195   9.984  41.186  0.00  0.00           C 0
+ATOM    138    N GLY A  20     -61.145  10.895  40.534  0.53  3.28           N 0
+ATOM    107    O GLY A  15     -62.622  15.581  43.012  0.68  4.29           O 0
+ATOM    102   CB ALA A  14     -60.554  16.559  46.867  0.00  0.00           C 0
+ATOM    105   CA GLY A  15     -61.693  17.662  42.219  0.00  0.00           C 0
+ATOM    136   SD MET A  19     -60.520  16.208  38.042  0.00  0.00           S 0
+ATOM    135   CG MET A  19     -60.456  14.419  38.307  0.00  0.00           C 0
+ATOM    133   CB MET A  19     -61.680  13.887  39.055  0.00  0.00           C 0
+ATOM    137   CE MET A  19     -59.091  16.404  36.944  0.00  0.00           C 0
+ATOM    132    C MET A  19     -60.905  11.469  39.349  0.00  0.00           C 0
+ATOM    134    O MET A  19     -59.896  11.207  38.714  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0246
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8471
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7044
+HEADER 5  - Mean B-factor of pocket residues  : 0.9092
+HEADER 6  - Hydrophobicity Score              : 10.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 172.3378
+HEADER 10 - Pocket volume (convex hull)       : 4.4639
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1427   CA PRO A 189       7.779  26.058   9.289  0.00  0.00           C 0
+ATOM   1446  ND1 HIS A 191      11.963  24.551  13.136  0.44  2.19           N 0
+ATOM   1447  CE1 HIS A 191      11.070  25.373  13.712  0.00  0.00           C 0
+ATOM   1429   CB PRO A 189       7.616  26.472  10.755  0.00  0.00           C 0
+ATOM   1435    C SER A 190      10.541  22.177   9.188  0.00  0.00           C 0
+ATOM   1437    O SER A 190      11.431  22.046   8.354  0.68  1.07           O 0
+ATOM   1440   CA HIS A 191      12.167  22.060  11.046  0.00  0.00           C 0
+ATOM   1433    N SER A 190       8.883  23.940   8.832  0.00  0.00           N 0
+ATOM   1439    N HIS A 191      10.801  22.094  10.497  0.00  0.00           N 0
+ATOM   1470    O TRP A 194      11.180  23.821   3.542  0.72  3.21           O 0
+ATOM   1467   CA TRP A 194      12.735  22.800   5.055  0.00  0.00           C 0
+ATOM   1425    O GLY A 188       7.511  26.221   6.537  0.54  6.43           O 0
+ATOM   1472  CD1 TRP A 194      14.496  23.201   7.511  0.00  0.00           C 0
+ATOM   1471   CG TRP A 194      14.845  23.685   6.297  0.00  0.00           C 0
+ATOM   1469   CB TRP A 194      14.082  23.539   5.014  0.00  0.00           C 0
+ATOM   1474  CE2 TRP A 194      16.467  24.277   7.884  0.00  0.00           C 0
+ATOM   1476  NE1 TRP A 194      15.453  23.532   8.446  0.65  2.19           N 0
+ATOM   1473  CD2 TRP A 194      16.116  24.378   6.504  0.00  0.00           C 0
+TER
+END

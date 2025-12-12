@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.1057
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8058
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4506
+HEADER 5  - Mean B-factor of pocket residues  : 0.8047
+HEADER 6  - Hydrophobicity Score              : 10.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.3298
+HEADER 10 - Pocket volume (convex hull)       : 3.5024
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    937    O MET A 124       0.651   2.920 -10.566  0.54  4.29           O 0
+ATOM    927    O HIS A 123       3.092   4.766  -8.392  0.61  1.07           O 0
+ATOM    910  OD2 ASP A 120       6.799   7.607 -12.898  0.00  0.00           O 0
+ATOM    527  CE2 TYR A  71       4.236   9.415 -12.440  0.00  0.00           C 0
+ATOM    934   CA MET A 124       2.824   2.312  -9.691  0.00  0.00           C 0
+ATOM    919    O ASN A 122       6.543   4.690  -8.626  0.55  5.36           O 0
+ATOM    907    O ASP A 120      10.298   5.573 -10.781  0.83  1.07           O 0
+ATOM    814   CB GLU A 108      10.039   2.410 -13.251  0.00  0.00           C 0
+ATOM    818  OE1 GLU A 108       7.519   1.563 -15.333  0.41  6.43           O 0
+ATOM    817   CD GLU A 108       8.316   1.030 -14.532  0.00  0.00           C 0
+ATOM    819  OE2 GLU A 108       8.020   0.037 -13.806  0.72  3.21           O 0
+ATOM    525  CD2 TYR A  71       3.204   9.567 -11.501  0.00  0.00           C 0
+ATOM    918   CB ASN A 122       5.663   7.807  -8.900  0.00  0.00           C 0
+ATOM    953    O ALA A 126      -0.220   7.408  -9.399  0.56  4.29           O 0
+ATOM    938   CG MET A 124       4.177   0.204 -10.323  0.00  0.00           C 0
+TER
+END

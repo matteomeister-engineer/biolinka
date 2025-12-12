@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   112:
+HEADER 0  - Pocket Score                      : -0.1369
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9798
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5961
+HEADER 5  - Mean B-factor of pocket residues  : 0.9158
+HEADER 6  - Hydrophobicity Score              : 38.3750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 306.5830
+HEADER 10 - Pocket volume (convex hull)       : 11.0111
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   9079   CB ALA A1184     -27.512   7.751  30.198  0.00  0.00           C 0
+ATOM   9052    O ARG A1181     -26.485   4.377  29.314  0.00  0.00           O 0
+ATOM   9055   NE ARG A1181     -29.156   1.033  32.992  0.61  6.56           N 0
+ATOM   9053   CG ARG A1181     -30.081   2.554  31.223  0.00  0.00           C 0
+ATOM   9051   CB ARG A1181     -28.902   2.441  30.256  0.00  0.00           C 0
+ATOM   9057  NH2 ARG A1181     -28.092  -0.147  34.660  0.00  0.00           N 0
+ATOM   8154   CB SER A1061     -21.871  -0.400  36.963  0.00  0.00           C 0
+ATOM   8142    O GLY A1059     -22.733   5.036  38.077  0.00  0.00           O 0
+ATOM   9272  OE1 GLN A1209     -27.348  -2.602  36.974  0.00  0.00           O 0
+ATOM   8151    N SER A1061     -21.096   1.874  36.425  0.65  3.28           N 0
+ATOM   9088  CD1 ILE A1185     -23.854   2.622  30.941  0.00  0.00           C 0
+ATOM   9049   CA ARG A1181     -28.748   3.684  29.384  0.00  0.00           C 0
+ATOM   9086  CG1 ILE A1185     -23.656   4.143  31.022  0.00  0.00           C 0
+ATOM   8144   CA ILE A1060     -20.886   4.273  36.087  0.00  0.00           C 0
+ATOM   8148  CG1 ILE A1060     -21.146   6.001  34.290  0.00  0.00           C 0
+ATOM   8149  CG2 ILE A1060     -20.330   3.687  33.686  0.00  0.00           C 0
+ATOM   9277    O LEU A1210     -23.389  -1.285  33.783  0.44  5.36           O 0
+TER
+END

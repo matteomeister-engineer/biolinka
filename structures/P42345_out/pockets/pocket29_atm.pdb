@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0093
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.6805
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3784
+HEADER 5  - Mean B-factor of pocket residues  : 0.7355
+HEADER 6  - Hydrophobicity Score              : 42.1000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 258.5063
+HEADER 10 - Pocket volume (convex hull)       : 16.9910
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.1818
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4231
+ATOM  11393  NE2 GLN A1446     -33.969  12.177 -25.754  0.35  4.37           N 0
+ATOM  11367  CD1 LEU A1443     -33.410  11.655 -33.544  0.00  0.00           C 0
+ATOM  11115   CG PRO A1410     -32.019   8.924 -30.090  0.00  0.00           C 0
+ATOM  11368  CD2 LEU A1443     -35.592  12.793 -33.761  0.00  0.00           C 0
+ATOM  11349   CA GLY A1441     -29.599  17.462 -35.563  0.00  0.00           C 0
+ATOM  11365    O LEU A1443     -32.452  16.810 -31.942  0.62  3.21           O 0
+ATOM  11309    O ALA A1436     -26.579  14.974 -33.689  0.67  1.07           O 0
+ATOM  11383  CG1 ILE A1445     -29.450  19.142 -29.559  0.00  0.00           C 0
+ATOM  11420  CZ3 TRP A1449     -27.706  14.482 -28.182  0.00  0.00           C 0
+ATOM  11307    C ALA A1436     -25.640  15.181 -32.925  0.00  0.00           C 0
+ATOM  11311   CA MET A1437     -25.575  17.583 -33.501  0.00  0.00           C 0
+ATOM  11418  CH2 TRP A1449     -28.435  13.291 -28.356  0.00  0.00           C 0
+ATOM  11364   CB LEU A1443     -33.578  14.075 -32.876  0.00  0.00           C 0
+ATOM  11113   CB PRO A1410     -31.104   9.871 -29.314  0.00  0.00           C 0
+ATOM  11373    O GLU A1444     -33.555  16.505 -28.527  0.54  6.43           O 0
+ATOM  11369    N GLU A1444     -34.600  16.973 -31.316  0.61  3.28           N 0
+ATOM  11419  CZ2 TRP A1449     -29.077  12.700 -27.253  0.00  0.00           C 0
+ATOM  11340   CB PHE A1440     -29.123  12.762 -34.180  0.00  0.00           C 0
+ATOM  11391   CG GLN A1446     -33.214  14.473 -25.382  0.00  0.00           C 0
+ATOM  11341    O PHE A1440     -30.752  15.073 -34.568  0.68  1.07           O 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : 0.0487
+HEADER 1  - Drug Score                        : 0.0980
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9880
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6268
+HEADER 5  - Mean B-factor of pocket residues  : 0.9999
+HEADER 6  - Hydrophobicity Score              : 58.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.1278
+HEADER 10 - Pocket volume (convex hull)       : 3.8735
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   1859   CB PHE A 240      -3.725 -15.977  -0.580  0.00  0.00           C 0
+ATOM   1657  CD2 LEU A 214      -6.282 -16.760   6.685  0.00  0.00           C 0
+ATOM   1871    O THR A 241      -6.061 -13.880   3.856  0.00  0.00           O 0
+ATOM   1661    O GLY A 215      -7.603 -14.910   0.876  0.00  0.00           O 0
+ATOM   1653   CB LEU A 214      -8.693 -16.525   5.888  0.00  0.00           C 0
+ATOM   1668  CG2 VAL A 216      -8.946 -17.858  -0.408  0.00  0.00           C 0
+ATOM   2013   CB TYR A 259       0.795 -14.961  -1.574  0.00  0.00           C 0
+ATOM   1998    O VAL A 257      -1.505 -12.137   3.694  0.81  2.14           O 0
+ATOM   1999  CG1 VAL A 257       1.892 -13.464   4.279  0.00  0.00           C 0
+ATOM   1862  CD1 PHE A 240      -5.113 -17.877  -1.505  0.00  0.00           C 0
+ATOM   1877   CB ALA A 242      -3.427 -14.429   6.383  0.00  0.00           C 0
+ATOM   1874    N ALA A 242      -4.168 -12.929   4.608  0.00  0.00           N 0
+ATOM   1656  CD1 LEU A 214      -7.934 -18.548   7.147  0.00  0.00           C 0
+ATOM   1858    C PHE A 240      -4.187 -13.651   0.264  0.00  0.00           C 0
+ATOM   1860    O PHE A 240      -3.091 -13.093   0.208  0.00  0.00           O 0
+ATOM   1869    C THR A 241      -5.080 -13.162   3.667  0.00  0.00           C 0
+ATOM   2010    N TYR A 259      -0.225 -12.911  -0.693  0.66  1.09           N 0
+TER
+END

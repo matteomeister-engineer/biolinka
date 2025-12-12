@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.0454
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9878
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6090
+HEADER 5  - Mean B-factor of pocket residues  : 0.6041
+HEADER 6  - Hydrophobicity Score              : 7.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.9424
+HEADER 10 - Pocket volume (convex hull)       : 9.0644
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM  19328  ND2 ASN A2428      19.800  29.723 -42.708  0.00  0.00           N 0
+ATOM  19827    N ASN A2494      19.240  34.198 -46.808  0.00  0.00           N 0
+ATOM  19802    O PRO A2490      21.830  35.275 -47.579  0.62  2.14           O 0
+ATOM  19822   CB LEU A2493      21.029  31.731 -47.519  0.00  0.00           C 0
+ATOM  19830   CB ASN A2494      19.350  36.334 -45.641  0.00  0.00           C 0
+ATOM  19828   CA ASN A2494      18.522  35.060 -45.870  0.00  0.00           C 0
+ATOM  19300   CA PRO A2425      24.160  28.933 -41.950  0.00  0.00           C 0
+ATOM  19825  CD1 LEU A2493      23.207  30.543 -47.964  0.00  0.00           C 0
+ATOM  19325   CB ASN A2428      20.195  27.885 -44.233  0.00  0.00           C 0
+ATOM  19302   CB PRO A2425      25.408  29.815 -42.070  0.00  0.00           C 0
+ATOM  19801   CB PRO A2490      25.059  35.485 -47.292  0.00  0.00           C 0
+ATOM  19299    N PRO A2425      23.714  29.092 -40.566  0.00  0.00           N 0
+ATOM  19283    O TYR A2423      21.802  31.650 -38.245  0.00  0.00           O 0
+ATOM  19305   CD PRO A2425      24.712  29.818 -39.791  0.00  0.00           C 0
+ATOM  19280   CA TYR A2423      19.506  31.725 -38.966  0.00  0.00           C 0
+ATOM  19285  CD1 TYR A2423      18.070  34.383 -40.037  0.00  0.00           C 0
+ATOM  19834  OD1 ASN A2494      18.456  36.617 -43.436  0.00  0.00           O 0
+ATOM  19856   CB ALA A2497      16.410  32.541 -43.507  0.00  0.00           C 0
+ATOM  19281    C TYR A2423      20.816  30.987 -38.595  0.00  0.00           C 0
+ATOM  19282   CB TYR A2423      19.361  33.086 -38.263  0.00  0.00           C 0
+TER
+END

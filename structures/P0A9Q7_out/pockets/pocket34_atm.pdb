@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.1766
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7512
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4707
+HEADER 5  - Mean B-factor of pocket residues  : 0.8119
+HEADER 6  - Hydrophobicity Score              : 44.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.2924
+HEADER 10 - Pocket volume (convex hull)       : 6.6900
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7143
+ATOM   5036   CB SER A 668     -19.106 -12.347  20.158  0.00  0.00           C 0
+ATOM   3371   CB LEU A 452     -15.488  -8.831  17.977  0.00  0.00           C 0
+ATOM   5047  OE2 GLU A 669     -17.102 -15.832  20.943  0.00  0.00           O 0
+ATOM   3374  CD1 LEU A 452     -17.020 -10.491  16.881  0.00  0.00           C 0
+ATOM   3372    O LEU A 452     -13.092  -7.262  19.830  0.58  6.43           O 0
+ATOM   5055  CD2 PHE A 670     -16.646 -11.973  24.057  0.00  0.00           C 0
+ATOM   3370    C LEU A 452     -14.135  -7.065  19.209  0.00  0.00           C 0
+ATOM   5057  CE2 PHE A 670     -15.327 -12.368  24.341  0.00  0.00           C 0
+ATOM   5038   OG SER A 668     -19.598 -11.435  21.127  0.32  4.29           O 0
+ATOM   3378    C TRP A 453     -16.356  -5.652  21.593  0.00  0.00           C 0
+ATOM   3380    O TRP A 453     -17.395  -5.608  20.942  0.61  8.57           O 0
+ATOM   3390    N HIS A 454     -16.317  -5.806  22.914  0.68  5.47           N 0
+ATOM   5058   CZ PHE A 670     -14.848 -12.326  25.663  0.00  0.00           C 0
+ATOM   3376    N TRP A 453     -15.084  -6.239  19.639  0.00  0.00           N 0
+ATOM   3393   CB HIS A 454     -17.584  -7.168  24.509  0.00  0.00           C 0
+TER
+END

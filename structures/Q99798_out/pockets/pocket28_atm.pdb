@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : 0.0567
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8154
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5463
+HEADER 5  - Mean B-factor of pocket residues  : 0.9955
+HEADER 6  - Hydrophobicity Score              : 15.1250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 270.6154
+HEADER 10 - Pocket volume (convex hull)       : 14.3270
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   1919   NZ LYS A 250      17.009  10.579   2.962  0.00  0.00           N 0
+ATOM   1941  CG1 ILE A 254      12.556  11.966   4.921  0.00  0.00           C 0
+ATOM   1934    C GLY A 253      11.402   8.101   5.764  0.00  0.00           C 0
+ATOM   1935    O GLY A 253      11.712   7.833   6.920  0.00  0.00           O 0
+ATOM   1917   CD LYS A 250      15.118  10.420   1.386  0.00  0.00           C 0
+ATOM   1933   CA GLY A 253      11.352   6.986   4.712  0.00  0.00           C 0
+ATOM   1915    O LYS A 250      11.757   9.753   2.474  0.00  0.00           O 0
+ATOM   2712    O ASP A 356      11.217   3.695   5.450  0.62  7.50           O 0
+ATOM   2727   CB ALA A 358      13.876   4.766   2.783  0.00  0.00           C 0
+ATOM   2728    O ALA A 358      16.472   3.390   3.845  0.00  0.00           O 0
+ATOM   2724    N ALA A 358      13.617   2.709   4.033  0.54  1.09           N 0
+ATOM   2722  CD1 LEU A 357      14.428   0.063   7.127  0.00  0.00           C 0
+ATOM   2655  NE2 HIS A 348      16.822   7.551  -0.134  0.68  4.37           N 0
+ATOM   2745   CD PRO A 360      20.006   4.550   1.199  0.00  0.00           C 0
+ATOM   2744   CG PRO A 360      20.835   5.648   0.537  0.00  0.00           C 0
+TER
+END

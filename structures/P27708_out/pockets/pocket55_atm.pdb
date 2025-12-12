@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.0373
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7807
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5431
+HEADER 5  - Mean B-factor of pocket residues  : 0.0741
+HEADER 6  - Hydrophobicity Score              : -36.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.1099
+HEADER 10 - Pocket volume (convex hull)       : 3.8245
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6316
+ATOM  14392   CA GLU A1878     -38.038  56.891 -21.499  0.00  0.00           C 0
+ATOM  14402    C PRO A1879     -35.410  55.811 -24.982  0.00  0.00           C 0
+ATOM  14401   CA PRO A1879     -36.710  56.423 -24.365  0.00  0.00           C 0
+ATOM  14400    N PRO A1879     -36.551  57.595 -23.475  0.00  0.00           N 0
+ATOM  14393    C GLU A1878     -37.163  57.910 -22.292  0.00  0.00           C 0
+ATOM  14404    O PRO A1879     -34.295  56.306 -24.834  0.70  6.43           O 0
+ATOM  14407    N GLU A1880     -35.632  54.721 -25.722  0.73  1.09           N 0
+ATOM  14396   CG GLU A1878     -39.955  55.227 -21.792  0.00  0.00           C 0
+ATOM  14397   CD GLU A1878     -41.353  54.956 -22.372  0.00  0.00           C 0
+ATOM  14415  OE2 GLU A1880     -38.224  51.617 -27.693  0.78  6.43           O 0
+ATOM  14398  OE1 GLU A1878     -41.945  53.936 -21.955  0.00  0.00           O 0
+ATOM  14399  OE2 GLU A1878     -41.855  55.803 -23.146  0.65  7.50           O 0
+ATOM  14403   CB PRO A1879     -37.545  57.009 -25.516  0.00  0.00           C 0
+ATOM  14412   CG GLU A1880     -36.427  51.924 -26.137  0.00  0.00           C 0
+ATOM  14413   CD GLU A1880     -37.557  51.095 -26.771  0.00  0.00           C 0
+ATOM  14414  OE1 GLU A1880     -37.759  49.956 -26.298  0.00  0.00           O 0
+TER
+END

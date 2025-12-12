@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.2306
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2737
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5330
+HEADER 5  - Mean B-factor of pocket residues  : 0.9782
+HEADER 6  - Hydrophobicity Score              : 59.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 147.3361
+HEADER 10 - Pocket volume (convex hull)       : 0.1760
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3314  OE1 GLU A 420      16.482  15.194 -18.428  0.00  0.00           O 0
+ATOM   2037  CG1 ILE A 260      15.263  17.851 -12.341  0.00  0.00           C 0
+ATOM   1898  CD1 ILE A 242      10.151  11.968 -16.054  0.00  0.00           C 0
+ATOM   2061  CD1 LEU A 263      10.938  13.943 -11.503  0.00  0.00           C 0
+ATOM   3322  CG2 VAL A 421      15.433   9.901 -16.560  0.00  0.00           C 0
+ATOM   3290  CD1 LEU A 417      13.288  11.122 -19.697  0.00  0.00           C 0
+ATOM   2058   CB LEU A 263      12.717  12.247 -10.990  0.00  0.00           C 0
+ATOM   2033   CA ILE A 260      15.236  16.015 -10.593  0.00  0.00           C 0
+ATOM   2036    O ILE A 260      16.042  13.783 -10.387  0.00  0.00           O 0
+ATOM   2038  CG2 ILE A 260      17.183  16.225 -12.233  0.00  0.00           C 0
+ATOM   2070   CE LYS A 264      18.562  13.605 -14.606  0.00  0.00           C 0
+ATOM   2068   CG LYS A 264      17.614  12.077 -12.874  0.00  0.00           C 0
+TER
+END

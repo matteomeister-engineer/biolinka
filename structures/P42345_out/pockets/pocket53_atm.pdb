@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    53:
+HEADER 0  - Pocket Score                      : -0.0468
+HEADER 1  - Drug Score                        : 0.0026
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6036
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5108
+HEADER 5  - Mean B-factor of pocket residues  : 0.9098
+HEADER 6  - Hydrophobicity Score              : 25.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.7552
+HEADER 10 - Pocket volume (convex hull)       : 2.9678
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   8247   OG SER A1050      16.710 -39.420   6.775  0.47  6.43           O 0
+ATOM   8245   CB SER A1050      18.040 -39.867   6.625  0.00  0.00           C 0
+ATOM   8576  CD1 ILE A1091      18.637 -45.188  10.371  0.00  0.00           C 0
+ATOM   8606   NZ LYS A1095      17.075 -42.483   4.306  0.48  4.37           N 0
+ATOM   8217  CG2 THR A1046      18.664 -41.265  11.680  0.00  0.00           C 0
+ATOM   8605   CE LYS A1095      18.158 -43.504   4.303  0.00  0.00           C 0
+ATOM   8604   CD LYS A1095      19.544 -42.850   4.267  0.00  0.00           C 0
+ATOM   8574  CG1 ILE A1091      20.150 -45.371  10.206  0.00  0.00           C 0
+ATOM   8583  CG2 VAL A1092      22.199 -41.262   9.775  0.00  0.00           C 0
+ATOM   8571    C ILE A1091      22.427 -45.010   8.018  0.00  0.00           C 0
+ATOM   8219    N SER A1047      17.191 -37.705  11.163  0.58  1.09           N 0
+ATOM   8220   CA SER A1047      16.146 -37.332  10.197  0.00  0.00           C 0
+ATOM   8222   CB SER A1047      14.940 -36.708  10.913  0.00  0.00           C 0
+ATOM   8577    N VAL A1092      22.907 -43.978   8.724  0.00  0.00           N 0
+ATOM   8573    O ILE A1091      22.316 -44.966   6.794  0.00  0.00           O 0
+ATOM   8216    O THR A1046      18.461 -38.805   9.670  0.00  0.00           O 0
+TER
+END

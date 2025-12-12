@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    69:
+HEADER 0  - Pocket Score                      : -0.0579
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.7685
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4196
+HEADER 5  - Mean B-factor of pocket residues  : 0.6851
+HEADER 6  - Hydrophobicity Score              : -20.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.5346
+HEADER 10 - Pocket volume (convex hull)       : 10.7851
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   5866   CD LYS A 750       7.454  -3.256  30.069  0.00  0.00           C 0
+ATOM   6165   CA PRO A 788       8.028  -6.543  23.859  0.00  0.00           C 0
+ATOM   6210  CG1 VAL A 794       4.153  -2.588  27.190  0.00  0.00           C 0
+ATOM   6167   CB PRO A 788       7.628  -5.135  23.409  0.00  0.00           C 0
+ATOM   6211  CG2 VAL A 794       3.302  -4.757  28.019  0.00  0.00           C 0
+ATOM   6168    O PRO A 788       5.884  -7.595  24.107  0.49  2.14           O 0
+ATOM   5868   NZ LYS A 750       9.766  -3.687  29.189  0.32  8.75           N 0
+ATOM   6118   CB LYS A 782       7.705   0.624  25.631  0.00  0.00           C 0
+ATOM   6148  OD2 ASP A 785      11.341  -1.741  25.836  0.60  6.43           O 0
+ATOM   6119    O LYS A 782       7.729  -0.898  23.041  0.56  1.07           O 0
+ATOM   6186    N ASN A 791       4.007  -9.786  25.568  0.56  1.09           N 0
+ATOM   5838   CA GLY A 747       4.867  -7.206  30.936  0.00  0.00           C 0
+ATOM   6189   CB ASN A 791       2.543  -8.902  27.352  0.00  0.00           C 0
+ATOM   6160    O ASP A 787       9.928  -8.300  24.753  0.67  4.29           O 0
+ATOM   5828    O GLY A 745       9.342  -8.255  32.605  0.60  6.43           O 0
+ATOM   5867   CE LYS A 750       8.940  -3.429  30.402  0.00  0.00           C 0
+ATOM   6182   CB PRO A 790       6.660 -11.764  26.319  0.00  0.00           C 0
+ATOM   6184   CG PRO A 790       8.002 -11.566  25.620  0.00  0.00           C 0
+ATOM   6185   CD PRO A 790       7.663 -10.505  24.579  0.00  0.00           C 0
+ATOM   5837    N GLY A 747       5.746  -7.756  31.978  0.55  7.66           N 0
+TER
+END

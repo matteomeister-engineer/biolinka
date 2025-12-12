@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    87:
+HEADER 0  - Pocket Score                      : -0.0848
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9895
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5442
+HEADER 5  - Mean B-factor of pocket residues  : 0.9370
+HEADER 6  - Hydrophobicity Score              : 1.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.3442
+HEADER 10 - Pocket volume (convex hull)       : 5.6473
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   7917  OE1 GLN A1030      10.977  18.473  24.768  0.00  0.00           O 0
+ATOM   6753   CB LEU A 885      15.141  13.903  26.489  0.00  0.00           C 0
+ATOM   6757  CD2 LEU A 885      13.065  14.472  25.144  0.00  0.00           C 0
+ATOM   6754    O LEU A 885      17.641  15.234  24.928  0.00  0.00           O 0
+ATOM   6787   CD LYS A 889      19.444  19.790  26.471  0.00  0.00           C 0
+ATOM   6756  CD1 LEU A 885      12.875  13.960  27.550  0.00  0.00           C 0
+ATOM   7916  NE2 GLN A1030      10.540  16.797  26.077  0.00  0.00           N 0
+ATOM   6776   CD ARG A 888      14.597  15.683  20.693  0.00  0.00           C 0
+ATOM   6817  OE1 GLN A 892      16.798  20.082  20.909  0.61  9.64           O 0
+ATOM   6784   CB LYS A 889      19.256  18.154  24.566  0.00  0.00           C 0
+ATOM   6786   CG LYS A 889      19.553  19.601  24.961  0.00  0.00           C 0
+ATOM   6777   NE ARG A 888      13.904  16.576  19.743  0.00  0.00           N 0
+ATOM   6775   CG ARG A 888      16.120  15.762  20.506  0.00  0.00           C 0
+ATOM   7722  OE1 GLU A1004      12.026  19.607  18.755  0.71  5.36           O 0
+ATOM   6816  NE2 GLN A 892      15.512  19.861  19.152  0.00  0.00           N 0
+ATOM   6781    N LYS A 889      18.966  16.643  22.671  0.00  0.00           N 0
+TER
+END

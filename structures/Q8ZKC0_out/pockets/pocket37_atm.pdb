@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0654
+HEADER 1  - Drug Score                        : 0.0080
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9858
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5946
+HEADER 5  - Mean B-factor of pocket residues  : 0.8916
+HEADER 6  - Hydrophobicity Score              : 46.4286
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.1723
+HEADER 10 - Pocket volume (convex hull)       : 3.8984
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   2511   CA SER A 329     -10.015 -12.576  -9.353  0.00  0.00           C 0
+ATOM   2535  CG1 VAL A 332     -12.460 -12.587 -14.194  0.00  0.00           C 0
+ATOM   2533   CB VAL A 332     -11.609 -13.530 -13.331  0.00  0.00           C 0
+ATOM   2536  CG2 VAL A 332     -12.534 -14.663 -12.868  0.00  0.00           C 0
+ATOM   2513   CB SER A 329     -10.124 -11.351  -8.456  0.00  0.00           C 0
+ATOM   2490   SG CYS A 325     -13.125 -11.828  -3.946  0.00  0.00           S 0
+ATOM   2508  CG1 VAL A 328     -13.010 -16.183  -8.816  0.00  0.00           C 0
+ATOM   2489    O CYS A 325     -10.640 -13.425  -5.792  0.00  0.00           O 0
+ATOM    737   CG PRO A  97     -13.400  -8.477  -6.727  0.00  0.00           C 0
+ATOM   2510    N SER A 329     -10.156 -13.809  -8.583  0.00  0.00           N 0
+ATOM    735   CB PRO A  97     -12.511  -8.461  -7.965  0.00  0.00           C 0
+ATOM    736    O PRO A  97      -9.880  -7.885  -9.432  0.47  2.14           O 0
+ATOM   2585  CD1 ILE A 338     -10.617  -8.211 -16.189  0.00  0.00           C 0
+ATOM   2514    O SER A 329      -8.796 -12.114 -11.328  0.00  0.00           O 0
+ATOM   2543  CG2 VAL A 333      -8.255  -9.434 -12.993  0.00  0.00           C 0
+TER
+END

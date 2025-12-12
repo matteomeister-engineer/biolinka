@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0251
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7465
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5161
+HEADER 5  - Mean B-factor of pocket residues  : 0.1072
+HEADER 6  - Hydrophobicity Score              : -12.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.8091
+HEADER 10 - Pocket volume (convex hull)       : 3.5457
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    917    N HIS A 124     -24.044 -29.569  21.563  0.00  0.00           N 0
+ATOM    907   CD GLN A 122     -23.850 -29.414  15.083  0.00  0.00           C 0
+ATOM    924  ND1 HIS A 124     -26.878 -32.478  21.081  0.00  0.00           N 0
+ATOM    908  NE2 GLN A 122     -25.082 -29.028  14.836  0.00  0.00           N 0
+ATOM    912    C PRO A 123     -23.211 -28.595  21.196  0.00  0.00           C 0
+ATOM    914    O PRO A 123     -23.495 -27.400  21.241  0.09  5.36           O 0
+ATOM    925  CE1 HIS A 124     -26.496 -33.533  20.344  0.00  0.00           C 0
+ATOM    909  OE1 GLN A 122     -23.540 -30.561  14.824  0.60  4.29           O 0
+ATOM    926  NE2 HIS A 124     -25.182 -33.754  20.494  0.56  4.37           N 0
+ATOM    904   CB GLN A 122     -22.097 -29.032  16.877  0.00  0.00           C 0
+ATOM    923  CD2 HIS A 124     -24.713 -32.791  21.389  0.00  0.00           C 0
+ATOM    922   CG HIS A 124     -25.770 -31.992  21.739  0.00  0.00           C 0
+ATOM    906   CG GLN A 122     -22.852 -28.425  15.683  0.00  0.00           C 0
+ATOM    918   CA HIS A 124     -25.420 -29.473  22.057  0.00  0.00           C 0
+ATOM    927    N GLY A 125     -26.913 -27.796  23.024  0.00  0.00           N 0
+ATOM    930    O GLY A 125     -29.404 -26.506  22.644  0.26  6.43           O 0
+TER
+END

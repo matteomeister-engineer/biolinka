@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0436
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1125
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6049
+HEADER 5  - Mean B-factor of pocket residues  : 0.8609
+HEADER 6  - Hydrophobicity Score              : -7.4286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.6369
+HEADER 10 - Pocket volume (convex hull)       : 3.2587
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   1704  OD1 ASP A 224       1.025  21.833  -3.668  0.47  8.57           O 0
+ATOM   1694   NE ARG A 223       3.274  25.094  -5.093  0.00  0.00           N 0
+ATOM   1695  NH1 ARG A 223       3.215  26.386  -6.978  0.00  0.00           N 0
+ATOM   1693   CD ARG A 223       2.361  25.882  -4.258  0.00  0.00           C 0
+ATOM   1697   CZ ARG A 223       3.690  25.380  -6.302  0.00  0.00           C 0
+ATOM    976    N ARG A 134       0.602  20.901  -9.915  0.00  0.00           N 0
+ATOM   1727  OE2 GLU A 227      -4.016  22.758  -3.677  0.24  9.64           O 0
+ATOM    973  NH1 ARG A 133      -4.576  21.148  -5.777  0.39  3.28           N 0
+ATOM    966   CA ARG A 133      -1.780  20.882 -10.421  0.00  0.00           C 0
+ATOM    964    O GLY A 132      -3.112  22.950 -11.835  0.00  0.00           O 0
+ATOM    979   CB ARG A 134       2.797  21.025  -8.844  0.00  0.00           C 0
+ATOM    968   CB ARG A 133      -2.231  19.937  -9.294  0.00  0.00           C 0
+ATOM    941    O VAL A 128      -1.364  17.592  -6.121  0.38  4.29           O 0
+ATOM    970   CG ARG A 133      -3.647  20.264  -8.806  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   116:
+HEADER 0  - Pocket Score                      : -0.1458
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9310
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4812
+HEADER 5  - Mean B-factor of pocket residues  : 0.7864
+HEADER 6  - Hydrophobicity Score              : 16.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.2029
+HEADER 10 - Pocket volume (convex hull)       : 14.5837
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2333
+ATOM   3909   CD ARG A 516       3.139 -30.886 -18.670  0.00  0.00           C 0
+ATOM   3908   CG ARG A 516       3.929 -29.581 -18.618  0.00  0.00           C 0
+ATOM   3906   CB ARG A 516       3.430 -28.715 -17.456  0.00  0.00           C 0
+ATOM   4041   CB ALA A 534       3.385 -32.336 -12.668  0.00  0.00           C 0
+ATOM   4038    N ALA A 534       5.744 -32.841 -12.308  0.58  2.19           N 0
+ATOM   4042    O ALA A 534       4.307 -35.268 -11.892  0.28  9.64           O 0
+ATOM   3911  NH1 ARG A 516       2.366 -33.588 -19.245  0.00  0.00           N 0
+ATOM   3913   CZ ARG A 516       3.269 -33.000 -19.979  0.00  0.00           C 0
+ATOM   3910   NE ARG A 516       3.636 -31.755 -19.754  0.00  0.00           N 0
+ATOM   4437  CD2 LEU A 589       3.965 -29.094 -10.943  0.00  0.00           C 0
+ATOM   3903    N ARG A 516       3.816 -26.656 -16.180  0.00  0.00           N 0
+ATOM   4034   CG GLU A 533       9.900 -34.544 -13.205  0.00  0.00           C 0
+ATOM   4030   CA GLU A 533       8.180 -32.778 -12.404  0.00  0.00           C 0
+ATOM   4032   CB GLU A 533       8.778 -34.177 -12.213  0.00  0.00           C 0
+ATOM   3904   CA ARG A 516       4.221 -27.405 -17.376  0.00  0.00           C 0
+ATOM   4028   OG SER A 532       9.432 -28.052 -13.258  0.68  4.29           O 0
+ATOM   4037  OE2 GLU A 533       9.370 -36.861 -12.830  0.17  4.29           O 0
+ATOM   3895   CB ARG A 515       4.562 -25.385 -13.142  0.00  0.00           C 0
+ATOM   3894    C ARG A 515       4.566 -25.677 -15.668  0.00  0.00           C 0
+ATOM   3933   CB ALA A 519       8.291 -25.665 -17.970  0.00  0.00           C 0
+ATOM   4027    O SER A 532       9.810 -31.186 -14.063  0.00  0.00           O 0
+ATOM   3896    O ARG A 515       5.664 -25.379 -16.136  0.56  2.14           O 0
+TER
+END

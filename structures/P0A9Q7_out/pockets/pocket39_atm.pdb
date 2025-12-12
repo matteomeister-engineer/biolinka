@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.2595
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    55
+HEADER 3  - Mean alpha-sphere radius          : 3.9104
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4775
+HEADER 5  - Mean B-factor of pocket residues  : 0.5213
+HEADER 6  - Hydrophobicity Score              : 10.5000
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 921.4686
+HEADER 10 - Pocket volume (convex hull)       : 251.6206
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0909
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   6651   CG LYS A 876     -43.011 -14.803 -14.462  0.00  0.00           C 0
+ATOM   6646    N LYS A 876     -45.229 -15.377 -12.007  0.00  0.00           N 0
+ATOM   6631    O ALA A 873     -41.640 -17.580 -10.189  0.81  3.21           O 0
+ATOM   6641    O LYS A 875     -45.670 -13.509 -10.854  0.53  7.50           O 0
+ATOM   6639    C LYS A 875     -45.660 -14.733 -10.919  0.00  0.00           C 0
+ATOM   6615    O GLU A 871     -43.155 -17.015  -5.108  0.53  7.50           O 0
+ATOM   6616   CG GLU A 871     -44.906 -19.654  -2.163  0.00  0.00           C 0
+ATOM   6617   CD GLU A 871     -46.338 -19.328  -1.690  0.00  0.00           C 0
+ATOM   6635   CB ALA A 874     -44.388 -19.804  -8.155  0.00  0.00           C 0
+ATOM   6642   CG LYS A 875     -47.935 -15.696  -7.921  0.00  0.00           C 0
+ATOM   6644   CE LYS A 875     -49.678 -15.789  -6.119  0.00  0.00           C 0
+ATOM   6618  OE1 GLU A 871     -47.150 -20.280  -1.644  0.00  0.00           O 0
+ATOM   6614   CB GLU A 871     -44.069 -18.409  -2.509  0.00  0.00           C 0
+ATOM   6643   CD LYS A 875     -48.709 -14.878  -6.880  0.00  0.00           C 0
+ATOM   6516  CD2 LEU A 859     -47.599  -7.648  -0.808  0.00  0.00           C 0
+ATOM   6569  NH2 ARG A 865     -48.986 -12.720   0.555  0.51  6.56           N 0
+ATOM   6553  CE2 TYR A 863     -51.432  -9.023   0.613  0.00  0.00           C 0
+ATOM   6645   NZ LYS A 875     -50.274 -15.093  -4.953  0.00  0.00           N 0
+ATOM   6619  OE2 GLU A 871     -46.662 -18.135  -1.482  0.00  0.00           O 0
+ATOM   6629    C ALA A 873     -41.684 -17.609  -8.958  0.00  0.00           C 0
+ATOM   6637    N LYS A 875     -45.170 -16.486  -9.207  0.55  2.19           N 0
+ATOM   6492  OE1 GLN A 856     -43.970 -12.909  -2.082  0.52  9.64           O 0
+ATOM   6640   CB LYS A 875     -46.940 -14.804  -8.681  0.00  0.00           C 0
+ATOM   6482   CE LYS A 855     -43.646  -6.118  -4.166  0.00  0.00           C 0
+ATOM   6483   NZ LYS A 855     -43.625  -5.488  -5.505  0.00  0.00           N 0
+ATOM   6624    O THR A 872     -40.228 -14.842  -6.766  0.00  0.00           O 0
+ATOM   6621   CA THR A 872     -40.702 -15.736  -4.599  0.00  0.00           C 0
+ATOM   6456    O SER A 852     -39.329 -10.360  -2.017  0.62  3.21           O 0
+ATOM   6625  CG2 THR A 872     -39.717 -14.589  -2.559  0.00  0.00           C 0
+ATOM   6481   CD LYS A 855     -42.233  -6.463  -3.677  0.00  0.00           C 0
+ATOM   6480   CG LYS A 855     -42.307  -6.849  -2.198  0.00  0.00           C 0
+ATOM   6568  NH1 ARG A 865     -51.083 -13.396   0.148  0.00  0.00           N 0
+ATOM   6554   OH TYR A 863     -52.850  -7.519  -0.584  0.00  0.00           O 0
+ATOM   6555   CZ TYR A 863     -52.671  -8.369   0.458  0.00  0.00           C 0
+ATOM   6455   CB SER A 852     -37.512 -10.043  -4.600  0.00  0.00           C 0
+ATOM   6515  CD1 LEU A 859     -45.727  -8.928  -1.762  0.00  0.00           C 0
+ATOM   6567   NE ARG A 865     -49.909 -14.220   1.941  0.83  1.09           N 0
+ATOM   6566   CD ARG A 865     -50.932 -15.096   2.548  0.00  0.00           C 0
+ATOM   6491  NE2 GLN A 856     -45.003 -13.611  -0.282  0.38  1.09           N 0
+ATOM   6570   CZ ARG A 865     -50.004 -13.452   0.880  0.00  0.00           C 0
+TER
+END

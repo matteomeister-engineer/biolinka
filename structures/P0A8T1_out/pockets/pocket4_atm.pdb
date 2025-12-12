@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0478
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6158
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3894
+HEADER 5  - Mean B-factor of pocket residues  : 0.7792
+HEADER 6  - Hydrophobicity Score              : 49.2857
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 88.7659
+HEADER 10 - Pocket volume (convex hull)       : 0.9669
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    912    O ILE A 114      -8.132   2.498 -11.116  0.76  3.21           O 0
+ATOM    914  CG2 ILE A 114      -5.773   3.836  -8.614  0.00  0.00           C 0
+ATOM   1101    O THR A 139      -1.898   2.712  -9.390  0.78  6.43           O 0
+ATOM    810  CD1 PHE A 103      -1.814   2.922 -14.576  0.00  0.00           C 0
+ATOM    838   SD MET A 106      -4.044  -1.734 -12.081  0.00  0.00           S 0
+ATOM   1046    O LEU A 131      -4.381   7.605 -11.387  0.57  2.14           O 0
+ATOM    819    O HIS A 104      -6.580   0.799 -14.793  0.39  1.07           O 0
+ATOM    837   CG MET A 106      -5.811  -1.679 -12.475  0.00  0.00           C 0
+ATOM    928   CD PRO A 116      -7.287   5.074 -14.508  0.00  0.00           C 0
+ATOM    922    N PRO A 116      -7.307   6.189 -13.571  0.00  0.00           N 0
+ATOM    911   CB ILE A 114      -6.769   2.686  -8.388  0.00  0.00           C 0
+ATOM    835   CB MET A 106      -6.705  -1.533 -11.245  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0795
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0262
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7597
+HEADER 5  - Mean B-factor of pocket residues  : 0.4895
+HEADER 6  - Hydrophobicity Score              : 27.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.7005
+HEADER 10 - Pocket volume (convex hull)       : 13.8230
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM     92  CG2 THR A  11      28.808 -12.422 -16.021  0.00  0.00           C 0
+ATOM     81   CA THR A  10      27.659  -8.187 -18.335  0.00  0.00           C 0
+ATOM    396    N GLY A  52      26.531 -12.601 -20.902  0.74  3.28           N 0
+ATOM    397   CA GLY A  52      26.113 -11.919 -19.687  0.00  0.00           C 0
+ATOM    384    C TRP A  51      26.771 -13.908 -20.957  0.00  0.00           C 0
+ATOM    385   CB TRP A  51      28.327 -15.530 -22.117  0.00  0.00           C 0
+ATOM    386    O TRP A  51      26.743 -14.615 -19.951  0.68  2.14           O 0
+ATOM    382    N TRP A  51      27.560 -13.497 -23.311  0.57  5.47           N 0
+ATOM    388  CD1 TRP A  51      29.278 -16.237 -24.354  0.00  0.00           C 0
+ATOM    367    O ARG A  49      29.565 -13.734 -26.501  0.59  4.29           O 0
+ATOM    375   CA LEU A  50      27.464 -12.134 -25.361  0.00  0.00           C 0
+ATOM    381  CD2 LEU A  50      28.608  -9.160 -25.377  0.00  0.00           C 0
+ATOM    109  ND2 ASN A  14      32.356  -8.972 -14.836  0.00  0.00           N 0
+ATOM     87    N THR A  11      27.761  -9.661 -16.394  0.56  1.09           N 0
+ATOM     76    O ASN A   9      28.358  -7.262 -20.915  0.15  8.57           O 0
+ATOM     79  OD1 ASN A   9      26.224 -10.116 -22.219  0.48  2.14           O 0
+ATOM     82    C THR A  10      27.048  -9.270 -17.447  0.00  0.00           C 0
+ATOM     86  OG1 THR A  10      29.127  -7.169 -16.701  0.58  6.43           O 0
+ATOM    595    O LEU A  78      35.090  -6.067 -19.172  0.43  9.64           O 0
+TER
+END

@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1377
+HEADER 1  - Drug Score                        : 0.0407
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.9338
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5346
+HEADER 5  - Mean B-factor of pocket residues  : 0.9942
+HEADER 6  - Hydrophobicity Score              : 12.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.1673
+HEADER 10 - Pocket volume (convex hull)       : 34.4701
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.5588
+ATOM   1987    N ALA A 265      -9.706  12.781 -15.213  0.00  0.00           N 0
+ATOM   1984   CD GLN A 264     -13.184  14.123 -18.640  0.00  0.00           C 0
+ATOM   1983   CG GLN A 264     -12.326  14.523 -17.446  0.00  0.00           C 0
+ATOM   1959    O VAL A 261      -8.651  11.410 -17.632  0.62  3.21           O 0
+ATOM   1990   CB ALA A 265      -9.284  10.539 -14.381  0.00  0.00           C 0
+ATOM   1225   CE LYS A 162     -12.677   3.241 -11.917  0.00  0.00           C 0
+ATOM   1233  CG2 VAL A 163      -8.314   7.232 -14.621  0.00  0.00           C 0
+ATOM   1223   CG LYS A 162     -10.503   2.718 -13.097  0.00  0.00           C 0
+ATOM   1259  OD2 ASP A 166     -12.870   3.515 -15.452  0.00  0.00           O 0
+ATOM   2016   CG PRO A 269     -13.573  10.512 -12.044  0.00  0.00           C 0
+ATOM   1985  NE2 GLN A 264     -14.490  14.126 -18.488  0.59  8.75           N 0
+ATOM   2017   CD PRO A 269     -13.524  12.037 -12.080  0.00  0.00           C 0
+ATOM   2025  CD2 LEU A 270     -10.059   7.509  -8.965  0.00  0.00           C 0
+ATOM   2014   CB PRO A 269     -14.225  10.242 -10.688  0.00  0.00           C 0
+ATOM   1015    O GLY A 134     -11.406   4.613  -8.103  0.00  0.00           O 0
+ATOM   2015    O PRO A 269     -12.666  10.166  -7.958  0.26  3.21           O 0
+ATOM   2023   CG LEU A 270      -9.807   8.456 -10.138  0.00  0.00           C 0
+ATOM   1266  ND2 ASN A 167     -10.971   6.961 -19.571  0.00  0.00           N 0
+ATOM   1232  CG1 VAL A 163      -7.962   7.775 -17.008  0.00  0.00           C 0
+ATOM   1986  OE1 GLN A 264     -12.723  13.809 -19.724  0.59  5.36           O 0
+ATOM   2024  CD1 LEU A 270      -8.876   7.743 -11.116  0.00  0.00           C 0
+ATOM   1988   CA ALA A 265      -9.883  11.908 -14.058  0.00  0.00           C 0
+ATOM   1982    O GLN A 264     -11.031  14.394 -14.400  0.36  2.14           O 0
+ATOM   1267  OD1 ASN A 167     -12.070   7.792 -21.266  0.42  7.50           O 0
+ATOM   1958   CB VAL A 261      -8.827  10.217 -20.628  0.00  0.00           C 0
+ATOM   1228   CA VAL A 163      -8.539   5.385 -16.314  0.00  0.00           C 0
+TER
+END

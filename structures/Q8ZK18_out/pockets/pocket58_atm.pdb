@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0173
+HEADER 1  - Drug Score                        : 0.1792
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8239
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4061
+HEADER 5  - Mean B-factor of pocket residues  : 0.7951
+HEADER 6  - Hydrophobicity Score              : 19.8750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.0135
+HEADER 10 - Pocket volume (convex hull)       : 10.1371
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.9091
+ATOM   1566   CE LYS A 194      50.218  22.172   1.447  0.00  0.00           C 0
+ATOM   1564   CG LYS A 194      50.238  21.404  -0.990  0.00  0.00           C 0
+ATOM   1499   CG LYS A 186      45.158  25.475   1.845  0.00  0.00           C 0
+ATOM   1501   CE LYS A 186      47.082  27.082   2.026  0.00  0.00           C 0
+ATOM   1528    O GLY A 190      47.534  20.377   0.451  0.00  0.00           O 0
+ATOM   1500   CD LYS A 186      45.640  26.896   1.551  0.00  0.00           C 0
+ATOM   1462    O GLU A 182      41.000  26.337  -0.184  0.00  0.00           O 0
+ATOM   1493  CD2 LEU A 185      40.197  22.155  -3.447  0.00  0.00           C 0
+ATOM   1463   CG GLU A 182      41.884  27.968  -2.941  0.00  0.00           C 0
+ATOM   1558  CD1 ILE A 193      43.450  21.409  -1.584  0.00  0.00           C 0
+ATOM   1557  CG2 ILE A 193      45.316  21.598  -4.026  0.00  0.00           C 0
+ATOM   1465  OE1 GLU A 182      43.701  28.142  -4.460  0.58  8.57           O 0
+ATOM   1497   CB LYS A 186      43.701  25.322   1.385  0.00  0.00           C 0
+ATOM   1554   CB ILE A 193      45.311  20.498  -2.944  0.00  0.00           C 0
+ATOM    561   CE LYS A  71      40.161  25.224  -7.830  0.00  0.00           C 0
+ATOM    580   OH TYR A  73      42.807  20.508  -6.834  0.62  5.36           O 0
+ATOM    562   NZ LYS A  71      41.311  25.795  -8.575  0.52  8.75           N 0
+TER
+END

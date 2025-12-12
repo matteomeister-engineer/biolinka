@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0605
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8083
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4721
+HEADER 5  - Mean B-factor of pocket residues  : 0.8243
+HEADER 6  - Hydrophobicity Score              : 13.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.4319
+HEADER 10 - Pocket volume (convex hull)       : 4.7350
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   1146   CB LYS A 150      12.003   8.543 -26.666  0.00  0.00           C 0
+ATOM    150    O ASP A  22      18.570  10.258 -25.858  0.61  4.29           O 0
+ATOM   1149   CD LYS A 150      12.583   6.107 -26.937  0.00  0.00           C 0
+ATOM    152  OD1 ASP A  22      18.591  11.332 -30.474  0.00  0.00           O 0
+ATOM   1025  CG1 ILE A 133      16.670   7.482 -22.944  0.00  0.00           C 0
+ATOM    167    O ILE A  24      14.359  12.338 -24.300  0.62  2.14           O 0
+ATOM    145    O ALA A  21      16.675  13.627 -26.918  0.47  1.07           O 0
+ATOM   1132    O ASP A 148      12.807  12.323 -29.533  0.70  5.36           O 0
+ATOM   1143    N LYS A 150      11.410  10.897 -26.836  0.00  0.00           N 0
+ATOM   1007    O GLN A 131      19.035   5.610 -25.038  0.17  9.64           O 0
+ATOM   1011  OE1 GLN A 131      14.158   4.041 -24.881  0.00  0.00           O 0
+ATOM   1006   CB GLN A 131      16.943   3.743 -24.447  0.00  0.00           C 0
+ATOM   1151   NZ LYS A 150      12.945   3.679 -27.272  0.69  5.47           N 0
+ATOM   1027  CD1 ILE A 133      15.349   6.713 -22.801  0.00  0.00           C 0
+ATOM    147   CA ASP A  22      18.694  11.832 -27.683  0.00  0.00           C 0
+TER
+END

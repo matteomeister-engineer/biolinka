@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   125:
+HEADER 0  - Pocket Score                      : -0.1872
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.0310
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5670
+HEADER 5  - Mean B-factor of pocket residues  : 0.7122
+HEADER 6  - Hydrophobicity Score              : -11.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 2.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 332.5509
+HEADER 10 - Pocket volume (convex hull)       : 20.1339
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.7500
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.2963
+ATOM   2492   CG PRO A 329      23.656   3.935 -48.679  0.00  0.00           C 0
+ATOM   2747   CB ALA A 360      25.225  -1.061 -50.338  0.00  0.00           C 0
+ATOM   1851  OD1 ASN A 244      26.008   3.146 -55.020  0.51  8.57           O 0
+ATOM   1856    O PRO A 245      26.844   4.284 -50.835  0.53  5.36           O 0
+ATOM   2748    O ALA A 360      26.102  -2.521 -53.222  0.33  3.21           O 0
+ATOM   2745   CA ALA A 360      24.739  -2.185 -51.261  0.00  0.00           C 0
+ATOM   1850  ND2 ASN A 244      27.442   2.000 -56.190  0.00  4.37           N 0
+ATOM   2762   CA GLY A 363      24.524  -4.095 -56.251  0.00  0.00           C 0
+ATOM   2765    N ASN A 364      22.139  -4.176 -55.673  0.58  2.19           N 0
+ATOM   2769    O ASN A 364      19.583  -2.435 -54.880  0.00  0.00           O 0
+ATOM   2776   CB PRO A 365      19.658  -0.432 -58.618  0.00  0.00           C 0
+ATOM   2779   CD PRO A 365      20.251  -2.711 -58.410  0.00  0.00           C 0
+ATOM   2778   CG PRO A 365      19.613  -1.745 -59.395  0.00  0.00           C 0
+ATOM   2764    O GLY A 363      22.759  -4.265 -57.837  0.00  0.00           O 0
+ATOM   1858   CD PRO A 245      26.183   6.921 -52.907  0.00  0.00           C 0
+ATOM   1841    O PRO A 243      25.846   7.541 -56.741  0.36  7.50           O 0
+ATOM   2486  CD2 LEU A 328      21.783   8.186 -51.995  0.00  0.00           C 0
+ATOM   2763    C GLY A 363      23.053  -4.175 -56.648  0.00  0.00           C 0
+ATOM   2773    N PRO A 365      19.858  -2.255 -57.089  0.00  0.00           N 0
+ATOM   2774   CA PRO A 365      19.384  -0.864 -57.171  0.00  0.00           C 0
+ATOM   2767    C ASN A 364      19.999  -2.929 -55.925  0.00  0.00           C 0
+ATOM   2493   CD PRO A 329      22.727   5.040 -49.176  0.00  0.00           C 0
+TER
+END

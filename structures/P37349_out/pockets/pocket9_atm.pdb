@@ -1,0 +1,60 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0172
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    62
+HEADER 3  - Mean alpha-sphere radius          : 4.0275
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5021
+HEADER 5  - Mean B-factor of pocket residues  : 0.9164
+HEADER 6  - Hydrophobicity Score              : 32.8889
+HEADER 7  - Polarity Score                    :    11
+HEADER 8  - Amino Acid based volume Score     : 4.6111
+HEADER 9  - Pocket volume (Monte Carlo)       : 722.3476
+HEADER 10 - Pocket volume (convex hull)       : 189.2016
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 13.6842
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.3065
+ATOM   3060   CA ALA A 401     -17.779   6.718   8.274  0.00  0.00           C 0
+ATOM   3064    N GLU A 402     -16.841   7.122   6.056  0.56  3.28           N 0
+ATOM   1945  CD1 TYR A 262     -21.918  10.425   9.195  0.00  0.00           C 0
+ATOM   1955    O TYR A 263     -16.190   9.283  10.330  0.60  4.29           O 0
+ATOM   3424  CD2 LEU A 450     -22.083   7.313   6.068  0.00  0.00           C 0
+ATOM   2705  NE2 GLN A 358      -7.843   3.317  -2.674  0.82  8.75           N 0
+ATOM   2803  CE2 TYR A 369      -8.558   2.390   0.552  0.00  0.00           C 0
+ATOM   3071  OE1 GLU A 402     -14.262   8.549   0.727  0.00  0.00           O 0
+ATOM   2804   OH TYR A 369     -10.828   1.604   0.574  0.00  0.00           O 0
+ATOM   2836  OD2 ASP A 373      -6.594   4.858   2.067  0.00  0.00           O 0
+ATOM   3055    O LEU A 400     -19.226   7.654  10.436  0.00  0.00           O 0
+ATOM   3061    C ALA A 401     -17.688   6.397   6.780  0.00  0.00           C 0
+ATOM   1978   CD PRO A 265     -11.742   9.759   9.651  0.00  0.00           C 0
+ATOM   1968   CG GLN A 264     -13.787  12.953   8.733  0.00  0.00           C 0
+ATOM   3077    O ASN A 403     -13.419   5.492   7.866  0.58  2.14           O 0
+ATOM   3067   CB GLU A 402     -15.808   7.903   3.982  0.00  0.00           C 0
+ATOM   3079  ND2 ASN A 403     -10.904   2.854   3.832  0.60  1.09           N 0
+ATOM   3072  OE2 GLU A 402     -15.114   9.928   2.247  0.00  0.00           O 0
+ATOM   1971  OE1 GLN A 264     -15.334  14.762   8.273  0.00  0.00           O 0
+ATOM   1942   CB TYR A 262     -20.885  11.373  11.289  0.00  0.00           C 0
+ATOM   1966   CB GLN A 264     -14.645  12.564   9.945  0.00  0.00           C 0
+ATOM   3099   OH TYR A 405      -7.474   7.604   6.361  0.00  0.00           O 0
+ATOM   1969   CD GLN A 264     -14.275  14.208   8.018  0.00  0.00           C 0
+ATOM   1964   CA GLN A 264     -14.169  11.246  10.575  0.00  0.00           C 0
+ATOM   1977   CG PRO A 265     -10.402   9.038   9.769  0.00  0.00           C 0
+ATOM   1993  CD2 LEU A 267      -9.572  15.279   6.438  0.00  0.00           C 0
+ATOM   1976    O PRO A 265     -10.552  13.215  10.283  0.61  2.14           O 0
+ATOM   1975   CB PRO A 265      -9.471  10.127  10.297  0.00  0.00           C 0
+ATOM   3070   CD GLU A 402     -14.893   8.787   1.776  0.00  0.00           C 0
+ATOM   1970  NE2 GLN A 264     -13.513  14.705   7.070  0.77  1.09           N 0
+ATOM   3073    N ASN A 403     -14.589   5.477   5.467  0.68  1.09           N 0
+ATOM   3097  CE1 TYR A 405      -7.643   5.268   6.868  0.00  0.00           C 0
+ATOM   2868  ND1 HIS A 377      -5.591  10.595   9.642  0.52  4.37           N 0
+ATOM   3076   CB ASN A 403     -12.588   4.312   4.761  0.00  0.00           C 0
+ATOM   3069   CG GLU A 402     -15.491   7.583   2.514  0.00  0.00           C 0
+ATOM   3231   CB ALA A 424     -15.731   3.659   0.824  0.00  0.00           C 0
+ATOM   3433  CE1 TYR A 451     -20.879  10.164   3.276  0.00  0.00           C 0
+ATOM   1983    O VAL A 266      -7.160  13.950  10.110  0.38  2.14           O 0
+TER
+END

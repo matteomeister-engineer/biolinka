@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   141:
+HEADER 0  - Pocket Score                      : -0.1294
+HEADER 1  - Drug Score                        : 0.0155
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 3.7625
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4399
+HEADER 5  - Mean B-factor of pocket residues  : 0.7457
+HEADER 6  - Hydrophobicity Score              : -9.4000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.7828
+HEADER 10 - Pocket volume (convex hull)       : 36.2468
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.4286
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.5526
+ATOM   7378   CG ASP A 944      -1.606 -26.463 -24.108  0.00  0.00           C 0
+ATOM   9872   CB MET A1255      -0.226 -31.308 -20.825  0.00  0.00           C 0
+ATOM   7379  OD1 ASP A 944      -2.811 -26.275 -23.829  0.46  6.43           O 0
+ATOM   7380  OD2 ASP A 944      -1.197 -27.247 -24.994  0.00  0.00           O 0
+ATOM  10222   CB SER A1297      -4.733 -27.111 -16.770  0.00  0.00           C 0
+ATOM  10220   CA SER A1297      -4.962 -28.618 -16.607  0.00  0.00           C 0
+ATOM   9875   SD MET A1255       0.246 -28.840 -19.673  0.00  0.00           S 0
+ATOM   7408  CD2 TYR A 947      -4.368 -24.092 -19.216  0.00  0.00           C 0
+ATOM   7404   CB TYR A 947      -3.049 -23.353 -17.191  0.00  0.00           C 0
+ATOM   7374   CA ASP A 944      -1.027 -24.720 -22.252  0.00  0.00           C 0
+ATOM   7410  CE2 TYR A 947      -5.488 -23.999 -20.061  0.00  0.00           C 0
+ATOM   7377    O ASP A 944       0.674 -24.869 -20.546  0.00  0.00           O 0
+ATOM   9891   CG LYS A1257      -6.013 -31.946 -22.113  0.00  0.00           C 0
+ATOM  10231   CD PRO A1298      -2.770 -30.619 -16.211  0.00  0.00           C 0
+ATOM   9873    O MET A1255      -1.927 -33.286 -22.127  0.47  7.50           O 0
+ATOM   9869    N MET A1255       0.996 -32.640 -22.505  0.62  1.09           N 0
+ATOM   9865   CB PRO A1254       1.246 -33.131 -25.741  0.00  0.00           C 0
+ATOM  10217    O SER A1296      -6.175 -31.089 -17.415  0.00  0.00           O 0
+ATOM   9887   CA LYS A1257      -5.414 -33.597 -20.194  0.00  0.00           C 0
+ATOM  10219    N SER A1297      -6.381 -28.925 -16.810  0.00  0.00           N 0
+ATOM   9893   CE LYS A1257      -7.156 -30.218 -23.641  0.00  0.00           C 0
+ATOM   7419   CD PRO A 948       0.418 -23.633 -17.560  0.00  0.00           C 0
+ATOM   9876   CE MET A1255       1.300 -28.497 -18.245  0.00  0.00           C 0
+ATOM  10237   OG SER A1299      -1.539 -25.404 -14.527  0.00  0.00           O 0
+ATOM   9892   CD LYS A1257      -7.171 -31.644 -23.082  0.00  0.00           C 0
+ATOM  10218   OG SER A1296      -8.701 -28.772 -19.188  0.79  5.36           O 0
+ATOM  10215    C SER A1296      -6.888 -30.107 -17.184  0.00  0.00           C 0
+TER
+END

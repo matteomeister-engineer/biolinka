@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    84:
+HEADER 0  - Pocket Score                      : -0.1296
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0445
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6059
+HEADER 5  - Mean B-factor of pocket residues  : 0.4418
+HEADER 6  - Hydrophobicity Score              : -16.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.6332
+HEADER 10 - Pocket volume (convex hull)       : 1.7564
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    405   NZ LYS A  52      23.379  19.599 -21.476  0.00  0.00           N 0
+ATOM    244    O LYS A  32      26.913  13.865 -20.208  0.00  0.00           O 0
+ATOM   6731   OG SER A 847      22.498  13.051 -25.182  0.00  0.00           O 0
+ATOM   6729   CB SER A 847      23.761  12.479 -25.478  0.00  0.00           C 0
+ATOM    253    O ASN A  33      24.940  15.914 -16.907  0.62  4.29           O 0
+ATOM    250   CA ASN A  33      25.580  13.751 -17.730  0.00  0.00           C 0
+ATOM   6730    O SER A 847      24.941  10.907 -22.963  0.63  4.29           O 0
+ATOM   6728    C SER A 847      23.850  10.904 -23.527  0.00  0.00           C 0
+ATOM    256  OD1 ASN A  33      23.896  11.665 -18.610  0.67  2.14           O 0
+ATOM   6735   CB SER A 848      21.125  10.818 -20.993  0.00  0.00           C 0
+ATOM   6733   CA SER A 848      22.570  10.530 -21.416  0.00  0.00           C 0
+ATOM   6732    N SER A 848      22.697  10.734 -22.867  0.00  0.00           N 0
+TER
+END

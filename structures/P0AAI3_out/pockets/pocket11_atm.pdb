@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0655
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0655
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4910
+HEADER 5  - Mean B-factor of pocket residues  : 0.5914
+HEADER 6  - Hydrophobicity Score              : 19.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 430.5964
+HEADER 10 - Pocket volume (convex hull)       : 19.2545
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2273
+ATOM   1767  CG1 VAL A 228     -30.721  -0.938  15.079  0.00  0.00           C 0
+ATOM   1747  CD2 PHE A 225     -33.104   4.511  13.523  0.00  0.00           C 0
+ATOM   1731  OE2 GLU A 223     -29.062   2.044  11.046  0.00  0.00           O 0
+ATOM   1061  CD1 PHE A 134     -35.301  -0.293  11.590  0.00  0.00           C 0
+ATOM   1063  CE1 PHE A 134     -35.792   0.525  10.556  0.00  0.00           C 0
+ATOM   1793  NH2 ARG A 232     -29.901  -2.120  11.526  0.73  9.84           N 0
+ATOM   1730  OE1 GLU A 223     -28.430  -0.014  10.616  0.00  0.00           O 0
+ATOM   1092   CE LYS A 138     -28.944  -4.091   7.663  0.00  0.00           C 0
+ATOM   1093   NZ LYS A 138     -28.256  -2.843   7.244  0.00  0.00           N 0
+ATOM   1056   CA PHE A 134     -35.180  -3.350  13.001  0.00  0.00           C 0
+ATOM   1059    O PHE A 134     -32.880  -3.504  13.657  0.00  0.00           O 0
+ATOM   1053    O SER A 133     -35.290  -5.878  11.817  0.33  4.29           O 0
+ATOM   1074    O LYS A 136     -30.844  -7.311  12.469  0.44  4.29           O 0
+ATOM   1090   CG LYS A 138     -28.458  -6.457   8.491  0.00  0.00           C 0
+ATOM   1054   OG SER A 133     -37.001  -7.125  10.036  0.00  0.00           O 0
+ATOM   1083    O SER A 137     -29.491 -10.139  10.958  0.45  8.57           O 0
+ATOM   1073   CB LYS A 136     -33.270  -9.347  12.837  0.00  0.00           C 0
+ATOM   1749  CE2 PHE A 225     -33.903   5.109  12.532  0.00  0.00           C 0
+ATOM   1768  CG2 VAL A 228     -32.045   0.684  16.387  0.00  0.00           C 0
+TER
+END

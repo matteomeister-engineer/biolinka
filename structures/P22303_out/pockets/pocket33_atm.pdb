@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0563
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0801
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6236
+HEADER 5  - Mean B-factor of pocket residues  : 0.9999
+HEADER 6  - Hydrophobicity Score              : 4.5714
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.8297
+HEADER 10 - Pocket volume (convex hull)       : 5.7148
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   1639  OE1 GLN A 212     -22.611  -6.546  -9.094  0.81  8.57           O 0
+ATOM   1610    N LEU A 209     -18.463  -5.945  -7.798  0.00  0.00           N 0
+ATOM   1578    O LEU A 205     -16.569  -6.208  -9.923  0.68  3.21           O 0
+ATOM   1605   CD ARG A 208     -19.851  -2.119 -10.834  0.00  0.00           C 0
+ATOM    621   CD PRO A  83     -22.057 -12.740 -11.676  0.00  0.00           C 0
+ATOM   1616  CD1 LEU A 209     -20.917  -9.584  -8.594  0.00  0.00           C 0
+ATOM    603    O PRO A  81     -18.592 -10.906 -13.337  0.34  4.29           O 0
+ATOM   1613   CB LEU A 209     -18.702  -8.301  -8.395  0.00  0.00           C 0
+ATOM    604   CG PRO A  81     -16.250  -9.378 -11.720  0.00  0.00           C 0
+ATOM   1577   CB LEU A 205     -15.603  -5.475 -12.944  0.00  0.00           C 0
+ATOM    605   CD PRO A  81     -15.717  -9.094 -13.122  0.00  0.00           C 0
+ATOM    595   CB PRO A  80     -16.606  -8.683 -16.676  0.00  0.00           C 0
+ATOM    620   CG PRO A  83     -23.038 -12.240 -10.619  0.00  0.00           C 0
+ATOM   1581  CD2 LEU A 205     -16.967  -3.542 -13.891  0.00  0.00           C 0
+ATOM   1638  NE2 GLN A 212     -23.225  -4.553  -9.699  0.00  0.00           N 0
+ATOM   1607  NH1 ARG A 208     -19.593  -1.467 -13.637  0.48  9.84           N 0
+ATOM   1580  CD1 LEU A 205     -15.843  -5.116 -15.419  0.00  0.00           C 0
+TER
+END

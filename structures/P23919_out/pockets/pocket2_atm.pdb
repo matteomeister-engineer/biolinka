@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0274
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8407
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6604
+HEADER 5  - Mean B-factor of pocket residues  : 0.9887
+HEADER 6  - Hydrophobicity Score              : 39.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.8273
+HEADER 10 - Pocket volume (convex hull)       : 5.2102
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM   1500  OD2 ASP A 190       1.376  -6.543  13.596  0.00  0.00           O 0
+ATOM   1533  CD1 LEU A 194      -2.468  -1.501  12.934  0.00  0.00           C 0
+ATOM   1496   CB ASP A 190      -0.918  -6.468  13.100  0.00  0.00           C 0
+ATOM   1498   CG ASP A 190       0.250  -6.966  13.938  0.00  0.00           C 0
+ATOM   1532   CG LEU A 194      -3.596  -1.531  13.967  0.00  0.00           C 0
+ATOM   1534  CD2 LEU A 194      -3.389  -0.360  14.933  0.00  0.00           C 0
+ATOM   1497    O ASP A 190      -3.774  -4.815  13.400  0.00  0.00           O 0
+ATOM   1494   CA ASP A 190      -2.328  -6.745  13.635  0.00  0.00           C 0
+ATOM   1499  OD1 ASP A 190       0.118  -7.821  14.836  0.00  0.00           O 0
+ATOM   1525  CG1 VAL A 193      -5.815  -4.573  17.840  0.00  0.00           C 0
+ATOM   1489   CG GLU A 189      -4.061 -10.879  15.779  0.00  0.00           C 0
+ATOM   1526  CG2 VAL A 193      -6.084  -6.926  17.129  0.00  0.00           C 0
+ATOM   1488    O GLU A 189      -4.807  -7.914  14.129  0.00  0.00           O 0
+ATOM   1493    N ASP A 190      -2.687  -8.159  13.438  0.00  0.00           N 0
+ATOM   1410  CG2 VAL A 178      -0.101  -2.704   9.577  0.00  0.00           C 0
+ATOM   1400    O MET A 177       2.372  -0.758  11.675  0.55  4.29           O 0
+ATOM   1523   CB VAL A 193      -5.908  -5.492  16.612  0.00  0.00           C 0
+TER
+END

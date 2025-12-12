@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.0481
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9042
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7040
+HEADER 5  - Mean B-factor of pocket residues  : 0.9336
+HEADER 6  - Hydrophobicity Score              : -20.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 298.2364
+HEADER 10 - Pocket volume (convex hull)       : 7.2101
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   8421   CA GLN A1073      32.386 -28.095   0.510  0.00  0.00           C 0
+ATOM   8152  NH1 ARG A1039      31.265 -23.094   3.432  0.00  0.00           N 0
+ATOM   8153  NH2 ARG A1039      30.634 -23.846   1.453  0.00  0.00           N 0
+ATOM   8154   CZ ARG A1039      30.590 -23.973   2.745  0.00  0.00           C 0
+ATOM   8424    O GLN A1073      31.346 -28.784   2.573  0.64  2.14           O 0
+ATOM   8150   CD ARG A1039      29.684 -25.052   4.794  0.00  0.00           C 0
+ATOM   8461  NE2 HIS A1077      29.450 -28.855   6.908  0.63  3.28           N 0
+ATOM   8448   CB PRO A1076      34.247 -30.436   6.138  0.00  0.00           C 0
+ATOM   8487  NH2 ARG A1080      31.113 -30.044   9.056  0.00  0.00           N 0
+ATOM   8151   NE ARG A1039      29.891 -24.927   3.335  0.00  0.00           N 0
+ATOM   8450   CG PRO A1076      34.885 -30.018   4.816  0.00  0.00           C 0
+ATOM   8417    O PRO A1072      34.824 -29.431   0.858  0.64  4.29           O 0
+ATOM   8425   CG GLN A1073      31.988 -26.211  -1.250  0.00  0.00           C 0
+ATOM   8415    C PRO A1072      34.341 -29.383  -0.273  0.00  0.00           C 0
+ATOM   8416   CB PRO A1072      36.078 -29.158  -2.096  0.00  0.00           C 0
+ATOM   8420    N GLN A1073      33.181 -28.768  -0.518  0.00  0.00           N 0
+TER
+END

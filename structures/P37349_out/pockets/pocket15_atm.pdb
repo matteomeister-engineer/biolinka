@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0126
+HEADER 1  - Drug Score                        : 0.0088
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9248
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6442
+HEADER 5  - Mean B-factor of pocket residues  : 0.9111
+HEADER 6  - Hydrophobicity Score              : 16.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.1093
+HEADER 10 - Pocket volume (convex hull)       : 8.7753
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5600
+ATOM   2259   CB ALA A 301       1.829  -4.165  23.723  0.00  0.00           C 0
+ATOM   2256    N ALA A 301       0.982  -4.722  21.523  0.65  1.09           N 0
+ATOM   2230    O MET A 297       2.803  -2.544  20.800  0.62  2.14           O 0
+ATOM   2283  OE2 GLU A 304       2.562  -8.523  22.810  0.59  7.50           O 0
+ATOM   2254  CG2 THR A 300       2.360  -6.537  18.534  0.00  0.00           C 0
+ATOM   2252   CB THR A 300       1.950  -5.066  18.618  0.00  0.00           C 0
+ATOM   2227   CA MET A 297       4.164  -1.541  19.087  0.00  0.00           C 0
+ATOM   2231   CG MET A 297       6.692  -1.429  18.644  0.00  0.00           C 0
+ATOM   2365   OG SER A 316       5.148  -7.937  14.153  0.00  0.00           O 0
+ATOM   2386  CD2 HIS A 319       7.262  -1.405  14.805  0.00  0.00           C 0
+ATOM   2233   CE MET A 297       9.380  -1.632  18.019  0.00  0.00           C 0
+ATOM   2361   CA SER A 316       3.506  -6.190  13.838  0.00  0.00           C 0
+ATOM   2229   CB MET A 297       5.551  -1.170  19.627  0.00  0.00           C 0
+ATOM   2255  OG1 THR A 300       2.092  -4.528  17.320  0.48  1.07           O 0
+ATOM   2363   CB SER A 316       3.795  -7.590  14.379  0.00  0.00           C 0
+ATOM   2383   CB HIS A 319       5.753  -2.546  13.081  0.00  0.00           C 0
+ATOM   2385   CG HIS A 319       7.070  -2.042  13.611  0.00  0.00           C 0
+ATOM   2389  NE2 HIS A 319       8.622  -1.120  14.928  0.97  1.09           N 0
+ATOM   2387  ND1 HIS A 319       8.307  -2.132  13.001  0.00  0.00           N 0
+ATOM   2388  CE1 HIS A 319       9.217  -1.565  13.808  0.00  0.00           C 0
+ATOM   2364    O SER A 316       4.915  -5.671  11.978  0.00  0.00           O 0
+ATOM   2396  OG1 THR A 320       7.388  -6.197   9.869  0.00  0.00           O 0
+TER
+END

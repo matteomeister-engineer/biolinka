@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0196
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8851
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4940
+HEADER 5  - Mean B-factor of pocket residues  : 0.4130
+HEADER 6  - Hydrophobicity Score              : 30.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.9363
+HEADER 10 - Pocket volume (convex hull)       : 6.6592
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   3123   CG GLU A 404       5.692 -27.611 -14.627  0.00  0.00           C 0
+ATOM   3121   CB GLU A 404       5.034 -26.219 -14.711  0.00  0.00           C 0
+ATOM   3149  OE2 GLU A 407       0.828 -29.055 -12.528  0.00  0.00           O 0
+ATOM   3126  OE2 GLU A 404       7.341 -27.097 -12.867  0.93  1.07           O 0
+ATOM   3157  CD1 ILE A 408       2.905 -22.142 -10.733  0.00  0.00           C 0
+ATOM   3093  CD1 LEU A 400       5.865 -22.113 -12.546  0.00  0.00           C 0
+ATOM   3048   CD LYS A 395       9.956 -25.362  -9.908  0.00  0.00           C 0
+ATOM   3032   SD MET A 393       5.211 -24.357  -7.029  0.00  0.00           S 0
+ATOM   3050   NZ LYS A 395       9.291 -27.565 -10.828  0.57  3.28           N 0
+ATOM   3094  CD2 LEU A 400       7.825 -23.590 -12.834  0.00  0.00           C 0
+ATOM   3033   CE MET A 393       3.461 -24.416  -6.541  0.00  0.00           C 0
+ATOM   3144   CB GLU A 407      -0.660 -26.721 -12.886  0.00  0.00           C 0
+ATOM   3145    O GLU A 407      -2.294 -24.818 -11.089  0.00  0.00           O 0
+ATOM   3122    O GLU A 404       2.208 -24.787 -13.897  0.74  1.07           O 0
+ATOM   3155  CG1 ILE A 408       1.489 -22.710 -10.829  0.00  0.00           C 0
+TER
+END

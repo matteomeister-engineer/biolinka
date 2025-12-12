@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   107:
+HEADER 0  - Pocket Score                      : -0.1184
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.1670
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5932
+HEADER 5  - Mean B-factor of pocket residues  : 0.8408
+HEADER 6  - Hydrophobicity Score              : -25.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 281.3604
+HEADER 10 - Pocket volume (convex hull)       : 9.4647
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4783
+ATOM  16880   CZ ARG A2200     -16.473  17.120  46.697  0.00  0.00           C 0
+ATOM  16694   CG LYS A2177     -21.286  14.724  42.707  0.00  0.00           C 0
+ATOM  16879  NH2 ARG A2200     -15.810  16.309  47.458  0.00  0.00           N 0
+ATOM  16878  NH1 ARG A2200     -17.757  17.207  46.904  0.00  0.00           N 0
+ATOM   8129  CG2 THR A1057     -15.637  11.558  40.195  0.00  0.00           C 0
+ATOM   8128    O THR A1057     -18.723  10.225  40.357  0.53  2.14           O 0
+ATOM  16695   CD LYS A2177     -21.468  13.654  41.615  0.00  0.00           C 0
+ATOM  16869   CD PRO A2199     -11.407  16.214  42.756  0.00  0.00           C 0
+ATOM  16862  OD2 ASP A2198     -13.135  16.627  47.188  0.00  0.00           O 0
+ATOM  16861  OD1 ASP A2198     -13.017  17.613  45.249  0.00  0.00           O 0
+ATOM  16696   CE LYS A2177     -21.715  12.255  42.197  0.00  0.00           C 0
+ATOM  16690   CA LYS A2177     -20.422  17.127  43.042  0.00  0.00           C 0
+ATOM  16693    O LYS A2177     -18.539  18.297  42.172  0.51  5.36           O 0
+ATOM  16877   NE ARG A2200     -15.858  17.828  45.775  0.45  2.19           N 0
+ATOM  16876   CD ARG A2200     -16.493  18.777  44.843  0.00  0.00           C 0
+ATOM  16875   CG ARG A2200     -15.481  19.328  43.841  0.00  0.00           C 0
+ATOM  16868   CG PRO A2199     -12.319  16.401  41.551  0.00  0.00           C 0
+ATOM  16692   CB LYS A2177     -20.957  16.078  42.055  0.00  0.00           C 0
+TER
+END

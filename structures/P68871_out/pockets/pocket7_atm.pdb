@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.1113
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8840
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5364
+HEADER 5  - Mean B-factor of pocket residues  : 1.0000
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 189.1541
+HEADER 10 - Pocket volume (convex hull)       : 2.6122
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM    846  CG2 VAL A 110       1.824  -8.344  -2.431  0.00  0.00           C 0
+ATOM    259  CG1 VAL A  35       4.452 -12.680  -4.589  0.00  0.00           C 0
+ATOM    867   SG CYS A 113      -1.980 -11.879   1.014  0.00  0.00           S 0
+ATOM    271   OH TYR A  36       0.723 -11.560  -6.221  0.00  0.00           O 0
+ATOM    260  CG2 VAL A  35       5.646 -12.202  -2.495  0.00  0.00           C 0
+ATOM    840    N VAL A 110      -1.067  -7.701  -1.651  0.00  0.00           N 0
+ATOM    841   CA VAL A 110       0.044  -7.866  -0.704  0.00  0.00           C 0
+ATOM    835   CB ASN A 109      -3.347  -8.821  -3.578  0.00  0.00           C 0
+ATOM    834    C ASN A 109      -2.297  -8.158  -1.396  0.00  0.00           C 0
+ATOM    836    O ASN A 109      -2.562  -8.794  -0.378  0.62  1.07           O 0
+ATOM    226   CD ARG A  31       4.965  -9.248   2.941  0.00  0.00           C 0
+ATOM    865   CB CYS A 113      -0.976 -11.007   2.249  0.00  0.00           C 0
+ATOM    228  NH1 ARG A  31       5.131 -11.967   4.081  0.00  0.00           N 0
+ATOM    845  CG1 VAL A 110       2.501  -7.358  -0.277  0.00  0.00           C 0
+ATOM    223   CB ARG A  31       5.782  -8.469   0.749  0.00  0.00           C 0
+TER
+END

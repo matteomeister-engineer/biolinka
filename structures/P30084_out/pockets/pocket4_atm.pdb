@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0044
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8832
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6955
+HEADER 5  - Mean B-factor of pocket residues  : 0.9946
+HEADER 6  - Hydrophobicity Score              : 33.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.4919
+HEADER 10 - Pocket volume (convex hull)       : 1.2770
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   2084  CG2 THR A 277     -24.076   0.267  25.384  0.00  0.00           C 0
+ATOM   2114   CG GLU A 281     -22.348  -1.254  28.892  0.00  0.00           C 0
+ATOM   2107  CG1 VAL A 280     -20.573   3.376  30.082  0.00  0.00           C 0
+ATOM   2116  OE1 GLU A 281     -24.645  -1.337  28.253  0.00  0.00           O 0
+ATOM   2083    O THR A 277     -20.869   0.476  26.358  0.00  0.00           O 0
+ATOM   2105   CB VAL A 280     -19.968   3.162  28.688  0.00  0.00           C 0
+ATOM   2080   CA THR A 277     -22.102   1.782  24.792  0.00  0.00           C 0
+ATOM   2085  OG1 THR A 277     -24.406   2.309  24.317  0.00  0.00           O 0
+ATOM   2108  CG2 VAL A 280     -19.623   4.552  28.133  0.00  0.00           C 0
+ATOM   2075    O MET A 276     -19.776   3.335  24.932  0.00  0.00           O 0
+ATOM   2079    N THR A 277     -21.523   2.609  23.724  0.00  0.00           N 0
+ATOM   2073    C MET A 276     -20.396   3.312  23.869  0.00  0.00           C 0
+ATOM   2074   CB MET A 276     -20.570   5.419  22.499  0.00  0.00           C 0
+TER
+END

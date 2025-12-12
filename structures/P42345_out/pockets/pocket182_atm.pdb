@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   182:
+HEADER 0  - Pocket Score                      : -0.1887
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0564
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5851
+HEADER 5  - Mean B-factor of pocket residues  : 0.9078
+HEADER 6  - Hydrophobicity Score              : -22.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 418.9419
+HEADER 10 - Pocket volume (convex hull)       : 26.9703
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  16134   OG SER A2035      25.127   4.566 -60.972  0.32  4.29           O 0
+ATOM  16138   CB ARG A2036      22.923   8.856 -60.512  0.00  0.00           C 0
+ATOM  16140   CG ARG A2036      21.519   9.418 -60.784  0.00  0.00           C 0
+ATOM  16113  OE1 GLU A2032      20.817   3.570 -56.096  0.00  0.00           O 0
+ATOM  16136   CA ARG A2036      23.650   8.495 -61.819  0.00  0.00           C 0
+ATOM  16114  OE2 GLU A2032      22.281   3.622 -54.442  0.55  9.64           O 0
+ATOM  17208   CE LYS A2166      18.462   5.644 -49.914  0.00  0.00           C 0
+ATOM  17209   NZ LYS A2166      18.112   6.992 -50.422  0.00  0.00           N 0
+ATOM  16120   CG GLU A2033      25.525  10.970 -56.535  0.00  0.00           C 0
+ATOM  16092  OE1 GLU A2029      24.632   8.431 -49.310  0.67  5.36           O 0
+ATOM  16123  OE2 GLU A2033      23.207  10.602 -57.169  0.00  0.00           O 0
+ATOM  16118   CB GLU A2033      25.675   9.474 -56.182  0.00  0.00           C 0
+ATOM  16090   CG GLU A2029      25.613   7.057 -51.020  0.00  0.00           C 0
+ATOM  16112   CD GLU A2032      21.965   3.786 -55.641  0.00  0.00           C 0
+ATOM  16111   CG GLU A2032      23.024   4.280 -56.645  0.00  0.00           C 0
+ATOM  16110    O GLU A2032      24.950   6.272 -58.900  0.00  0.00           O 0
+ATOM  16109   CB GLU A2032      24.461   4.316 -56.095  0.00  0.00           C 0
+ATOM  16115    N GLU A2033      25.665   7.122 -56.952  0.78  1.09           N 0
+ATOM  16141   CD ARG A2036      20.957  10.180 -59.575  0.00  0.00           C 0
+ATOM  16089    O GLU A2029      26.596   6.308 -54.270  0.00  0.00           O 0
+TER
+END

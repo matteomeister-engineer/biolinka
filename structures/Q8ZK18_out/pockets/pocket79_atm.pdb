@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : -0.0852
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1824
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6081
+HEADER 5  - Mean B-factor of pocket residues  : 0.5800
+HEADER 6  - Hydrophobicity Score              : 10.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 376.8472
+HEADER 10 - Pocket volume (convex hull)       : 16.5070
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   6583   CG GLU A 827     -16.902 -12.240 -17.854  0.00  0.00           C 0
+ATOM   6584   CD GLU A 827     -18.189 -12.056 -17.026  0.00  0.00           C 0
+ATOM   6567    O CYS A 825     -13.229 -11.976 -16.329  0.28  2.14           O 0
+ATOM   6395  CE1 PHE A 803     -11.820  -8.244 -15.745  0.00  0.00           C 0
+ATOM   6586  OE2 GLU A 827     -18.992 -11.151 -17.357  0.00  0.00           O 0
+ATOM   6581   CB GLU A 827     -16.889 -11.432 -19.168  0.00  0.00           C 0
+ATOM   6397   CZ PHE A 803     -11.676  -7.277 -16.753  0.00  0.00           C 0
+ATOM   6590   CB SER A 828     -17.004  -9.129 -23.493  0.00  0.00           C 0
+ATOM   6591    O SER A 828     -15.431  -6.907 -23.096  0.41  3.21           O 0
+ATOM   6552    O ARG A 823     -13.544 -10.178 -11.400  0.43  5.36           O 0
+ATOM   6585  OE1 GLU A 827     -18.371 -12.836 -16.063  0.00  0.00           O 0
+ATOM   6560   CA GLY A 824     -12.389 -12.698 -12.077  0.00  0.00           C 0
+ATOM   6563    N CYS A 825     -12.106 -13.539 -14.330  0.00  0.00           N 0
+ATOM   6578    N GLU A 827     -14.423 -11.283 -19.430  0.46  1.09           N 0
+ATOM   6600  OD1 ASN A 829     -12.623  -6.583 -20.387  0.00  0.00           O 0
+ATOM   6587    N SER A 828     -15.458  -9.958 -21.759  0.00  0.00           N 0
+TER
+END

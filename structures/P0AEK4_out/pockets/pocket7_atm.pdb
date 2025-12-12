@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0666
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0673
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7062
+HEADER 5  - Mean B-factor of pocket residues  : 0.9826
+HEADER 6  - Hydrophobicity Score              : 30.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.4145
+HEADER 10 - Pocket volume (convex hull)       : 4.6927
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    855   CG PHE A 113       9.028  16.504  -5.366  0.00  0.00           C 0
+ATOM    827   CA ARG A 110       8.496  20.654  -9.080  0.00  0.00           C 0
+ATOM    856  CD1 PHE A 113       8.248  16.867  -4.250  0.00  0.00           C 0
+ATOM    834  NH1 ARG A 110       8.571  24.595  -5.344  0.00  0.00           N 0
+ATOM    831   CG ARG A 110       7.428  22.686  -7.947  0.00  0.00           C 0
+ATOM    829   CB ARG A 110       8.374  22.187  -9.055  0.00  0.00           C 0
+ATOM    836   CZ ARG A 110       9.129  25.048  -6.434  0.00  0.00           C 0
+ATOM    835  NH2 ARG A 110      10.268  25.669  -6.315  0.00  0.00           N 0
+ATOM    866   CG LYS A 114       3.907  19.712  -6.068  0.00  0.00           C 0
+ATOM    868   CE LYS A 114       3.551  22.243  -6.360  0.00  0.00           C 0
+ATOM    826    N ARG A 110       9.402  20.252 -10.172  0.00  0.00           N 0
+ATOM    830    O ARG A 110       6.590  19.539  -8.181  0.47  2.14           O 0
+ATOM    823    O THR A 109       9.272  18.059  -9.732  0.00  0.00           O 0
+ATOM    817  CG1 VAL A 108      12.308  15.868  -8.801  0.00  0.00           C 0
+ATOM    853   CB PHE A 113       8.574  16.827  -6.774  0.00  0.00           C 0
+ATOM    857  CD2 PHE A 113      10.248  15.836  -5.173  0.00  0.00           C 0
+ATOM    821    C THR A 109       9.715  18.973 -10.427  0.00  0.00           C 0
+ATOM    816    O VAL A 108      13.343  18.086 -11.398  0.45  6.43           O 0
+TER
+END

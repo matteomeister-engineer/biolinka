@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.1723
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1487
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5904
+HEADER 5  - Mean B-factor of pocket residues  : 0.9792
+HEADER 6  - Hydrophobicity Score              : 24.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 329.5421
+HEADER 10 - Pocket volume (convex hull)       : 14.9634
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   3848    N VAL A 512     -33.337  21.956  32.166  0.00  0.00           N 0
+ATOM   3836    O THR A 510     -31.343  23.703  36.078  0.68  7.50           O 0
+ATOM   3847  OE2 GLU A 511     -32.871  25.491  32.516  0.00  0.00           O 0
+ATOM   3854  CG2 VAL A 512     -35.011  20.249  33.896  0.00  0.00           C 0
+ATOM   3851   CB VAL A 512     -35.369  20.505  32.424  0.00  0.00           C 0
+ATOM   3702   CZ PHE A 491     -40.437  21.443  33.472  0.00  0.00           C 0
+ATOM   3801   NZ LYS A 504     -34.727  23.293  39.921  0.54  9.84           N 0
+ATOM   3846  OE1 GLU A 511     -31.739  27.063  33.601  0.50  7.50           O 0
+ATOM   3838  OG1 THR A 510     -31.756  21.741  37.954  0.00  0.00           O 0
+ATOM   3852    O VAL A 512     -35.328  22.225  29.957  0.53  3.21           O 0
+ATOM   3701  CE2 PHE A 491     -39.481  20.417  33.571  0.00  0.00           C 0
+ATOM   3746  OD1 ASP A 497     -39.777  18.794  38.519  0.74  4.29           O 0
+ATOM   3874  CE1 PHE A 514     -39.239  22.868  29.745  0.00  0.00           C 0
+ATOM   3770  CG2 THR A 500     -34.336  18.935  37.588  0.00  0.00           C 0
+ATOM   3771  OG1 THR A 500     -35.760  18.705  39.457  0.64  6.43           O 0
+TER
+END

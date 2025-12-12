@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0630
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8672
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4712
+HEADER 5  - Mean B-factor of pocket residues  : 0.9930
+HEADER 6  - Hydrophobicity Score              : 44.8750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.9914
+HEADER 10 - Pocket volume (convex hull)       : 3.3573
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM   2506  CD2 LEU A 328     -20.927  -5.694   5.302  0.00  0.00           C 0
+ATOM   2262  CZ2 TRP A 297     -23.588  -1.139  -0.467  0.00  0.00           C 0
+ATOM   2070  OE1 GLN A 273     -18.005  -5.152   2.793  0.00  0.00           O 0
+ATOM   2505  CD1 LEU A 328     -22.073  -7.780   4.617  0.00  0.00           C 0
+ATOM   2293   CE MET A 301     -26.439  -3.504   1.182  0.00  0.00           C 0
+ATOM   2292   SD MET A 301     -26.494  -3.304   2.981  0.00  0.00           S 0
+ATOM   1248   CB PRO A 160     -17.041  -3.207  -0.095  0.00  0.00           C 0
+ATOM   1250   CG PRO A 160     -16.656  -4.664  -0.340  0.00  0.00           C 0
+ATOM   2261  CH2 TRP A 297     -23.514  -1.516  -1.818  0.00  0.00           C 0
+ATOM   2099  CG2 VAL A 277     -19.680  -0.010  -1.506  0.00  0.00           C 0
+ATOM   2076   OG SER A 274     -23.437  -0.156   3.597  0.72  2.14           O 0
+ATOM   2048  CG1 VAL A 270     -24.711  -2.707   6.742  0.00  0.00           C 0
+ATOM   2047    O VAL A 270     -22.053  -0.924   5.757  0.00  0.00           O 0
+ATOM   2065   CB GLN A 273     -18.563  -2.371   3.569  0.00  0.00           C 0
+ATOM   2064    C GLN A 273     -19.340  -0.044   2.863  0.00  0.00           C 0
+ATOM   2071    N SER A 274     -20.544   0.199   3.401  0.00  0.00           N 0
+TER
+END

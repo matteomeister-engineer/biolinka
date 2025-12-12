@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0863
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9731
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5436
+HEADER 5  - Mean B-factor of pocket residues  : 0.8540
+HEADER 6  - Hydrophobicity Score              : 14.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 203.9062
+HEADER 10 - Pocket volume (convex hull)       : 3.1391
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3000
+ATOM   2159   CD GLU A 284       9.491 -13.836  -5.979  0.00  0.00           C 0
+ATOM   1985   OG SER A 261      13.033 -12.763   1.250  0.76  8.57           O 0
+ATOM   2160  OE1 GLU A 284      10.077 -14.943  -5.952  0.00  0.00           O 0
+ATOM   2161  OE2 GLU A 284      10.000 -12.765  -6.377  0.35  7.50           O 0
+ATOM   2156   CB GLU A 284       7.889 -12.718  -4.377  0.00  0.00           C 0
+ATOM   1970   CB LEU A 259      10.654 -10.012  -0.007  0.00  0.00           C 0
+ATOM   1978   CB ALA A 260       7.696 -14.502   0.573  0.00  0.00           C 0
+ATOM   2158   CG GLU A 284       8.051 -13.796  -5.457  0.00  0.00           C 0
+ATOM   2133  OE1 GLU A 281       4.989 -15.783  -2.161  0.24  8.57           O 0
+ATOM   1975    N ALA A 260       8.430 -12.202   0.850  0.55  1.09           N 0
+ATOM   2157    O GLU A 284       7.237 -11.613  -1.653  0.84  1.07           O 0
+ATOM   1983   CB SER A 261      12.921 -14.049   1.840  0.00  0.00           C 0
+ATOM   1980    N SER A 261      10.503 -13.786   2.020  0.73  3.28           N 0
+ATOM   1974  CD2 LEU A 259      10.278  -9.208  -2.388  0.00  0.00           C 0
+ATOM   1973  CD1 LEU A 259      12.522  -9.014  -1.341  0.00  0.00           C 0
+TER
+END

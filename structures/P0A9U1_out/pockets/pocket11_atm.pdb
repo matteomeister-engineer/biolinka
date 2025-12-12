@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0176
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9503
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5466
+HEADER 5  - Mean B-factor of pocket residues  : 0.9063
+HEADER 6  - Hydrophobicity Score              : 10.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 219.7477
+HEADER 10 - Pocket volume (convex hull)       : 6.3404
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM    953   OG SER A 127     -24.406   6.853  -1.115  0.00  0.00           O 0
+ATOM   1304   CG GLU A 176     -17.728   8.645   0.461  0.00  0.00           C 0
+ATOM   1306  OE1 GLU A 176     -19.010   8.939  -1.558  0.00  0.00           O 0
+ATOM   1338  OE1 GLN A 179     -18.875  10.647   4.381  0.00  0.00           O 0
+ATOM   1344   CG MET A 180     -21.123   4.339   5.074  0.00  0.00           C 0
+ATOM    934    O PHE A 125     -24.214   4.523   2.793  0.00  0.00           O 0
+ATOM   1372  OE2 GLU A 183     -24.394   7.266   8.699  0.00  0.00           O 0
+ATOM   1302   CB GLU A 176     -17.666   7.385   1.344  0.00  0.00           C 0
+ATOM   1088   NZ LYS A 146     -19.464   5.347  -1.507  0.67  1.09           N 0
+ATOM   1333   CB GLN A 179     -18.742   8.904   6.645  0.00  0.00           C 0
+ATOM   1339    N MET A 180     -19.449   5.918   7.205  0.00  0.00           N 0
+ATOM   1346   CE MET A 180     -19.588   3.370   2.971  0.00  0.00           C 0
+ATOM    939  CE2 PHE A 125     -24.354   4.055   7.305  0.00  0.00           C 0
+ATOM   1303    O GLU A 176     -18.177   6.254   4.419  0.70  2.14           O 0
+ATOM   1345   SD MET A 180     -21.220   3.158   3.697  0.00  0.00           S 0
+ATOM    937  CD2 PHE A 125     -25.363   3.989   6.335  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0363
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.9775
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5451
+HEADER 5  - Mean B-factor of pocket residues  : 0.9947
+HEADER 6  - Hydrophobicity Score              : 24.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 355.6483
+HEADER 10 - Pocket volume (convex hull)       : 25.0326
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.2222
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.6923
+ATOM   1235    O PRO A 159      14.243  -4.735 -15.546  0.00  0.00           O 0
+ATOM   1580   OH TYR A 204      16.975   1.898 -19.517  0.00  0.00           O 0
+ATOM   1249   OG SER A 161      12.512  -5.603 -21.111  0.00  0.00           O 0
+ATOM   1270  CD1 ILE A 164      11.134  -2.443 -16.351  0.00  0.00           C 0
+ATOM   1578  CE1 TYR A 204      17.036   2.064 -17.125  0.00  0.00           C 0
+ATOM   1608   CB LYS A 208      11.935   1.993 -16.987  0.00  0.00           C 0
+ATOM   1236   CG PRO A 159      13.312  -2.909 -12.917  0.00  0.00           C 0
+ATOM   1237   CD PRO A 159      14.808  -3.011 -12.618  0.00  0.00           C 0
+ATOM   1637   CB ALA A 212       5.834  -0.173 -17.854  0.00  0.00           C 0
+ATOM   1269  CG2 ILE A 164       8.080  -2.341 -16.641  0.00  0.00           C 0
+ATOM   1276   CG GLN A 165       6.298  -5.565 -20.343  0.00  0.00           C 0
+ATOM   1278  NE2 GLN A 165       7.673  -5.849 -22.340  0.00  0.00           N 0
+ATOM   1248    O SER A 161       8.894  -6.644 -18.827  0.00  0.00           O 0
+ATOM   1609    O LYS A 208       8.629   1.897 -16.999  0.00  0.00           O 0
+ATOM   1611   CD LYS A 208      12.693   3.104 -19.161  0.00  0.00           C 0
+ATOM   1588  CG2 VAL A 205      16.143   0.808 -12.558  0.00  0.00           C 0
+ATOM   1245   CA SER A 161      11.233  -6.382 -19.220  0.00  0.00           C 0
+ATOM   1266   CB ILE A 164       8.849  -3.633 -16.306  0.00  0.00           C 0
+ATOM   1247   CB SER A 161      11.532  -6.541 -20.711  0.00  0.00           C 0
+ATOM   1610   CG LYS A 208      13.109   2.587 -17.780  0.00  0.00           C 0
+ATOM   1583   CA VAL A 205      14.311   2.444 -13.109  0.00  0.00           C 0
+ATOM   1587  CG1 VAL A 205      13.842   0.376 -11.728  0.00  0.00           C 0
+TER
+END

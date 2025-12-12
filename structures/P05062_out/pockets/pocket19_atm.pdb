@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0174
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8787
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6244
+HEADER 5  - Mean B-factor of pocket residues  : 0.9642
+HEADER 6  - Hydrophobicity Score              : 12.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 187.8391
+HEADER 10 - Pocket volume (convex hull)       : 6.3447
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   2545   CG MET A 333       0.109  16.576  14.614  0.00  0.00           C 0
+ATOM   2566   SG CYS A 336      -1.360  18.050   8.216  0.00  0.00           S 0
+ATOM   2541   CA MET A 333       1.408  15.984  12.497  0.00  0.00           C 0
+ATOM    575   OG SER A  73      -2.091  15.417  11.134  0.42  2.14           O 0
+ATOM   2543   CB MET A 333       1.447  16.653  13.876  0.00  0.00           C 0
+ATOM    569  OE1 GLN A  72      -5.604  19.483  13.517  0.48  4.29           O 0
+ATOM   2572   CG GLN A 337       3.343  20.517  10.146  0.00  0.00           C 0
+ATOM   2546   SD MET A 333       0.168  17.424  16.213  0.00  0.00           S 0
+ATOM   2547   CE MET A 333      -1.531  17.174  16.792  0.00  0.00           C 0
+ATOM   2574  NE2 GLN A 337       3.754  21.718  12.233  0.00  0.00           N 0
+ATOM   2564   CB CYS A 336      -0.161  16.763   8.697  0.00  0.00           C 0
+ATOM    564   CB GLN A  72      -5.994  17.680  11.408  0.00  0.00           C 0
+ATOM   2594   NZ LYS A 340      -2.287  21.479   7.109  0.00  0.00           N 0
+ATOM    565    O GLN A  72      -4.622  17.026   8.676  0.00  0.00           O 0
+ATOM   2544    O MET A 333       2.545  17.217  10.793  0.57  1.07           O 0
+TER
+END

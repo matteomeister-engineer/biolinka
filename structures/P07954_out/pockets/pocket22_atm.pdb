@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0347
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0582
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6822
+HEADER 5  - Mean B-factor of pocket residues  : 0.9983
+HEADER 6  - Hydrophobicity Score              : 40.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.0710
+HEADER 10 - Pocket volume (convex hull)       : 3.7052
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2314    N THR A 307       6.510  18.739 -12.354  0.74  1.09           N 0
+ATOM   2205    O GLU A 291       6.199  19.899 -18.037  0.63  3.21           O 0
+ATOM   2312  CG1 VAL A 306       2.567  20.498 -11.154  0.00  0.00           C 0
+ATOM   2204   CB GLU A 291       8.612  22.146 -17.402  0.00  0.00           C 0
+ATOM   2319  CG2 THR A 307       9.220  20.364 -12.926  0.00  0.00           C 0
+ATOM   2206   CG GLU A 291       9.500  22.766 -16.307  0.00  0.00           C 0
+ATOM   2202   CA GLU A 291       8.350  20.635 -17.258  0.00  0.00           C 0
+ATOM   2308   CA VAL A 306       4.101  18.644 -11.967  0.00  0.00           C 0
+ATOM   2229   CB ALA A 294       5.686  17.278 -15.345  0.00  0.00           C 0
+ATOM   2231    N ALA A 295       3.756  18.231 -17.696  0.00  0.00           N 0
+ATOM   2310   CB VAL A 306       3.902  19.774 -10.938  0.00  0.00           C 0
+ATOM   2318    O THR A 307       8.002  19.605 -10.172  0.00  0.00           O 0
+ATOM   2232   CA ALA A 295       2.546  18.834 -18.257  0.00  0.00           C 0
+ATOM   2300    O PHE A 305       1.758  18.211 -13.512  0.39  6.43           O 0
+ATOM   2234   CB ALA A 295       2.929  20.167 -18.910  0.00  0.00           C 0
+TER
+END

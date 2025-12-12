@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0232
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8107
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4801
+HEADER 5  - Mean B-factor of pocket residues  : 0.9283
+HEADER 6  - Hydrophobicity Score              : -11.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.6605
+HEADER 10 - Pocket volume (convex hull)       : 7.0387
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1500
+ATOM   6815   CD GLU A 858       8.736   7.486 -35.761  0.00  0.00           C 0
+ATOM   6816  OE1 GLU A 858       9.261   8.623 -35.862  0.78  3.21           O 0
+ATOM   7164  NE2 GLN A 903       1.654   9.656 -36.248  0.00  0.00           N 0
+ATOM   6814   CG GLU A 858       7.935   7.175 -34.489  0.00  0.00           C 0
+ATOM   7943   NZ LYS A1004       9.827   8.840 -38.430  0.58  8.75           N 0
+ATOM   7154   CD LYS A 902       6.763  13.362 -34.704  0.00  0.00           C 0
+ATOM   7156   NZ LYS A 902       9.228  13.053 -34.709  0.65  6.56           N 0
+ATOM   7128   CA ALA A 899       5.779  10.582 -31.164  0.00  0.00           C 0
+ATOM   7131    O ALA A 899       3.573  10.929 -32.020  0.79  1.07           O 0
+ATOM   7151   CB LYS A 902       4.301  13.579 -34.341  0.00  0.00           C 0
+ATOM   7914   NZ LYS A1001       3.252   5.244 -36.806  0.62  5.47           N 0
+ATOM   6812   CB GLU A 858       7.020   5.945 -34.595  0.00  0.00           C 0
+ATOM   6813    O GLU A 858       3.943   5.218 -34.089  0.65  2.14           O 0
+ATOM   6810   CA GLU A 858       6.150   5.793 -33.336  0.00  0.00           C 0
+ATOM   6817  OE2 GLU A 858       8.770   6.705 -36.736  0.35  5.36           O 0
+TER
+END

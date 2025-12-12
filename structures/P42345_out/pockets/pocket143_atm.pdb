@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   143:
+HEADER 0  - Pocket Score                      : -0.1301
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8951
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5308
+HEADER 5  - Mean B-factor of pocket residues  : 0.7218
+HEADER 6  - Hydrophobicity Score              : -8.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 238.7217
+HEADER 10 - Pocket volume (convex hull)       : 9.5043
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   6169   CG PRO A 788       8.194  -5.079  21.994  0.00  0.00           C 0
+ATOM   6178  OD2 ASP A 789       6.975  -9.418  18.406  0.00  0.00           O 0
+ATOM   6177  OD1 ASP A 789       5.293  -8.446  19.456  0.68  3.21           O 0
+ATOM   6539   NZ LYS A 836       3.440  -6.784  18.197  0.46  5.47           N 0
+ATOM   6145    O ASP A 785      11.028  -3.657  20.740  0.36  5.36           O 0
+ATOM   6153    O PRO A 786      11.789  -7.780  20.344  0.28  5.36           O 0
+ATOM   6170   CD PRO A 788       9.504  -5.845  22.142  0.00  0.00           C 0
+ATOM   6472   CE MET A 827       2.566  -1.026  17.552  0.00  0.00           C 0
+ATOM   6218  CG2 ILE A 795       2.329  -2.384  20.452  0.00  0.00           C 0
+ATOM   6128    O LEU A 783       8.770   0.001  18.823  0.00  0.00           O 0
+ATOM   6131  CD2 LEU A 783       4.553   1.103  20.793  0.00  0.00           C 0
+ATOM   6471   SD MET A 827       3.796   0.027  16.759  0.00  0.00           S 0
+ATOM   6219  CD1 ILE A 795       4.309  -4.705  21.093  0.00  0.00           C 0
+ATOM   6125   CA LEU A 783       7.680   0.806  20.791  0.00  0.00           C 0
+ATOM   6119    O LYS A 782       7.729  -0.898  23.041  0.56  1.07           O 0
+ATOM   6217  CG1 ILE A 795       3.897  -3.570  22.038  0.00  0.00           C 0
+ATOM   6470   CG MET A 827       4.128  -0.990  15.294  0.00  0.00           C 0
+ATOM   6497  OD2 ASP A 830       4.994  -5.456  13.345  0.53  4.29           O 0
+ATOM   6464  OD2 ASP A 826       8.783  -1.684  11.883  0.65  6.43           O 0
+TER
+END

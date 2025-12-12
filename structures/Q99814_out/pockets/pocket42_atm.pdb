@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.1220
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0176
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5799
+HEADER 5  - Mean B-factor of pocket residues  : 0.1521
+HEADER 6  - Hydrophobicity Score              : 40.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.7980
+HEADER 10 - Pocket volume (convex hull)       : 1.7902
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   4481    O PHE A 571       2.974  37.385  -5.003  0.00  0.00           O 0
+ATOM   4467  ND2 ASN A 569      10.329  39.052  -6.492  0.00  0.00           N 0
+ATOM   4466   CG ASN A 569       9.965  38.010  -5.784  0.00  0.00           C 0
+ATOM   4464   CB ASN A 569       9.542  36.746  -6.525  0.00  0.00           C 0
+ATOM   4496  OE1 GLN A 572       2.153  40.704  -8.874  0.00  0.00           O 0
+ATOM   4491   CB GLN A 572       1.373  38.218  -7.726  0.00  0.00           C 0
+ATOM   4468  OD1 ASN A 569       9.945  38.097  -4.566  0.73  8.57           O 0
+ATOM   4488    N GLN A 572       1.935  36.123  -6.539  0.67  4.37           N 0
+ATOM   4465    O ASN A 569       8.290  34.001  -6.966  0.00  0.00           O 0
+ATOM   4479    C PHE A 571       2.690  36.277  -5.448  0.00  0.00           C 0
+ATOM   4477    N PHE A 571       4.185  34.259  -4.910  0.59  3.28           N 0
+ATOM   4471    C ILE A 570       5.400  34.493  -4.406  0.00  0.00           C 0
+ATOM   4463    C ASN A 569       8.505  34.508  -5.870  0.00  0.00           C 0
+ATOM   4473    O ILE A 570       5.656  35.408  -3.627  0.69  4.29           O 0
+TER
+END

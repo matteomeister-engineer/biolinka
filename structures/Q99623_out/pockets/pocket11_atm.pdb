@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0036
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9012
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5790
+HEADER 5  - Mean B-factor of pocket residues  : 0.7872
+HEADER 6  - Hydrophobicity Score              : 35.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.6593
+HEADER 10 - Pocket volume (convex hull)       : 7.7750
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM    535  CD1 ILE A  72     -37.969  -9.328  28.875  0.00  0.00           C 0
+ATOM    575  NE2 GLN A  76     -34.064  -9.317  26.480  0.72  4.37           N 0
+ATOM    385  ND2 ASN A  53     -30.760 -11.072  28.807  0.00  0.00           N 0
+ATOM    428  NE2 GLN A  59     -31.621 -12.519  26.508  0.00  0.00           N 0
+ATOM    573   CG GLN A  76     -33.861  -7.312  27.855  0.00  0.00           C 0
+ATOM    560   CB PHE A  75     -34.603  -6.479  32.198  0.00  0.00           C 0
+ATOM    403  CG1 ILE A  55     -31.227  -9.458  36.213  0.00  0.00           C 0
+ATOM    405  CD1 ILE A  55     -32.678  -9.910  36.423  0.00  0.00           C 0
+ATOM    401   CB ILE A  55     -30.330 -10.516  35.523  0.00  0.00           C 0
+ATOM    563  CD1 PHE A  75     -34.510  -6.915  34.691  0.00  0.00           C 0
+ATOM    398    N ILE A  55     -29.076  -8.730  34.329  0.64  1.09           N 0
+ATOM    562   CG PHE A  75     -35.256  -6.520  33.563  0.00  0.00           C 0
+ATOM    384   CG ASN A  53     -30.495  -9.799  28.915  0.00  0.00           C 0
+ATOM    382   CB ASN A  53     -29.634  -9.390  30.088  0.00  0.00           C 0
+ATOM    406    N GLY A  56     -28.100 -11.153  33.213  0.62  1.09           N 0
+ATOM    561    O PHE A  75     -31.694  -5.906  30.958  0.00  0.00           O 0
+TER
+END

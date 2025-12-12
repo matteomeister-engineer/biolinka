@@ -1,0 +1,63 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0689
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    49
+HEADER 3  - Mean alpha-sphere radius          : 4.0877
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6075
+HEADER 5  - Mean B-factor of pocket residues  : 0.5013
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.1538
+HEADER 9  - Pocket volume (Monte Carlo)       : 618.8120
+HEADER 10 - Pocket volume (convex hull)       : 131.8038
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.1633
+ATOM   4052    O LEU A 527      -7.969  18.282  17.770  0.00  0.00           O 0
+ATOM   2023    N ALA A 262     -12.764  14.012  21.060  0.62  7.66           N 0
+ATOM   2026   CB ALA A 262     -12.815  16.192  22.127  0.00  0.00           C 0
+ATOM   2027    O ALA A 262     -14.590  16.828  20.032  0.80  1.07           O 0
+ATOM   4051   CB LEU A 527      -8.046  17.361  15.042  0.00  0.00           C 0
+ATOM   4047   CZ PHE A 526      -8.841  11.670  17.826  0.00  0.00           C 0
+ATOM   2028    N GLY A 263     -15.265  14.747  19.609  0.60  2.19           N 0
+ATOM   2029   CA GLY A 263     -16.232  15.078  18.573  0.00  0.00           C 0
+ATOM   4057   CA GLY A 528      -6.607  17.030  19.857  0.00  0.00           C 0
+ATOM   4050    C LEU A 527      -7.117  17.455  17.466  0.00  0.00           C 0
+ATOM   2019    N GLY A 261     -12.493  10.447  20.772  0.00  0.00           N 0
+ATOM   2087  NH1 ARG A 271     -15.905   5.545  16.536  0.00  0.00           N 0
+ATOM   2003    O GLN A 259     -12.164   7.552  20.232  0.70  3.21           O 0
+ATOM   2059  ND1 HIS A 268     -18.106   8.849  21.320  0.58  4.37           N 0
+ATOM   2020   CA GLY A 261     -12.067  11.769  20.312  0.00  0.00           C 0
+ATOM   2021    C GLY A 261     -13.141  12.785  20.691  0.00  0.00           C 0
+ATOM   1992    O ARG A 258     -13.735   4.657  20.296  0.54  2.14           O 0
+ATOM   2049   CA GLY A 267     -23.420   9.475  17.381  0.00  0.00           C 0
+ATOM   2048    N GLY A 267     -23.747  10.868  17.716  0.63  5.47           N 0
+ATOM   2043    O GLY A 265     -21.874  12.691  18.961  0.62  3.21           O 0
+ATOM   2041   CA GLY A 265     -21.783  14.781  17.789  0.00  0.00           C 0
+ATOM   2022    O GLY A 261     -14.317  12.444  20.644  0.46  4.29           O 0
+ATOM   1995   NE ARG A 258     -11.256   7.460  15.328  0.63  2.19           N 0
+ATOM   1996  NH1 ARG A 258     -12.273   8.118  13.371  0.00  0.00           N 0
+ATOM   2031    O GLY A 263     -18.240  14.464  19.722  0.72  5.36           O 0
+ATOM   4046  CE2 PHE A 526      -8.424  11.322  16.530  0.00  0.00           C 0
+ATOM   1998   CZ ARG A 258     -11.273   8.162  14.209  0.00  0.00           C 0
+ATOM   1997  NH2 ARG A 258     -10.261   8.924  13.905  0.19  3.28           N 0
+ATOM   4045  CE1 PHE A 526      -7.968  12.363  18.683  0.00  0.00           C 0
+ATOM   4056    N GLY A 528      -6.422  16.824  18.416  0.00  0.00           N 0
+ATOM   2025    C ALA A 262     -14.561  15.633  20.316  0.00  0.00           C 0
+ATOM   2060  CE1 HIS A 268     -17.120   8.782  22.224  0.00  0.00           C 0
+ATOM   2053   CA HIS A 268     -20.996   9.018  20.336  0.00  0.00           C 0
+ATOM   2085   CD ARG A 271     -18.094   4.848  18.265  0.00  0.00           C 0
+ATOM   2051    O GLY A 267     -22.245   7.604  18.306  0.54  2.14           O 0
+ATOM   1994   CD ARG A 258     -12.287   6.520  15.797  0.00  0.00           C 0
+ATOM   2042    C GLY A 265     -22.509  13.619  18.469  0.00  0.00           C 0
+ATOM   2044    N GLY A 266     -23.847  13.638  18.449  0.62  4.37           N 0
+ATOM   2052    N HIS A 268     -21.924   9.562  19.345  0.74  1.09           N 0
+ATOM   2050    C GLY A 267     -22.481   8.804  18.393  0.00  0.00           C 0
+ATOM   2055   CB HIS A 268     -20.287  10.176  21.049  0.00  0.00           C 0
+TER
+END

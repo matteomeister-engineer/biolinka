@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.0995
+HEADER 1  - Drug Score                        : 0.5401
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.6675
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3931
+HEADER 5  - Mean B-factor of pocket residues  : 0.8479
+HEADER 6  - Hydrophobicity Score              : 51.3077
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.9231
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.2728
+HEADER 10 - Pocket volume (convex hull)       : 19.4545
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 27.0000
+HEADER 13 - Number of apolar alpha sphere     :    28
+HEADER 14 - Proportion of apolar alpha sphere : 0.9333
+ATOM    192  CG2 ILE A  25      10.305  -1.925   7.080  0.00  0.00           C 0
+ATOM    179   SG CYS A  23      14.621   0.697   7.989  0.00  0.00           S 0
+ATOM    189   CB ILE A  25      11.284  -1.453   8.138  0.00  0.00           C 0
+ATOM    220   CB CYS A  29      12.982  -3.270   3.279  0.00  0.00           C 0
+ATOM    562    O ILE A  71       9.116   1.505   4.503  0.79  1.07           O 0
+ATOM    222   SG CYS A  29      13.216  -1.963   2.038  0.00  0.00           S 0
+ATOM    236   CG PRO A  31      17.868  -3.306   3.322  0.00  0.00           C 0
+ATOM    567   CA ARG A  72      10.269   3.561   5.945  0.00  0.00           C 0
+ATOM    942   SG CYS A 122      14.911   4.534   2.911  0.00  0.00           S 0
+ATOM    571   CG ARG A  72      12.286   4.368   7.190  0.00  0.00           C 0
+ATOM    569   CB ARG A  72      11.424   4.564   5.948  0.00  0.00           C 0
+ATOM    940   CB CYS A 122      14.384   4.303   1.187  0.00  0.00           C 0
+ATOM    556   CB ALA A  70      11.915   1.000   0.330  0.00  0.00           C 0
+ATOM    557    O ALA A  70      10.618   3.592   1.453  0.00  0.00           O 0
+ATOM    195   CA SER A  26      15.184  -4.153   6.914  0.00  0.00           C 0
+ATOM    177   CB CYS A  23      16.335   0.225   8.368  0.00  0.00           C 0
+ATOM    364  CD1 ILE A  46      18.725   1.642   0.341  0.00  0.00           C 0
+ATOM    959  CD1 ILE A 124      15.174   1.081  -2.277  0.00  0.00           C 0
+ATOM    237   CD PRO A  31      16.663  -3.803   2.541  0.00  0.00           C 0
+ATOM    226   CB ILE A  30      15.868  -3.886  -0.909  0.00  0.00           C 0
+ATOM    156   SG CYS A  20      19.068   0.660   3.519  0.00  0.00           S 0
+ATOM    574  NH1 ARG A  72      15.990   3.997   7.663  0.70  2.19           N 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0157
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6041
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5030
+HEADER 5  - Mean B-factor of pocket residues  : 1.0000
+HEADER 6  - Hydrophobicity Score              : 35.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 106.2828
+HEADER 10 - Pocket volume (convex hull)       : 1.6515
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM    226   CB ARG A  32      -0.940   8.260 -10.312  0.00  0.00           C 0
+ATOM    229   CD ARG A  32      -3.385   8.190  -9.716  0.00  0.00           C 0
+ATOM    816   CB VAL A 108      -4.491  11.072  -6.190  0.00  0.00           C 0
+ATOM    818  CG1 VAL A 108      -5.134  11.389  -7.548  0.00  0.00           C 0
+ATOM    231  NH1 ARG A  32      -5.167  10.064 -11.110  0.00  0.00           N 0
+ATOM    266   OG SER A  36       1.181  12.732 -11.547  0.00  0.00           O 0
+ATOM    228   CG ARG A  32      -2.368   8.120 -10.863  0.00  0.00           C 0
+ATOM    276  CE2 PHE A  37       3.581  12.490  -7.158  0.00  0.00           C 0
+ATOM    796   SG CYS A 105       1.294   9.642  -7.214  0.00  0.00           S 0
+ATOM    787  CD2 HIS A 104       0.212  13.444  -4.820  0.00  0.00           C 0
+ATOM    819  CG2 VAL A 108      -3.874  12.375  -5.666  0.00  0.00           C 0
+ATOM    790  NE2 HIS A 104      -0.764  14.388  -5.144  0.67  4.37           N 0
+ATOM    277   CZ PHE A  37       3.639  13.882  -6.983  0.00  0.00           C 0
+ATOM    264   CB SER A  36       2.477  12.846 -10.989  0.00  0.00           C 0
+TER
+END

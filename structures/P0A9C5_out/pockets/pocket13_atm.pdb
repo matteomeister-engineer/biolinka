@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0242
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8612
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6464
+HEADER 5  - Mean B-factor of pocket residues  : 0.5368
+HEADER 6  - Hydrophobicity Score              : 2.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 371.9806
+HEADER 10 - Pocket volume (convex hull)       : 10.2300
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0952
+ATOM   3105   CB PRO A 402       3.830 -23.201 -21.595  0.00  0.00           C 0
+ATOM   3137   CG LYS A 406      -1.367 -23.800 -19.096  0.00  0.00           C 0
+ATOM   3139   CE LYS A 406      -1.101 -24.497 -21.542  0.00  0.00           C 0
+ATOM   3106    O PRO A 402       1.959 -23.984 -19.063  0.00  0.00           O 0
+ATOM   3130   CB ALA A 405       3.063 -21.537 -16.486  0.00  0.00           C 0
+ATOM   3103   CA PRO A 402       4.029 -23.391 -20.090  0.00  0.00           C 0
+ATOM   3129    C ALA A 405       0.923 -22.553 -15.561  0.00  0.00           C 0
+ATOM   3132    N LYS A 406       0.323 -23.391 -16.423  0.00  0.00           N 0
+ATOM   3172  NE2 GLN A 410      -0.579 -17.332 -15.541  0.53  2.19           N 0
+ATOM   3133   CA LYS A 406      -1.143 -23.545 -16.536  0.00  0.00           C 0
+ATOM   3173  OE1 GLN A 410      -2.605 -16.774 -16.102  0.00  0.00           O 0
+ATOM   3136    O LYS A 406      -2.984 -23.954 -15.083  0.49  4.29           O 0
+ATOM   3171   CD GLN A 410      -1.831 -17.101 -15.220  0.00  0.00           C 0
+ATOM   3154    O ILE A 408      -2.167 -20.726 -12.460  0.57  3.21           O 0
+ATOM   3170   CG GLN A 410      -2.239 -17.266 -13.760  0.00  0.00           C 0
+ATOM   3131    O ALA A 405       0.282 -21.819 -14.812  0.56  1.07           O 0
+ATOM   3165    N GLN A 410      -4.247 -17.946 -11.577  0.00  0.00           N 0
+ATOM   3168   CB GLN A 410      -3.485 -16.448 -13.382  0.00  0.00           C 0
+ATOM   3159   CA PRO A 409      -4.124 -20.181 -10.589  0.00  0.00           C 0
+TER
+END

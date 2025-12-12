@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.1095
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8678
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4831
+HEADER 5  - Mean B-factor of pocket residues  : 0.7435
+HEADER 6  - Hydrophobicity Score              : 59.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 244.7852
+HEADER 10 - Pocket volume (convex hull)       : 17.1010
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   1274   CG PRO A 170      22.893  17.409   0.571  0.00  0.00           C 0
+ATOM   1269    N PRO A 170      23.564  17.067  -1.672  0.63  1.09           N 0
+ATOM   1275   CD PRO A 170      24.030  16.892  -0.305  0.00  0.00           C 0
+ATOM   1256    O ILE A 168      24.597  13.059  -2.226  0.00  0.00           O 0
+ATOM   1219  CD2 LEU A 163      20.584   9.697  -2.064  0.00  0.00           C 0
+ATOM   1218  CD1 LEU A 163      20.205   8.970   0.277  0.00  0.00           C 0
+ATOM   1215   CB LEU A 163      22.313   8.265  -0.847  0.00  0.00           C 0
+ATOM   1798   CB ALA A 237      16.107  13.572  -5.100  0.00  0.00           C 0
+ATOM   1296  CD1 ILE A 173      18.909  16.298  -3.341  0.00  0.00           C 0
+ATOM   1258  CG2 ILE A 168      22.364  13.012  -4.842  0.00  0.00           C 0
+ATOM   1774  CZ3 TRP A 233      15.311  15.051  -0.701  0.00  0.00           C 0
+ATOM   1781  OG1 THR A 234      14.944  10.930   0.405  0.00  0.00           O 0
+ATOM   1780  CG2 THR A 234      16.503   9.701  -0.829  0.00  0.00           C 0
+ATOM   1270   CA PRO A 170      22.396  17.947  -1.719  0.00  0.00           C 0
+ATOM   1779    O THR A 234      15.615  10.191  -3.998  0.00  0.00           O 0
+ATOM   1806  CG2 VAL A 238      18.450   8.743  -4.963  0.00  0.00           C 0
+ATOM   1800    N VAL A 238      16.926  10.851  -6.600  0.00  0.00           N 0
+TER
+END

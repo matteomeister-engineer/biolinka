@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.1122
+HEADER 1  - Drug Score                        : 0.0296
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.9036
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5850
+HEADER 5  - Mean B-factor of pocket residues  : 0.9828
+HEADER 6  - Hydrophobicity Score              : -4.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 333.7102
+HEADER 10 - Pocket volume (convex hull)       : 12.9437
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.6786
+ATOM   1837    O GLU A 234     -10.970 -11.402  21.431  0.00  0.00           O 0
+ATOM   1486   CZ ARG A 189      -7.343  -8.313  23.736  0.00  0.00           C 0
+ATOM   1485  NH2 ARG A 189      -8.550  -8.258  24.215  0.00  0.00           N 0
+ATOM   1484  NH1 ARG A 189      -6.386  -8.599  24.579  0.00  0.00           N 0
+ATOM   1483   NE ARG A 189      -7.085  -8.094  22.459  0.00  0.00           N 0
+ATOM   1481   CG ARG A 189      -5.816  -7.610  20.379  0.00  0.00           C 0
+ATOM   1477   CA ARG A 189      -4.515  -6.950  18.316  0.00  0.00           C 0
+ATOM   1831  CG2 ILE A 233      -8.954  -9.646  16.631  0.00  0.00           C 0
+ATOM   1828   CB ILE A 233      -8.445  -8.213  16.878  0.00  0.00           C 0
+ATOM   1857  OD1 ASN A 236      -6.244 -12.784  15.083  0.76  6.43           O 0
+ATOM   1853   CB ASN A 236      -7.468 -13.429  17.039  0.00  0.00           C 0
+ATOM   1474   CG PRO A 188      -0.659  -9.392  17.501  0.00  0.00           C 0
+ATOM   1479   CB ARG A 189      -4.423  -7.408  19.780  0.00  0.00           C 0
+ATOM   1855   CG ASN A 236      -6.541 -13.673  15.862  0.00  0.00           C 0
+ATOM   1482   CD ARG A 189      -5.743  -8.014  21.851  0.00  0.00           C 0
+ATOM   1829    O ILE A 233      -8.725  -8.408  19.901  0.81  3.21           O 0
+ATOM   1850    N ASN A 236      -9.771 -13.104  17.759  0.78  2.19           N 0
+ATOM   1473    O PRO A 188      -3.919  -7.591  15.636  0.00  0.00           O 0
+ATOM   1472   CB PRO A 188      -1.274  -9.242  16.112  0.00  0.00           C 0
+ATOM   1856  ND2 ASN A 236      -6.075 -14.888  15.681  0.70  9.84           N 0
+ATOM   1476    N ARG A 189      -3.197  -7.091  17.703  0.00  0.00           N 0
+ATOM   1471    C PRO A 188      -2.995  -7.452  16.431  0.00  0.00           C 0
+TER
+END

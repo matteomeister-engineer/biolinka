@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0424
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7427
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6631
+HEADER 5  - Mean B-factor of pocket residues  : 0.9587
+HEADER 6  - Hydrophobicity Score              : 93.6000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 152.8238
+HEADER 10 - Pocket volume (convex hull)       : 2.0180
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   3409  CG2 ILE A 452      11.303  21.858  -3.620  0.00  0.00           C 0
+ATOM   1983  CD1 ILE A 258      16.907  20.672  -4.366  0.00  0.00           C 0
+ATOM   1981  CG1 ILE A 258      16.282  19.639  -3.422  0.00  0.00           C 0
+ATOM   1982  CG2 ILE A 258      13.966  19.761  -4.427  0.00  0.00           C 0
+ATOM   1977   CA ILE A 258      14.649  17.727  -3.076  0.00  0.00           C 0
+ATOM   3410  CD1 ILE A 452      10.859  22.030  -0.516  0.00  0.00           C 0
+ATOM   2004  CD1 LEU A 261      12.605  18.005   1.735  0.00  0.00           C 0
+ATOM   3443  CG2 VAL A 456      14.239  24.067  -5.820  0.00  0.00           C 0
+ATOM   1966    O TRP A 257      14.624  15.772  -1.132  0.63  4.29           O 0
+ATOM   1976    N ILE A 258      15.737  16.784  -2.784  0.00  0.00           N 0
+ATOM   3408  CG1 ILE A 452      10.941  23.195  -1.512  0.00  0.00           C 0
+ATOM   1964    C TRP A 257      15.626  15.852  -1.835  0.00  0.00           C 0
+ATOM   1965   CB TRP A 257      17.881  15.358  -0.807  0.00  0.00           C 0
+TER
+END

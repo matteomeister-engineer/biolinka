@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0624
+HEADER 1  - Drug Score                        : 0.0351
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9475
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6617
+HEADER 5  - Mean B-factor of pocket residues  : 0.9941
+HEADER 6  - Hydrophobicity Score              : 79.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 226.3573
+HEADER 10 - Pocket volume (convex hull)       : 3.4620
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.6800
+ATOM   3479  CE2 PHE A 460     -32.888   2.353   7.862  0.00  0.00           C 0
+ATOM   3903    N TYR A 521     -30.411  -1.040   4.775  0.00  0.00           N 0
+ATOM   3892    C ALA A 519     -27.952   2.184   6.483  0.00  0.00           C 0
+ATOM   3897    C LEU A 520     -29.923  -0.704   5.961  0.00  0.00           C 0
+ATOM   3893   CB ALA A 519     -29.205   4.225   7.319  0.00  0.00           C 0
+ATOM   3973    O VAL A 529     -28.803  -0.344   2.540  0.87  2.14           O 0
+ATOM   3906   CB TYR A 521     -32.658  -0.706   3.891  0.00  0.00           C 0
+ATOM   3894    O ALA A 519     -27.476   2.428   5.370  0.65  2.14           O 0
+ATOM   3974  CG1 VAL A 529     -30.977  -0.039   0.209  0.00  0.00           C 0
+ATOM   3994  CG2 ILE A 531     -27.876   6.226   4.015  0.00  0.00           C 0
+ATOM   3995  CD1 ILE A 531     -27.396   8.667   2.126  0.00  0.00           C 0
+ATOM   3991   CB ILE A 531     -26.972   6.204   2.766  0.00  0.00           C 0
+ATOM   4288  CD1 ILE A 571     -27.980   5.745  -2.414  0.00  0.00           C 0
+ATOM   3980    O TYR A 530     -26.043   3.131   0.851  0.00  0.00           O 0
+ATOM   3978    C TYR A 530     -26.376   2.878   2.009  0.00  0.00           C 0
+ATOM   3988    N ILE A 531     -26.424   3.796   2.966  0.00  0.00           N 0
+ATOM   3977   CA TYR A 530     -26.688   1.460   2.465  0.00  0.00           C 0
+ATOM   3975  CG2 VAL A 529     -29.200   1.053  -1.153  0.00  0.00           C 0
+TER
+END

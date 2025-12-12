@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0104
+HEADER 1  - Drug Score                        : 0.0046
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9061
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4557
+HEADER 5  - Mean B-factor of pocket residues  : 0.9228
+HEADER 6  - Hydrophobicity Score              : 26.3636
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8182
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.4989
+HEADER 10 - Pocket volume (convex hull)       : 21.4627
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.7200
+ATOM   2801    O ARG A 363      -8.789  13.981   7.471  0.00  0.00           O 0
+ATOM   2361  CD2 LEU A 306     -11.471  16.422  15.499  0.00  0.00           C 0
+ATOM   2442   CB ALA A 318     -14.022  14.893   7.826  0.00  0.00           C 0
+ATOM   2820   CG PRO A 365     -11.945  12.020   9.450  0.00  0.00           C 0
+ATOM   2816   CA PRO A 365     -10.038  11.141  10.581  0.00  0.00           C 0
+ATOM   2818   CB PRO A 365     -11.566  11.214  10.689  0.00  0.00           C 0
+ATOM   2357   CB LEU A 306     -11.444  14.270  16.772  0.00  0.00           C 0
+ATOM   2843  CG2 VAL A 368      -4.605  13.451  13.021  0.00  0.00           C 0
+ATOM   2387  CD1 LEU A 310     -15.053  12.728  11.880  0.00  0.00           C 0
+ATOM   2388  CD2 LEU A 310     -15.961  14.330  13.540  0.00  0.00           C 0
+ATOM   2359   CG LEU A 306     -12.347  15.333  16.118  0.00  0.00           C 0
+ATOM   2362    N ALA A 307     -12.273  11.375  15.563  0.00  0.00           N 0
+ATOM   2812    O VAL A 364      -7.515  10.973   9.441  0.00  0.00           O 0
+ATOM   2792    O LYS A 362      -4.644  14.547   8.960  0.00  0.00           O 0
+ATOM   2822    N GLY A 366      -8.672  10.122  12.323  0.00  0.00           N 0
+ATOM   2851  OD2 ASP A 369      -7.590  10.348  16.579  0.45  2.14           O 0
+ATOM   2850  OD1 ASP A 369      -5.996  11.678  17.316  0.52  9.64           O 0
+TER
+END

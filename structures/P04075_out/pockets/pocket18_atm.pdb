@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0430
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9599
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6927
+HEADER 5  - Mean B-factor of pocket residues  : 0.9980
+HEADER 6  - Hydrophobicity Score              : -3.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.0004
+HEADER 10 - Pocket volume (convex hull)       : 0.7734
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   1992  NH1 ARG A 259      19.050  12.872 -11.306  0.00  0.00           N 0
+ATOM   1558   CA TYR A 204      19.713   6.049  -9.236  0.00  0.00           C 0
+ATOM   1557    N TYR A 204      19.469   6.679  -7.942  0.00  0.00           N 0
+ATOM   1591  OE2 GLU A 207      17.927   9.770 -12.066  0.45  6.43           O 0
+ATOM   1560   CB TYR A 204      21.168   5.565  -9.296  0.00  0.00           C 0
+ATOM   1564  CD2 TYR A 204      21.910   5.405 -11.711  0.00  0.00           C 0
+ATOM   1555  NE2 GLN A 203      18.453  12.281  -8.049  0.60  2.19           N 0
+ATOM   1590  OE1 GLU A 207      17.339  10.920 -10.312  0.00  0.00           O 0
+ATOM   1525   CB LYS A 200      24.215   8.925  -4.937  0.00  0.00           C 0
+ATOM   1526    O LYS A 200      21.783   7.212  -6.294  0.50  1.07           O 0
+ATOM   1523   CA LYS A 200      22.787   8.509  -4.564  0.00  0.00           C 0
+ATOM   1556  OE1 GLN A 203      19.376  12.022  -6.086  0.00  0.00           O 0
+ATOM   1553   CG GLN A 203      18.067  10.173  -6.918  0.00  0.00           C 0
+ATOM   1554   CD GLN A 203      18.689  11.557  -6.978  0.00  0.00           C 0
+ATOM   1551   CB GLN A 203      18.885   9.150  -6.121  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    73:
+HEADER 0  - Pocket Score                      : -0.0603
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9876
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7097
+HEADER 5  - Mean B-factor of pocket residues  : 0.9164
+HEADER 6  - Hydrophobicity Score              : 11.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.7598
+HEADER 10 - Pocket volume (convex hull)       : 8.6328
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM  11058    O GLU A1403     -23.919   0.046 -31.027  0.00  0.00           O 0
+ATOM  11095    O GLY A1407     -26.369   2.194 -32.488  0.72  2.14           O 0
+ATOM  11086   CB LYS A1406     -24.174  -2.830 -32.930  0.00  0.00           C 0
+ATOM  11129  CD1 ILE A1412     -26.743   2.227 -29.087  0.00  0.00           C 0
+ATOM  11092    N GLY A1407     -24.719   0.261 -33.998  0.00  0.00           N 0
+ATOM  11093   CA GLY A1407     -25.546   1.328 -34.563  0.00  0.00           C 0
+ATOM  11087    O LYS A1406     -25.177  -1.303 -35.547  0.00  0.00           O 0
+ATOM  11085    C LYS A1406     -24.543  -0.936 -34.560  0.00  0.00           C 0
+ATOM  11089   CD LYS A1406     -24.114  -4.938 -31.536  0.00  0.00           C 0
+ATOM  11059   CG GLU A1403     -24.471  -1.617 -26.789  0.00  0.00           C 0
+ATOM  10885  CG2 VAL A1381     -27.489  -4.039 -25.282  0.00  0.00           C 0
+ATOM  11091   NZ LYS A1406     -24.098  -7.000 -30.105  0.54  3.28           N 0
+ATOM  11057   CB GLU A1403     -24.139  -0.476 -27.750  0.00  0.00           C 0
+ATOM  10854   CB ASP A1377     -26.637  -8.413 -27.809  0.00  0.00           C 0
+ATOM  11062  OE2 GLU A1403     -26.127  -0.291 -25.636  0.00  0.00           O 0
+ATOM  11055   CA GLU A1403     -23.246  -0.894 -28.927  0.00  0.00           C 0
+ATOM  10858  OD2 ASP A1377     -26.103  -7.247 -25.794  0.00  0.00           O 0
+TER
+END

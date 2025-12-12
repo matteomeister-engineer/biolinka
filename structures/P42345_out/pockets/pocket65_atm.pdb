@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    65:
+HEADER 0  - Pocket Score                      : -0.0549
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9592
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7134
+HEADER 5  - Mean B-factor of pocket residues  : 0.0923
+HEADER 6  - Hydrophobicity Score              : 47.3333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.0862
+HEADER 10 - Pocket volume (convex hull)       : 9.6990
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM  19596   CG GLU A2462      29.633  48.981 -78.380  0.00  0.00           C 0
+ATOM  19600    N LEU A2463      29.506  45.790 -78.612  0.00  0.00           N 0
+ATOM  19592   CA GLU A2462      27.921  47.300 -77.421  0.00  0.00           C 0
+ATOM  19606  CD1 LEU A2463      27.680  43.889 -81.843  0.00  0.00           C 0
+ATOM  19589  CG1 VAL A2461      26.311  50.210 -78.342  0.00  0.00           C 0
+ATOM  19603   CB LEU A2463      29.779  44.225 -80.480  0.00  0.00           C 0
+ATOM  19604    O LEU A2463      32.269  45.832 -79.066  0.71  3.21           O 0
+ATOM  19595    O GLU A2462      28.363  44.971 -76.865  0.59  8.57           O 0
+ATOM  19593    C GLU A2462      28.618  45.917 -77.610  0.00  0.00           C 0
+ATOM  19605   CG LEU A2463      28.438  43.474 -80.582  0.00  0.00           C 0
+ATOM  19585   CA VAL A2461      24.789  48.426 -77.222  0.00  0.00           C 0
+ATOM  19591    N GLU A2462      26.944  47.338 -76.306  0.74  3.28           N 0
+ATOM  19590  CG2 VAL A2461      23.954  50.135 -78.941  0.00  0.00           C 0
+ATOM  19586    C VAL A2461      25.816  48.044 -76.101  0.00  0.00           C 0
+ATOM  19584    N VAL A2461      23.326  48.213 -76.935  0.00  0.00           N 0
+TER
+END

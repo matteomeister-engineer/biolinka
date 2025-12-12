@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.0151
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6424
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4256
+HEADER 5  - Mean B-factor of pocket residues  : 0.8805
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 128.8520
+HEADER 10 - Pocket volume (convex hull)       : 1.2391
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   7781   CE LYS A 986       2.823 -21.201 -17.540  0.00  0.00           C 0
+ATOM   7821  OE1 GLU A 990      -3.103 -19.735 -19.569  0.00  0.00           O 0
+ATOM   7779   CG LYS A 986       3.659 -19.569 -19.225  0.00  0.00           C 0
+ATOM   7819   CG GLU A 990      -2.333 -19.044 -21.712  0.00  0.00           C 0
+ATOM   7794   CZ TYR A 987       1.049 -16.263 -15.052  0.00  0.00           C 0
+ATOM   7791  CE1 TYR A 987      -0.114 -15.814 -15.709  0.00  0.00           C 0
+ATOM   7793   OH TYR A 987       0.934 -16.894 -13.853  0.48  5.36           O 0
+ATOM   7782   NZ LYS A 986       2.916 -21.684 -16.143  0.00  0.00           N 0
+ATOM   7822  OE2 GLU A 990      -2.794 -17.561 -19.876  0.76  5.36           O 0
+ATOM   7820   CD GLU A 990      -2.781 -18.749 -20.272  0.00  0.00           C 0
+ATOM   7789  CD1 TYR A 987      -0.018 -15.171 -16.955  0.00  0.00           C 0
+ATOM   7778    O LYS A 986       1.999 -17.726 -21.364  0.60  2.14           O 0
+ATOM   7788   CG TYR A 987       1.240 -14.975 -17.554  0.00  0.00           C 0
+TER
+END

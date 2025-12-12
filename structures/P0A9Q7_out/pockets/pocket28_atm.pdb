@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.1167
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9048
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6327
+HEADER 5  - Mean B-factor of pocket residues  : 0.9934
+HEADER 6  - Hydrophobicity Score              : 31.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.4461
+HEADER 10 - Pocket volume (convex hull)       : 2.7630
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   2864  CD2 TYR A 384      14.506  26.202  -4.558  0.00  0.00           C 0
+ATOM   2832    O ALA A 380      17.400  24.134  -0.612  0.00  0.00           O 0
+ATOM   2612  OE1 GLU A 350      17.667  31.181  -4.674  0.00  0.00           O 0
+ATOM   2831   CB ALA A 380      17.756  25.860   2.179  0.00  0.00           C 0
+ATOM   2840   NE ARG A 381      22.971  28.435  -1.461  0.23  2.19           N 0
+ATOM   2600  CD1 PHE A 349      20.337  27.869  -5.236  0.00  0.00           C 0
+ATOM   2842  NH2 ARG A 381      23.539  30.579  -1.864  0.58  4.37           N 0
+ATOM   2838   CG ARG A 381      21.497  26.482  -1.429  0.00  0.00           C 0
+ATOM   2830    C ALA A 380      18.298  24.377   0.191  0.00  0.00           C 0
+ATOM   2602  CE1 PHE A 349      19.944  26.541  -4.993  0.00  0.00           C 0
+ATOM   2833    N ARG A 381      19.573  24.530  -0.195  0.00  0.00           N 0
+ATOM   2860   CB TYR A 384      16.269  24.635  -3.658  0.00  0.00           C 0
+ATOM   2862   CG TYR A 384      15.727  25.530  -4.753  0.00  0.00           C 0
+ATOM   2834   CA ARG A 381      20.013  24.446  -1.599  0.00  0.00           C 0
+TER
+END

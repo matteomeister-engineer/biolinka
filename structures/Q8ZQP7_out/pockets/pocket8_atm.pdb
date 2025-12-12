@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0726
+HEADER 1  - Drug Score                        : 0.0634
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9941
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5118
+HEADER 5  - Mean B-factor of pocket residues  : 0.7129
+HEADER 6  - Hydrophobicity Score              : 72.1429
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.1007
+HEADER 10 - Pocket volume (convex hull)       : 2.7123
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1029  CD1 LEU A 132      -6.654   3.571  12.987  0.00  0.00           C 0
+ATOM   1061  CD1 LEU A 136     -10.036   0.563  12.598  0.00  0.00           C 0
+ATOM   1062  CD2 LEU A 136     -10.163   0.986  15.032  0.00  0.00           C 0
+ATOM   1030  CD2 LEU A 132      -7.397   3.963  10.650  0.00  0.00           C 0
+ATOM    634  CE2 PHE A  83     -16.234   4.044  13.656  0.00  0.00           C 0
+ATOM    595   CB ALA A  79     -14.912   0.825  12.154  0.00  0.00           C 0
+ATOM    593   CA ALA A  79     -14.542  -0.079  13.330  0.00  0.00           C 0
+ATOM    621   CB VAL A  82     -13.587   1.681  17.774  0.00  0.00           C 0
+ATOM    783   CB SER A 100     -15.385   6.761  11.014  0.00  0.00           C 0
+ATOM    810  CD1 ILE A 104     -12.420   3.370   8.339  0.00  0.00           C 0
+ATOM    808  CG1 ILE A 104     -11.722   4.465   7.521  0.00  0.00           C 0
+ATOM    635   CZ PHE A  83     -15.773   5.266  14.163  0.00  0.00           C 0
+ATOM    623  CG1 VAL A  82     -13.294   3.083  18.318  0.00  0.00           C 0
+ATOM    785   OG SER A 100     -16.262   5.659  10.963  0.00  0.00           O 0
+TER
+END

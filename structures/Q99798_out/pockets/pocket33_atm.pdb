@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : 0.0333
+HEADER 1  - Drug Score                        : 0.0069
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9573
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4713
+HEADER 5  - Mean B-factor of pocket residues  : 0.9897
+HEADER 6  - Hydrophobicity Score              : -0.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 243.8645
+HEADER 10 - Pocket volume (convex hull)       : 7.0638
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM   5653   NZ LYS A 736     -22.751  10.831  28.143  0.00  0.00           N 0
+ATOM   5676   CE LYS A 739     -17.546   6.986  33.274  0.00  0.00           C 0
+ATOM   5652   CE LYS A 736     -21.285  11.055  28.115  0.00  0.00           C 0
+ATOM   5677   NZ LYS A 739     -18.236   7.104  34.582  0.00  0.00           N 0
+ATOM   5674   CG LYS A 739     -16.928   5.462  31.383  0.00  0.00           C 0
+ATOM   5582    O GLN A 727     -20.082   3.669  27.789  0.00  0.00           O 0
+ATOM   5658    O PRO A 737     -17.143   8.575  27.154  0.29  4.29           O 0
+ATOM   5669    N LYS A 739     -16.946   4.645  28.424  0.00  0.00           N 0
+ATOM   5675   CD LYS A 739     -17.660   5.563  32.723  0.00  0.00           C 0
+ATOM   5588   CA GLY A 728     -22.670   4.829  27.788  0.00  0.00           C 0
+ATOM   5587    N GLY A 728     -22.305   3.464  28.162  0.00  0.00           N 0
+ATOM   5590    O GLY A 728     -23.163   6.094  25.838  0.00  0.00           O 0
+ATOM   5668  CD2 LEU A 738     -19.821   5.459  24.768  0.00  0.00           C 0
+ATOM   5580    C GLN A 727     -21.057   2.994  28.136  0.00  0.00           C 0
+ATOM   5581   CB GLN A 727     -20.719   1.679  30.217  0.00  0.00           C 0
+TER
+END

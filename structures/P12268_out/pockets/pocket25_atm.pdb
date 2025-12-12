@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0492
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0360
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7176
+HEADER 5  - Mean B-factor of pocket residues  : 0.7301
+HEADER 6  - Hydrophobicity Score              : 31.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.3518
+HEADER 10 - Pocket volume (convex hull)       : 7.6036
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   3152    N LEU A 417      -1.297 -20.893  -9.522  0.00  0.00           N 0
+ATOM   3155   CB LEU A 417      -1.366 -23.367  -9.552  0.00  0.00           C 0
+ATOM   3157   CG LEU A 417      -0.910 -23.600 -11.002  0.00  0.00           C 0
+ATOM   3158  CD1 LEU A 417      -0.006 -24.826 -11.081  0.00  0.00           C 0
+ATOM   3365    N SER A 444       3.778 -18.249  -6.599  0.00  0.00           N 0
+ATOM   3160    N ASP A 418      -2.034 -21.723  -6.890  0.00  0.00           N 0
+ATOM   3165   CG ASP A 418      -0.305 -22.099  -4.332  0.00  0.00           C 0
+ATOM   3166  OD1 ASP A 418      -0.473 -23.309  -4.563  0.00  0.00           O 0
+ATOM   3359   CA VAL A 443       3.888 -17.567  -8.928  0.00  0.00           C 0
+ATOM   3361   CB VAL A 443       5.416 -17.528  -9.146  0.00  0.00           C 0
+ATOM   3363  CG1 VAL A 443       5.787 -18.012 -10.553  0.00  0.00           C 0
+ATOM   3167  OD2 ASP A 418       0.723 -21.578  -3.842  0.14  4.29           O 0
+ATOM   3370   OG SER A 444       1.628 -19.331  -4.865  0.82  1.07           O 0
+ATOM   3149   CB SER A 416      -0.053 -18.290  -8.091  0.00  0.00           C 0
+ATOM   3343   CB ALA A 440       0.280 -20.804 -13.557  0.00  0.00           C 0
+ATOM   3357    O GLY A 442       2.166 -18.229 -11.086  0.78  2.14           O 0
+ATOM   2533  CD1 ILE A 332       4.338 -18.156 -14.577  0.00  0.00           C 0
+ATOM   3368   CB SER A 444       2.993 -19.303  -4.510  0.00  0.00           C 0
+TER
+END

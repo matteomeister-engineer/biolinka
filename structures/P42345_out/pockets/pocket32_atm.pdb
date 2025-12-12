@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0164
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8574
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5634
+HEADER 5  - Mean B-factor of pocket residues  : 0.8224
+HEADER 6  - Hydrophobicity Score              : 10.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.4948
+HEADER 10 - Pocket volume (convex hull)       : 9.0969
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    583    O VAL A  75     -18.990 -38.193  26.381  0.54  4.29           O 0
+ATOM    587   CA SER A  76     -17.050 -40.217  26.697  0.00  0.00           C 0
+ATOM    590    O SER A  76     -18.000 -42.092  27.844  0.48  5.36           O 0
+ATOM    643  NH2 ARG A  83     -22.473 -41.627  27.737  0.00  0.00           N 0
+ATOM    887   CA SER A 117     -27.552 -39.932  23.781  0.00  0.00           C 0
+ATOM    886    N SER A 117     -27.367 -39.556  22.373  0.00  0.00           N 0
+ATOM    889   CB SER A 117     -26.546 -39.200  24.679  0.00  0.00           C 0
+ATOM    883    O PRO A 116     -27.713 -41.606  21.529  0.46  7.50           O 0
+ATOM    642  NH1 ARG A  83     -24.171 -40.255  27.234  0.28  6.56           N 0
+ATOM    584  CG1 VAL A  75     -17.530 -36.314  24.221  0.00  0.00           C 0
+ATOM    858   CB ASN A 113     -19.340 -38.929  20.132  0.00  0.00           C 0
+ATOM    591   OG SER A  76     -15.210 -40.234  25.129  0.81  5.36           O 0
+ATOM    859    O ASN A 113     -22.237 -39.289  21.290  0.70  6.43           O 0
+ATOM    870  CD2 LEU A 114     -21.576 -36.021  25.079  0.00  0.00           C 0
+ATOM    644   CZ ARG A  83     -22.970 -40.428  27.711  0.00  0.00           C 0
+ATOM    881    C PRO A 116     -27.444 -40.417  21.351  0.00  0.00           C 0
+TER
+END

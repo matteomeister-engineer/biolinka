@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   120:
+HEADER 0  - Pocket Score                      : -0.1031
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7697
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5864
+HEADER 5  - Mean B-factor of pocket residues  : 0.6410
+HEADER 6  - Hydrophobicity Score              : -26.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.2543
+HEADER 10 - Pocket volume (convex hull)       : 2.3560
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   2273   CD GLU A 288     -38.726  -7.022  26.600  0.00  0.00           C 0
+ATOM   2772   NZ LYS A 353     -37.293  -5.334  24.046  0.72  3.28           N 0
+ATOM   2237   CG GLU A 284     -40.706 -10.159  22.627  0.00  0.00           C 0
+ATOM   2275  OE2 GLU A 288     -39.298  -5.919  26.737  0.59  4.29           O 0
+ATOM   2208   CD ARG A 281     -44.208  -4.962  17.497  0.00  0.00           C 0
+ATOM   2205   CB ARG A 281     -45.207  -6.415  19.284  0.00  0.00           C 0
+ATOM   2207   CG ARG A 281     -44.187  -6.350  18.143  0.00  0.00           C 0
+ATOM   2248  OE1 GLU A 285     -44.527  -3.091  23.533  0.00  0.00           O 0
+ATOM   2203   CA ARG A 281     -45.127  -7.743  20.048  0.00  0.00           C 0
+ATOM   2206    O ARG A 281     -45.067  -7.512  22.428  0.72  2.14           O 0
+ATOM   2240  OE2 GLU A 284     -40.566  -9.503  20.298  0.00  0.00           O 0
+ATOM   2238   CD GLU A 284     -39.975 -10.033  21.262  0.00  0.00           C 0
+ATOM   2246   CG GLU A 285     -43.965  -5.222  24.552  0.00  0.00           C 0
+ATOM   2241    N GLU A 285     -43.652  -8.296  24.920  0.71  1.09           N 0
+ATOM   2235   CB GLU A 284     -42.246 -10.053  22.522  0.00  0.00           C 0
+TER
+END

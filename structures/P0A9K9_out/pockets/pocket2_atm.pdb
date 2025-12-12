@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.2184
+HEADER 1  - Drug Score                        : 0.0807
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 4.0661
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5387
+HEADER 5  - Mean B-factor of pocket residues  : 0.8096
+HEADER 6  - Hydrophobicity Score              : -2.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.7273
+HEADER 10 - Pocket volume (convex hull)       : 11.1527
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.7333
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.4167
+ATOM    811    N GLU A 108      11.771   3.431 -11.840  0.00  0.00           N 0
+ATOM    801    O PRO A 106      11.650   3.538  -7.183  0.74  5.36           O 0
+ATOM    814   CB GLU A 108      10.039   2.410 -13.251  0.00  0.00           C 0
+ATOM    717   CD ARG A  95      10.091  -2.240 -11.451  0.00  0.00           C 0
+ATOM    718   NE ARG A  95       8.776  -1.994 -12.032  0.00  0.00           N 0
+ATOM    800   CB PRO A 106      12.151   0.727  -6.138  0.00  0.00           C 0
+ATOM    719  NH1 ARG A  95       7.476  -3.395 -10.753  0.00  0.00           N 0
+ATOM    716   CG ARG A  95      11.110  -1.414 -12.226  0.00  0.00           C 0
+ATOM    799    C PRO A 106      12.633   2.856  -7.453  0.00  0.00           C 0
+ATOM    804    N VAL A 107      13.273   2.954  -8.611  0.00  0.00           N 0
+ATOM    806    C VAL A 107      12.721   3.043 -10.998  0.00  0.00           C 0
+ATOM    808    O VAL A 107      13.443   2.076 -11.243  0.00  0.00           O 0
+ATOM    919    O ASN A 122       6.543   4.690  -8.626  0.55  5.36           O 0
+ATOM    907    O ASP A 120      10.298   5.573 -10.781  0.83  1.07           O 0
+ATOM    819  OE2 GLU A 108       8.020   0.037 -13.806  0.72  3.21           O 0
+ATOM    802   CG PRO A 106      11.410   1.278  -4.919  0.00  0.00           C 0
+ATOM    924   CA HIS A 123       4.668   4.030  -6.739  0.00  0.00           C 0
+ATOM    929  CD2 HIS A 123       4.229   1.716  -4.282  0.00  0.00           C 0
+ATOM    931  CE1 HIS A 123       2.365   0.705  -4.846  0.00  0.00           C 0
+ATOM    938   CG MET A 124       4.177   0.204 -10.323  0.00  0.00           C 0
+ATOM    932  NE2 HIS A 123       3.512   0.521  -4.182  0.00  0.00           N 0
+ATOM    939   SD MET A 124       4.109  -1.596 -10.585  0.00  0.00           S 0
+ATOM    933    N MET A 124       3.646   2.605  -8.494  0.68  1.09           N 0
+ATOM    721   CZ ARG A  95       7.622  -2.510 -11.704  0.00  0.00           C 0
+TER
+END

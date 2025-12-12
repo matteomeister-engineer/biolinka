@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.1344
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.8501
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5029
+HEADER 5  - Mean B-factor of pocket residues  : 0.8371
+HEADER 6  - Hydrophobicity Score              : 35.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 289.6324
+HEADER 10 - Pocket volume (convex hull)       : 12.0220
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.5484
+ATOM   4771   CA LYS A 597      17.975   1.137  35.796  0.00  0.00           C 0
+ATOM   4775   CG LYS A 597      16.908   2.402  37.734  0.00  0.00           C 0
+ATOM   4799   CB VAL A 600      18.717   2.855  31.640  0.00  0.00           C 0
+ATOM   4228   CB ALA A 528      16.163   7.281  31.809  0.00  0.00           C 0
+ATOM   4801  CG1 VAL A 600      19.206   4.286  31.396  0.00  0.00           C 0
+ATOM   4774    O LYS A 597      20.105   1.237  34.704  0.00  0.00           O 0
+ATOM   4802  CG2 VAL A 600      17.244   2.780  31.222  0.00  0.00           C 0
+ATOM   4768    C GLY A 596      16.454  -0.228  34.399  0.00  0.00           C 0
+ATOM   4263  OG1 THR A 532      12.263   4.213  32.620  0.35  9.64           O 0
+ATOM   4769    O GLY A 596      17.039   0.129  33.377  0.00  0.00           O 0
+ATOM   4773   CB LYS A 597      18.091   1.543  37.272  0.00  0.00           C 0
+ATOM   4767   CA GLY A 596      15.348  -1.283  34.332  0.00  0.00           C 0
+ATOM   4262  CG2 THR A 532      10.467   3.065  33.581  0.00  0.00           C 0
+ATOM   4770    N LYS A 597      16.845   0.205  35.608  0.00  0.00           N 0
+ATOM   4747    O ALA A 593      14.282   0.091  38.706  0.00  0.00           O 0
+ATOM   4736    O PHE A 592      12.627  -1.856  36.092  0.44  2.14           O 0
+ATOM   4744   CA ALA A 593      12.014  -0.734  38.590  0.00  0.00           C 0
+ATOM   4777   CE LYS A 597      15.791   3.497  39.679  0.00  0.00           C 0
+ATOM   4746   CB ALA A 593      11.202  -0.394  39.845  0.00  0.00           C 0
+TER
+END

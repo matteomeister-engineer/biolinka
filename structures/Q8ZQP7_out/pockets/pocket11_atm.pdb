@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0353
+HEADER 1  - Drug Score                        : 0.0253
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7636
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6256
+HEADER 5  - Mean B-factor of pocket residues  : 0.8276
+HEADER 6  - Hydrophobicity Score              : 43.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.7750
+HEADER 10 - Pocket volume (convex hull)       : 5.8305
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.5000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1053   SD MET A 135      -2.203  -0.603  17.545  0.00  0.00           S 0
+ATOM   1070   CA GLY A 138      -6.441  -5.693  18.300  0.00  0.00           C 0
+ATOM   1054   CE MET A 135      -3.025   0.335  18.863  0.00  0.00           C 0
+ATOM   1051    O MET A 135      -6.740  -2.380  17.329  0.67  1.07           O 0
+ATOM   1073    N THR A 139      -8.164  -4.180  19.209  0.00  0.00           N 0
+ATOM   1078  CG2 THR A 139      -8.672  -1.286  20.070  0.00  0.00           C 0
+ATOM   1074   CA THR A 139      -9.212  -3.772  20.161  0.00  0.00           C 0
+ATOM   1072    O GLY A 138      -7.548  -5.995  20.386  0.00  0.00           O 0
+ATOM   1048   CA MET A 135      -4.924  -1.691  15.947  0.00  0.00           C 0
+ATOM   1071    C GLY A 138      -7.423  -5.279  19.396  0.00  0.00           C 0
+ATOM   1076   CB THR A 139      -9.753  -2.354  19.918  0.00  0.00           C 0
+ATOM   1098  CD1 PHE A 142      -9.082  -4.931  25.719  0.00  0.00           C 0
+ATOM    652   NZ LYS A  85     -12.874  -1.767  23.801  0.61  7.66           N 0
+ATOM   1095   CB PHE A 142      -8.303  -6.179  23.659  0.00  0.00           C 0
+ATOM   1097   CG PHE A 142      -8.136  -5.773  25.106  0.00  0.00           C 0
+ATOM   1043    O ILE A 134      -5.015  -4.380  15.203  0.52  2.14           O 0
+ATOM   1045  CG2 ILE A 134      -2.026  -4.750  14.137  0.00  0.00           C 0
+TER
+END

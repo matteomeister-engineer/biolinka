@@ -13,8 +13,6 @@ venv/
 
 # Data & large outputs (adjust if needed)
 data/raw/*
-structures/*
-results/*
 
 # OS files
 .DS_Store

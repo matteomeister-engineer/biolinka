@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.1317
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7879
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5070
+HEADER 5  - Mean B-factor of pocket residues  : 0.9243
+HEADER 6  - Hydrophobicity Score              : -4.4286
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 207.3778
+HEADER 10 - Pocket volume (convex hull)       : 10.8558
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM    252  OE1 GLU A  30     -26.959  14.909 -13.932  0.00  0.00           O 0
+ATOM    253  OE2 GLU A  30     -26.553  13.437 -12.309  0.64  1.07           O 0
+ATOM    285  NH2 ARG A  34     -24.261  10.859 -12.983  0.00  0.00           N 0
+ATOM   2228  OE1 GLU A 276     -20.829  12.256 -13.302  0.29  5.36           O 0
+ATOM    251   CD GLU A  30     -26.907  14.568 -12.727  0.00  0.00           C 0
+ATOM   2229  OE2 GLU A 276     -20.978  13.065 -11.242  0.00  0.00           O 0
+ATOM    250   CG GLU A  30     -27.325  15.626 -11.688  0.00  0.00           C 0
+ATOM    720   CB SER A  89     -24.744  19.821  -8.515  0.00  0.00           C 0
+ATOM    723    N LEU A  90     -25.586  17.278  -6.847  0.00  0.00           N 0
+ATOM    728   CG LEU A  90     -25.821  14.222  -6.834  0.00  0.00           C 0
+ATOM    729  CD1 LEU A  90     -25.114  12.944  -7.266  0.00  0.00           C 0
+ATOM   2203  OD1 ASP A 273     -19.859  14.695  -6.724  0.78  4.29           O 0
+ATOM   2204  OD2 ASP A 273     -17.768  14.778  -7.474  0.50  6.43           O 0
+ATOM    737  CD2 HIS A  91     -19.640  17.997  -6.465  0.00  0.00           C 0
+ATOM    731    N HIS A  91     -23.381  17.789  -5.079  0.00  0.00           N 0
+ATOM    726   CB LEU A  90     -24.836  15.094  -6.036  0.00  0.00           C 0
+TER
+END

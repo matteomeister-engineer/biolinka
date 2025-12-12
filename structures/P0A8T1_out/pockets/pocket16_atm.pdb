@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0565
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1778
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6903
+HEADER 5  - Mean B-factor of pocket residues  : 0.2609
+HEADER 6  - Hydrophobicity Score              : 48.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.3810
+HEADER 10 - Pocket volume (convex hull)       : 2.4030
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    391  CE3 TRP A  51      27.484 -18.790 -22.472  0.00  0.00           C 0
+ATOM    383   CA TRP A  51      27.179 -14.517 -22.310  0.00  0.00           C 0
+ATOM    271  NE2 HIS A  36      20.248 -16.687 -18.355  0.00  0.00           N 0
+ATOM    386    O TRP A  51      26.743 -14.615 -19.951  0.68  2.14           O 0
+ATOM    258   CB THR A  35      20.445 -10.976 -20.933  0.00  0.00           C 0
+ATOM    399    O GLY A  52      23.803 -12.087 -20.292  0.73  4.29           O 0
+ATOM    261  OG1 THR A  35      21.283 -11.290 -19.856  0.77  1.07           O 0
+ATOM    378    O LEU A  50      25.735 -13.627 -24.619  0.00  0.00           O 0
+ATOM    384    C TRP A  51      26.771 -13.908 -20.957  0.00  0.00           C 0
+ATOM    268  CD2 HIS A  36      18.982 -16.575 -18.940  0.00  0.00           C 0
+ATOM    259    O THR A  35      18.005 -12.365 -21.959  0.44  6.43           O 0
+ATOM    300  CG2 VAL A  40      20.906 -10.727 -25.293  0.00  0.00           C 0
+ATOM    294    N VAL A  40      18.629 -12.183 -26.545  0.45  2.19           N 0
+ATOM    297   CB VAL A  40      20.985 -11.412 -26.666  0.00  0.00           C 0
+ATOM    257    C THR A  35      18.226 -12.074 -20.782  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,60 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.1773
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    55
+HEADER 3  - Mean alpha-sphere radius          : 4.0108
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4560
+HEADER 5  - Mean B-factor of pocket residues  : 0.9321
+HEADER 6  - Hydrophobicity Score              : 37.9286
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2143
+HEADER 9  - Pocket volume (Monte Carlo)       : 632.8575
+HEADER 10 - Pocket volume (convex hull)       : 107.2122
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.6000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.3636
+ATOM    398   CB ALA A  51      -6.388  -1.139 -16.552  0.00  0.00           C 0
+ATOM    396   CA ALA A  51      -5.301  -1.973 -17.241  0.00  0.00           C 0
+ATOM   2626  OD1 ASP A 350     -11.641  -6.405 -16.644  0.70  8.57           O 0
+ATOM   3017   CB ALA A 400     -12.255  -3.695 -19.682  0.00  0.00           C 0
+ATOM   3005   CZ PHE A 398     -12.095  -1.695 -15.438  0.00  0.00           C 0
+ATOM   3061   CG PHE A 406     -10.852   1.577 -18.230  0.00  0.00           C 0
+ATOM   3062  CD1 PHE A 406      -9.774   2.219 -18.868  0.00  0.00           C 0
+ATOM    399    O ALA A  51      -4.540  -0.732 -19.160  0.46  7.50           O 0
+ATOM   3064  CE1 PHE A 406      -8.544   2.357 -18.201  0.00  0.00           C 0
+ATOM   3059   CB PHE A 406     -12.197   1.448 -18.921  0.00  0.00           C 0
+ATOM   3018    O ALA A 400     -13.360  -2.605 -22.377  0.00  0.00           O 0
+ATOM   2647  CD2 TYR A 352      -9.212   1.260 -11.891  0.00  0.00           C 0
+ATOM   3065  CE2 PHE A 406      -9.463   1.220 -16.256  0.00  0.00           C 0
+ATOM    394   OG SER A  50      -4.713  -5.999 -14.909  0.00  0.00           O 0
+ATOM    395    N ALA A  51      -4.635  -2.788 -16.224  0.00  0.00           N 0
+ATOM   3004  CE2 PHE A 398     -12.905  -1.547 -16.573  0.00  0.00           C 0
+ATOM   3063  CD2 PHE A 406     -10.693   1.096 -16.917  0.00  0.00           C 0
+ATOM    393    O SER A  50      -3.456  -4.078 -17.655  0.52  1.07           O 0
+ATOM    421  NH2 ARG A  53      -3.562  -6.961 -20.419  0.44  5.47           N 0
+ATOM   2632    O TYR A 351     -10.860  -3.176 -11.349  0.00  0.00           O 0
+ATOM   2623   CB ASP A 350     -13.145  -5.089 -15.345  0.00  0.00           C 0
+ATOM    387  CD1 LEU A  49      -4.769   0.147 -11.869  0.00  0.00           C 0
+ATOM    389    N SER A  50      -3.133  -3.705 -14.001  0.00  0.00           N 0
+ATOM    380    O GLY A  48      -3.155  -4.660 -11.169  0.00  0.00           O 0
+ATOM   2652    N CYS A 353     -10.165  -0.558  -8.198  0.75  2.19           N 0
+ATOM   2621   CA ASP A 350     -13.626  -6.006 -14.208  0.00  0.00           C 0
+ATOM   2636  CE1 TYR A 351     -10.927  -7.160  -8.944  0.00  0.00           C 0
+ATOM   2617    O PRO A 349     -13.590  -8.795 -14.754  0.37  5.36           O 0
+ATOM   2634  CD1 TYR A 351     -12.048  -6.502  -9.484  0.00  0.00           C 0
+ATOM   2628    N TYR A 351     -13.015  -4.733 -12.219  0.63  1.09           N 0
+ATOM   2638   OH TYR A 351      -8.921  -7.074  -7.622  0.00  0.00           O 0
+ATOM    707  CD2 LEU A  91      -3.782  -3.997  -7.565  0.00  0.00           C 0
+ATOM   2637  CE2 TYR A 351     -10.254  -5.094  -7.828  0.00  0.00           C 0
+ATOM   2655   CB CYS A 353      -9.163  -1.528  -6.189  0.00  0.00           C 0
+ATOM    703   CB LEU A  91      -3.416  -1.628  -6.678  0.00  0.00           C 0
+ATOM   2639   CZ TYR A 351     -10.024  -6.454  -8.124  0.00  0.00           C 0
+ATOM   2656    O CYS A 353      -8.236   1.155  -6.780  0.65  2.14           O 0
+ATOM    704    O LEU A  91      -3.183   0.597  -8.652  0.89  2.14           O 0
+TER
+END

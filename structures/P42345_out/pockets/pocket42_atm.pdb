@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.0363
+HEADER 1  - Drug Score                        : 0.0026
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.5778
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3866
+HEADER 5  - Mean B-factor of pocket residues  : 0.6596
+HEADER 6  - Hydrophobicity Score              : 40.4444
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 186.6648
+HEADER 10 - Pocket volume (convex hull)       : 10.9608
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.3438
+ATOM   2779    N THR A 355     -36.446 -10.358  15.374  0.33  5.47           N 0
+ATOM   2776   CB SER A 354     -37.948 -11.989  18.040  0.00  0.00           C 0
+ATOM   2781    C THR A 355     -37.804  -9.923  13.415  0.00  0.00           C 0
+ATOM   2783    O THR A 355     -37.782 -10.628  12.408  0.00  0.00           O 0
+ATOM   2786    N LEU A 356     -38.928  -9.529  14.013  0.63  1.09           N 0
+ATOM   2793  CD2 LEU A 356     -41.925 -11.252  15.896  0.00  0.00           C 0
+ATOM   2787   CA LEU A 356     -40.282  -9.749  13.555  0.00  0.00           C 0
+ATOM   2794    N VAL A 357     -40.697  -9.903  11.178  0.51  2.19           N 0
+ATOM   1686  CG1 ILE A 218     -39.257 -16.543  12.322  0.00  0.00           C 0
+ATOM   1688  CD1 ILE A 218     -38.820 -16.764  13.779  0.00  0.00           C 0
+ATOM   2148   NE ARG A 273     -43.832 -16.284  16.002  0.35  6.56           N 0
+ATOM   1660  NH2 ARG A 214     -40.460 -16.641  18.609  0.20  5.47           N 0
+ATOM   2778   OG SER A 354     -39.247 -11.480  18.246  0.60  1.07           O 0
+ATOM   2798    O VAL A 357     -42.538 -11.384   9.863  0.68  9.64           O 0
+ATOM   2150  NH2 ARG A 273     -42.721 -17.775  14.698  0.00  0.00           N 0
+ATOM   1687  CG2 ILE A 218     -37.263 -15.245  11.473  0.00  0.00           C 0
+ATOM   2797   CB VAL A 357     -39.921  -9.817   8.808  0.00  0.00           C 0
+ATOM   2157  CG1 ILE A 274     -44.013 -16.595  11.097  0.00  0.00           C 0
+ATOM   2145    O ARG A 273     -46.281 -13.853  13.434  0.48  3.21           O 0
+ATOM   1685    O ILE A 218     -37.623 -15.269   8.206  0.00  0.00           O 0
+ATOM   1707   CB THR A 221     -40.846 -14.075   6.930  0.00  0.00           C 0
+ATOM   1682   CA ILE A 218     -38.633 -16.688   9.865  0.00  0.00           C 0
+TER
+END

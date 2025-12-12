@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   115:
+HEADER 0  - Pocket Score                      : -0.1452
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0416
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5579
+HEADER 5  - Mean B-factor of pocket residues  : 0.9006
+HEADER 6  - Hydrophobicity Score              : 19.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 460.6572
+HEADER 10 - Pocket volume (convex hull)       : 41.0358
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   9579   CD PRO A1249     -26.515  18.398  16.841  0.00  0.00           C 0
+ATOM   9561    O VAL A1247     -23.110  19.922  15.758  0.00  0.00           O 0
+ATOM   9572  OE2 GLU A1248     -28.052  21.127  14.987  0.64  5.36           O 0
+ATOM   9571  OE1 GLU A1248     -27.106  23.016  14.341  0.00  0.00           O 0
+ATOM   9551   CB GLU A1246     -20.755  24.769  14.946  0.00  0.00           C 0
+ATOM   9554   CD GLU A1246     -21.153  26.872  16.395  0.00  0.00           C 0
+ATOM   9556  OE2 GLU A1246     -22.140  27.109  15.661  0.00  0.00           O 0
+ATOM   9553   CG GLU A1246     -20.205  25.707  16.037  0.00  0.00           C 0
+ATOM   9559    C VAL A1247     -23.023  19.983  14.531  0.00  0.00           C 0
+ATOM   9557    N VAL A1247     -20.985  21.364  14.501  0.50  2.19           N 0
+ATOM   9549   CA GLU A1246     -19.869  23.532  14.710  0.00  0.00           C 0
+ATOM   8809   CB ALA A1147     -21.591  15.307  17.378  0.00  0.00           C 0
+ATOM   8797  CG1 VAL A1145     -23.006  18.305  23.040  0.00  0.00           C 0
+ATOM   9578   CG PRO A1249     -26.562  17.557  18.113  0.00  0.00           C 0
+ATOM   8798  CG2 VAL A1145     -21.495  19.435  24.650  0.00  0.00           C 0
+ATOM   9555  OE1 GLU A1246     -20.885  27.547  17.417  0.00  0.00           O 0
+ATOM   8807   CA ALA A1147     -22.635  14.605  18.257  0.00  0.00           C 0
+ATOM   8803    O VAL A1146     -23.801  14.557  20.853  0.86  1.07           O 0
+ATOM   8796    O VAL A1145     -20.397  16.294  21.716  0.56  2.14           O 0
+ATOM   8779   OG SER A1142     -17.105  20.233  19.511  0.17  7.50           O 0
+ATOM   8777   CB SER A1142     -17.861  19.059  19.723  0.00  0.00           C 0
+ATOM   9563  CG2 VAL A1247     -20.451  18.376  15.068  0.00  0.00           C 0
+ATOM   8795   CB VAL A1145     -21.542  18.431  23.490  0.00  0.00           C 0
+ATOM   8778    O SER A1142     -18.307  18.901  22.619  0.42  1.07           O 0
+TER
+END

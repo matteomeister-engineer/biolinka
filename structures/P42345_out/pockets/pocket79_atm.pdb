@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : -0.0659
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7405
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5916
+HEADER 5  - Mean B-factor of pocket residues  : 0.9769
+HEADER 6  - Hydrophobicity Score              : 27.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.7647
+HEADER 10 - Pocket volume (convex hull)       : 5.7635
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM  18220  NE2 HIS A2289     -13.971  -1.789 -55.426  0.00  0.00           N 0
+ATOM  18055   CG ARG A2270      -9.385  -6.482 -58.404  0.00  0.00           C 0
+ATOM  18056   CD ARG A2270     -10.156  -7.209 -57.300  0.00  0.00           C 0
+ATOM  18054    O ARG A2270      -9.331  -4.192 -60.606  0.19  5.36           O 0
+ATOM  18053   CB ARG A2270      -8.379  -5.474 -57.821  0.00  0.00           C 0
+ATOM  18030    O ILE A2267      -8.535  -2.491 -56.083  0.59  2.14           O 0
+ATOM  18031  CG1 ILE A2267      -9.368  -4.501 -52.011  0.00  0.00           C 0
+ATOM  18033  CD1 ILE A2267      -9.886  -4.235 -50.592  0.00  0.00           C 0
+ATOM  18247  ND2 ASN A2293     -14.068  -2.604 -52.540  0.00  0.00           N 0
+ATOM  18058  NH1 ARG A2270     -10.664  -8.165 -54.628  0.00  0.00           N 0
+ATOM  18061    N MET A2271      -9.048  -2.512 -59.131  0.00  0.00           N 0
+ATOM  18052    C ARG A2270      -8.778  -3.723 -59.618  0.00  0.00           C 0
+ATOM  18244   CB ASN A2293     -13.627  -2.579 -50.177  0.00  0.00           C 0
+ATOM  18062   CA MET A2271      -9.964  -1.560 -59.765  0.00  0.00           C 0
+ATOM  18064   CB MET A2271     -10.529  -0.635 -58.681  0.00  0.00           C 0
+ATOM  18066   CG MET A2271     -11.576   0.331 -59.238  0.00  0.00           C 0
+ATOM  18032  CG2 ILE A2267     -10.369  -2.574 -53.294  0.00  0.00           C 0
+TER
+END

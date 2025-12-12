@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   164:
+HEADER 0  - Pocket Score                      : -0.1493
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9801
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5801
+HEADER 5  - Mean B-factor of pocket residues  : 0.8516
+HEADER 6  - Hydrophobicity Score              : 6.9091
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.6364
+HEADER 9  - Pocket volume (Monte Carlo)       : 363.3111
+HEADER 10 - Pocket volume (convex hull)       : 24.9920
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM  12168  NE2 HIS A1541     -23.641   9.330  -0.948  0.00  0.00           N 0
+ATOM  12167  CE1 HIS A1541     -23.693  10.457  -0.223  0.00  0.00           C 0
+ATOM  12556   OG SER A1592     -18.992  11.560  -0.037  0.63  8.57           O 0
+ATOM  12939   NZ LYS A1635     -21.333  16.517  -4.323  0.00  7.66           N 0
+ATOM  10959  NH1 ARG A1391     -20.424   5.878  -5.605  0.56  8.75           N 0
+ATOM  12528   CA GLY A1588     -15.842  11.102  -4.720  0.00  0.00           C 0
+ATOM  12529    C GLY A1588     -16.263  10.584  -3.335  0.00  0.00           C 0
+ATOM  12531    N ALA A1589     -15.946   9.322  -3.026  0.79  2.19           N 0
+ATOM  12455   SD MET A1578     -17.041   5.177  -6.365  0.00  0.00           S 0
+ATOM  12456   CE MET A1578     -17.449   5.176  -4.602  0.00  0.00           C 0
+ATOM  12503    O ARG A1585     -14.408   7.473  -7.159  0.00  0.00           O 0
+ATOM  10976  CE2 TYR A1393     -18.707   5.986 -12.232  0.00  0.00           C 0
+ATOM  10977   OH TYR A1393     -20.960   5.999 -11.407  0.00  0.00           O 0
+ATOM  11204   CG LYS A1422     -20.871   9.101 -14.230  0.00  0.00           C 0
+ATOM  11203    O LYS A1422     -16.531   8.987 -13.609  0.72  8.57           O 0
+ATOM  10957   CD ARG A1391     -20.174   4.261  -7.963  0.00  0.00           C 0
+ATOM  12530    O GLY A1588     -16.799  11.334  -2.516  0.00  0.00           O 0
+ATOM  12428  OE2 GLU A1574     -20.867   5.836  -2.982  0.00  0.00           O 0
+ATOM  12532   CA ALA A1589     -16.128   8.771  -1.683  0.00  0.00           C 0
+ATOM  10960  NH2 ARG A1391     -22.503   5.229  -5.282  0.30  7.66           N 0
+TER
+END

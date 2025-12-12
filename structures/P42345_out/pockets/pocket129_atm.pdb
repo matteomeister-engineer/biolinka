@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   129:
+HEADER 0  - Pocket Score                      : -0.1171
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.7903
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4166
+HEADER 5  - Mean B-factor of pocket residues  : 0.9240
+HEADER 6  - Hydrophobicity Score              : 26.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.7474
+HEADER 10 - Pocket volume (convex hull)       : 5.9902
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5500
+ATOM  12767   CB GLN A1617      -4.049  26.512  10.640  0.00  0.00           C 0
+ATOM  12738   CA ILE A1614      -5.355  25.149  14.868  0.00  0.00           C 0
+ATOM  12743  CG2 ILE A1614      -4.154  23.020  15.489  0.00  0.00           C 0
+ATOM   6329  CD1 LEU A 811      -0.538  24.663  16.442  0.00  0.00           C 0
+ATOM  12769   CG GLN A1617      -2.742  26.452   9.835  0.00  0.00           C 0
+ATOM  12741    O ILE A1614      -5.826  24.203  12.715  0.53  1.07           O 0
+ATOM   6330  CD2 LEU A 811       0.084  22.569  15.288  0.00  0.00           C 0
+ATOM   6356  NH1 ARG A 814       1.345  20.007  11.414  0.28  5.47           N 0
+ATOM  12816  OE1 GLU A1621      -0.748  24.768   7.547  0.39  6.43           O 0
+ATOM   6656   CA GLY A 852      -2.498  19.132  12.264  0.00  0.00           C 0
+ATOM  12778  CG1 ILE A1618      -5.174  21.214  11.491  0.00  0.00           C 0
+ATOM   6658    O GLY A 852      -1.194  19.445  10.282  0.00  0.00           O 0
+ATOM  12817  OE2 GLU A1621      -1.145  22.588   7.644  0.62  5.36           O 0
+ATOM   6357  NH2 ARG A 814       2.552  19.830   9.581  0.00  5.47           N 0
+ATOM   6692  OE1 GLU A 856       3.749  20.483   5.825  0.00  0.00           O 0
+ATOM  12773    N ILE A1618      -5.649  23.789   9.873  0.00  0.00           N 0
+TER
+END

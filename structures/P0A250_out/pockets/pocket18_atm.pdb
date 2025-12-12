@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0194
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8798
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5656
+HEADER 5  - Mean B-factor of pocket residues  : 0.6904
+HEADER 6  - Hydrophobicity Score              : 8.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.5216
+HEADER 10 - Pocket volume (convex hull)       : 7.1404
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   3926   CD GLU A 509     -12.265  -2.186  -9.994  0.00  0.00           C 0
+ATOM   3927  OE1 GLU A 509     -11.088  -2.130 -10.394  0.00  0.00           O 0
+ATOM   3935   CD ARG A 510     -12.889  -9.364  -9.720  0.00  0.00           C 0
+ATOM   3928  OE2 GLU A 509     -13.250  -1.997 -10.751  0.00  0.00           O 0
+ATOM   3934   CG ARG A 510     -13.876  -8.399  -9.067  0.00  0.00           C 0
+ATOM   3923   CB GLU A 509     -13.312  -3.627  -8.281  0.00  0.00           C 0
+ATOM   3919  OD2 ASP A 508      -9.355  -7.800  -6.624  0.42  9.64           O 0
+ATOM   3920    N GLU A 509     -12.017  -4.333  -6.376  0.64  2.19           N 0
+ATOM   3913   CA ASP A 508     -10.169  -4.861  -4.895  0.00  0.00           C 0
+ATOM   3911    O GLY A 507      -9.304  -2.192  -5.002  0.40  8.57           O 0
+ATOM   3936   NE ARG A 510     -11.565  -9.278  -9.070  0.56  2.19           N 0
+ATOM   3938  NH2 ARG A 510      -9.378  -9.705  -8.723  0.00  0.00           N 0
+ATOM   3918  OD1 ASP A 508     -11.434  -7.403  -6.144  0.00  0.00           O 0
+ATOM   3939   CZ ARG A 510     -10.474  -9.939  -9.385  0.00  0.00           C 0
+ATOM   4443   SG CYS A 575     -16.840  -3.071 -12.012  0.00  0.00           S 0
+ATOM   4395  CD1 ILE A 569     -17.359  -7.623 -10.270  0.00  0.00           C 0
+TER
+END

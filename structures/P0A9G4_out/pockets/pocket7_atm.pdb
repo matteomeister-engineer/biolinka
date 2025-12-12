@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1137
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7650
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4604
+HEADER 5  - Mean B-factor of pocket residues  : 0.9354
+HEADER 6  - Hydrophobicity Score              : 17.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.5418
+HEADER 10 - Pocket volume (convex hull)       : 5.5952
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM    272   CB TYR A  36       2.308   3.605 -28.288  0.00  0.00           C 0
+ATOM    285    O ARG A  37       4.395   2.123 -24.717  0.80  3.21           O 0
+ATOM    275  CD1 TYR A  36      -0.232   3.436 -28.359  0.00  0.00           C 0
+ATOM     12   CB ASN A   2       2.224  -1.915 -25.302  0.00  0.00           C 0
+ATOM     23  CG2 ILE A   3      -0.963   0.678 -21.827  0.00  0.00           C 0
+ATOM    281    N ARG A  37       3.507   4.762 -25.482  0.52  3.28           N 0
+ATOM    284   CB ARG A  37       3.743   4.554 -23.021  0.00  0.00           C 0
+ATOM    289  NH1 ARG A  37       0.320   7.600 -22.199  0.00  0.00           N 0
+ATOM    131  NH2 ARG A  18      -3.619   3.884 -21.754  0.00  0.00           N 0
+ATOM    268    O GLY A  35       2.744   7.756 -27.732  0.00  0.00           O 0
+ATOM    270   CA TYR A  36       2.748   4.987 -27.790  0.00  0.00           C 0
+ATOM    286   CG ARG A  37       3.241   5.952 -22.648  0.00  0.00           C 0
+ATOM     17    N ILE A   3       1.735  -0.742 -22.434  0.74  1.09           N 0
+ATOM    287   CD ARG A  37       2.501   5.836 -21.312  0.00  0.00           C 0
+ATOM     24  CD1 ILE A   3      -0.549   2.396 -19.260  0.00  0.00           C 0
+TER
+END

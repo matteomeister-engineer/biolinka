@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.1110
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7786
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6814
+HEADER 5  - Mean B-factor of pocket residues  : 0.6823
+HEADER 6  - Hydrophobicity Score              : -21.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.5408
+HEADER 10 - Pocket volume (convex hull)       : 7.0336
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM   4746   CG GLN A 608      20.832  52.307 -54.230  0.00  0.00           C 0
+ATOM   4712  CE1 HIS A 604      22.390  50.629 -50.651  0.00  0.00           C 0
+ATOM   4713  NE2 HIS A 604      22.392  50.819 -49.323  0.00  0.00           N 0
+ATOM   4735   CB LYS A 607      16.305  53.821 -51.790  0.00  0.00           C 0
+ATOM   4710  CD2 HIS A 604      21.233  50.205 -48.841  0.00  0.00           C 0
+ATOM   4740   NZ LYS A 607      14.673  52.574 -47.481  0.00  0.00           N 0
+ATOM   4738   CD LYS A 607      15.396  53.909 -49.440  0.00  0.00           C 0
+ATOM   4700    O ASP A 603      15.577  50.820 -49.589  0.00  0.00           O 0
+ATOM   4703  OD2 ASP A 603      12.214  48.454 -46.368  0.68  7.50           O 0
+ATOM   4699   CB ASP A 603      13.987  48.818 -47.933  0.00  0.00           C 0
+ATOM   4675  OD1 ASN A 600      15.627  46.153 -43.286  0.67  7.50           O 0
+ATOM   4705   CA HIS A 604      18.037  49.642 -50.373  0.00  0.00           C 0
+ATOM   4707   CB HIS A 604      19.263  48.892 -49.823  0.00  0.00           C 0
+ATOM   4672    O ASN A 600      17.499  46.956 -47.677  0.59  4.29           O 0
+ATOM   4698    C ASP A 603      15.650  49.592 -49.669  0.00  0.00           C 0
+ATOM   4708    O HIS A 604      18.178  50.860 -52.436  0.64  1.07           O 0
+ATOM   4709   CG HIS A 604      20.556  49.667 -49.903  0.00  0.00           C 0
+ATOM   4711  ND1 HIS A 604      21.302  49.939 -51.027  0.00  0.00           N 0
+ATOM   4669   CA ASN A 600      16.434  45.640 -45.981  0.00  0.00           C 0
+ATOM   4704    N HIS A 604      16.808  48.972 -49.928  0.00  0.00           N 0
+TER
+END

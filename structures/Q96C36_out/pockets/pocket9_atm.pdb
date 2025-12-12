@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0704
+HEADER 1  - Drug Score                        : 0.0207
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9472
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6965
+HEADER 5  - Mean B-factor of pocket residues  : 0.9911
+HEADER 6  - Hydrophobicity Score              : 21.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 364.3877
+HEADER 10 - Pocket volume (convex hull)       : 14.4541
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.6000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1564   CD LYS A 215       4.034  15.891 -10.666  0.00  0.00           C 0
+ATOM   1547    O GLY A 212       4.034  13.205 -15.624  0.70  1.07           O 0
+ATOM   1545   CA GLY A 212       5.915  12.043 -14.731  0.00  0.00           C 0
+ATOM   1561   CB LYS A 215       2.865  14.276 -12.238  0.00  0.00           C 0
+ATOM   1563   CG LYS A 215       2.837  15.658 -11.581  0.00  0.00           C 0
+ATOM   1565   CE LYS A 215       3.807  17.265 -10.036  0.00  0.00           C 0
+ATOM   1598  OD2 ASP A 219       1.428  18.796 -11.859  0.85  4.29           O 0
+ATOM   1662  CD2 LEU A 227      -0.399  16.765 -22.004  0.00  0.00           C 0
+ATOM   1571    O MET A 216      -0.609  16.875 -16.986  0.57  3.21           O 0
+ATOM   1604   OG SER A 220      -2.773  19.527 -19.456  0.37  1.07           O 0
+ATOM   1602   CB SER A 220      -2.583  18.868 -18.213  0.00  0.00           C 0
+ATOM   1574   CE MET A 216       3.765  16.415 -20.258  0.00  0.00           C 0
+ATOM   1572   CG MET A 216       3.657  15.903 -17.516  0.00  0.00           C 0
+ATOM   1567    N MET A 216       1.746  14.949 -15.176  0.00  0.00           N 0
+ATOM   1568   CA MET A 216       1.417  15.848 -16.288  0.00  0.00           C 0
+ATOM   1543  CD2 LEU A 211       6.754  11.391 -10.522  0.00  0.00           C 0
+ATOM   1521  NE2 GLN A 208      10.317  11.456 -12.014  0.00  0.00           N 0
+ATOM   1594   CB ASP A 219      -0.392  19.326 -13.338  0.00  0.00           C 0
+ATOM   1570   CB MET A 216       2.195  15.458 -17.550  0.00  0.00           C 0
+TER
+END

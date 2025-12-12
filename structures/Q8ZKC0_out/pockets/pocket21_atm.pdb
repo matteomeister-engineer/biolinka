@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0923
+HEADER 1  - Drug Score                        : 0.0625
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8346
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6337
+HEADER 5  - Mean B-factor of pocket residues  : 0.9363
+HEADER 6  - Hydrophobicity Score              : 36.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 387.0126
+HEADER 10 - Pocket volume (convex hull)       : 33.0034
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.4286
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.9545
+ATOM   1736   CA SER A 230      10.390  11.508   2.492  0.00  0.00           C 0
+ATOM   1764   CB TRP A 233      10.869  13.429  -1.366  0.00  0.00           C 0
+ATOM   1734    O GLY A 229       8.586  11.592   0.370  0.00  0.00           O 0
+ATOM    363  CD1 ILE A  49       6.031  14.676   1.935  0.00  0.00           C 0
+ATOM    362  CG2 ILE A  49       3.827  15.990   3.720  0.00  0.00           C 0
+ATOM    336   CB PRO A  46       7.322  19.538  -0.244  0.00  0.00           C 0
+ATOM    334   CA PRO A  46       6.251  18.446  -0.339  0.00  0.00           C 0
+ATOM   1768  CD2 TRP A 233      12.969  15.062  -1.429  0.00  0.00           C 0
+ATOM    338   CG PRO A  46       8.529  18.922  -0.938  0.00  0.00           C 0
+ATOM   1771  NE1 TRP A 233      12.039  16.665  -2.657  0.00  0.00           N 0
+ATOM   1766   CG TRP A 233      11.586  14.692  -1.706  0.00  0.00           C 0
+ATOM    339   CD PRO A  46       7.899  18.050  -2.017  0.00  0.00           C 0
+ATOM   1767  CD1 TRP A 233      11.087  15.694  -2.458  0.00  0.00           C 0
+ATOM   1769  CE2 TRP A 233      13.238  16.299  -2.088  0.00  0.00           C 0
+ATOM   1781  OG1 THR A 234      14.944  10.930   0.405  0.00  0.00           O 0
+ATOM   1770  CE3 TRP A 233      14.035  14.455  -0.729  0.00  0.00           C 0
+ATOM   1738   CB SER A 230      11.006  11.513   3.893  0.00  0.00           C 0
+ATOM   1774  CZ3 TRP A 233      15.311  15.051  -0.701  0.00  0.00           C 0
+ATOM   1739    O SER A 230      11.945  10.876   0.806  0.00  0.00           O 0
+ATOM   1740   OG SER A 230      10.451  12.545   4.685  0.59  5.36           O 0
+ATOM    337    O PRO A  46       4.110  19.058   0.551  0.64  1.07           O 0
+ATOM    369  CG1 ILE A  50       2.641  21.099   2.817  0.00  0.00           C 0
+ATOM    371  CD1 ILE A  50       3.358  22.286   2.163  0.00  0.00           C 0
+TER
+END

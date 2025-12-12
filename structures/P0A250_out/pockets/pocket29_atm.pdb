@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0361
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7779
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5007
+HEADER 5  - Mean B-factor of pocket residues  : 0.6549
+HEADER 6  - Hydrophobicity Score              : 53.8750
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.5923
+HEADER 10 - Pocket volume (convex hull)       : 1.6853
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   2267   CB PHE A 299       8.017   4.906   7.634  0.00  0.00           C 0
+ATOM   2282  CD2 LEU A 300       8.294   8.626  12.267  0.00  0.00           C 0
+ATOM   2268    O PHE A 299      10.611   5.409   9.338  0.00  0.00           O 0
+ATOM   2103  CG2 THR A 277       6.426   8.566   5.690  0.00  0.00           C 0
+ATOM   2266    C PHE A 299       9.530   4.914   9.630  0.00  0.00           C 0
+ATOM   2097    O GLY A 276       4.597   6.725   7.585  0.00  0.00           O 0
+ATOM   2099   CA THR A 277       4.096   9.300   6.548  0.00  0.00           C 0
+ATOM   2101   CB THR A 277       5.365   9.664   5.754  0.00  0.00           C 0
+ATOM   2105    N VAL A 278       3.392  11.610   6.964  0.63  3.28           N 0
+ATOM   2235   OH TYR A 295       3.521   8.956  11.269  0.38  1.07           O 0
+ATOM   2411   CB ALA A 316       6.246  11.163  13.446  0.00  0.00           C 0
+ATOM   2412    O ALA A 316       3.202  12.438  12.811  0.60  1.07           O 0
+ATOM   2110  CG1 VAL A 278       4.474  14.495   7.204  0.00  0.00           C 0
+ATOM   2108   CB VAL A 278       3.113  13.962   7.678  0.00  0.00           C 0
+ATOM   2409   CA ALA A 316       5.452  12.449  13.667  0.00  0.00           C 0
+ATOM   2437   CB ALA A 319       3.367  15.947  11.680  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0459
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9506
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5035
+HEADER 5  - Mean B-factor of pocket residues  : 0.8270
+HEADER 6  - Hydrophobicity Score              : 0.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6364
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.4420
+HEADER 10 - Pocket volume (convex hull)       : 5.3657
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1760    O PRO A 223      -2.632  -2.662 -24.120  0.00  0.00           O 0
+ATOM   1790   CB SER A 227      -5.048  -5.225 -18.138  0.00  0.00           C 0
+ATOM   1776    O ASP A 225      -1.366  -4.530 -20.663  0.32  3.21           O 0
+ATOM   1751    O LYS A 222      -0.723  -0.294 -22.092  0.00  0.00           O 0
+ATOM   1719  NH2 ARG A 218       0.255  -0.414 -17.553  0.26  1.09           N 0
+ATOM   1784    O PRO A 226      -1.197  -5.030 -17.191  0.42  3.21           O 0
+ATOM   1699    O PRO A 216      -4.497   2.994 -16.300  0.60  5.36           O 0
+ATOM   1745   CB ALA A 221      -1.140   3.027 -18.667  0.00  0.00           C 0
+ATOM   1698   CB PRO A 216      -5.951   0.514 -14.912  0.00  0.00           C 0
+ATOM   1792   OG SER A 227      -6.121  -4.811 -17.307  0.33  3.21           O 0
+ATOM   1688    O GLY A 214      -1.527  -1.146 -12.969  0.51  1.07           O 0
+ATOM   1788   CA SER A 227      -3.902  -5.756 -17.277  0.00  0.00           C 0
+ATOM   1681    O LEU A 213      -4.903  -3.074 -11.468  0.18  2.14           O 0
+ATOM   1718  NH1 ARG A 218      -0.917   0.085 -15.755  0.43  5.47           N 0
+ATOM   1696   CA PRO A 216      -4.569   1.160 -14.768  0.00  0.00           C 0
+ATOM   1793    N LEU A 228      -4.218  -6.618 -15.014  0.55  3.28           N 0
+ATOM   1775   CB ASP A 225       0.849  -2.308 -19.984  0.00  0.00           C 0
+TER
+END

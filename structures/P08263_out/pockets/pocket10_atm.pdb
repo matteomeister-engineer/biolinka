@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0648
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7641
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4884
+HEADER 5  - Mean B-factor of pocket residues  : 0.9876
+HEADER 6  - Hydrophobicity Score              : 22.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.7166
+HEADER 10 - Pocket volume (convex hull)       : 4.6593
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   1172    O GLN A 145     -18.331   2.253  12.997  0.63  8.57           O 0
+ATOM   1166    C GLY A 144     -19.530   2.102  16.386  0.00  0.00           C 0
+ATOM   1165   CA GLY A 144     -18.987   1.084  17.396  0.00  0.00           C 0
+ATOM   1135    O LEU A 140     -16.177  -0.404  16.200  0.47  2.14           O 0
+ATOM   1455   CB LEU A 180     -16.769  -4.698  12.269  0.00  0.00           C 0
+ATOM   1134   CB LEU A 140     -14.755  -1.473  13.375  0.00  0.00           C 0
+ATOM   1137  CD1 LEU A 140     -14.406  -1.956  10.939  0.00  0.00           C 0
+ATOM   1138  CD2 LEU A 140     -14.770   0.394  11.645  0.00  0.00           C 0
+ATOM   1183  OD1 ASP A 146     -22.125   2.961  10.993  0.56  6.43           O 0
+ATOM   1515  NH2 ARG A 187     -21.511   0.816   9.496  0.39  5.47           N 0
+ATOM   1167    O GLY A 144     -20.737   2.297  16.298  0.00  0.00           O 0
+ATOM   1459  CD2 LEU A 180     -18.957  -4.619  13.568  0.00  0.00           C 0
+ATOM   1456    O LEU A 180     -16.985  -3.795   9.120  0.00  0.00           O 0
+ATOM   1480   CB ALA A 183     -20.433  -3.866   8.510  0.00  0.00           C 0
+ATOM   1514  NH1 ARG A 187     -19.566   1.114   8.475  0.53  2.19           N 0
+TER
+END

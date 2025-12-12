@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0416
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0778
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6596
+HEADER 5  - Mean B-factor of pocket residues  : 0.9336
+HEADER 6  - Hydrophobicity Score              : 15.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 344.7627
+HEADER 10 - Pocket volume (convex hull)       : 14.4620
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM    248  CD1 LEU A  32      16.453   0.634 -25.565  0.00  0.00           C 0
+ATOM    243   CA LEU A  32      14.815   2.742 -27.135  0.00  0.00           C 0
+ATOM    216    O HIS A  28      19.248   7.733 -27.002  0.53  6.43           O 0
+ATOM    276   CD LYS A  35      17.845  -0.321 -30.852  0.00  0.00           C 0
+ATOM    242    N LEU A  32      14.764   4.114 -27.660  0.64  1.09           N 0
+ATOM    240    C GLY A  31      14.573   4.406 -28.955  0.00  0.00           C 0
+ATOM    239   CA GLY A  31      14.740   5.857 -29.426  0.00  0.00           C 0
+ATOM    245   CB LEU A  32      15.094   2.761 -25.618  0.00  0.00           C 0
+ATOM    226    O SER A  29      15.699   6.108 -25.502  0.51  2.14           O 0
+ATOM    223   CA SER A  29      17.564   7.471 -24.783  0.00  0.00           C 0
+ATOM    221  NE2 HIS A  28      23.193   7.310 -25.417  0.00  0.00           N 0
+ATOM    225   CB SER A  29      17.363   7.524 -23.267  0.00  0.00           C 0
+ATOM    218  CD2 HIS A  28      22.291   8.240 -24.890  0.00  0.00           C 0
+ATOM    241    O GLY A  31      14.277   3.543 -29.784  0.59  4.29           O 0
+ATOM    249  CD2 LEU A  32      15.381   1.500 -23.477  0.00  0.00           C 0
+TER
+END

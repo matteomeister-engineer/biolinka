@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   118:
+HEADER 0  - Pocket Score                      : -0.1482
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9425
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4761
+HEADER 5  - Mean B-factor of pocket residues  : 0.9378
+HEADER 6  - Hydrophobicity Score              : 25.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 301.3600
+HEADER 10 - Pocket volume (convex hull)       : 10.6446
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM  10388   CD LYS A1358     -31.668 -41.095  11.435  0.00  0.00           C 0
+ATOM  10219   CG GLU A1336     -32.949 -34.783  12.135  0.00  0.00           C 0
+ATOM  10221  OE1 GLU A1336     -33.124 -36.813  13.400  0.00  0.00           O 0
+ATOM  10385   CB LYS A1358     -31.501 -39.566  13.399  0.00  0.00           C 0
+ATOM  10258   OG SER A1341     -27.127 -37.475   5.936  0.00  0.00           O 0
+ATOM  10389   CE LYS A1358     -31.007 -42.254  10.690  0.00  0.00           C 0
+ATOM  10390   NZ LYS A1358     -31.747 -42.563   9.444  0.00  0.00           N 0
+ATOM  10404  OG1 THR A1360     -24.962 -41.681  11.515  0.75  5.36           O 0
+ATOM  10386    O LYS A1358     -29.090 -37.909  13.418  0.60  2.14           O 0
+ATOM  10387   CG LYS A1358     -30.865 -40.768  12.694  0.00  0.00           C 0
+ATOM  10245    O TYR A1340     -28.971 -34.584   8.706  0.34  5.36           O 0
+ATOM  10254   CA SER A1341     -26.799 -36.174   7.925  0.00  0.00           C 0
+ATOM  10256   CB SER A1341     -26.149 -37.086   6.886  0.00  0.00           C 0
+ATOM  10277   OH TYR A1343     -22.530 -40.243   7.069  0.00  0.00           O 0
+ATOM  10278   CZ TYR A1343     -22.188 -39.589   8.209  0.00  0.00           C 0
+ATOM  10259    N LEU A1342     -26.247 -36.025  10.282  0.63  1.09           N 0
+ATOM  10263    O LEU A1342     -25.016 -37.885  12.184  0.38  3.21           O 0
+TER
+END

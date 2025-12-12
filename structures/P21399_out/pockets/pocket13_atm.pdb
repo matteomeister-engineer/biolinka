@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0893
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.6846
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4781
+HEADER 5  - Mean B-factor of pocket residues  : 0.8124
+HEADER 6  - Hydrophobicity Score              : 49.2222
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 107.9697
+HEADER 10 - Pocket volume (convex hull)       : 2.3159
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3636
+ATOM   5068  CE1 PHE A 649      -3.949 -11.718  22.826  0.00  0.00           C 0
+ATOM   6317   CE MET A 811      -2.535  -5.006  21.772  0.00  0.00           C 0
+ATOM   5052   CB PHE A 648      -1.306  -9.315  23.923  0.00  0.00           C 0
+ATOM   6856  CD1 LEU A 880      -4.098  -9.829  18.745  0.00  0.00           C 0
+ATOM   6864  ND2 ASN A 881      -6.924  -8.840  25.982  0.63  4.37           N 0
+ATOM   6865  OD1 ASN A 881      -6.392 -10.734  25.075  0.00  0.00           O 0
+ATOM   6837    O GLY A 877      -7.707  -6.179  25.225  0.83  2.14           O 0
+ATOM   6138   CZ PHE A 788      -2.644  -4.798  26.592  0.00  0.00           C 0
+ATOM   6853   CB LEU A 880      -6.154 -10.498  19.992  0.00  0.00           C 0
+ATOM   6858    N ASN A 881      -8.260 -10.650  22.460  0.63  1.09           N 0
+ATOM   6839   CA GLY A 878      -9.151  -5.842  22.789  0.00  0.00           C 0
+ATOM   6863   CG ASN A 881      -7.243  -9.903  25.292  0.00  0.00           C 0
+ATOM   5053    O PHE A 648      -2.942  -9.707  26.618  0.57  1.07           O 0
+ATOM   6850    N LEU A 880      -8.337  -9.361  19.956  0.00  0.00           N 0
+ATOM   6309    O GLY A 810      -7.556  -4.921  20.327  0.00  0.00           O 0
+ATOM   6311   CA MET A 811      -5.799  -3.135  21.671  0.00  0.00           C 0
+ATOM   6316   SD MET A 811      -3.416  -4.729  20.207  0.00  0.00           S 0
+ATOM   6855   CG LEU A 880      -5.623  -9.798  18.724  0.00  0.00           C 0
+TER
+END

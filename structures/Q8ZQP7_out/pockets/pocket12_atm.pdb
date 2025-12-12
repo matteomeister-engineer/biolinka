@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0039
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8172
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7529
+HEADER 5  - Mean B-factor of pocket residues  : 0.4140
+HEADER 6  - Hydrophobicity Score              : 24.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 139.7982
+HEADER 10 - Pocket volume (convex hull)       : 0.1548
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM    429  OE2 GLU A  55      -0.323   1.961 -24.919  0.88  7.50           O 0
+ATOM    438  CE1 HIS A  56       2.620  -2.611 -26.845  0.00  0.00           C 0
+ATOM    439  NE2 HIS A  56       2.324  -3.916 -26.915  0.00  0.00           N 0
+ATOM    400  CD2 LEU A  52       0.572   0.805 -27.775  0.00  0.00           C 0
+ATOM    436  CD2 HIS A  56       2.872  -4.509 -25.775  0.00  0.00           C 0
+ATOM    425    O GLU A  55       1.477  -1.913 -21.002  0.00  0.00           O 0
+ATOM    431   CA HIS A  56       3.368  -3.330 -22.526  0.00  0.00           C 0
+ATOM    435   CG HIS A  56       3.503  -3.532 -25.054  0.00  0.00           C 0
+ATOM    424   CB GLU A  55       1.261   0.711 -23.001  0.00  0.00           C 0
+ATOM    430    N HIS A  56       3.117  -1.887 -22.541  0.00  0.00           N 0
+ATOM    423    C GLU A  55       2.191  -1.291 -21.784  0.00  0.00           C 0
+ATOM    437  ND1 HIS A  56       3.336  -2.353 -25.740  0.72  4.37           N 0
+TER
+END

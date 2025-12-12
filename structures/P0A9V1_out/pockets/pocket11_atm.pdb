@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.1586
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6320
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3971
+HEADER 5  - Mean B-factor of pocket residues  : 0.8260
+HEADER 6  - Hydrophobicity Score              : 1.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 129.0238
+HEADER 10 - Pocket volume (convex hull)       : 1.0262
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM    647   CB ALA A  87      -4.236  11.313   6.855  0.00  0.00           C 0
+ATOM   1117   CZ ARG A 144       0.366   6.781   6.401  0.00  0.00           C 0
+ATOM    645   CA ALA A  87      -4.208  10.273   5.729  0.00  0.00           C 0
+ATOM   1116  NH2 ARG A 144       1.054   7.707   5.796  0.19  3.28           N 0
+ATOM   1144  OE2 GLU A 147      -3.178   6.321   7.495  0.63  1.07           O 0
+ATOM    644    N ALA A  87      -3.390  10.766   4.629  0.00  0.00           N 0
+ATOM   1290    O ALA A 166       3.661   9.595   7.630  0.70  4.29           O 0
+ATOM    630    O GLN A  85      -0.089   9.412   3.283  0.00  0.00           O 0
+ATOM   1115  NH1 ARG A 144      -0.795   6.486   5.885  0.00  0.00           N 0
+ATOM   1105  NH2 ARG A 143      -1.301  11.751  10.975  0.00  0.00           N 0
+ATOM   1114   NE ARG A 144       0.850   6.186   7.483  0.00  0.00           N 0
+ATOM   1082    O GLY A 140       0.137   8.024  12.700  0.48  1.07           O 0
+ATOM   1103   NE ARG A 143      -3.143  10.472  10.637  0.58  2.19           N 0
+TER
+END

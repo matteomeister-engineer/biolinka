@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.0569
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9113
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6225
+HEADER 5  - Mean B-factor of pocket residues  : 0.8573
+HEADER 6  - Hydrophobicity Score              : 77.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.2238
+HEADER 10 - Pocket volume (convex hull)       : 4.0161
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    169    O TRP A  21      28.043  -1.035   3.069  0.58  2.14           O 0
+ATOM    179    N LEU A  22      28.038  -2.081   5.068  0.00  0.00           N 0
+ATOM    180   CA LEU A  22      27.861  -3.423   4.515  0.00  0.00           C 0
+ATOM    209  CD1 LEU A  25      31.482  -3.519   0.239  0.00  0.00           C 0
+ATOM    174  CE3 TRP A  21      30.306   2.906   3.186  0.00  0.00           C 0
+ATOM    168   CB TRP A  21      29.621   0.606   5.524  0.00  0.00           C 0
+ATOM    206   CB LEU A  25      29.059  -2.895   0.331  0.00  0.00           C 0
+ATOM    167    C TRP A  21      28.112  -0.992   4.298  0.00  0.00           C 0
+ATOM    178  CZ3 TRP A  21      30.657   4.023   2.403  0.00  0.00           C 0
+ATOM    204   CA LEU A  25      27.845  -2.377  -0.465  0.00  0.00           C 0
+ATOM    203    N LEU A  25      27.002  -1.588   0.433  0.65  1.09           N 0
+ATOM   1339  CH2 TRP A 174      26.458   3.661   0.637  0.00  0.00           C 0
+ATOM    202    O GLY A  24      25.609  -0.770  -1.144  0.00  0.00           O 0
+ATOM    201    C GLY A  24      25.961  -0.851   0.034  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0408
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8332
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5022
+HEADER 5  - Mean B-factor of pocket residues  : 0.8273
+HEADER 6  - Hydrophobicity Score              : -9.2222
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.5200
+HEADER 10 - Pocket volume (convex hull)       : 16.6681
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    413  OD1 ASN A  51      -9.359  -0.516  -7.664  0.53  7.50           O 0
+ATOM    410    O ASN A  51      -9.376  -4.096  -4.693  0.49  1.07           O 0
+ATOM    433    N ALA A  55     -10.754  -3.773  -1.777  0.00  0.00           N 0
+ATOM    436   CB ALA A  55     -12.372  -5.044  -3.055  0.00  0.00           C 0
+ATOM    401    O LYS A  50      -6.559  -2.267  -3.634  0.00  0.00           O 0
+ATOM    404   CE LYS A  50      -5.409   2.893  -4.409  0.00  0.00           C 0
+ATOM   2004    O GLU A 251      -6.665   3.962  -2.102  0.00  0.00           O 0
+ATOM    402   CG LYS A  50      -4.807   0.488  -4.461  0.00  0.00           C 0
+ATOM    430   CA GLY A  54      -8.789  -2.557  -0.951  0.00  0.00           C 0
+ATOM    431    C GLY A  54     -10.228  -3.046  -0.786  0.00  0.00           C 0
+ATOM    407   CA ASN A  51      -7.892  -2.720  -5.997  0.00  0.00           C 0
+ATOM   2008  OE2 GLU A 251      -4.735  -0.170   1.346  0.52  1.07           O 0
+ATOM   2015  OD1 ASP A 252      -8.859   3.946   1.366  0.00  0.00           O 0
+ATOM   2003   CB GLU A 251      -4.907   2.388   0.040  0.00  0.00           C 0
+ATOM    432    O GLY A  54     -10.830  -2.870   0.277  0.00  0.00           O 0
+ATOM    493  NH1 ARG A  61      -9.513  -0.234   5.018  0.24  4.37           N 0
+ATOM    463   CB ALA A  58     -13.777  -2.021   1.801  0.00  0.00           C 0
+ATOM    457  NH1 ARG A  57      -6.250  -0.278   3.461  0.31  1.09           N 0
+TER
+END

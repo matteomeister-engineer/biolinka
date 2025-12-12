@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : 0.0101
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9901
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5200
+HEADER 5  - Mean B-factor of pocket residues  : 0.9954
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 166.1434
+HEADER 10 - Pocket volume (convex hull)       : 1.3281
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM    877   CG LYS A 115       6.737   8.334 -40.183  0.00  0.00           C 0
+ATOM    876    O LYS A 115       6.670   7.513 -36.465  0.53  1.07           O 0
+ATOM    897   CB ASN A 118       3.460   9.276 -34.990  0.00  0.00           C 0
+ATOM    931   NZ LYS A 122      -0.988   5.615 -36.488  0.48  7.66           N 0
+ATOM   1259  CD2 LEU A 165       6.390   3.678 -38.835  0.00  0.00           C 0
+ATOM    902    N ALA A 119       4.836   6.468 -34.016  0.00  0.00           N 0
+ATOM    896    C ASN A 118       3.888   7.263 -33.511  0.00  0.00           C 0
+ATOM    905   CB ALA A 119       5.822   4.383 -34.796  0.00  0.00           C 0
+ATOM   1248    O MET A 164       3.503   0.383 -38.978  0.00  0.00           O 0
+ATOM    903   CA ALA A 119       4.812   5.015 -33.835  0.00  0.00           C 0
+ATOM    929   CD LYS A 122      -0.168   4.837 -34.279  0.00  0.00           C 0
+ATOM   1247   CB MET A 164       3.311   0.202 -35.864  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.1182
+HEADER 1  - Drug Score                        : 0.0214
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8223
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6724
+HEADER 5  - Mean B-factor of pocket residues  : 0.4514
+HEADER 6  - Hydrophobicity Score              : 21.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.1170
+HEADER 10 - Pocket volume (convex hull)       : 6.1031
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM     55  CD2 LEU A   7     -62.644  -4.191  47.813  0.00  0.00           C 0
+ATOM     26  CE1 HIS A   3     -65.142  -9.249  53.258  0.00  0.00           C 0
+ATOM     54  CD1 LEU A   7     -63.875  -3.470  49.836  0.00  0.00           C 0
+ATOM     27  NE2 HIS A   3     -66.432  -8.951  53.080  0.75  4.37           N 0
+ATOM     53   CG LEU A   7     -62.531  -3.988  49.327  0.00  0.00           C 0
+ATOM     24  CD2 HIS A   3     -66.617  -7.650  53.549  0.00  0.00           C 0
+ATOM     40   CB ARG A   6     -59.573  -7.002  52.851  0.00  0.00           C 0
+ATOM     41    O ARG A   6     -57.985  -5.463  50.458  0.63  2.14           O 0
+ATOM     49   CA LEU A   7     -60.005  -3.629  49.716  0.00  0.00           C 0
+ATOM     25  ND1 HIS A   3     -64.500  -8.210  53.815  0.70  3.28           N 0
+ATOM     43   CD ARG A   6     -59.810  -9.224  54.027  0.00  0.00           C 0
+ATOM     74   OG SER A  10     -58.000  -5.154  47.049  0.69  3.21           O 0
+ATOM     48    N LEU A   7     -59.833  -4.302  51.013  0.00  0.00           N 0
+ATOM     22    O HIS A   3     -62.575  -4.528  52.976  0.00  0.00           O 0
+ATOM     23   CG HIS A   3     -65.410  -7.188  54.003  0.00  0.00           C 0
+ATOM     39    C ARG A   6     -58.837  -5.151  51.286  0.00  0.00           C 0
+TER
+END

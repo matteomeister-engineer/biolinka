@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0884
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9116
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6480
+HEADER 5  - Mean B-factor of pocket residues  : 0.9149
+HEADER 6  - Hydrophobicity Score              : 41.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 194.8692
+HEADER 10 - Pocket volume (convex hull)       : 1.5319
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   2378  CG1 ILE A 311      -3.777  14.475 -16.771  0.00  0.00           C 0
+ATOM   2401   CD ARG A 314      -2.218  14.382 -23.146  0.00  0.00           C 0
+ATOM   2402   NE ARG A 314      -2.661  13.085 -23.686  0.00  0.00           N 0
+ATOM   2403  NH1 ARG A 314      -4.859  13.648 -24.054  0.00  0.00           N 0
+ATOM   2405   CZ ARG A 314      -3.883  12.782 -24.091  0.00  0.00           C 0
+ATOM   2371   CB ALA A 310      -2.030   9.884 -18.521  0.00  0.00           C 0
+ATOM   2404  NH2 ARG A 314      -4.152  11.591 -24.544  0.00  0.00           N 0
+ATOM   2372    O ALA A 310      -0.498  12.578 -19.733  0.59  2.14           O 0
+ATOM   2374   CA ILE A 311      -1.455  14.382 -17.839  0.00  0.00           C 0
+ATOM   2373    N ILE A 311      -1.360  12.923 -17.698  0.00  0.00           N 0
+ATOM   2370    C ALA A 310      -0.855  12.126 -18.645  0.00  0.00           C 0
+ATOM   2356   CA ALA A 307      -4.148  10.144 -14.565  0.00  0.00           C 0
+ATOM   2358   CB ALA A 307      -5.469  10.640 -13.967  0.00  0.00           C 0
+ATOM   2359    O ALA A 307      -2.681  11.839 -15.427  0.00  0.00           O 0
+TER
+END

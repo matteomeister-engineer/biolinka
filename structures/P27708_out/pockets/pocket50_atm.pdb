@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0287
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9659
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6755
+HEADER 5  - Mean B-factor of pocket residues  : 0.8556
+HEADER 6  - Hydrophobicity Score              : -2.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.6696
+HEADER 10 - Pocket volume (convex hull)       : 10.6026
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5500
+ATOM  12977   CB ARG A1699     -43.430  19.323 -50.404  0.00  0.00           C 0
+ATOM  12979   CG ARG A1699     -43.784  20.193 -51.613  0.00  0.00           C 0
+ATOM  12973   OG SER A1698     -39.973  19.300 -53.590  0.00  0.00           O 0
+ATOM  12980   CD ARG A1699     -45.061  19.659 -52.263  0.00  0.00           C 0
+ATOM  11914  CE2 PHE A1563     -46.802  14.805 -45.847  0.00  0.00           C 0
+ATOM  12995   CB PRO A1701     -43.605  15.571 -44.008  0.00  0.00           C 0
+ATOM  11915   CZ PHE A1563     -46.576  13.419 -45.904  0.00  0.00           C 0
+ATOM  12978    O ARG A1699     -42.448  17.968 -48.199  0.67  3.21           O 0
+ATOM  12965   CA GLY A1697     -37.168  17.936 -49.622  0.00  0.00           C 0
+ATOM  12968    N SER A1698     -38.363  19.356 -51.222  0.59  2.19           N 0
+ATOM  12998   CD PRO A1701     -41.543  16.317 -44.988  0.00  0.00           C 0
+ATOM  12945   CG GLU A1694     -39.418  11.952 -46.276  0.00  0.00           C 0
+ATOM  12947  OE1 GLU A1694     -41.094  10.217 -46.102  0.48  5.36           O 0
+ATOM  12974    N ARG A1699     -41.001  19.807 -50.399  0.00  0.00           N 0
+ATOM  12997   CG PRO A1701     -42.121  15.219 -44.099  0.00  0.00           C 0
+ATOM  11355   NZ LYS A1482     -43.368  10.482 -44.478  0.37  2.19           N 0
+ATOM  12946   CD GLU A1694     -40.486  11.144 -45.515  0.00  0.00           C 0
+ATOM  12944    O GLU A1694     -38.670  16.441 -46.488  0.69  1.07           O 0
+ATOM  12941   CA GLU A1694     -38.030  14.137 -46.308  0.00  0.00           C 0
+ATOM  12943   CB GLU A1694     -39.103  13.296 -45.599  0.00  0.00           C 0
+TER
+END

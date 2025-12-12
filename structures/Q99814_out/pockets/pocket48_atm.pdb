@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.1548
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.1477
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5804
+HEADER 5  - Mean B-factor of pocket residues  : 0.1816
+HEADER 6  - Hydrophobicity Score              : 3.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 311.1017
+HEADER 10 - Pocket volume (convex hull)       : 4.7071
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6087
+ATOM   5600    N ALA A 718     -29.385 -16.184  -4.197  0.00  0.00           N 0
+ATOM   5595    O GLN A 717     -30.316 -17.739  -5.513  0.57  2.14           O 0
+ATOM   5593    C GLN A 717     -29.976 -16.569  -5.334  0.00  0.00           C 0
+ATOM   5571   OH TYR A 714     -21.846 -16.093  -5.293  0.00  0.00           O 0
+ATOM   5572   CZ TYR A 714     -22.690 -15.039  -5.130  0.00  0.00           C 0
+ATOM   5599  OE1 GLN A 717     -27.720 -14.264  -9.683  0.00  0.00           O 0
+ATOM   5570  CE2 TYR A 714     -22.889 -14.128  -6.190  0.00  0.00           C 0
+ATOM   1271   NZ LYS A 160     -24.829 -19.525 -13.386  0.00  0.00           N 0
+ATOM   1279  OD2 ASP A 161     -21.417 -17.321 -13.031  0.00  0.00           O 0
+ATOM   5565    O TYR A 714     -27.779 -13.768  -3.897  0.00  0.00           O 0
+ATOM   5569  CE1 TYR A 714     -23.370 -14.856  -3.908  0.00  0.00           C 0
+ATOM   5568  CD2 TYR A 714     -23.763 -13.037  -6.020  0.00  0.00           C 0
+ATOM   5601   CA ALA A 718     -29.129 -17.100  -3.082  0.00  0.00           C 0
+ATOM   5603   CB ALA A 718     -28.236 -16.391  -2.058  0.00  0.00           C 0
+ATOM   5594   CB GLN A 717     -29.256 -15.268  -7.432  0.00  0.00           C 0
+TER
+END

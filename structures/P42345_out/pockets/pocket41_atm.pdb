@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0356
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7126
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4848
+HEADER 5  - Mean B-factor of pocket residues  : 0.8156
+HEADER 6  - Hydrophobicity Score              : 4.7143
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 160.3407
+HEADER 10 - Pocket volume (convex hull)       : 4.7600
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM  13340   CB HIS A1687     -20.079  54.459  -4.596  0.00  0.00           C 0
+ATOM  13343  CD2 HIS A1687     -21.397  55.875  -2.897  0.00  0.00           C 0
+ATOM  13320  OE1 GLN A1684     -22.899  51.763  -2.392  0.51  6.43           O 0
+ATOM  13351    O PRO A1688     -16.310  52.745  -3.221  0.64  5.36           O 0
+ATOM  13353   CD PRO A1688     -16.820  56.032  -4.279  0.00  0.00           C 0
+ATOM  13352   CG PRO A1688     -15.559  55.953  -3.418  0.00  0.00           C 0
+ATOM  13367   CG PRO A1690     -16.932  48.918  -0.463  0.00  0.00           C 0
+ATOM  13368   CD PRO A1690     -16.420  49.041  -1.895  0.00  0.00           C 0
+ATOM  13315   CB GLN A1684     -23.228  51.725  -5.210  0.00  0.00           C 0
+ATOM  13289   CA PRO A1681     -20.913  47.540  -5.981  0.00  0.00           C 0
+ATOM  13316    O GLN A1684     -21.278  52.069  -7.150  0.61  1.07           O 0
+ATOM  13291   CB PRO A1681     -19.396  47.338  -6.028  0.00  0.00           C 0
+ATOM  13355   CA LEU A1689     -15.089  50.431  -4.203  0.00  0.00           C 0
+ATOM  13361  CD2 LEU A1689     -16.328  48.725  -6.547  0.00  0.00           C 0
+ATOM  13279  CG2 VAL A1679     -20.216  47.640  -0.144  0.00  0.00           C 0
+ATOM  13341    O HIS A1687     -17.680  53.280  -6.466  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0822
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8337
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6473
+HEADER 5  - Mean B-factor of pocket residues  : 0.2420
+HEADER 6  - Hydrophobicity Score              : -18.6667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 2.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.8648
+HEADER 10 - Pocket volume (convex hull)       : 11.8802
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM    319    N GLN A  46     -38.980 -37.289 -24.370  0.64  3.28           N 0
+ATOM    312    O PRO A  44     -43.639 -36.311 -25.069  0.00  0.00           O 0
+ATOM    316   CA GLY A  45     -40.886 -36.627 -25.740  0.00  0.00           C 0
+ATOM    327  OE1 GLN A  46     -38.875 -39.944 -20.479  0.00  0.00           O 0
+ATOM    315    N GLY A  45     -41.677 -35.388 -25.672  0.00  0.00           N 0
+ATOM    310    C PRO A  44     -42.973 -35.310 -25.325  0.00  0.00           C 0
+ATOM    324   CG GLN A  46     -38.438 -37.718 -21.318  0.00  0.00           C 0
+ATOM    325   CD GLN A  46     -38.643 -38.776 -20.228  0.00  0.00           C 0
+ATOM    317    C GLY A  45     -39.421 -36.441 -25.306  0.00  0.00           C 0
+ATOM    311   CB PRO A  44     -43.059 -33.237 -23.876  0.00  0.00           C 0
+ATOM    318    O GLY A  45     -38.733 -35.546 -25.789  0.15  7.50           O 0
+ATOM    313   CG PRO A  44     -44.018 -33.775 -22.818  0.00  0.00           C 0
+ATOM    326  NE2 GLN A  46     -38.594 -38.411 -18.966  0.00  0.00           N 0
+ATOM    320   CA GLN A  46     -37.626 -37.444 -23.810  0.00  0.00           C 0
+ATOM    322   CB GLN A  46     -37.737 -38.315 -22.542  0.00  0.00           C 0
+ATOM    323    O GLN A  46     -37.155 -39.226 -25.303  0.65  7.50           O 0
+TER
+END

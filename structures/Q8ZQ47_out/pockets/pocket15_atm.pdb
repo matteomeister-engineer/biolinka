@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0395
+HEADER 1  - Drug Score                        : 0.0156
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0196
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5054
+HEADER 5  - Mean B-factor of pocket residues  : 0.9636
+HEADER 6  - Hydrophobicity Score              : 33.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 308.5534
+HEADER 10 - Pocket volume (convex hull)       : 4.8223
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   1642   CG LYS A 220      16.430  11.176   4.785  0.00  0.00           C 0
+ATOM   1739  CG1 VAL A 232      12.434   5.578   1.579  0.00  0.00           C 0
+ATOM   1675  CD1 LEU A 223      12.530   8.529   6.717  0.00  0.00           C 0
+ATOM   1635   CB ALA A 219      12.443   9.832   1.453  0.00  0.00           C 0
+ATOM   1644   CE LYS A 220      18.690  10.233   4.352  0.00  0.00           C 0
+ATOM   1637    N LYS A 220      13.582  11.778   3.709  0.00  0.00           N 0
+ATOM   1613   CB GLU A 216      17.605  10.159  -0.645  0.00  0.00           C 0
+ATOM   1601    O ALA A 214      14.536   8.696  -3.818  0.71  8.57           O 0
+ATOM   1618  OE2 GLU A 216      20.237   9.214  -0.445  0.00  0.00           O 0
+ATOM   1738    O VAL A 232      13.210   4.908  -2.627  0.68  9.64           O 0
+ATOM   1737   CB VAL A 232      12.844   4.904   0.264  0.00  0.00           C 0
+ATOM   1615   CG GLU A 216      18.172   9.687   0.705  0.00  0.00           C 0
+ATOM   1740  CG2 VAL A 232      13.303   3.470   0.556  0.00  0.00           C 0
+ATOM   1614    O GLU A 216      15.677  11.678   1.571  0.00  0.00           O 0
+ATOM   1611   CA GLU A 216      16.143  10.630  -0.543  0.00  0.00           C 0
+TER
+END

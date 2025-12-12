@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0221
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1243
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7551
+HEADER 5  - Mean B-factor of pocket residues  : 0.9056
+HEADER 6  - Hydrophobicity Score              : 11.3750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 340.9477
+HEADER 10 - Pocket volume (convex hull)       : 16.5009
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   2540    O VAL A 337     -20.818 -20.311  35.432  0.39  4.29           O 0
+ATOM   1996  CD1 ILE A 263     -22.440 -17.610  36.080  0.00  0.00           C 0
+ATOM   2550  NE2 GLN A 338     -18.839 -21.964  37.585  0.00  0.00           N 0
+ATOM   2551  OE1 GLN A 338     -17.985 -20.281  38.729  0.00  0.00           O 0
+ATOM   1994  CG1 ILE A 263     -23.385 -16.834  36.996  0.00  0.00           C 0
+ATOM   1983   CB GLU A 262     -28.471 -17.736  37.938  0.00  0.00           C 0
+ATOM   1964    O PRO A 259     -25.924 -18.219  35.358  0.73  1.07           O 0
+ATOM   1988  OE2 GLU A 262     -28.673 -20.307  38.928  0.00  0.00           O 0
+ATOM   1963   CB PRO A 259     -25.739 -21.542  34.679  0.00  0.00           C 0
+ATOM   1990   CA ILE A 263     -24.990 -14.910  37.247  0.00  0.00           C 0
+ATOM   1984    O GLU A 262     -27.456 -14.613  38.554  0.00  0.00           O 0
+ATOM   2013   CB ALA A 266     -26.176 -13.237  41.150  0.00  0.00           C 0
+ATOM   2023  CE1 HIS A 267     -21.499 -12.429  39.807  0.00  0.00           C 0
+ATOM   2558   CD PRO A 339     -18.746 -16.629  37.695  0.00  0.00           C 0
+ATOM   2557   CG PRO A 339     -19.274 -15.321  38.274  0.00  0.00           C 0
+ATOM   1989    N ILE A 263     -26.207 -15.707  37.036  0.00  0.00           N 0
+ATOM   1961   CA PRO A 259     -26.773 -20.428  34.875  0.00  0.00           C 0
+ATOM   1982    C GLU A 262     -27.345 -15.502  37.710  0.00  0.00           C 0
+TER
+END

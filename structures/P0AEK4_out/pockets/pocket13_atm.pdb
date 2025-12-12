@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0139
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8924
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5064
+HEADER 5  - Mean B-factor of pocket residues  : 0.9946
+HEADER 6  - Hydrophobicity Score              : 38.4286
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 237.3726
+HEADER 10 - Pocket volume (convex hull)       : 7.8639
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    956  CG2 VAL A 125      -3.214  11.218   7.014  0.00  0.00           C 0
+ATOM    981   CD LYS A 129      -8.776  14.400   6.764  0.00  0.00           C 0
+ATOM    980   CG LYS A 129      -9.340  13.123   7.392  0.00  0.00           C 0
+ATOM   1003  NH1 ARG A 132      -7.457  11.255  13.618  0.00  0.00           N 0
+ATOM    978   CB LYS A 129      -8.556  11.906   6.883  0.00  0.00           C 0
+ATOM   1335   CG MET A 177      -5.037   7.047  12.985  0.00  0.00           C 0
+ATOM   1336   SD MET A 177      -5.364   6.395  11.322  0.00  0.00           S 0
+ATOM    975    N LYS A 129      -8.297   9.479   6.888  0.59  1.09           N 0
+ATOM   1001   CD ARG A 132      -9.598   9.568  12.690  0.00  0.00           C 0
+ATOM    974    O ALA A 128      -9.241   7.869   8.137  0.00  0.00           O 0
+ATOM    973   CB ALA A 128      -6.200   7.046   7.206  0.00  0.00           C 0
+ATOM   1309   CG MET A 173      -1.223   8.157   8.970  0.00  0.00           C 0
+ATOM   1328   CB ALA A 176      -2.298  10.355  14.505  0.00  0.00           C 0
+ATOM    976   CA LYS A 129      -9.117  10.577   7.407  0.00  0.00           C 0
+ATOM    972    C ALA A 128      -8.437   8.204   7.269  0.00  0.00           C 0
+ATOM   1305   CA MET A 173      -0.591   7.777  11.422  0.00  0.00           C 0
+TER
+END

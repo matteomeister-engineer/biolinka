@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0289
+HEADER 1  - Drug Score                        : 0.0179
+HEADER 2  - Number of alpha spheres           :    57
+HEADER 3  - Mean alpha-sphere radius          : 4.0868
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5266
+HEADER 5  - Mean B-factor of pocket residues  : 0.7847
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 782.2057
+HEADER 10 - Pocket volume (convex hull)       : 166.3279
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    24
+HEADER 14 - Proportion of apolar alpha sphere : 0.4211
+ATOM    355  NH1 ARG A  47      -5.408  -3.964 -16.579  0.36  4.37           N 0
+ATOM   1463  CD2 LEU A 195      -1.330  -2.697 -15.903  0.00  0.00           C 0
+ATOM   1462  CD1 LEU A 195       0.696  -3.202 -17.234  0.00  0.00           C 0
+ATOM    356  NH2 ARG A  47      -6.399  -4.317 -18.551  0.00  0.00           N 0
+ATOM   1446  NH1 ARG A 193       6.527 -11.460 -17.710  0.52  3.28           N 0
+ATOM   1448   CZ ARG A 193       7.034 -10.269 -17.860  0.00  0.00           C 0
+ATOM   1447  NH2 ARG A 193       6.920  -9.706 -19.031  0.00  0.00           N 0
+ATOM    129  CD1 LEU A  18       1.570 -10.680 -14.825  0.00  0.00           C 0
+ATOM   1459   CB LEU A 195       0.623  -3.755 -14.743  0.00  0.00           C 0
+ATOM    113   OG SER A  16      -1.629  -7.083 -13.130  0.63  1.07           O 0
+ATOM   1456    N LEU A 195       2.434  -4.900 -13.548  0.00  0.00           N 0
+ATOM   1457   CA LEU A 195       2.147  -3.865 -14.546  0.00  0.00           C 0
+ATOM    111   CB SER A  16      -2.854  -6.997 -13.831  0.00  0.00           C 0
+ATOM    357   CZ ARG A  47      -6.366  -4.526 -17.265  0.00  0.00           C 0
+ATOM   1445   NE ARG A 193       7.637  -9.625 -16.877  0.76  7.66           N 0
+ATOM   1443   CG ARG A 193       7.338  -8.973 -14.522  0.00  0.00           C 0
+ATOM   1477   CB SER A 198       5.643  -2.922 -17.218  0.00  0.00           C 0
+ATOM   1453    O THR A 194       4.648  -4.891 -13.923  0.66  4.29           O 0
+ATOM   1442    O ARG A 193       4.782  -8.858 -12.453  0.78  5.36           O 0
+ATOM   1527   NE ARG A 204      11.815  -8.176 -19.936  0.00  0.00           N 0
+ATOM   1478    O SER A 198       7.803  -0.841 -17.964  0.25  5.36           O 0
+ATOM   1529  NH2 ARG A 204      10.470  -8.206 -21.777  0.00  0.00           N 0
+ATOM   1451    C THR A 194       3.685  -5.281 -13.261  0.00  0.00           C 0
+ATOM   1502   CA ASP A 202      15.983  -1.889 -17.049  0.00  0.00           C 0
+ATOM   1523   CB ARG A 204      14.473  -7.549 -17.290  0.00  0.00           C 0
+ATOM   1507  OD1 ASP A 202      18.227  -1.870 -19.002  0.00  0.00           O 0
+ATOM   1536   CG LYS A 205      19.350  -5.492 -17.085  0.00  0.00           C 0
+ATOM   1526   CD ARG A 204      13.092  -8.325 -19.213  0.00  0.00           C 0
+ATOM   1538   CE LYS A 205      20.434  -4.387 -19.108  0.00  0.00           C 0
+ATOM   1525   CG ARG A 204      13.045  -7.664 -17.830  0.00  0.00           C 0
+ATOM   1501    N ASP A 202      15.060  -0.828 -17.473  0.00  0.00           N 0
+ATOM   1520    N ARG A 204      14.082  -5.646 -15.727  0.57  2.19           N 0
+ATOM   1488    O ILE A 200      11.686  -0.564 -16.211  0.70  3.21           O 0
+ATOM   1475   CA SER A 198       6.782  -2.313 -16.395  0.00  0.00           C 0
+ATOM   1515  CD1 PHE A 203      10.654  -5.180 -13.455  0.00  0.00           C 0
+ATOM   1531    N LYS A 205      16.857  -6.310 -15.500  0.00  0.00           N 0
+ATOM   1509    N PHE A 203      14.164  -2.770 -15.597  0.00  0.00           N 0
+ATOM   1474    N SER A 198       6.474  -2.342 -14.958  0.00  0.00           N 0
+ATOM   1512   CB PHE A 203      12.072  -3.343 -14.478  0.00  0.00           C 0
+TER
+END

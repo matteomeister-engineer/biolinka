@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.1173
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0314
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5422
+HEADER 5  - Mean B-factor of pocket residues  : 0.8480
+HEADER 6  - Hydrophobicity Score              : 0.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.5868
+HEADER 10 - Pocket volume (convex hull)       : 8.2869
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM    152   CG PRO A  21     -49.326 -29.186  15.567  0.00  0.00           C 0
+ATOM    148   CA PRO A  21     -47.840 -28.840  17.427  0.00  0.00           C 0
+ATOM    136    O ASN A  19     -45.870 -30.399  13.541  0.69  7.50           O 0
+ATOM    217  NH2 ARG A  30     -46.360 -22.474  15.669  0.00  0.00           N 0
+ATOM    144    O VAL A  20     -45.304 -29.932  17.530  0.46  4.29           O 0
+ATOM    147    N PRO A  21     -47.371 -29.982  16.649  0.00  0.00           N 0
+ATOM    125    O ARG A  18     -42.094 -28.645  14.561  0.58  9.64           O 0
+ATOM    154    N ARG A  22     -46.944 -28.379  19.659  0.54  4.37           N 0
+ATOM    215   NE ARG A  30     -47.862 -22.724  17.370  0.43  3.28           N 0
+ATOM    223    O ALA A  31     -46.028 -23.707  21.535  0.58  5.36           O 0
+ATOM    159   CG ARG A  22     -44.317 -28.793  20.974  0.00  0.00           C 0
+ATOM    157   CB ARG A  22     -45.489 -28.048  21.645  0.00  0.00           C 0
+ATOM    150   CB PRO A  21     -49.275 -28.557  16.957  0.00  0.00           C 0
+ATOM    218   CZ ARG A  30     -47.502 -22.171  16.221  0.00  0.00           C 0
+ATOM    216  NH1 ARG A  30     -48.259 -21.314  15.593  0.00  0.00           N 0
+ATOM    214   CD ARG A  30     -49.125 -22.494  18.100  0.00  0.00           C 0
+TER
+END

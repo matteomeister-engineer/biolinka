@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0042
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8007
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5273
+HEADER 5  - Mean B-factor of pocket residues  : 0.5408
+HEADER 6  - Hydrophobicity Score              : -30.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.7698
+HEADER 10 - Pocket volume (convex hull)       : 5.7000
+HEADER 11 - Charge Score                      :    -4
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM   3209  NE2 GLN A 402     -31.878 -11.970  59.334  0.00  0.00           N 0
+ATOM   3174   CB GLU A 398     -26.306 -12.097  56.475  0.00  0.00           C 0
+ATOM   3185   CG GLU A 399     -30.291  -8.100  57.220  0.00  0.00           C 0
+ATOM   3179  OE2 GLU A 398     -24.431 -12.503  58.533  0.00  0.00           O 0
+ATOM   3162  OE1 GLU A 396     -26.170  -5.356  59.437  0.00  0.00           O 0
+ATOM   3158   CB GLU A 396     -26.584  -6.404  56.006  0.00  0.00           C 0
+ATOM   3160   CG GLU A 396     -25.829  -5.595  57.078  0.00  0.00           C 0
+ATOM   3180    N GLU A 399     -29.123 -10.437  55.440  0.00  0.00           N 0
+ATOM   3150    O GLU A 395     -22.981  -5.977  54.587  0.00  0.00           O 0
+ATOM   3177   CD GLU A 398     -23.966 -12.747  57.397  0.00  0.00           C 0
+ATOM   3170   CD PRO A 397     -24.049  -8.646  53.085  0.00  0.00           C 0
+ATOM   3178  OE1 GLU A 398     -22.812 -13.188  57.187  0.00  0.00           O 0
+ATOM   3176   CG GLU A 398     -24.854 -12.519  56.160  0.00  0.00           C 0
+ATOM   3156   CA GLU A 396     -25.651  -6.833  54.851  0.00  0.00           C 0
+ATOM   3161   CD GLU A 396     -26.685  -5.225  58.304  0.00  0.00           C 0
+ATOM   3173    C GLU A 398     -28.642 -11.690  55.516  0.00  0.00           C 0
+TER
+END

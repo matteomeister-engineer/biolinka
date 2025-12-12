@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    45:
+HEADER 0  - Pocket Score                      : -0.0368
+HEADER 1  - Drug Score                        : 0.0293
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0436
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5867
+HEADER 5  - Mean B-factor of pocket residues  : 0.9585
+HEADER 6  - Hydrophobicity Score              : 32.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.2915
+HEADER 10 - Pocket volume (convex hull)       : 0.5487
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   4623   CE LYS A 605     -11.468 -19.294  -4.109  0.00  0.00           C 0
+ATOM   4591    O PRO A 602      -9.357 -16.657  -3.676  0.81  2.14           O 0
+ATOM   4601  CD2 TRP A 603      -9.650 -16.112   1.373  0.00  0.00           C 0
+ATOM   4590   CB PRO A 602      -6.495 -17.792  -3.065  0.00  0.00           C 0
+ATOM   4603  CE3 TRP A 603     -11.011 -16.475   1.446  0.00  0.00           C 0
+ATOM   4634  CE2 PHE A 606     -13.558 -18.767  -1.641  0.00  0.00           C 0
+ATOM   4605  CH2 TRP A 603     -10.510 -18.180   3.123  0.00  0.00           C 0
+ATOM   4624   NZ LYS A 605     -11.126 -20.718  -4.335  0.00  0.00           N 0
+ATOM   4607  CZ3 TRP A 603     -11.436 -17.500   2.309  0.00  0.00           C 0
+ATOM   4602  CE2 TRP A 603      -8.731 -16.820   2.205  0.00  0.00           C 0
+ATOM   4606  CZ2 TRP A 603      -9.145 -17.843   3.070  0.00  0.00           C 0
+ATOM   4592   CG PRO A 602      -5.665 -17.308  -1.877  0.00  0.00           C 0
+ATOM   4604  NE1 TRP A 603      -7.516 -16.213   1.969  0.00  0.00           N 0
+TER
+END

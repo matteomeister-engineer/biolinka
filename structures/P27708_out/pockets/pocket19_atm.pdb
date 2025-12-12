@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0370
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.6470
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4372
+HEADER 5  - Mean B-factor of pocket residues  : 0.9674
+HEADER 6  - Hydrophobicity Score              : 1.2727
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5455
+HEADER 9  - Pocket volume (Monte Carlo)       : 147.9313
+HEADER 10 - Pocket volume (convex hull)       : 5.9555
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1481
+ATOM   4508   CG LYS A 598      22.837 -14.078  -5.150  0.00  0.00           C 0
+ATOM   6312    O ARG A 831      23.431 -16.355   1.289  0.45  5.36           O 0
+ATOM   4488    O GLY A 596      22.788 -19.280  -2.432  0.37  2.14           O 0
+ATOM   5091   CB PRO A 673      26.272 -16.775  -5.150  0.00  0.00           C 0
+ATOM   4683    O ASN A 620      18.824 -11.227  -1.059  0.39  6.43           O 0
+ATOM   4691    O LEU A 621      20.235 -12.396   2.057  0.26  1.07           O 0
+ATOM   4704   CA PRO A 623      19.039 -16.584  -0.136  0.00  0.00           C 0
+ATOM   6327    N ASP A 833      24.478 -12.952   1.533  0.60  1.09           N 0
+ATOM   6330   CB ASP A 833      25.206 -11.537  -0.356  0.00  0.00           C 0
+ATOM   4677  OE1 GLU A 619      22.264  -9.552  -3.526  0.00  0.00           O 0
+ATOM   6281  CE2 TYR A 827      27.641 -16.709   0.553  0.00  0.00           C 0
+ATOM   6282   OH TYR A 827      28.123 -18.271  -1.184  0.80  1.07           O 0
+ATOM   4504   CA LYS A 598      20.553 -15.229  -4.994  0.00  0.00           C 0
+ATOM   4493    O TRP A 597      19.814 -17.463  -3.458  0.00  0.00           O 0
+ATOM   4703    N PRO A 623      18.887 -15.773   1.061  0.00  0.00           N 0
+ATOM   4503    N LYS A 598      21.079 -16.596  -5.110  0.00  0.00           N 0
+ATOM   6334  OD2 ASP A 833      26.562 -12.043  -2.247  0.69  9.64           O 0
+ATOM   6328   CA ASP A 833      25.639 -12.428   0.814  0.00  0.00           C 0
+ATOM   4706   CB PRO A 623      20.183 -17.541   0.186  0.00  0.00           C 0
+TER
+END

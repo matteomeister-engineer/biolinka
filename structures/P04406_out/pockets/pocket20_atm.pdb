@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0245
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0276
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5398
+HEADER 5  - Mean B-factor of pocket residues  : 0.9887
+HEADER 6  - Hydrophobicity Score              : 9.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 312.1266
+HEADER 10 - Pocket volume (convex hull)       : 20.5786
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1020    O VAL A 135     -12.707   0.836  -8.041  0.39  7.50           O 0
+ATOM   1058   NZ LYS A 139     -14.992  -4.960  -8.621  0.68  4.37           N 0
+ATOM   1057   CE LYS A 139     -15.773  -4.102  -7.696  0.00  0.00           C 0
+ATOM   1226   NZ LYS A 162     -13.374   2.506 -13.010  0.52  6.56           N 0
+ATOM   1224   CD LYS A 162     -11.215   2.799 -11.742  0.00  0.00           C 0
+ATOM   1651  CG1 ILE A 221      -8.792  -2.034 -11.388  0.00  0.00           C 0
+ATOM   1659   CG PRO A 222     -12.630  -7.625 -10.395  0.00  0.00           C 0
+ATOM   1657   CB PRO A 222     -12.464  -8.395 -11.703  0.00  0.00           C 0
+ATOM   1668  OE1 GLU A 223     -15.410  -4.363 -16.114  0.00  0.00           O 0
+ATOM   1669  OE2 GLU A 223     -13.554  -3.466 -16.928  0.68  3.21           O 0
+ATOM   1258  OD1 ASP A 166     -12.628   1.528 -16.294  0.74  9.64           O 0
+ATOM   1652  CG2 ILE A 221      -9.823  -3.081 -13.439  0.00  0.00           C 0
+ATOM   1643    O VAL A 220     -10.698  -3.667  -8.652  0.57  2.14           O 0
+ATOM   1667   CD GLU A 223     -14.216  -4.423 -16.479  0.00  0.00           C 0
+ATOM   1647   CA ILE A 221      -9.807  -4.385 -11.284  0.00  0.00           C 0
+ATOM   1660   CD PRO A 222     -12.029  -6.264 -10.735  0.00  0.00           C 0
+ATOM   1666   CG GLU A 223     -13.501  -5.759 -16.229  0.00  0.00           C 0
+TER
+END

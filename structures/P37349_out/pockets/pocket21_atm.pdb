@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0341
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9474
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4826
+HEADER 5  - Mean B-factor of pocket residues  : 0.8749
+HEADER 6  - Hydrophobicity Score              : 22.8333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 162.7714
+HEADER 10 - Pocket volume (convex hull)       : 0.9283
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2417    O ASP A 323      11.907  -0.312   7.447  0.12  5.36           O 0
+ATOM   2460  CD2 LEU A 328      14.527   6.948   6.714  0.00  0.00           C 0
+ATOM   2456   CB LEU A 328      12.912   6.328   4.887  0.00  0.00           C 0
+ATOM   2419  OD1 ASP A 323      12.154   0.852  10.536  0.00  0.00           O 0
+ATOM   2166  CG2 ILE A 289       9.296   5.689  10.361  0.00  0.00           C 0
+ATOM   2409    O LEU A 322       8.380   2.468   7.419  0.71  2.14           O 0
+ATOM   2430   CA PRO A 325      13.854   1.662   3.970  0.00  0.00           C 0
+ATOM   2432   CB PRO A 325      15.205   0.937   3.975  0.00  0.00           C 0
+ATOM   2415    C ASP A 323      10.734   0.051   7.412  0.00  0.00           C 0
+ATOM   2414   CA ASP A 323       9.970   0.458   8.691  0.00  0.00           C 0
+ATOM   2425    O ASP A 324      11.119   2.057   4.329  0.59  1.07           O 0
+ATOM   2167  CD1 ILE A 289       9.553   7.737   7.979  0.00  0.00           C 0
+TER
+END

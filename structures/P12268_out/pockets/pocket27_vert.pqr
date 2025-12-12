@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0726
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9509
+HEADER 4  - Mean alpha-sphere SA              : 0.4887
+HEADER 5  - Mean B-factor                     : 0.8165
+HEADER 6  - Hydrophobicity Score              : -10.3636
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Volume Score                      : 4.1818
+HEADER 9  - Real volume (approximation)       : 318.4825
+HEADER 10 - Charge Score                      :     3
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1053
+ATOM      1    O STP    27     -23.278   3.130  11.532    0.00     3.47
+ATOM      2    O STP    27     -23.553   3.683  10.453    0.00     3.75
+ATOM      3    O STP    27     -23.569   3.721  10.545    0.00     3.71
+ATOM      4    O STP    27     -23.758   3.427   8.253    0.00     4.45
+ATOM      5    O STP    27     -23.703   3.383   9.618    0.00     3.99
+ATOM      6    O STP    27     -23.187   2.933  11.365    0.00     3.54
+ATOM      7    O STP    27     -23.311   3.181  10.774    0.00     3.66
+ATOM      8    O STP    27     -21.283   2.810   5.715    0.00     3.77
+ATOM      9    O STP    27     -23.268   3.538   4.596    0.00     4.68
+ATOM     10    O STP    27     -23.303   3.577   4.570    0.00     4.69
+ATOM     11    O STP    27     -21.502   2.105   6.599    0.00     4.13
+ATOM     12    O STP    27     -21.725   2.093   6.623    0.00     4.21
+ATOM     13    O STP    27     -21.793   2.504   7.535    0.00     3.76
+ATOM     14    O STP    27     -22.766  -0.613   5.225    0.00     3.40
+ATOM     15    C STP    27     -21.367   1.107   6.647    0.00     3.79
+ATOM     16    O STP    27     -23.159   0.398   6.165    0.00     4.21
+ATOM     17    O STP    27     -23.100   0.216   6.045    0.00     4.09
+ATOM     18    O STP    27     -23.232   0.317   6.187    0.00     4.20
+ATOM     19    C STP    27     -20.631   0.996   6.579    0.00     3.56
+TER
+END

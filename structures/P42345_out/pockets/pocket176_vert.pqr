@@ -1,0 +1,73 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   176:
+HEADER 0  - Pocket Score                      : -0.1804
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of V. Vertices             :    51
+HEADER 3  - Mean alpha-sphere radius          : 3.8621
+HEADER 4  - Mean alpha-sphere SA              : 0.5249
+HEADER 5  - Mean B-factor                     : 0.9073
+HEADER 6  - Hydrophobicity Score              : 16.0556
+HEADER 7  - Polarity Score                    :    13
+HEADER 8  - Volume Score                      : 4.7778
+HEADER 9  - Real volume (approximation)       : 687.4458
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 5.0000
+HEADER 12 - Number of apolar alpha sphere     :     6
+HEADER 13 - Proportion of apolar alpha sphere : 0.1176
+ATOM      1    O STP   176     -14.367  15.709  23.723    0.00     4.57
+ATOM      2    O STP   176     -11.384  16.372  20.998    0.00     3.46
+ATOM      3    O STP   176     -11.762  17.165  21.711    0.00     3.78
+ATOM      4    C STP   176     -13.708  16.591  22.473    0.00     4.44
+ATOM      5    C STP   176     -13.859  16.652  23.814    0.00     4.53
+ATOM      6    O STP   176     -13.028  17.057  25.398    0.00     4.58
+ATOM      7    O STP   176      -8.625  14.358  18.262    0.00     3.49
+ATOM      8    O STP   176      -8.582  14.364  18.007    0.00     3.48
+ATOM      9    C STP   176     -14.365  17.823  24.012    0.00     3.83
+ATOM     10    O STP   176      -8.663  14.723  19.225    0.00     3.49
+ATOM     11    O STP   176      -8.623  14.870  19.268    0.00     3.44
+ATOM     12    O STP   176      -9.199  14.581  19.475    0.00     3.44
+ATOM     13    C STP   176     -14.512  19.530  25.189    0.00     3.52
+ATOM     14    O STP   176     -14.242  10.476  18.091    0.00     4.18
+ATOM     15    O STP   176     -14.471  10.847  17.701    0.00     3.74
+ATOM     16    O STP   176     -15.342  14.135  17.548    0.00     3.63
+ATOM     17    O STP   176     -14.670  13.370  17.187    0.00     3.43
+ATOM     18    O STP   176     -14.820  13.369  17.342    0.00     3.56
+ATOM     19    O STP   176     -14.676  13.139  17.514    0.00     3.64
+ATOM     20    O STP   176     -12.726  12.157  19.910    0.00     4.67
+ATOM     21    O STP   176     -11.102  13.894  19.889    0.00     3.64
+ATOM     22    O STP   176     -10.394  14.079  19.569    0.00     3.57
+ATOM     23    O STP   176     -10.469  14.027  19.593    0.00     3.58
+ATOM     24    O STP   176     -15.717   4.666  16.556    0.00     4.00
+ATOM     25    O STP   176     -15.651   4.943  16.251    0.00     3.84
+ATOM     26    O STP   176     -15.137   6.956  16.432    0.00     3.80
+ATOM     27    O STP   176     -16.194  14.590  17.769    0.00     3.52
+ATOM     28    O STP   176     -15.545  14.409  18.364    0.00     3.95
+ATOM     29    O STP   176     -15.528  14.340  18.472    0.00     4.00
+ATOM     30    O STP   176     -15.553  14.387  18.357    0.00     3.96
+ATOM     31    O STP   176     -11.446  16.134  20.885    0.00     3.42
+ATOM     32    O STP   176     -12.825  14.260  20.509    0.00     3.97
+ATOM     33    O STP   176     -10.824  14.521  19.999    0.00     3.46
+ATOM     34    O STP   176     -10.966  14.232  19.919    0.00     3.56
+ATOM     35    O STP   176     -10.714  14.257  19.793    0.00     3.54
+ATOM     36    O STP   176     -14.850   7.663  15.635    0.00     3.47
+ATOM     37    O STP   176     -14.580   7.898  16.132    0.00     3.58
+ATOM     38    O STP   176     -14.540   7.715  16.315    0.00     3.73
+ATOM     39    O STP   176     -14.866   7.479  15.692    0.00     3.57
+ATOM     40    O STP   176     -14.829   7.381  15.827    0.00     3.66
+ATOM     41    C STP   176     -14.150  17.836  21.674    0.00     3.69
+ATOM     42    C STP   176     -14.181  17.909  21.671    0.00     3.65
+ATOM     43    O STP   176     -14.211  10.174  18.859    0.00     4.64
+ATOM     44    O STP   176     -14.235  10.472  18.105    0.00     4.19
+ATOM     45    O STP   176     -13.951  11.954  18.751    0.00     4.53
+ATOM     46    O STP   176     -14.234  10.463  18.095    0.00     4.19
+ATOM     47    O STP   176     -14.133   9.753  17.813    0.00     4.06
+ATOM     48    O STP   176     -13.966  10.161  17.382    0.00     3.64
+ATOM     49    O STP   176     -14.046   9.037  18.245    0.00     4.42
+ATOM     50    O STP   176     -14.057   8.204  18.322    0.00     4.66
+ATOM     51    O STP   176     -14.062   8.201  18.260    0.00     4.62
+TER
+END

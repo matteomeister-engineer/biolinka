@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   134:
+HEADER 0  - Pocket Score                      : -0.1217
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0412
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6216
+HEADER 5  - Mean B-factor of pocket residues  : 0.9026
+HEADER 6  - Hydrophobicity Score              : -15.2500
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.1510
+HEADER 10 - Pocket volume (convex hull)       : 12.2662
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM  14139  OD1 ASP A1783       8.646  41.263  -4.280  0.60  4.29           O 0
+ATOM  13832   CE LYS A1745       5.797  40.020   0.613  0.00  0.00           C 0
+ATOM  13796  NE2 GLN A1741       8.677  41.564   3.515  0.00  0.00           N 0
+ATOM  14127    O HIS A1782       7.390  45.809  -3.073  0.43  2.14           O 0
+ATOM  14157   OG SER A1785       9.975  39.140  -3.557  0.66  5.36           O 0
+ATOM  14138   CG ASP A1783       7.426  41.538  -4.437  0.00  0.00           C 0
+ATOM  13830   CG LYS A1745       4.474  41.425  -1.013  0.00  0.00           C 0
+ATOM  14144   CB ARG A1784      12.985  44.211  -4.978  0.00  0.00           C 0
+ATOM  14146   CG ARG A1784      12.897  45.742  -4.905  0.00  0.00           C 0
+ATOM  14147   CD ARG A1784      14.026  46.294  -4.031  0.00  0.00           C 0
+ATOM  13818   CB HIS A1744       4.732  46.947  -0.497  0.00  0.00           C 0
+ATOM  13794   CG GLN A1741       6.695  42.986   3.373  0.00  0.00           C 0
+ATOM  13821  CD2 HIS A1744       5.612  48.683   1.188  0.00  0.00           C 0
+ATOM  13793    O GLN A1741       3.988  43.602   1.470  0.55  1.07           O 0
+ATOM  14118    O GLU A1781       9.980  48.206  -4.585  0.33  5.36           O 0
+ATOM  14141    N ARG A1784      10.567  43.892  -5.270  0.56  2.19           N 0
+ATOM  14155   CB SER A1785      11.347  39.185  -3.911  0.00  0.00           C 0
+ATOM  14152    N SER A1785      11.426  41.219  -5.288  0.00  0.00           N 0
+ATOM  14134   CA ASP A1783       8.172  43.908  -4.966  0.00  0.00           C 0
+TER
+END

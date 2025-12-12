@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    77:
+HEADER 0  - Pocket Score                      : -0.0647
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9888
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4817
+HEADER 5  - Mean B-factor of pocket residues  : 0.9433
+HEADER 6  - Hydrophobicity Score              : 41.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 216.8354
+HEADER 10 - Pocket volume (convex hull)       : 6.0534
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM  17986  ND2 ASN A2262       2.172  -4.636 -49.761  0.48  9.84           N 0
+ATOM  20254   SG CYS A2546       1.777   2.333 -46.261  0.00  0.00           S 0
+ATOM  20232   CA GLY A2544       4.461   4.069 -49.357  0.00  0.00           C 0
+ATOM  20227    O ILE A2543       1.714   3.735 -49.807  0.00  0.00           O 0
+ATOM  18012  ND1 HIS A2265       0.258  -1.214 -53.130  0.64  4.37           N 0
+ATOM  20272   CZ PHE A2548      -1.658   1.376 -48.619  0.00  0.00           C 0
+ATOM  20229  CG2 ILE A2543       2.973   3.254 -53.466  0.00  0.00           C 0
+ATOM  20228  CG1 ILE A2543       0.604   2.687 -52.831  0.00  0.00           C 0
+ATOM  20231    N GLY A2544       3.697   4.470 -50.550  0.00  0.00           N 0
+ATOM  17987  OD1 ASN A2262       1.441  -4.383 -47.733  0.73  5.36           O 0
+ATOM  20285  CZ2 TRP A2549       0.225  -0.894 -43.697  0.00  0.00           C 0
+ATOM  20271  CE2 PHE A2548      -2.515   0.928 -47.602  0.00  0.00           C 0
+ATOM  17855  CE1 HIS A2247       5.214  -1.796 -43.472  0.00  0.00           C 0
+ATOM  20284  CH2 TRP A2549       1.288  -0.442 -42.897  0.00  0.00           C 0
+ATOM  17985   CG ASN A2262       1.184  -4.597 -48.898  0.00  0.00           C 0
+ATOM  18008   CB HIS A2265      -2.004  -1.227 -51.911  0.00  0.00           C 0
+TER
+END

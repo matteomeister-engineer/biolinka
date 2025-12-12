@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.0243
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8829
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5819
+HEADER 5  - Mean B-factor of pocket residues  : 0.9630
+HEADER 6  - Hydrophobicity Score              : 17.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.5873
+HEADER 10 - Pocket volume (convex hull)       : 4.1331
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1500
+ATOM   4033    N ALA A 520      30.971  13.999  -0.541  0.94  1.09           N 0
+ATOM   3268    O THR A 414      35.178  16.360  -4.546  0.75  5.36           O 0
+ATOM   3262   CE LYS A 413      34.585  18.610  -1.336  0.00  0.00           C 0
+ATOM   4061  OE1 GLN A 523      34.681  17.402   1.505  0.00  0.00           O 0
+ATOM   4034   CA ALA A 520      30.787  15.115  -1.465  0.00  0.00           C 0
+ATOM   3285   CB ILE A 416      38.830  10.437  -6.336  0.00  0.00           C 0
+ATOM   3282    N ILE A 416      36.742  11.720  -5.943  0.59  4.37           N 0
+ATOM   3289  CD1 ILE A 416      41.086  11.699  -6.152  0.00  0.00           C 0
+ATOM   3287  CG1 ILE A 416      39.623  11.739  -6.611  0.00  0.00           C 0
+ATOM   3274   CB PHE A 415      34.177  13.182  -4.842  0.00  0.00           C 0
+ATOM   4007    O PRO A 516      31.955  11.550  -2.037  0.74  1.07           O 0
+ATOM   4006   CB PRO A 516      33.969   9.060  -2.729  0.00  0.00           C 0
+ATOM   4032  OE2 GLU A 519      35.192  11.466   1.698  0.53  2.14           O 0
+ATOM   3272   CA PHE A 415      35.425  13.728  -5.552  0.00  0.00           C 0
+ATOM   4027   CB GLU A 519      32.640  12.449   1.589  0.00  0.00           C 0
+ATOM   4004   CA PRO A 516      33.061   9.464  -1.560  0.00  0.00           C 0
+ATOM   4036   CB ALA A 520      30.948  14.594  -2.895  0.00  0.00           C 0
+ATOM   4008   CG PRO A 516      34.510   7.695  -2.317  0.00  0.00           C 0
+ATOM   3286    O ILE A 416      36.214   8.966  -5.392  0.46  4.29           O 0
+TER
+END

@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1063
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.1255
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6480
+HEADER 5  - Mean B-factor of pocket residues  : 0.9627
+HEADER 6  - Hydrophobicity Score              : 25.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 372.4587
+HEADER 10 - Pocket volume (convex hull)       : 21.9742
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 14.8750
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.5926
+ATOM   1973   CA LYS A 248     -12.342   5.680  26.880  0.00  0.00           C 0
+ATOM   1941    O GLN A 244     -12.612   8.858  25.155  0.00  0.00           O 0
+ATOM   2087   NZ LYS A 262     -10.273   3.227  25.212  0.00  0.00           N 0
+ATOM   1972    N LYS A 248     -13.105   5.981  25.647  0.00  0.00           N 0
+ATOM   1940   CB GLN A 244     -11.023  11.525  24.106  0.00  0.00           C 0
+ATOM   2073  CD1 LEU A 260      -8.581   5.666  21.242  0.00  0.00           C 0
+ATOM   2070   CB LEU A 260      -6.393   5.083  22.311  0.00  0.00           C 0
+ATOM   2086   CE LYS A 262      -8.859   3.022  25.529  0.00  0.00           C 0
+ATOM   2071    O LEU A 260      -4.927   4.467  24.631  0.00  0.00           O 0
+ATOM   1942   CG GLN A 244      -9.912  11.993  23.159  0.00  0.00           C 0
+ATOM   1945  OE1 GLN A 244      -8.599  12.862  24.971  0.00  0.00           O 0
+ATOM   1966   CB GLU A 247     -12.516   6.206  22.320  0.00  0.00           C 0
+ATOM   2074  CD2 LEU A 260      -6.590   7.078  20.741  0.00  0.00           C 0
+ATOM   1943   CD GLN A 244      -9.019  13.024  23.837  0.00  0.00           C 0
+ATOM   2068   CA LEU A 260      -4.852   4.951  22.274  0.00  0.00           C 0
+ATOM   1944  NE2 GLN A 244      -8.689  14.122  23.202  0.56  7.66           N 0
+ATOM   1893  CD1 LEU A 238      -3.928  17.139  21.942  0.00  0.00           C 0
+ATOM   1894  CD2 LEU A 238      -3.022  15.523  20.293  0.00  0.00           C 0
+ATOM   1890   CB LEU A 238      -5.425  16.361  20.090  0.00  0.00           C 0
+ATOM   1895    N MET A 239      -7.340  14.271  18.741  0.73  2.19           N 0
+ATOM   1898   CB MET A 239      -8.632  12.228  19.128  0.00  0.00           C 0
+ATOM   1902   CE MET A 239      -9.487   9.456  20.754  0.00  0.00           C 0
+ATOM   1938   CA GLN A 244     -12.002  10.501  23.514  0.00  0.00           C 0
+TER
+END

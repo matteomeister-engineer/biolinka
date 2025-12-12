@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0090
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.6605
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4757
+HEADER 5  - Mean B-factor of pocket residues  : 0.9435
+HEADER 6  - Hydrophobicity Score              : -8.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 6.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.0337
+HEADER 10 - Pocket volume (convex hull)       : 8.2548
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   2763   CD ARG A 361      -1.114  17.599   3.013  0.00  0.00           C 0
+ATOM   2765  NH1 ARG A 361      -0.145  18.047   0.286  0.22  2.19           N 0
+ATOM   2425  NE2 HIS A 321       6.155  17.259   4.227  0.00  0.00           N 0
+ATOM   2762   CG ARG A 361      -0.492  16.331   3.621  0.00  0.00           C 0
+ATOM   2728   CD ARG A 357       4.483  16.808  -2.312  0.00  0.00           C 0
+ATOM   2725   CB ARG A 357       2.640  15.351  -1.409  0.00  0.00           C 0
+ATOM   2424  CE1 HIS A 321       6.737  17.382   3.022  0.00  0.00           C 0
+ATOM   2727   CG ARG A 357       4.143  15.439  -1.711  0.00  0.00           C 0
+ATOM   2423  ND1 HIS A 321       7.259  16.211   2.629  0.00  0.00           N 0
+ATOM   2750    O ARG A 360       0.728  11.994   5.614  0.00  0.00           O 0
+ATOM   2751   CG ARG A 360       3.707  12.157   4.099  0.00  0.00           C 0
+ATOM   2422  CD2 HIS A 321       6.386  15.942   4.634  0.00  0.00           C 0
+ATOM   2753   NE ARG A 360       5.138  11.174   5.896  0.09  1.09           N 0
+ATOM   2758   CA ARG A 361      -0.974  14.100   4.791  0.00  0.00           C 0
+ATOM   2757    N ARG A 361      -0.122  13.235   3.941  0.00  0.00           N 0
+ATOM   2748    C ARG A 360       0.647  12.241   4.415  0.00  0.00           C 0
+ATOM   2726    O ARG A 357       0.730  14.346   1.059  0.60  2.14           O 0
+ATOM   2421   CG HIS A 321       7.052  15.290   3.632  0.00  0.00           C 0
+ATOM   2749   CB ARG A 360       2.709  11.896   2.957  0.00  0.00           C 0
+ATOM   2723   CA ARG A 357       2.227  14.003  -0.792  0.00  0.00           C 0
+TER
+END

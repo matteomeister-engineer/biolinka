@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0905
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9801
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5945
+HEADER 5  - Mean B-factor of pocket residues  : 0.9940
+HEADER 6  - Hydrophobicity Score              : -17.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.7254
+HEADER 10 - Pocket volume (convex hull)       : 1.4606
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM    759   CB HIS A  94      -1.853   0.311  13.214  0.00  0.00           C 0
+ATOM    756    N HIS A  94      -0.472   0.421  15.225  0.71  1.09           N 0
+ATOM    723    O GLU A  90       1.692   1.194  13.225  0.59  2.14           O 0
+ATOM    791  OE2 GLU A  97      -4.107   3.291  15.814  0.00  0.00           O 0
+ATOM    790  OE1 GLU A  97      -2.915   4.552  17.193  0.00  0.00           O 0
+ATOM    748   CB ARG A  93       1.654   2.245  16.689  0.00  0.00           C 0
+ATOM    761   CG HIS A  94      -3.262   0.406  12.695  0.00  0.00           C 0
+ATOM    726  OE1 GLU A  90       1.471   4.157   8.772  0.00  0.00           O 0
+ATOM    763  ND1 HIS A  94      -4.193   1.344  13.080  0.00  0.00           N 0
+ATOM    724   CG GLU A  90       2.467   3.582  10.895  0.00  0.00           C 0
+ATOM    751   CD ARG A  93       3.287   4.083  17.274  0.00  0.00           C 0
+ATOM    752   NE ARG A  93       3.783   4.307  15.902  0.00  0.00           N 0
+ATOM    753  NH1 ARG A  93       3.845   6.594  15.995  0.00  0.00           N 0
+ATOM    755   CZ ARG A  93       4.013   5.479  15.337  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   149:
+HEADER 0  - Pocket Score                      : -0.1354
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7624
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3962
+HEADER 5  - Mean B-factor of pocket residues  : 0.7633
+HEADER 6  - Hydrophobicity Score              : 7.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 174.6756
+HEADER 10 - Pocket volume (convex hull)       : 7.7734
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   2169   CB SER A 276     -50.806 -10.755  12.885  0.00  0.00           C 0
+ATOM   2188  OE2 GLU A 278     -51.780  -4.337  14.897  0.00  0.00           O 0
+ATOM   3158    O ALA A 401     -55.230  -8.904  15.106  0.00  0.00           O 0
+ATOM   2183   CB GLU A 278     -49.921  -6.177  15.803  0.00  0.00           C 0
+ATOM   3163    O PHE A 402     -56.260  -9.623  11.795  0.46  7.50           O 0
+ATOM   2185   CG GLU A 278     -49.562  -5.226  14.649  0.00  0.00           C 0
+ATOM   2186   CD GLU A 278     -50.665  -4.198  14.347  0.00  0.00           C 0
+ATOM   2847  NH1 ARG A 363     -51.530  -7.027   8.000  0.00  0.00           N 0
+ATOM   2848  NH2 ARG A 363     -53.765  -7.040   7.702  0.13  9.84           N 0
+ATOM   2187  OE1 GLU A 278     -50.348  -3.243  13.604  0.00  0.00           O 0
+ATOM   2809  OE2 GLU A 358     -47.916  -7.573   9.684  0.63  5.36           O 0
+ATOM   2849   CZ ARG A 363     -52.602  -7.588   7.509  0.00  0.00           C 0
+ATOM   3166  CD2 PHE A 402     -53.645 -12.487  10.992  0.00  0.00           C 0
+ATOM   2164    O SER A 275     -50.107 -11.309   9.552  0.00  0.00           O 0
+TER
+END

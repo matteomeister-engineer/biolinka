@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0803
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0495
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5534
+HEADER 5  - Mean B-factor of pocket residues  : 0.9682
+HEADER 6  - Hydrophobicity Score              : 25.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 374.5396
+HEADER 10 - Pocket volume (convex hull)       : 12.1316
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM    530   CE LYS A  69     -16.163   7.686  20.501  0.00  0.00           C 0
+ATOM    506   CD GLN A  66     -20.562  13.988  17.901  0.00  0.00           C 0
+ATOM    508  OE1 GLN A  66     -21.682  13.535  18.066  0.00  0.00           O 0
+ATOM    507  NE2 GLN A  66     -20.027  14.684  18.881  0.40  9.84           N 0
+ATOM    528   CG LYS A  69     -15.012   8.451  18.389  0.00  0.00           C 0
+ATOM    505   CG GLN A  66     -19.749  13.796  16.625  0.00  0.00           C 0
+ATOM    476    O LEU A  63     -16.491  14.458  14.370  0.29  6.43           O 0
+ATOM    532    N ARG A  70     -11.424   9.990  16.051  0.00  0.00           N 0
+ATOM    524   CA LYS A  69     -13.684   9.078  16.295  0.00  0.00           C 0
+ATOM    479  CD2 LEU A  63     -12.351  12.051  13.602  0.00  0.00           C 0
+ATOM    526   CB LYS A  69     -13.667   8.384  17.658  0.00  0.00           C 0
+ATOM    503   CB GLN A  66     -20.106  12.491  15.903  0.00  0.00           C 0
+ATOM    504    O GLN A  66     -19.965   9.928  14.675  0.00  0.00           O 0
+ATOM    520    O VAL A  68     -15.411  10.337  14.469  0.76  2.14           O 0
+ATOM    501   CA GLN A  66     -19.243  12.227  14.655  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0346
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9406
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6171
+HEADER 5  - Mean B-factor of pocket residues  : 0.8341
+HEADER 6  - Hydrophobicity Score              : -10.4000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.1723
+HEADER 10 - Pocket volume (convex hull)       : 6.4484
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   3936   NZ LYS A 523       4.522   1.181   1.853  0.00  0.00           N 0
+ATOM   3249   CD ARG A 429      -3.001   3.374   4.496  0.00  0.00           C 0
+ATOM   3278  OE1 GLU A 433       2.693   2.010   5.753  0.00  0.00           O 0
+ATOM   3246   CB ARG A 429      -0.992   4.811   4.130  0.00  0.00           C 0
+ATOM   3254    N ALA A 430       1.494   6.084   2.731  0.71  2.19           N 0
+ATOM   3279  OE2 GLU A 433       4.346   2.380   4.331  0.00  0.00           O 0
+ATOM    814    O GLU A 107       1.188  -2.718  -2.645  0.00  0.00           O 0
+ATOM    834   CA GLY A 110      -0.983   2.429  -4.025  0.00  0.00           C 0
+ATOM    833    N GLY A 110       0.426   2.056  -3.828  0.00  0.00           N 0
+ATOM    806    O ASN A 106      -0.465  -0.489  -4.975  0.00  0.00           O 0
+ATOM    823    O GLU A 108       3.609   0.031  -1.307  0.37  4.29           O 0
+ATOM   3230  OD1 ASN A 426      -4.144   2.513  -0.100  0.00  0.00           O 0
+ATOM    832    O ALA A 109       0.906   3.570  -2.230  0.00  0.00           O 0
+ATOM    830    C ALA A 109       1.260   2.649  -2.967  0.00  0.00           C 0
+ATOM   3228   CG ASN A 426      -3.829   3.042  -1.163  0.00  0.00           C 0
+ATOM   3229  ND2 ASN A 426      -4.346   2.634  -2.297  0.32  6.56           N 0
+ATOM   3227    O ASN A 426      -0.626   5.770   0.791  0.45  1.07           O 0
+ATOM   3226   CB ASN A 426      -2.815   4.168  -1.240  0.00  0.00           C 0
+ATOM   3257   CB ALA A 430       2.764   6.014   0.696  0.00  0.00           C 0
+ATOM   3224   CA ASN A 426      -2.776   5.029   0.023  0.00  0.00           C 0
+TER
+END

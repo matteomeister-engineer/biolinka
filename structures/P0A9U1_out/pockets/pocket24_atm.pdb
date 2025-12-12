@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0550
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7672
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5027
+HEADER 5  - Mean B-factor of pocket residues  : 0.8967
+HEADER 6  - Hydrophobicity Score              : 22.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.6452
+HEADER 10 - Pocket volume (convex hull)       : 5.6422
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   2057   CE LYS A 271      12.009   8.124  23.472  0.00  0.00           C 0
+ATOM   1712   CB THR A 227       5.718   9.660  23.115  0.00  0.00           C 0
+ATOM   2058   NZ LYS A 271      11.633   7.090  24.463  0.00  0.00           N 0
+ATOM   1713    O THR A 227       7.870  11.654  22.301  0.60  4.29           O 0
+ATOM   1715  OG1 THR A 227       5.589   9.058  21.855  0.79  4.29           O 0
+ATOM   2312  CD1 LEU A 303       6.587   2.005  21.213  0.00  0.00           C 0
+ATOM   1714  CG2 THR A 227       4.675   9.043  24.048  0.00  0.00           C 0
+ATOM   2305  OD2 ASP A 302      10.458   7.201  19.451  0.00  0.00           O 0
+ATOM   2278    O ALA A 299       5.952   5.597  17.440  0.56  1.07           O 0
+ATOM   1741  NH1 ARG A 231      11.087   9.687  20.407  0.00  0.00           N 0
+ATOM   2307   CA LEU A 303       8.084   2.766  18.509  0.00  0.00           C 0
+ATOM   2306    N LEU A 303       8.361   3.938  17.676  0.00  0.00           N 0
+ATOM   2309   CB LEU A 303       6.569   2.675  18.759  0.00  0.00           C 0
+ATOM   1691  CD1 LEU A 224       3.083   5.487  21.342  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0205
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 4.0355
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5647
+HEADER 5  - Mean B-factor of pocket residues  : 0.9726
+HEADER 6  - Hydrophobicity Score              : 5.8182
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 295.6224
+HEADER 10 - Pocket volume (convex hull)       : 18.4175
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4341    O TRP A 563      -0.131  20.340 -11.638  0.46  4.29           O 0
+ATOM   4388  CD2 LEU A 567       4.588  19.070 -13.627  0.00  0.00           C 0
+ATOM   4346  CE3 TRP A 563       4.071  17.945 -10.414  0.00  0.00           C 0
+ATOM   3320  CE1 HIS A 436       3.375  14.134 -12.012  0.00  0.00           C 0
+ATOM   3319  ND1 HIS A 436       3.223  14.661 -10.793  0.71  2.19           N 0
+ATOM   4419  CD1 LEU A 571       2.755  17.676 -17.670  0.00  0.00           C 0
+ATOM   4358  OD1 ASN A 564      -2.093  19.114  -8.393  0.74  4.29           O 0
+ATOM   4340   CB TRP A 563       1.518  19.562  -8.851  0.00  0.00           C 0
+ATOM   3316    O HIS A 436       1.239  13.649  -8.356  0.00  0.00           O 0
+ATOM   3355   CG PRO A 441      -1.921  13.721  -7.402  0.00  0.00           C 0
+ATOM   3356   CD PRO A 441      -1.393  14.799  -6.456  0.00  0.00           C 0
+ATOM   2023   CD PRO A 266      -0.471  11.510 -10.324  0.00  0.00           C 0
+ATOM   2020   CB PRO A 266       0.467  11.519 -12.505  0.00  0.00           C 0
+ATOM   2022   CG PRO A 266       0.876  11.600 -11.035  0.00  0.00           C 0
+ATOM   2009    O ASN A 264      -4.501  12.787 -10.176  0.32  4.29           O 0
+ATOM   3377  OE1 GLN A 444      -5.382  17.996  -9.895  0.00  0.00           O 0
+ATOM   2618   CG GLU A 344      -7.306  15.095 -13.745  0.00  0.00           C 0
+ATOM   2620  OE1 GLU A 344      -6.329  12.958 -13.355  0.57  7.50           O 0
+ATOM   2018   CA PRO A 266      -0.653  10.473 -12.481  0.00  0.00           C 0
+ATOM   4394   CG PRO A 568      -1.394  20.488 -14.740  0.00  0.00           C 0
+ATOM   4384   CB LEU A 567       3.244  21.160 -13.922  0.00  0.00           C 0
+ATOM   4386   CG LEU A 567       4.240  20.194 -14.593  0.00  0.00           C 0
+ATOM   4389    N PRO A 568       0.481  21.446 -15.818  0.00  0.00           N 0
+ATOM   2017    N PRO A 266      -1.297  10.659 -11.166  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   117:
+HEADER 0  - Pocket Score                      : -0.1010
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1207
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6626
+HEADER 5  - Mean B-factor of pocket residues  : 0.9397
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.9507
+HEADER 10 - Pocket volume (convex hull)       : 1.7450
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   7638  CG2 THR A 976       7.638 -32.130  -6.235  0.00  0.00           C 0
+ATOM   7615    O GLN A 973       2.995 -30.206  -5.363  0.00  0.00           O 0
+ATOM   7958  OE1 GLN A1015       7.378 -31.821  -2.840  0.83  1.07           O 0
+ATOM   7636   CB THR A 976       6.869 -30.843  -5.937  0.00  0.00           C 0
+ATOM   7978   CE MET A1018       8.265 -35.672  -5.697  0.00  0.00           C 0
+ATOM   7612   CA GLN A 973       3.315 -29.788  -3.022  0.00  0.00           C 0
+ATOM   7616   CG GLN A 973       2.783 -31.100  -0.916  0.00  0.00           C 0
+ATOM   7614   CB GLN A 973       2.202 -30.382  -2.141  0.00  0.00           C 0
+ATOM   7641   CA PHE A 977       3.521 -31.364  -9.011  0.00  0.00           C 0
+ATOM   7676   CD LYS A 980       5.566 -36.137 -10.758  0.00  0.00           C 0
+ATOM   7637    O THR A 976       6.309 -31.363  -9.134  0.00  0.00           O 0
+ATOM   7640    N PHE A 977       4.440 -30.734  -8.062  0.00  0.00           N 0
+ATOM   7647  CD2 PHE A 977       1.152 -33.658  -9.126  0.00  0.00           C 0
+ATOM   7678   NZ LYS A 980       5.032 -38.528 -10.254  0.46  6.56           N 0
+ATOM   7643   CB PHE A 977       2.132 -31.448  -8.372  0.00  0.00           C 0
+TER
+END

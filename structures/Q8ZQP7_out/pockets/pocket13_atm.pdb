@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0159
+HEADER 1  - Drug Score                        : 0.0718
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0382
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7046
+HEADER 5  - Mean B-factor of pocket residues  : 0.8677
+HEADER 6  - Hydrophobicity Score              : 75.1250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 299.7407
+HEADER 10 - Pocket volume (convex hull)       : 12.5981
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.7333
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.9375
+ATOM    986  CG1 VAL A 127       3.262   1.937   7.759  0.00  0.00           C 0
+ATOM    991   CB LEU A 128      -0.973   5.480   7.972  0.00  0.00           C 0
+ATOM   1021  CD1 LEU A 131       1.978   1.422  11.487  0.00  0.00           C 0
+ATOM    994  CD1 LEU A 128      -1.132   7.620   9.274  0.00  0.00           C 0
+ATOM    989   CA LEU A 128      -0.873   3.969   8.235  0.00  0.00           C 0
+ATOM    988    N LEU A 128      -0.023   3.385   7.207  0.00  0.00           N 0
+ATOM    993   CG LEU A 128      -1.756   6.240   9.059  0.00  0.00           C 0
+ATOM   1018   CB LEU A 131      -0.371   0.669  11.417  0.00  0.00           C 0
+ATOM    992    O LEU A 128      -2.648   2.887   9.399  0.00  0.00           O 0
+ATOM    960    O ARG A 124       1.207   5.382   5.446  0.69  2.14           O 0
+ATOM     51   CE MET A   7       5.293   0.345   9.806  0.00  0.00           C 0
+ATOM     50   SD MET A   7       5.914   0.306  11.504  0.00  0.00           S 0
+ATOM     49   CG MET A   7       7.696   0.418  11.198  0.00  0.00           C 0
+ATOM     23   CE MET A   3       8.214   4.758  13.845  0.00  0.00           C 0
+ATOM    125  CH2 TRP A  16       9.918   1.446   7.613  0.00  0.00           C 0
+ATOM    127  CZ3 TRP A  16       8.832   0.817   6.978  0.00  0.00           C 0
+ATOM    151   CZ PHE A  19       7.581   4.879   4.277  0.00  0.00           C 0
+TER
+END

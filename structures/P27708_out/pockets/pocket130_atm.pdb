@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   130:
+HEADER 0  - Pocket Score                      : -0.2297
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.1647
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5822
+HEADER 5  - Mean B-factor of pocket residues  : 0.4329
+HEADER 6  - Hydrophobicity Score              : -7.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 365.4578
+HEADER 10 - Pocket volume (convex hull)       : 21.9979
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.3333
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM  16056   NE ARG A2098     -32.452  37.910  38.125  0.00  0.00           N 0
+ATOM  16057  NH1 ARG A2098     -34.016  36.633  37.039  0.44  3.28           N 0
+ATOM  15850   CG ASN A2071     -26.764  35.453  36.959  0.00  0.00           C 0
+ATOM  16055   CD ARG A2098     -31.729  36.804  38.780  0.00  0.00           C 0
+ATOM  14242  NH1 ARG A1857     -34.121  34.067  33.223  0.00  0.00           N 0
+ATOM  14237   CB ARG A1857     -36.387  37.932  30.331  0.00  0.00           C 0
+ATOM  14249    O ALA A1858     -36.423  42.796  31.556  0.57  6.43           O 0
+ATOM  14245    N ALA A1858     -38.154  40.997  29.806  0.00  0.00           N 0
+ATOM  14239   CG ARG A1857     -36.884  36.738  31.157  0.00  0.00           C 0
+ATOM  14235   CA ARG A1857     -37.572  38.686  29.717  0.00  0.00           C 0
+ATOM  16058  NH2 ARG A2098     -34.044  38.856  36.803  0.00  0.00           N 0
+ATOM  14240   CD ARG A1857     -35.710  36.049  31.860  0.00  0.00           C 0
+ATOM  14241   NE ARG A1857     -36.173  35.002  32.794  0.40  6.56           N 0
+ATOM  14255   OG SER A1859     -33.038  42.275  29.889  0.00  0.00           O 0
+ATOM  14253   CB SER A1859     -33.519  43.430  30.544  0.00  0.00           C 0
+ATOM  16059   CZ ARG A2098     -33.496  37.795  37.326  0.00  0.00           C 0
+ATOM  14819   NZ LYS A1934     -26.482  39.971  35.045  0.00  0.00           N 0
+ATOM  15852  OD1 ASN A2071     -27.023  36.386  37.705  0.36  2.14           O 0
+ATOM  15851  ND2 ASN A2071     -26.123  35.667  35.834  0.48  4.37           N 0
+ATOM  15848   CB ASN A2071     -27.167  34.030  37.277  0.00  0.00           C 0
+TER
+END

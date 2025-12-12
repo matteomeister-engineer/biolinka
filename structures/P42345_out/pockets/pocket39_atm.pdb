@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.0319
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0852
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6035
+HEADER 5  - Mean B-factor of pocket residues  : 0.8947
+HEADER 6  - Hydrophobicity Score              : 15.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 378.7139
+HEADER 10 - Pocket volume (convex hull)       : 20.4040
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   6022    O PRO A 770       6.982  19.232  31.343  0.00  0.00           O 0
+ATOM   6050   CG GLU A 773       9.349  17.646  25.625  0.00  0.00           C 0
+ATOM   6052  OE1 GLU A 773      10.543  19.350  24.412  0.56  4.29           O 0
+ATOM   6051   CD GLU A 773      10.646  18.328  25.131  0.00  0.00           C 0
+ATOM   6335    O GLU A 812       5.410  19.676  20.387  0.54  6.43           O 0
+ATOM   6379  CH2 TRP A 816       9.049  17.315  22.029  0.00  0.00           C 0
+ATOM   6367   NZ LYS A 815      10.392  21.757  20.681  0.00  0.00           N 0
+ATOM   6044   CE MET A 772       4.959  17.898  23.562  0.00  0.00           C 0
+ATOM   6011    O ARG A 769       4.028  19.465  28.640  0.74  4.29           O 0
+ATOM   6381  CZ3 TRP A 816       7.890  17.322  21.235  0.00  0.00           C 0
+ATOM   6332   CA GLU A 812       3.461  20.994  20.925  0.00  0.00           C 0
+ATOM   6366   CE LYS A 815       9.856  21.513  19.316  0.00  0.00           C 0
+ATOM   6337   CD GLU A 812       2.360  22.071  24.564  0.00  0.00           C 0
+ATOM   6334   CB GLU A 812       3.200  20.915  22.439  0.00  0.00           C 0
+ATOM   6336   CG GLU A 812       2.634  22.204  23.052  0.00  0.00           C 0
+ATOM   6364   CG LYS A 815       9.107  19.670  17.731  0.00  0.00           C 0
+ATOM   6327    O LEU A 811       3.145  21.090  18.156  0.68  5.36           O 0
+ATOM   6339  OE2 GLU A 812       2.114  20.932  25.041  0.00  0.00           O 0
+TER
+END

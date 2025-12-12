@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0497
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6339
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4345
+HEADER 5  - Mean B-factor of pocket residues  : 0.9800
+HEADER 6  - Hydrophobicity Score              : 14.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 112.5392
+HEADER 10 - Pocket volume (convex hull)       : 2.0205
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM    811  NH2 ARG A 102      -7.696   7.747 -14.758  0.17  6.56           N 0
+ATOM    952   CD LYS A 120      -6.612   5.168 -21.067  0.00  0.00           C 0
+ATOM    801   OG SER A 101      -6.309   1.891 -14.883  0.00  0.00           O 0
+ATOM    954   NZ LYS A 120      -8.135   7.011 -20.487  0.00  0.00           N 0
+ATOM    953   CE LYS A 120      -6.720   6.655 -20.736  0.00  0.00           C 0
+ATOM    951   CG LYS A 120      -5.147   4.813 -21.288  0.00  0.00           C 0
+ATOM    949   CB LYS A 120      -5.020   3.338 -21.702  0.00  0.00           C 0
+ATOM    946    N LYS A 120      -2.868   2.867 -20.623  0.44  1.09           N 0
+ATOM    800    O SER A 101      -2.909   4.066 -15.935  0.00  0.00           O 0
+ATOM    944   CB ALA A 119      -1.557   1.367 -18.182  0.00  0.00           C 0
+ATOM    940   CE MET A 118      -5.641   8.611 -17.313  0.00  0.00           C 0
+ATOM    799   CB SER A 101      -5.365   2.846 -14.463  0.00  0.00           C 0
+ATOM    936   CB MET A 118      -2.677   6.907 -18.667  0.00  0.00           C 0
+ATOM    812   CZ ARG A 102      -6.663   7.401 -14.043  0.00  0.00           C 0
+TER
+END

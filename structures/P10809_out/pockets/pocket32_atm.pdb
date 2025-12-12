@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0930
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9229
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6257
+HEADER 5  - Mean B-factor of pocket residues  : 0.9322
+HEADER 6  - Hydrophobicity Score              : 2.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.9733
+HEADER 10 - Pocket volume (convex hull)       : 7.9480
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM    531    O GLY A  69     -22.365  -0.875 -19.882  0.00  0.00           O 0
+ATOM    503    O GLN A  66     -18.801  -3.411 -21.518  0.68  6.43           O 0
+ATOM    497  OE1 GLU A  65     -18.004  -2.129 -26.257  0.00  0.00           O 0
+ATOM    495   CG GLU A  65     -16.906  -1.546 -24.218  0.00  0.00           C 0
+ATOM    544   CD PRO A  71     -20.450   3.166 -20.444  0.00  0.00           C 0
+ATOM    493   CB GLU A  65     -15.689  -0.666 -23.884  0.00  0.00           C 0
+ATOM    491   CA GLU A  65     -15.718  -0.144 -22.440  0.00  0.00           C 0
+ATOM    541   CB PRO A  71     -18.089   3.235 -20.780  0.00  0.00           C 0
+ATOM    490    N GLU A  65     -14.569   0.730 -22.208  0.71  3.28           N 0
+ATOM    496   CD GLU A  65     -16.899  -2.032 -25.676  0.00  0.00           C 0
+ATOM    543   CG PRO A  71     -19.336   4.115 -20.883  0.00  0.00           C 0
+ATOM    499    N GLN A  66     -16.895  -1.548 -20.830  0.62  1.09           N 0
+ATOM    538    N PRO A  71     -19.830   2.256 -19.489  0.33  1.09           N 0
+ATOM    480  CG2 ILE A  63     -15.623   5.788 -21.966  0.00  0.00           C 0
+ATOM    478    O ILE A  63     -12.345   4.317 -22.594  0.67  9.64           O 0
+TER
+END

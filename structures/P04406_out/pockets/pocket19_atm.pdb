@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0146
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0313
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5779
+HEADER 5  - Mean B-factor of pocket residues  : 0.9921
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 182.5796
+HEADER 10 - Pocket volume (convex hull)       : 0.6602
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1554    O ILE A 206      20.656  -3.171  -8.963  0.59  6.43           O 0
+ATOM   1549  OD1 ASN A 205      25.162  -3.201  -6.201  0.52  7.50           O 0
+ATOM   1510   CG ARG A 200      23.537  -7.515  -3.360  0.00  0.00           C 0
+ATOM   1513  NH1 ARG A 200      26.265  -7.850  -5.378  0.00  0.00           N 0
+ATOM   1563  CG1 ILE A 207      19.861  -3.515  -4.933  0.00  0.00           C 0
+ATOM   1508   CB ARG A 200      23.360  -6.104  -2.769  0.00  0.00           C 0
+ATOM   1545   CB ASN A 205      23.140  -2.118  -5.528  0.00  0.00           C 0
+ATOM   1572   CD PRO A 208      18.593  -5.941  -9.427  0.00  0.00           C 0
+ATOM   1485   CB ARG A 197      18.841  -9.194  -5.398  0.00  0.00           C 0
+ATOM   1487   CG ARG A 197      19.258 -10.182  -6.494  0.00  0.00           C 0
+ATOM   1488   CD ARG A 197      18.514  -9.857  -7.789  0.00  0.00           C 0
+ATOM   1489   NE ARG A 197      18.892 -10.776  -8.880  0.00  0.00           N 0
+ATOM   1559   CA ILE A 207      18.667  -3.971  -7.145  0.00  0.00           C 0
+ATOM   1564  CG2 ILE A 207      18.259  -5.462  -5.138  0.00  0.00           C 0
+ATOM   1486    O ARG A 197      20.135  -7.329  -3.025  0.00  0.00           O 0
+TER
+END

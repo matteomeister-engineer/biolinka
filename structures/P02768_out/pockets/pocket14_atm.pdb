@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0832
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1029
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6404
+HEADER 5  - Mean B-factor of pocket residues  : 0.9724
+HEADER 6  - Hydrophobicity Score              : 42.2500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.3625
+HEADER 10 - Pocket volume (convex hull)       : 4.2456
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   3222   CA LYS A 402      18.320  -2.460 -18.805  0.00  0.00           C 0
+ATOM   3248   CB VAL A 405      14.717  -3.958 -16.185  0.00  0.00           C 0
+ATOM   3251  CG2 VAL A 405      13.781  -3.246 -17.174  0.00  0.00           C 0
+ATOM   2935   OH TYR A 365      12.203  -6.431 -18.748  0.29  5.36           O 0
+ATOM   3224   CB LYS A 402      19.522  -2.963 -19.611  0.00  0.00           C 0
+ATOM   3226   CG LYS A 402      20.171  -4.178 -18.947  0.00  0.00           C 0
+ATOM   3250  CG1 VAL A 405      14.147  -5.358 -15.937  0.00  0.00           C 0
+ATOM   3257   CG GLU A 406      19.547  -5.539 -14.974  0.00  0.00           C 0
+ATOM   3259  OE1 GLU A 406      21.272  -6.357 -16.419  0.00  0.00           O 0
+ATOM   3285  OE1 GLN A 409      16.134  -8.013 -13.800  0.00  0.00           O 0
+ATOM   3221    N LYS A 402      17.693  -1.360 -19.544  0.00  0.00           N 0
+ATOM   3186    O PHE A 398      16.869  -1.147 -23.332  0.88  9.64           O 0
+ATOM   2871   OH TYR A 358      11.582  -2.903 -22.327  0.56  7.50           O 0
+ATOM   3213   CB PHE A 401      14.873  -0.174 -20.775  0.00  0.00           C 0
+ATOM   3225    O LYS A 402      18.161  -2.816 -16.462  0.69  1.07           O 0
+TER
+END

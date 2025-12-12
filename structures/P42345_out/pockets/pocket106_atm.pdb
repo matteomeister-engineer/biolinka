@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   106:
+HEADER 0  - Pocket Score                      : -0.0915
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0617
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5221
+HEADER 5  - Mean B-factor of pocket residues  : 0.7208
+HEADER 6  - Hydrophobicity Score              : 9.6250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 290.5491
+HEADER 10 - Pocket volume (convex hull)       : 19.2928
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM  19313  CD2 LEU A2426      28.114  25.473 -41.677  0.00  0.00           C 0
+ATOM  19336  CD1 TRP A2429      23.348  22.587 -45.441  0.00  0.00           C 0
+ATOM  15717  OG1 THR A1983      32.362  22.731 -44.091  0.32  4.29           O 0
+ATOM  19340  NE1 TRP A2429      23.318  21.272 -45.021  0.00  0.00           N 0
+ATOM  17740  CG2 THR A2232      28.912  19.083 -40.625  0.00  0.00           C 0
+ATOM  17741  OG1 THR A2232      29.543  17.130 -41.794  0.32  4.29           O 0
+ATOM  15716  CG2 THR A1983      33.587  20.746 -44.482  0.00  0.00           C 0
+ATOM  19307   CA LEU A2426      25.018  25.171 -41.653  0.00  0.00           C 0
+ATOM  19303    O PRO A2425      24.489  27.178 -43.534  0.64  8.57           O 0
+ATOM  17738   CB THR A2232      28.422  17.757 -41.208  0.00  0.00           C 0
+ATOM  19342  CZ2 TRP A2429      22.699  19.039 -46.093  0.00  0.00           C 0
+ATOM  17749  OD1 ASN A2233      28.594  15.145 -43.372  0.61  2.14           O 0
+ATOM  19310    O LEU A2426      24.016  23.080 -42.203  0.00  0.00           O 0
+ATOM  17739    O THR A2232      26.026  15.995 -41.453  0.54  5.36           O 0
+ATOM  17413  OD2 ASP A2191      23.553  19.125 -40.514  0.51  2.14           O 0
+ATOM  17431  NH2 ARG A2193      25.354  21.035 -40.119  0.29  3.28           N 0
+ATOM  19309   CB LEU A2426      25.968  24.664 -40.560  0.00  0.00           C 0
+TER
+END

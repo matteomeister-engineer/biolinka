@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1994
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5363
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4808
+HEADER 5  - Mean B-factor of pocket residues  : 0.8418
+HEADER 6  - Hydrophobicity Score              : 38.8571
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 73.0403
+HEADER 10 - Pocket volume (convex hull)       : 0.6695
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   2444   CB LEU A 319      -7.526 -14.471   6.547  0.00  0.00           C 0
+ATOM   1044    O GLY A 137      -2.914 -14.021  10.159  0.67  2.14           O 0
+ATOM   2448  CD2 LEU A 319      -5.071 -14.859   6.782  0.00  0.00           C 0
+ATOM   2221  NH1 ARG A 292      -5.724  -9.029  10.131  0.62  1.09           N 0
+ATOM   1042   CA GLY A 137      -1.981 -13.459   8.029  0.00  0.00           C 0
+ATOM   2447  CD1 LEU A 319      -5.853 -13.043   5.267  0.00  0.00           C 0
+ATOM   2211   CB ALA A 291      -8.969 -10.716   7.392  0.00  0.00           C 0
+ATOM   2415    O PRO A 315      -9.791 -14.218   9.392  0.00  0.00           O 0
+ATOM   2425  CD2 LEU A 316      -5.645 -16.784  10.723  0.00  0.00           C 0
+ATOM   2417   CD PRO A 315      -8.760 -11.959  12.389  0.00  0.00           C 0
+ATOM   2406   CB LEU A 314      -6.004 -14.185  13.748  0.00  0.00           C 0
+ATOM   2416   CG PRO A 315      -9.680 -11.476  11.269  0.00  0.00           C 0
+ATOM   2413    C PRO A 315      -9.712 -14.631  10.549  0.00  0.00           C 0
+ATOM   2411    N PRO A 315      -9.068 -13.372  12.590  0.00  0.00           N 0
+TER
+END

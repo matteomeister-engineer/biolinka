@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1603
+HEADER 1  - Drug Score                        : 0.4990
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.8333
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4057
+HEADER 5  - Mean B-factor of pocket residues  : 0.7389
+HEADER 6  - Hydrophobicity Score              : 43.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 255.7964
+HEADER 10 - Pocket volume (convex hull)       : 16.6924
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 17.6842
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.7600
+ATOM    795  CG1 VAL A 105      12.754   5.786  -4.495  0.00  0.00           C 0
+ATOM    912   CA GLY A 121      10.443   6.861  -8.265  0.00  0.00           C 0
+ATOM    559    O LEU A  75      11.284  10.401  -9.471  0.00  0.00           O 0
+ATOM    809  CG1 VAL A 107      14.080   5.838  -8.618  0.00  0.00           C 0
+ATOM    575   CG GLN A  77      14.741  12.609  -9.519  0.00  0.00           C 0
+ATOM    576   CD GLN A  77      15.694  12.458  -8.342  0.00  0.00           C 0
+ATOM    578  OE1 GLN A  77      16.766  11.881  -8.424  0.00  0.00           O 0
+ATOM    562  CD2 LEU A  75      10.154  10.950  -4.959  0.00  0.00           C 0
+ATOM    758   CB THR A 100      17.599   9.151  -3.007  0.00  0.00           C 0
+ATOM    775   CG GLN A 102      15.104  11.230   1.309  0.00  0.00           C 0
+ATOM    577  NE2 GLN A  77      15.346  13.007  -7.201  0.05  7.66           N 0
+ATOM    760  CG2 THR A 100      17.011   8.593  -4.305  0.00  0.00           C 0
+ATOM    796  CG2 VAL A 105      14.229   6.386  -2.608  0.00  0.00           C 0
+ATOM    744   CB ALA A  98      17.766   5.766  -7.769  0.00  0.00           C 0
+ATOM    902  CG2 VAL A 119      15.387   8.230 -12.159  0.00  0.00           C 0
+ATOM    595  CG1 VAL A  79      19.245  10.276 -11.988  0.00  0.00           C 0
+ATOM    761  OG1 THR A 100      16.889   8.606  -1.920  0.00  0.00           O 0
+ATOM    778  OE1 GLN A 102      12.693  11.235   1.441  0.00  0.00           O 0
+ATOM    773   CB GLN A 102      15.301   9.704   1.329  0.00  0.00           C 0
+TER
+END

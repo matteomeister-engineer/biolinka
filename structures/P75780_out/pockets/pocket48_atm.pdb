@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    48:
+HEADER 0  - Pocket Score                      : -0.0833
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7254
+HEADER 5  - Mean B-factor of pocket residues  : 0.0211
+HEADER 6  - Hydrophobicity Score              : -3.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.9833
+HEADER 10 - Pocket volume (convex hull)       : 1.5816
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM     62  CE2 PHE A   7      55.030 -16.408  12.379  0.00  0.00           C 0
+ATOM     59  CD1 PHE A   7      52.874 -16.189  10.592  0.00  0.00           C 0
+ATOM     49    O ASN A   6      54.998 -10.954   9.266  0.00  0.00           O 0
+ATOM     63   CZ PHE A   7      54.657 -17.510  11.589  0.00  0.00           C 0
+ATOM     58   CG PHE A   7      53.242 -15.083  11.380  0.00  0.00           C 0
+ATOM     53    N PHE A   7      54.045 -12.004  11.016  0.51  1.09           N 0
+ATOM     60  CD2 PHE A   7      54.321 -15.196  12.279  0.00  0.00           C 0
+ATOM     61  CE1 PHE A   7      53.577 -17.400  10.697  0.00  0.00           C 0
+ATOM     35   CA ARG A   5      59.173 -11.455  12.354  0.00  0.00           C 0
+ATOM     39   CG ARG A   5      59.479 -12.529  14.668  0.00  0.00           C 0
+ATOM     33  OD1 ASN A   4      62.557 -14.997  12.776  0.52  6.43           O 0
+ATOM     34    N ARG A   5      60.517 -11.841  11.852  0.53  5.47           N 0
+ATOM     54   CA PHE A   7      52.965 -12.724  10.329  0.00  0.00           C 0
+ATOM     47    C ASN A   6      54.947 -11.184  10.469  0.00  0.00           C 0
+ATOM     70   CD PRO A   8      51.664 -12.617   7.601  0.00  0.00           C 0
+ATOM     45    N ASN A   6      57.346 -10.649  10.941  0.00  0.00           N 0
+TER
+END

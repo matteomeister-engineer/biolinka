@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   168:
+HEADER 0  - Pocket Score                      : -0.1601
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0699
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5521
+HEADER 5  - Mean B-factor of pocket residues  : 0.9683
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.8893
+HEADER 10 - Pocket volume (convex hull)       : 4.4595
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM  17918  NH2 ARG A2254      -5.440  -2.962 -42.684  0.18  4.37           N 0
+ATOM  18256    N ALA A2295     -12.306  -2.048 -43.181  0.46  2.19           N 0
+ATOM  18261    N GLY A2296     -10.450  -0.535 -41.534  0.52  2.19           N 0
+ATOM  18252   CB THR A2294     -10.464  -2.081 -45.991  0.00  0.00           C 0
+ATOM  18254  CG2 THR A2294     -10.045  -3.050 -47.096  0.00  0.00           C 0
+ATOM  18250   CA THR A2294     -11.957  -2.195 -45.628  0.00  0.00           C 0
+ATOM  18259   CB ALA A2295     -13.034  -2.459 -40.893  0.00  0.00           C 0
+ATOM  18271  OD1 ASP A2297     -10.775  -3.488 -38.020  0.29  8.57           O 0
+ATOM  17963  CD1 ILE A2259      -7.439  -8.365 -40.262  0.00  0.00           C 0
+ATOM  17962  CG2 ILE A2259      -6.037  -8.025 -43.017  0.00  0.00           C 0
+ATOM  17993  CG1 ILE A2263      -7.443  -6.566 -48.211  0.00  0.00           C 0
+ATOM  17994  CG2 ILE A2263      -6.268  -5.175 -46.492  0.00  0.00           C 0
+ATOM  18279  OD1 ASP A2298      -6.643  -2.843 -40.205  0.21  2.14           O 0
+ATOM  18280  OD2 ASP A2298      -5.603  -4.693 -39.655  0.00  0.00           O 0
+TER
+END

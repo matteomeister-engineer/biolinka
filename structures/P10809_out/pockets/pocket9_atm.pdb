@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0346
+HEADER 1  - Drug Score                        : 0.0074
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9401
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5964
+HEADER 5  - Mean B-factor of pocket residues  : 0.9555
+HEADER 6  - Hydrophobicity Score              : 80.9000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.2072
+HEADER 10 - Pocket volume (convex hull)       : 8.1574
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.6667
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   4037  CD2 LEU A 538      13.521  -8.892 -16.688  0.00  0.00           C 0
+ATOM   4016    O VAL A 535      12.256  -4.168 -18.056  0.00  0.00           O 0
+ATOM   4035   CG LEU A 538      14.428  -8.226 -17.721  0.00  0.00           C 0
+ATOM   4038    N LEU A 539      13.695  -5.427 -20.271  0.70  1.09           N 0
+ATOM   4039   CA LEU A 539      13.137  -5.421 -21.623  0.00  0.00           C 0
+ATOM    741  CD1 LEU A  97       8.433  -6.970 -21.537  0.00  0.00           C 0
+ATOM    742  CD2 LEU A  97       7.761  -7.895 -19.350  0.00  0.00           C 0
+ATOM   4017  CG1 VAL A 535       9.153  -4.568 -17.017  0.00  0.00           C 0
+ATOM   4034    O LEU A 538      15.420  -6.809 -20.693  0.39  3.21           O 0
+ATOM   4063   CB ALA A 542      14.406  -8.570 -25.244  0.00  0.00           C 0
+ATOM   4044  CD1 LEU A 539      10.908  -5.501 -23.748  0.00  0.00           C 0
+ATOM    319   SD MET A  40       9.921  -7.331 -26.767  0.00  0.00           S 0
+ATOM    715  CG2 ILE A  93       6.797  -9.181 -24.643  0.00  0.00           C 0
+ATOM   4087  CG2 VAL A 545      11.109 -10.218 -28.440  0.00  0.00           C 0
+ATOM   4086  CG1 VAL A 545       8.961 -11.437 -28.453  0.00  0.00           C 0
+ATOM   4078    O VAL A 544      13.512 -12.811 -27.478  0.00  0.00           O 0
+ATOM   4082   CA VAL A 545      11.097 -12.708 -28.932  0.00  0.00           C 0
+ATOM   4088    N VAL A 546       9.764 -14.722 -28.775  0.00  0.00           N 0
+TER
+END

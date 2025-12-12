@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0629
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9788
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6378
+HEADER 5  - Mean B-factor of pocket residues  : 0.2727
+HEADER 6  - Hydrophobicity Score              : -7.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.1045
+HEADER 10 - Pocket volume (convex hull)       : 4.3692
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1369    O GLN A 180     -54.470  -4.123  45.969  0.65  6.43           O 0
+ATOM   1368   CB GLN A 180     -52.354  -2.515  44.763  0.00  0.00           C 0
+ATOM   1373  OE1 GLN A 180     -52.249  -0.235  43.015  0.00  0.00           O 0
+ATOM   1393    O SER A 183     -58.711  -2.250  46.568  0.38  5.36           O 0
+ATOM   1392   CB SER A 183     -57.894  -1.256  49.196  0.00  0.00           C 0
+ATOM   1382    C GLN A 182     -56.503  -4.079  49.736  0.00  0.00           C 0
+ATOM   1389    N SER A 183     -57.294  -3.649  48.738  0.00  0.00           N 0
+ATOM   1370   CG GLN A 180     -51.334  -1.380  44.946  0.00  0.00           C 0
+ATOM   1371   CD GLN A 180     -51.602  -0.178  44.047  0.00  0.00           C 0
+ATOM   1372  NE2 GLN A 180     -51.106   0.986  44.404  0.54  9.84           N 0
+ATOM   1366   CA GLN A 180     -52.116  -3.632  45.794  0.00  0.00           C 0
+ATOM   1380    N GLN A 182     -55.119  -5.627  48.266  0.00  0.00           N 0
+ATOM   1384    O GLN A 182     -56.378  -3.420  50.764  0.00  0.00           O 0
+ATOM   1394   OG SER A 183     -57.646  -1.116  50.577  0.59  5.36           O 0
+ATOM   1383   CB GLN A 182     -54.721  -5.710  50.697  0.00  0.00           C 0
+ATOM   1363    O SER A 179     -49.858  -4.033  47.463  0.69  9.64           O 0
+TER
+END

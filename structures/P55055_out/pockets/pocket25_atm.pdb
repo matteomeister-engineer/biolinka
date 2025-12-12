@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0057
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9741
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7401
+HEADER 5  - Mean B-factor of pocket residues  : 0.1553
+HEADER 6  - Hydrophobicity Score              : -5.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.8707
+HEADER 10 - Pocket volume (convex hull)       : 1.7582
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   1447    C SER A 192     -54.899  11.813  28.908  0.00  0.00           C 0
+ATOM   1440   CA SER A 191     -56.033  10.271  33.052  0.00  0.00           C 0
+ATOM   1449    O SER A 192     -55.731  12.515  28.333  0.62  7.50           O 0
+ATOM   1441    C SER A 191     -55.193  10.220  31.759  0.00  0.00           C 0
+ATOM   1445    N SER A 192     -55.851  10.248  30.596  0.49  2.19           N 0
+ATOM   1437    O SER A 190     -58.464  11.288  34.045  0.59  7.50           O 0
+ATOM   1450   OG SER A 192     -57.415  10.219  28.294  0.67  4.29           O 0
+ATOM   1435    C SER A 190     -58.480  10.197  33.480  0.00  0.00           C 0
+ATOM   1452   CA SER A 193     -53.232  13.630  28.855  0.00  0.00           C 0
+ATOM   1436   CB SER A 190     -60.820  10.275  32.592  0.00  0.00           C 0
+ATOM   1438   OG SER A 190     -61.228  11.357  33.405  0.37  8.57           O 0
+ATOM   1443    O SER A 191     -53.962  10.202  31.783  0.47  6.43           O 0
+ATOM   1454   CB SER A 193     -52.084  14.080  29.770  0.00  0.00           C 0
+ATOM   1451    N SER A 193     -53.688  12.281  29.213  0.77  3.28           N 0
+TER
+END

@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   154:
+HEADER 0  - Pocket Score                      : -0.1393
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.1425
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5909
+HEADER 5  - Mean B-factor of pocket residues  : 0.9391
+HEADER 6  - Hydrophobicity Score              : 22.9167
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 604.6320
+HEADER 10 - Pocket volume (convex hull)       : 87.6590
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.4545
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4400
+ATOM  15559   CG ASP A1963      34.587  32.051 -18.043  0.00  0.00           C 0
+ATOM  15595   OH TYR A1967      34.502  29.764 -11.967  0.00  0.00           O 0
+ATOM  15561  OD2 ASP A1963      34.275  33.214 -18.395  0.86  2.14           O 0
+ATOM  15594  CE2 TYR A1967      33.250  28.756 -13.741  0.00  0.00           C 0
+ATOM  15560  OD1 ASP A1963      35.731  31.744 -17.615  0.57  5.36           O 0
+ATOM  15288    O ILE A1930      26.078  33.460 -13.338  0.33  5.36           O 0
+ATOM  15274    O LYS A1928      28.638  36.926 -12.318  0.00  0.00           O 0
+ATOM  15557   CB ASP A1963      33.514  30.943 -18.097  0.00  0.00           C 0
+ATOM  15582  NH1 ARG A1966      36.776  30.256 -15.599  0.56  3.28           N 0
+ATOM  15307  CG2 ILE A1932      28.304  27.597 -14.018  0.00  0.00           C 0
+ATOM  15300  OE1 GLN A1931      25.615  30.099  -9.765  0.00  0.00           O 0
+ATOM  15591  CD1 TYR A1967      33.155  26.349 -12.279  0.00  0.00           C 0
+ATOM  15593  CE1 TYR A1967      33.803  27.476 -11.735  0.00  0.00           C 0
+ATOM  15596   CZ TYR A1967      33.855  28.681 -12.471  0.00  0.00           C 0
+ATOM  15315  OD1 ASP A1933      25.540  26.031 -12.667  0.00  0.00           O 0
+ATOM  15606  NE2 HIS A1968      28.177  24.063 -14.016  0.72  1.09           N 0
+ATOM  15304   CB ILE A1932      28.234  28.839 -14.919  0.00  0.00           C 0
+ATOM  15308  CD1 ILE A1932      29.356  29.868 -16.989  0.00  0.00           C 0
+ATOM  15301    N ILE A1932      26.203  29.877 -13.966  0.00  0.00           N 0
+ATOM  15271   CA LYS A1928      29.098  37.743 -14.508  0.00  0.00           C 0
+ATOM  15273   CB LYS A1928      30.039  38.922 -14.227  0.00  0.00           C 0
+ATOM  15275   CG LYS A1928      31.214  39.006 -15.209  0.00  0.00           C 0
+ATOM  15529  NE2 GLN A1959      34.148  35.998 -19.032  0.83  5.47           N 0
+ATOM  15267    O VAL A1927      28.124  35.822 -16.311  0.39  7.50           O 0
+ATOM  15268  CG1 VAL A1927      28.719  36.178 -19.264  0.00  0.00           C 0
+ATOM  15588   CB TYR A1967      31.870  25.200 -14.143  0.00  0.00           C 0
+ATOM  15605  CE1 HIS A1968      28.043  22.798 -13.600  0.00  0.00           C 0
+ATOM  15589    O TYR A1967      31.931  21.901 -14.291  0.00  0.00           O 0
+ATOM  15537  CD1 LEU A1960      28.830  32.124 -20.351  0.00  0.00           C 0
+TER
+END

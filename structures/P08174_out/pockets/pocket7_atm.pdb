@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.2327
+HEADER 1  - Drug Score                        : 0.3235
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.1307
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5231
+HEADER 5  - Mean B-factor of pocket residues  : 0.6054
+HEADER 6  - Hydrophobicity Score              : 18.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.9695
+HEADER 10 - Pocket volume (convex hull)       : 6.0348
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM    625   CA GLY A  84     -51.945   8.951  45.425  0.00  0.00           C 0
+ATOM    239   CG TRP A  33     -53.480  15.195  50.578  0.00  0.00           C 0
+ATOM    627    O GLY A  84     -50.027   8.301  46.649  0.00  0.00           O 0
+ATOM    237   CB TRP A  33     -53.375  15.443  49.102  0.00  0.00           C 0
+ATOM    241  CD2 TRP A  33     -54.567  14.521  51.285  0.00  0.00           C 0
+ATOM    248    N GLY A  34     -50.811  15.070  46.450  0.59  3.28           N 0
+ATOM    631   CB SER A  85     -48.036  10.684  46.709  0.00  0.00           C 0
+ATOM    256    O ASP A  35     -46.345  13.512  45.956  0.34  5.36           O 0
+ATOM    633   OG SER A  85     -46.721  11.140  46.946  0.59  4.29           O 0
+ATOM    231    O VAL A  32     -49.870  17.062  49.909  0.54  4.29           O 0
+ATOM    626    C GLY A  84     -50.450   9.011  45.743  0.00  0.00           C 0
+ATOM    235   CA TRP A  33     -51.983  15.711  48.488  0.00  0.00           C 0
+ATOM    240  CD1 TRP A  33     -52.565  15.508  51.524  0.00  0.00           C 0
+ATOM    243  CE3 TRP A  33     -55.790  13.936  50.889  0.00  0.00           C 0
+ATOM    238    O TRP A  33     -52.990  15.558  46.328  0.43  5.36           O 0
+ATOM    236    C TRP A  33     -51.972  15.409  46.998  0.00  0.00           C 0
+ATOM    249   CA GLY A  34     -50.752  14.684  45.044  0.00  0.00           C 0
+TER
+END

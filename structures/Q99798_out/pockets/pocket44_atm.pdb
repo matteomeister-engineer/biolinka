@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.0227
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0868
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5511
+HEADER 5  - Mean B-factor of pocket residues  : 0.9926
+HEADER 6  - Hydrophobicity Score              : 8.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.7571
+HEADER 10 - Pocket volume (convex hull)       : 2.0293
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4979    O LYS A 651     -24.004 -16.513  17.294  0.00  0.00           O 0
+ATOM   5242  NH2 ARG A 684     -24.926  -8.475  16.894  0.00  0.00           N 0
+ATOM   5226   CA GLY A 682     -20.727 -11.197  15.206  0.00  0.00           C 0
+ATOM   4980   CG LYS A 651     -22.822 -15.142  14.405  0.00  0.00           C 0
+ATOM   5020   CG ARG A 656     -22.836  -9.700  21.193  0.00  0.00           C 0
+ATOM   5006    O GLY A 654     -23.957 -13.765  22.345  0.04  9.64           O 0
+ATOM   5004   CA GLY A 654     -24.750 -15.526  20.924  0.00  0.00           C 0
+ATOM   5005    C GLY A 654     -23.657 -14.747  21.669  0.00  0.00           C 0
+ATOM   5011    O ILE A 655     -20.224 -13.527  20.228  0.79  1.07           O 0
+ATOM   5022   NE ARG A 656     -25.051  -8.592  21.456  0.26  2.19           N 0
+ATOM   4976   CA LYS A 651     -21.791 -15.893  16.644  0.00  0.00           C 0
+ATOM   5009    C ILE A 655     -20.798 -13.341  21.301  0.00  0.00           C 0
+ATOM   5024  NH2 ARG A 656     -27.188  -7.810  21.302  0.00  2.19           N 0
+ATOM   5228    O GLY A 682     -20.210 -10.024  17.230  0.79  1.07           O 0
+TER
+END

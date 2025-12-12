@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   115:
+HEADER 0  - Pocket Score                      : -0.0981
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0752
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7130
+HEADER 5  - Mean B-factor of pocket residues  : 0.9202
+HEADER 6  - Hydrophobicity Score              : -5.4000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 323.4879
+HEADER 10 - Pocket volume (convex hull)       : 11.9002
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM  10484  ND2 ASN A1330     -21.548 -32.823 -23.681  0.54  9.84           N 0
+ATOM  10481   CB ASN A1330     -21.640 -30.446 -24.106  0.00  0.00           C 0
+ATOM  10483   CG ASN A1330     -20.921 -31.781 -24.173  0.00  0.00           C 0
+ATOM  10502  OD2 ASP A1332     -26.968 -30.865 -24.855  0.00  0.00           O 0
+ATOM  10489   CB GLU A1331     -23.563 -26.658 -27.359  0.00  0.00           C 0
+ATOM  10494  OE2 GLU A1331     -23.853 -27.011 -30.173  0.00  0.00           O 0
+ATOM  10501  OD1 ASP A1332     -27.993 -28.970 -25.386  0.61  7.50           O 0
+ATOM  10486    N GLU A1331     -22.208 -27.724 -25.609  0.54  3.28           N 0
+ATOM  10495    N ASP A1332     -25.014 -27.543 -24.628  0.00  0.00           N 0
+ATOM  10492   CD GLU A1331     -22.677 -26.781 -29.813  0.00  0.00           C 0
+ATOM  10491   CG GLU A1331     -22.385 -26.443 -28.338  0.00  0.00           C 0
+ATOM  10493  OE1 GLU A1331     -21.686 -26.858 -30.579  0.00  0.00           O 0
+ATOM  10485  OD1 ASN A1330     -19.828 -31.936 -24.685  0.00  0.00           O 0
+ATOM  10479   CA ASN A1330     -20.737 -29.217 -24.310  0.00  0.00           C 0
+ATOM  10474    O LEU A1329     -18.421 -27.618 -24.161  0.00  0.00           O 0
+ATOM  10519  NE2 GLN A1334     -18.742 -24.873 -24.948  0.40  7.66           N 0
+TER
+END

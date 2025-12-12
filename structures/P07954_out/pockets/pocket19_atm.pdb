@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0763
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0356
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7129
+HEADER 5  - Mean B-factor of pocket residues  : 0.9991
+HEADER 6  - Hydrophobicity Score              : 20.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.9498
+HEADER 10 - Pocket volume (convex hull)       : 0.2603
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   1957   CB TYR A 257     -11.287  11.679   9.070  0.00  0.00           C 0
+ATOM   1959   CG TYR A 257     -11.983  12.774   9.855  0.00  0.00           C 0
+ATOM   1984  CG2 THR A 260      -9.088  15.794   4.990  0.00  0.00           C 0
+ATOM   1960  CD1 TYR A 257     -12.595  13.876   9.222  0.00  0.00           C 0
+ATOM   1996   CZ ARG A 261      -7.678  10.792  10.357  0.00  0.00           C 0
+ATOM   1995  NH2 ARG A 261      -7.953  11.322  11.516  0.00  0.00           N 0
+ATOM   1965   CZ TYR A 257     -13.038  14.879  11.400  0.00  0.00           C 0
+ATOM   1961  CD2 TYR A 257     -11.928  12.719  11.262  0.00  0.00           C 0
+ATOM   1963  CE2 TYR A 257     -12.452  13.768  12.038  0.00  0.00           C 0
+ATOM   1993   NE ARG A 261      -6.541  11.081   9.752  0.00  0.00           N 0
+ATOM   1991   CG ARG A 261      -6.088  11.681   7.389  0.00  0.00           C 0
+ATOM   1958    O TYR A 257      -9.260  11.352   6.622  0.00  0.00           O 0
+ATOM   1982   CB THR A 260      -9.813  14.464   4.783  0.00  0.00           C 0
+TER
+END

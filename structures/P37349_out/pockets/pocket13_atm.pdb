@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0018
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7401
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5305
+HEADER 5  - Mean B-factor of pocket residues  : 0.6993
+HEADER 6  - Hydrophobicity Score              : 20.8889
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 332.3034
+HEADER 10 - Pocket volume (convex hull)       : 17.7633
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2917
+ATOM   1189    O ARG A 165      -3.989 -18.662  -0.723  0.00  0.00           O 0
+ATOM   1538   CB ARG A 210      -0.959 -16.223  -6.087  0.00  0.00           C 0
+ATOM   1549   CB TYR A 211      -1.920 -20.408  -3.530  0.00  0.00           C 0
+ATOM   1541   CD ARG A 210      -2.564 -14.704  -7.376  0.00  0.00           C 0
+ATOM   2739  OD2 ASP A 362      -5.060 -12.411  -3.941  0.00  0.00           O 0
+ATOM   2752   CB TYR A 364      -7.345 -10.917  -0.205  0.00  0.00           C 0
+ATOM   1203  OD1 ASN A 166      -5.691 -16.580   2.167  0.00  0.00           O 0
+ATOM   2755  CD1 TYR A 364      -5.246 -11.331   1.147  0.00  0.00           C 0
+ATOM   1550    O TYR A 211      -0.787 -20.292  -6.386  0.00  0.00           O 0
+ATOM   2754   CG TYR A 364      -6.644 -11.158   1.117  0.00  0.00           C 0
+ATOM   1197   CA ASN A 166      -3.142 -16.394   0.786  0.00  0.00           C 0
+ATOM   1198    C ASN A 166      -1.918 -15.804   0.055  0.00  0.00           C 0
+ATOM   1540   CG ARG A 210      -1.305 -14.791  -6.510  0.00  0.00           C 0
+ATOM   2738  OD1 ASP A 362      -6.807 -11.166  -3.424  0.00  0.00           O 0
+ATOM   1200    O ASN A 166      -1.797 -14.587  -0.040  0.60  4.29           O 0
+ATOM   1536   CA ARG A 210       0.082 -16.282  -4.946  0.00  0.00           C 0
+ATOM   2767  CD1 LEU A 365      -1.730  -9.954  -3.309  0.00  0.00           C 0
+ATOM   1532    O VAL A 209       1.634 -14.539  -3.293  0.72  2.14           O 0
+ATOM   1546    N TYR A 211      -0.612 -18.455  -4.156  0.00  0.00           N 0
+ATOM   1204    N GLY A 167      -0.992 -16.644  -0.424  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0141
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8772
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6875
+HEADER 5  - Mean B-factor of pocket residues  : 0.9084
+HEADER 6  - Hydrophobicity Score              : 21.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.4079
+HEADER 10 - Pocket volume (convex hull)       : 4.9750
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   1724   CB ALA A 231      22.708  -5.109 -16.402  0.00  0.00           C 0
+ATOM   1684  OE2 GLU A 225      25.455  -8.069 -15.410  0.00  0.00           O 0
+ATOM   1639  CG2 ILE A 220      20.496  -6.338 -12.880  0.00  0.00           C 0
+ATOM   1638  CG1 ILE A 220      18.791  -6.461 -14.766  0.00  0.00           C 0
+ATOM   1681   CG GLU A 225      24.565  -6.809 -13.586  0.00  0.00           C 0
+ATOM   1679   CB GLU A 225      24.260  -7.883 -12.533  0.00  0.00           C 0
+ATOM   1634   CA ILE A 220      18.626  -8.046 -12.802  0.00  0.00           C 0
+ATOM   1626    O PHE A 219      17.467  -9.996 -14.515  0.52  8.57           O 0
+ATOM   1641    N ASP A 221      19.658  -9.360 -11.048  0.52  3.28           N 0
+ATOM   1676    N GLU A 225      25.115  -9.376 -10.786  0.00  0.00           N 0
+ATOM   1669    C LYS A 224      25.907 -10.380 -10.425  0.00  0.00           C 0
+ATOM   1671    O LYS A 224      27.035 -10.538 -10.878  0.23  6.43           O 0
+ATOM   1670   CB LYS A 224      24.473 -12.400 -10.033  0.00  0.00           C 0
+ATOM   1645    O ASP A 221      22.434  -9.228  -9.761  0.00  0.00           O 0
+ATOM   1677   CA GLU A 225      25.496  -8.324 -11.729  0.00  0.00           C 0
+ATOM   1644   CB ASP A 221      20.308 -11.233  -9.596  0.00  0.00           C 0
+TER
+END

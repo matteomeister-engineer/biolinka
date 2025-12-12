@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.1373
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2782
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4907
+HEADER 5  - Mean B-factor of pocket residues  : 0.5415
+HEADER 6  - Hydrophobicity Score              : 8.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 279.3235
+HEADER 10 - Pocket volume (convex hull)       : 7.1398
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   1572   CA GLY A 214     -26.060  -2.979  20.226  0.00  0.00           C 0
+ATOM   1571    N GLY A 214     -26.737  -4.218  19.834  0.00  0.00           N 0
+ATOM   1204   CB SER A 161     -34.242   0.435  22.962  0.00  0.00           C 0
+ATOM   1561    O GLY A 212     -29.320  -4.156  17.567  0.00  0.00           O 0
+ATOM   1232  NE2 GLN A 164     -31.752  -2.766  25.990  0.00  0.00           N 0
+ATOM   1206   OG SER A 161     -34.811  -0.721  23.554  0.21  5.36           O 0
+ATOM   1574    O GLY A 214     -24.541  -2.704  22.046  0.00  0.00           O 0
+ATOM   1175    O GLN A 157     -26.883   1.341  25.905  0.00  0.00           O 0
+ATOM   1233  OE1 GLN A 164     -32.401  -0.762  26.565  0.88  6.43           O 0
+ATOM   1190    O VAL A 159     -30.505   3.077  25.371  0.29  6.43           O 0
+ATOM   1201    N SER A 161     -33.584   1.653  25.013  0.00  0.00           N 0
+ATOM   1172   CA GLN A 157     -26.043   2.164  23.797  0.00  0.00           C 0
+ATOM   1174   CB GLN A 157     -24.859   1.225  23.488  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    68:
+HEADER 0  - Pocket Score                      : -0.0499
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0294
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5623
+HEADER 5  - Mean B-factor of pocket residues  : 0.7461
+HEADER 6  - Hydrophobicity Score              : 30.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.2127
+HEADER 10 - Pocket volume (convex hull)       : 6.3928
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM    401    O LYS A  52      17.970  23.193 -20.162  0.39  7.50           O 0
+ATOM   1688   CB LYS A 209      19.683  20.980 -14.070  0.00  0.00           C 0
+ATOM   1691   CD LYS A 209      17.421  21.838 -14.999  0.00  0.00           C 0
+ATOM    404   CE LYS A  52      22.001  20.135 -21.608  0.00  0.00           C 0
+ATOM    253    O ASN A  33      24.940  15.914 -16.907  0.62  4.29           O 0
+ATOM   1685    N LYS A 209      21.956  20.459 -13.236  0.73  1.09           N 0
+ATOM   1689    O LYS A 209      20.156  18.691 -11.996  0.70  8.57           O 0
+ATOM   1683  CG1 VAL A 208      23.656  17.550 -12.322  0.00  0.00           C 0
+ATOM    413  CD2 PHE A  53      21.781  23.864 -17.765  0.00  0.00           C 0
+ATOM    415  CE2 PHE A  53      22.875  23.035 -17.458  0.00  0.00           C 0
+ATOM    402   CG LYS A  52      20.606  22.207 -21.793  0.00  0.00           C 0
+ATOM    274  OG1 THR A  35      25.224  20.452 -18.706  0.66  2.14           O 0
+ATOM    416   CZ PHE A  53      23.172  22.734 -16.119  0.00  0.00           C 0
+ATOM    405   NZ LYS A  52      23.379  19.599 -21.476  0.00  0.00           N 0
+ATOM   1679   CA VAL A 208      24.337  19.923 -12.896  0.00  0.00           C 0
+ATOM   1674    O ILE A 207      26.272  20.548 -14.860  0.00  0.00           O 0
+TER
+END

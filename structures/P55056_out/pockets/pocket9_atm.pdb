@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0115
+HEADER 1  - Drug Score                        : 0.0547
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9672
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5361
+HEADER 5  - Mean B-factor of pocket residues  : 0.8948
+HEADER 6  - Hydrophobicity Score              : 86.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.9578
+HEADER 10 - Pocket volume (convex hull)       : 3.1480
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    567  CE1 PHE A  72     -15.644  -3.293   4.244  0.00  0.00           C 0
+ATOM    681   OH TYR A  85      -9.691  -8.274   2.898  0.00  0.00           O 0
+ATOM    682   CZ TYR A  85     -10.154  -8.370   4.172  0.00  0.00           C 0
+ATOM    569   CZ PHE A  72     -16.700  -3.780   3.458  0.00  0.00           C 0
+ATOM    680  CE2 TYR A  85     -10.809  -9.541   4.598  0.00  0.00           C 0
+ATOM    653   SD MET A  82     -15.334  -5.318   7.696  0.00  0.00           S 0
+ATOM    679  CE1 TYR A  85      -9.974  -7.295   5.069  0.00  0.00           C 0
+ATOM    654   CE MET A  82     -13.998  -4.188   7.304  0.00  0.00           C 0
+ATOM    533  CH2 TRP A  69     -10.204  -2.009   2.647  0.00  0.00           C 0
+ATOM    677  CD1 TYR A  85     -10.437  -7.402   6.394  0.00  0.00           C 0
+ATOM    678  CD2 TYR A  85     -11.268  -9.647   5.924  0.00  0.00           C 0
+ATOM    535  CZ3 TRP A  69     -11.066  -1.652   3.699  0.00  0.00           C 0
+ATOM    676   CG TYR A  85     -11.071  -8.585   6.826  0.00  0.00           C 0
+ATOM    644  CE1 PHE A  81     -16.061  -9.087   7.248  0.00  0.00           C 0
+ATOM    646   CZ PHE A  81     -15.782 -10.430   6.942  0.00  0.00           C 0
+TER
+END

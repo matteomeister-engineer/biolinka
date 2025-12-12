@@ -1,0 +1,53 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    85:
+HEADER 0  - Pocket Score                      : -0.0735
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    53
+HEADER 3  - Mean alpha-sphere radius          : 3.8640
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4605
+HEADER 5  - Mean B-factor of pocket residues  : 0.8777
+HEADER 6  - Hydrophobicity Score              : 19.3846
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 456.4130
+HEADER 10 - Pocket volume (convex hull)       : 77.0702
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.7143
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.2642
+ATOM  13615  CE1 HIS A1719     -10.671  58.219  -9.628  0.00  0.00           C 0
+ATOM  13616  NE2 HIS A1719     -11.304  57.413 -10.491  0.44  4.37           N 0
+ATOM  13353   CD PRO A1688     -16.820  56.032  -4.279  0.00  0.00           C 0
+ATOM  13333    O ASP A1686     -19.302  56.966  -7.716  0.64  9.64           O 0
+ATOM  13350   CB PRO A1688     -14.595  55.142  -4.285  0.00  0.00           C 0
+ATOM  13613  CD2 HIS A1719     -11.100  56.105 -10.040  0.00  0.00           C 0
+ATOM  13612   CG HIS A1719     -10.328  56.168  -8.910  0.00  0.00           C 0
+ATOM  13614  ND1 HIS A1719     -10.064  57.499  -8.671  0.00  0.00           N 0
+ATOM  13588  CE1 HIS A1716     -15.718  51.764  -9.281  0.00  0.00           C 0
+ATOM  13579  OE1 GLN A1715     -14.120  54.770 -15.666  0.00  0.00           O 0
+ATOM  13587  ND1 HIS A1716     -14.372  51.816  -9.273  0.51  5.47           N 0
+ATOM  13553  OD1 ASP A1712     -16.397  50.427 -13.432  0.72  6.43           O 0
+ATOM  13325    O LEU A1685     -19.630  53.484 -10.084  0.20  4.29           O 0
+ATOM  13574   CB GLN A1715     -11.890  53.667 -14.283  0.00  0.00           C 0
+ATOM  13650  OG1 THR A1723      -8.206  55.268  -2.978  0.55  9.64           O 0
+ATOM  13358    O LEU A1689     -13.432  50.979  -2.562  0.57  2.14           O 0
+ATOM  13375  OG1 THR A1691     -10.636  51.840  -0.398  0.47  8.57           O 0
+ATOM  13618   CA PHE A1720      -7.583  51.862  -5.794  0.00  0.00           C 0
+ATOM  13624  CD2 PHE A1720      -8.321  49.316  -3.895  0.00  0.00           C 0
+ATOM  13620   CB PHE A1720      -8.006  50.436  -6.141  0.00  0.00           C 0
+ATOM  13354    N LEU A1689     -15.021  51.774  -4.786  0.00  0.00           N 0
+ATOM  13617    N PHE A1720      -8.010  52.736  -6.884  0.00  0.00           N 0
+ATOM  13347    N PRO A1688     -16.808  54.834  -5.107  0.00  0.00           N 0
+ATOM  13341    O HIS A1687     -17.680  53.280  -6.466  0.00  0.00           O 0
+ATOM  13339    C HIS A1687     -17.834  54.314  -5.811  0.00  0.00           C 0
+ATOM  13357   CB LEU A1689     -14.353  49.421  -5.101  0.00  0.00           C 0
+ATOM  13459   CE MET A1701     -10.404  48.092  -6.845  0.00  0.00           C 0
+ATOM  13584    O HIS A1716      -9.685  51.305  -8.760  0.69  2.14           O 0
+ATOM  13610   CB HIS A1719      -9.853  55.016  -8.067  0.00  0.00           C 0
+ATOM  13348   CA PRO A1688     -15.519  54.160  -5.011  0.00  0.00           C 0
+ATOM  13609    C HIS A1719      -7.852  54.061  -6.861  0.00  0.00           C 0
+TER
+END

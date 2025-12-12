@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0677
+HEADER 1  - Drug Score                        : 0.0028
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0563
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6113
+HEADER 5  - Mean B-factor of pocket residues  : 0.9961
+HEADER 6  - Hydrophobicity Score              : 55.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 187.0029
+HEADER 10 - Pocket volume (convex hull)       : 2.4594
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM    892  CE1 PHE A 118      -9.313  11.976  -0.196  0.00  0.00           C 0
+ATOM    807    C LEU A 107      -5.459   9.612  -2.866  0.00  0.00           C 0
+ATOM    819  CG2 VAL A 108      -3.874  12.375  -5.666  0.00  0.00           C 0
+ATOM    929  CE1 HIS A 123      -6.645  15.086   1.597  0.00  0.00           C 0
+ATOM    808   CB LEU A 107      -4.127  10.308  -0.856  0.00  0.00           C 0
+ATOM    894   CZ PHE A 118      -8.386  10.958   0.085  0.00  0.00           C 0
+ATOM    813    N VAL A 108      -4.808  10.060  -3.945  0.00  0.00           N 0
+ATOM    789  CE1 HIS A 104      -1.417  14.668  -4.006  0.00  0.00           C 0
+ATOM    788  ND1 HIS A 104      -0.901  13.965  -2.984  0.27  3.28           N 0
+ATOM    809    O LEU A 107      -6.682   9.545  -2.818  0.00  0.00           O 0
+ATOM    814   CA VAL A 108      -5.497  10.496  -5.174  0.00  0.00           C 0
+ATOM    838   CB ALA A 111      -9.550  11.083  -3.708  0.00  0.00           C 0
+ATOM    930  NE2 HIS A 123      -5.810  14.066   1.826  0.66  4.37           N 0
+ATOM    811  CD1 LEU A 107      -3.011  11.205   1.186  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0218
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2411
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5896
+HEADER 5  - Mean B-factor of pocket residues  : 0.8961
+HEADER 6  - Hydrophobicity Score              : 10.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.2299
+HEADER 10 - Pocket volume (convex hull)       : 2.5743
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    872    C GLN A 111      -1.002 -12.426  -1.883  0.00  0.00           C 0
+ATOM    871   CA GLN A 111      -2.494 -12.051  -1.926  0.00  0.00           C 0
+ATOM    853   NZ LYS A 108      -0.127  -8.244   1.894  0.00  0.00           N 0
+ATOM    866    O ASP A 110      -3.198  -9.524  -0.828  0.51  3.21           O 0
+ATOM    879    N GLY A 112      -0.112 -11.439  -2.017  0.00  0.00           N 0
+ATOM   2762    O TYR A 364       3.348 -10.216   2.867  0.00  0.00           O 0
+ATOM    880   CA GLY A 112       1.334 -11.642  -1.950  0.00  0.00           C 0
+ATOM    874    O GLN A 111      -0.657 -13.587  -1.685  0.00  0.00           O 0
+ATOM    269   CB SER A  36       0.062 -10.204   6.322  0.00  0.00           C 0
+ATOM    873   CB GLN A 111      -3.382 -13.163  -2.509  0.00  0.00           C 0
+ATOM    875   CG GLN A 111      -4.869 -12.938  -2.194  0.00  0.00           C 0
+ATOM    624  CE2 PHE A  80      -3.987  -9.648   5.292  0.00  0.00           C 0
+ATOM    625   CZ PHE A  80      -4.227 -10.699   6.195  0.00  0.00           C 0
+TER
+END

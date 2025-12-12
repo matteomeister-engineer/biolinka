@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    95:
+HEADER 0  - Pocket Score                      : -0.1005
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.9628
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4961
+HEADER 5  - Mean B-factor of pocket residues  : 0.8638
+HEADER 6  - Hydrophobicity Score              : 5.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 562.4542
+HEADER 10 - Pocket volume (convex hull)       : 89.5743
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 5.4286
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2059
+ATOM  15608   NE ARG A2039      -0.285  66.630  39.928  0.43  5.47           N 0
+ATOM  15609  NH1 ARG A2039       0.978  67.826  38.431  0.00  0.00           N 0
+ATOM  15434   SG CYS A2016       6.419  62.934  41.050  0.00  0.00           S 0
+ATOM  15607   CD ARG A2039      -0.369  65.386  39.143  0.00  0.00           C 0
+ATOM  15622   CZ ARG A2040       1.819  60.162  34.582  0.00  0.00           C 0
+ATOM  15621  NH2 ARG A2040       2.933  60.757  34.263  0.08  9.84           N 0
+ATOM  15620  NH1 ARG A2040       0.895  60.057  33.666  0.41  9.84           N 0
+ATOM  15611   CZ ARG A2039       0.349  67.731  39.571  0.00  0.00           C 0
+ATOM  15604   CB ARG A2039      -1.271  63.071  38.991  0.00  0.00           C 0
+ATOM  15605    O ARG A2039      -2.656  61.011  37.427  0.50  7.50           O 0
+ATOM  15619   NE ARG A2040       1.652  59.680  35.798  0.42  3.28           N 0
+ATOM  15404   CG GLN A2012       2.932  64.058  45.026  0.00  0.00           C 0
+ATOM  15427    O SER A2015       3.817  59.629  38.821  0.52  4.29           O 0
+ATOM  15430   CA CYS A2016       6.358  60.658  39.477  0.00  0.00           C 0
+ATOM  15428   OG SER A2015       2.447  60.901  41.742  0.52  3.21           O 0
+ATOM  15405   CD GLN A2012       2.433  65.363  45.647  0.00  0.00           C 0
+ATOM  15589    O HIS A2037      -0.887  62.584  44.750  0.71  3.21           O 0
+ATOM  15606   CG ARG A2039      -1.274  64.358  39.823  0.00  0.00           C 0
+ATOM  15580    O LYS A2036      -5.262  64.023  45.689  0.00  0.00           O 0
+ATOM  15597    C CYS A2038      -2.572  61.069  41.828  0.00  0.00           C 0
+ATOM  15599    O CYS A2038      -3.762  60.913  41.586  0.62  7.50           O 0
+ATOM  15406  NE2 GLN A2012       2.914  66.496  45.186  0.00  0.00           N 0
+ATOM  15610  NH2 ARG A2039       0.364  68.765  40.363  0.00  0.00           N 0
+ATOM  15586   CA HIS A2037      -2.773  62.761  46.235  0.00  0.00           C 0
+ATOM  15407  OE1 GLN A2012       1.583  65.421  46.514  0.36  9.64           O 0
+ATOM  15587    C HIS A2037      -2.012  62.172  45.031  0.00  0.00           C 0
+ATOM  15592  ND1 HIS A2037      -2.430  64.798  48.805  0.58  2.19           N 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0902
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1876
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5812
+HEADER 5  - Mean B-factor of pocket residues  : 0.9811
+HEADER 6  - Hydrophobicity Score              : -7.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 155.1035
+HEADER 10 - Pocket volume (convex hull)       : 0.4756
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM    491    O ASP A  65     -61.977 -28.762  38.357  0.79  8.57           O 0
+ATOM    636   CE LYS A  82     -55.577 -28.862  42.995  0.00  0.00           C 0
+ATOM    637   NZ LYS A  82     -56.898 -29.329  43.493  0.00  0.00           N 0
+ATOM    669  OD2 ASP A  86     -53.043 -29.491  39.782  0.00  0.00           O 0
+ATOM    635   CD LYS A  82     -55.613 -27.381  42.607  0.00  0.00           C 0
+ATOM    488   CA ASP A  65     -61.641 -28.382  40.727  0.00  0.00           C 0
+ATOM    641   CB ARG A  83     -53.815 -26.388  36.364  0.00  0.00           C 0
+ATOM    499    O CYS A  66     -60.072 -26.446  36.643  0.48  7.50           O 0
+ATOM    644   CD ARG A  83     -53.614 -28.750  35.432  0.00  0.00           C 0
+ATOM    489    C ASP A  65     -61.867 -27.938  39.264  0.00  0.00           C 0
+ATOM    486    O GLY A  64     -59.937 -27.138  42.685  0.52  4.29           O 0
+ATOM    607   CB CYS A  79     -58.807 -24.144  39.266  0.00  0.00           C 0
+ATOM    608    O CYS A  79     -55.716 -24.540  38.378  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0827
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9518
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5373
+HEADER 5  - Mean B-factor of pocket residues  : 0.9927
+HEADER 6  - Hydrophobicity Score              : -26.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.9158
+HEADER 10 - Pocket volume (convex hull)       : 5.2146
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM    122   CD ARG A  16     -12.960  -3.703  -7.797  0.00  0.00           C 0
+ATOM    989   CD LYS A 131     -14.624   2.546  -7.354  0.00  0.00           C 0
+ATOM    442  OD1 ASP A  59     -17.737  -0.931  -2.208  0.00  0.00           O 0
+ATOM    986   CB LYS A 131     -13.178   1.710  -5.491  0.00  0.00           C 0
+ATOM    123   NE ARG A  16     -13.618  -4.878  -7.194  0.00  0.00           N 0
+ATOM    126   CZ ARG A  16     -14.480  -5.680  -7.786  0.00  0.00           C 0
+ATOM    125  NH2 ARG A  16     -15.068  -6.625  -7.117  0.00  0.00           N 0
+ATOM   1006   CB ASN A 133     -15.460  -3.358  -1.254  0.00  0.00           C 0
+ATOM    108  OE1 GLN A  14     -14.112  -6.629  -4.562  0.61  7.50           O 0
+ATOM   1008   CG ASN A 133     -16.755  -3.937  -0.712  0.00  0.00           C 0
+ATOM   1009  ND2 ASN A 133     -17.811  -3.172  -0.731  0.00  0.00           N 0
+ATOM   1010  OD1 ASN A 133     -16.864  -5.077  -0.285  0.55  6.43           O 0
+ATOM    987    O LYS A 131     -11.502  -0.170  -3.946  0.81  1.07           O 0
+ATOM    104    O GLN A  14     -11.592  -3.023  -2.180  0.48  1.07           O 0
+ATOM    121   CG ARG A  16     -11.624  -3.387  -7.126  0.00  0.00           C 0
+ATOM   1003    N ASN A 133     -13.736  -1.644  -0.939  0.00  0.00           N 0
+TER
+END

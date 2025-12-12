@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.2216
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    34
+HEADER 3  - Mean alpha-sphere radius          : 3.9819
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6568
+HEADER 5  - Mean B-factor of pocket residues  : 0.9089
+HEADER 6  - Hydrophobicity Score              : -25.1111
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 436.5520
+HEADER 10 - Pocket volume (convex hull)       : 44.6155
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   1220    O ASP A 165     -21.547   1.282  -8.779  0.48  5.36           O 0
+ATOM   1948   NE ARG A 266     -21.049  -3.933 -10.912  0.00  0.00           N 0
+ATOM   1219   CB ASP A 165     -24.383   2.312  -7.758  0.00  0.00           C 0
+ATOM   1950  NH2 ARG A 266     -21.259  -2.002 -12.092  0.00  0.00           N 0
+ATOM   1211    O GLU A 164     -21.167   1.936  -4.921  0.53  1.07           O 0
+ATOM   1213   CD GLU A 164     -23.207   1.103  -0.999  0.00  0.00           C 0
+ATOM   1217   CA ASP A 165     -23.043   2.054  -7.043  0.00  0.00           C 0
+ATOM    882  NH1 ARG A 119     -20.694  -1.105  -2.456  0.54  2.19           N 0
+ATOM   1216    N ASP A 165     -22.959   2.910  -5.856  0.00  0.00           N 0
+ATOM    734  CG2 THR A 100     -23.586  -3.637  -1.262  0.00  0.00           C 0
+ATOM   1976  NE2 GLN A 269     -24.059  -5.348  -3.676  0.43  5.47           N 0
+ATOM   1215  OE2 GLU A 164     -24.382   1.374  -0.691  0.00  0.00           O 0
+ATOM   1210   CB GLU A 164     -23.079   3.177  -2.594  0.00  0.00           C 0
+ATOM   1978    N SER A 270     -22.328 -10.520  -4.125  0.00  0.00           N 0
+ATOM   1979   CA SER A 270     -23.418 -11.501  -4.214  0.00  0.00           C 0
+ATOM   2004  OD2 ASP A 273     -25.425  -8.798  -1.648  0.00  0.00           O 0
+ATOM   1209    C GLU A 164     -22.064   2.783  -4.875  0.00  0.00           C 0
+ATOM   1214  OE1 GLU A 164     -22.629   0.049  -0.623  0.00  0.00           O 0
+ATOM   1945    O ARG A 266     -21.128  -9.407  -6.677  0.61  3.21           O 0
+ATOM   1981   CB SER A 270     -23.690 -11.836  -5.683  0.00  0.00           C 0
+ATOM   1247  OD2 ASP A 168     -20.322  -3.385  -7.089  0.27  5.36           O 0
+ATOM   1977  OE1 GLN A 269     -22.024  -5.087  -4.409  0.67  3.21           O 0
+ATOM   1974   CG GLN A 269     -22.441  -7.050  -3.079  0.00  0.00           C 0
+ATOM   1946   CG ARG A 266     -20.539  -5.720  -9.293  0.00  0.00           C 0
+ATOM   1975   CD GLN A 269     -22.815  -5.750  -3.767  0.00  0.00           C 0
+ATOM   1944   CB ARG A 266     -20.548  -7.238  -9.089  0.00  0.00           C 0
+TER
+END

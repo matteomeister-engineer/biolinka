@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.0654
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9224
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5544
+HEADER 5  - Mean B-factor of pocket residues  : 0.2226
+HEADER 6  - Hydrophobicity Score              : 39.5556
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 332.9815
+HEADER 10 - Pocket volume (convex hull)       : 29.2898
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.8333
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   3070   CB TYR A 398       9.436 -15.259 -14.899  0.00  0.00           C 0
+ATOM   2518    N GLY A 326       6.301 -10.216 -17.171  0.62  1.09           N 0
+ATOM   2519   CA GLY A 326       7.568  -9.580 -17.584  0.00  0.00           C 0
+ATOM   3071    O TYR A 398       8.966 -17.502 -17.119  0.44  9.64           O 0
+ATOM   3068   CA TYR A 398       8.615 -16.555 -14.956  0.00  0.00           C 0
+ATOM   3063    O LEU A 397       6.801 -18.513 -14.159  0.67  2.14           O 0
+ATOM   2569   CE MET A 332       2.697 -17.698 -14.520  0.00  0.00           C 0
+ATOM   3073  CD1 TYR A 398       7.490 -13.784 -14.191  0.00  0.00           C 0
+ATOM   3072   CG TYR A 398       8.843 -14.152 -14.041  0.00  0.00           C 0
+ATOM   2514   CB PRO A 325       3.959 -12.433 -18.298  0.00  0.00           C 0
+ATOM   2513    C PRO A 325       5.182 -10.222 -17.912  0.00  0.00           C 0
+ATOM   2561  CG2 VAL A 331       1.387 -13.290 -13.773  0.00  0.00           C 0
+ATOM   3130   CB ALA A 405       3.063 -21.537 -16.486  0.00  0.00           C 0
+ATOM   3091    O LEU A 400       7.373 -21.824 -17.873  0.46  7.50           O 0
+ATOM   3103   CA PRO A 402       4.029 -23.391 -20.090  0.00  0.00           C 0
+ATOM   3107   CG PRO A 402       5.210 -22.752 -22.070  0.00  0.00           C 0
+ATOM   2515    O PRO A 325       5.070  -9.536 -18.925  0.00  0.00           O 0
+TER
+END

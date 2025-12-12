@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0068
+HEADER 1  - Drug Score                        : 0.0037
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8852
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6854
+HEADER 5  - Mean B-factor of pocket residues  : 0.8936
+HEADER 6  - Hydrophobicity Score              : -13.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 313.9248
+HEADER 10 - Pocket volume (convex hull)       : 17.5575
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM   2857    N GLU A 376      10.612  -1.382 -40.752  0.56  1.09           N 0
+ATOM   2858   CA GLU A 376      10.200  -2.791 -40.725  0.00  0.00           C 0
+ATOM   2855  CG2 THR A 375       8.505   1.833 -40.628  0.00  0.00           C 0
+ATOM   2860   CB GLU A 376      10.687  -3.464 -42.020  0.00  0.00           C 0
+ATOM   2826    O GLU A 372      11.820  -0.396 -43.158  0.42  2.14           O 0
+ATOM   2853   CB THR A 375       9.977   1.689 -41.013  0.00  0.00           C 0
+ATOM   2823   CA GLU A 372      12.206   1.319 -44.769  0.00  0.00           C 0
+ATOM   2802  CG2 THR A 369      14.914   3.691 -49.823  0.00  0.00           C 0
+ATOM   2803  OG1 THR A 369      14.042   3.205 -47.669  0.40  1.07           O 0
+ATOM   2469    O ASN A 326      14.627   7.409 -48.139  0.67  7.50           O 0
+ATOM   2829  OE1 GLU A 372      10.467   2.164 -49.315  0.00  0.00           O 0
+ATOM   2827   CG GLU A 372      11.198   1.930 -47.050  0.00  0.00           C 0
+ATOM   2825   CB GLU A 372      11.993   0.903 -46.226  0.00  0.00           C 0
+ATOM   2856  OG1 THR A 375      10.487   2.996 -41.189  0.76  7.50           O 0
+ATOM   2817   CD ARG A 371      12.663   7.350 -43.971  0.00  0.00           C 0
+ATOM   2816   CG ARG A 371      13.058   5.972 -43.438  0.00  0.00           C 0
+ATOM   2822    N GLU A 372      13.209   2.387 -44.702  0.00  0.00           N 0
+ATOM   2818   NE ARG A 371      11.525   7.865 -43.189  0.61  4.37           N 0
+TER
+END

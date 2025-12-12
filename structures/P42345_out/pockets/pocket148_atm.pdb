@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   148:
+HEADER 0  - Pocket Score                      : -0.1345
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0991
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5551
+HEADER 5  - Mean B-factor of pocket residues  : 0.7912
+HEADER 6  - Hydrophobicity Score              : -24.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.1080
+HEADER 10 - Pocket volume (convex hull)       : 7.0247
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM   8951  OD2 ASP A1140      31.712 -55.417  -6.485  0.36  5.36           O 0
+ATOM   8959   NE ARG A1141      27.635 -51.603  -8.184  0.51  3.28           N 0
+ATOM   8926   CG GLU A1137      28.756 -54.646  -1.370  0.00  0.00           C 0
+ATOM   8924   CB GLU A1137      29.015 -53.159  -1.652  0.00  0.00           C 0
+ATOM   9767  NH2 ARG A1238      30.552 -57.577  -7.759  0.33  5.47           N 0
+ATOM   8928  OE1 GLU A1137      26.926 -56.144  -1.142  0.00  0.00           O 0
+ATOM   8649  OE1 GLN A1101      26.828 -48.808  -4.336  0.44  7.50           O 0
+ATOM   8648  NE2 GLN A1101      27.771 -48.961  -2.384  0.68  9.84           N 0
+ATOM   8929  OE2 GLU A1137      26.683 -54.206  -0.176  0.00  0.00           O 0
+ATOM   8927   CD GLU A1137      27.337 -54.985  -0.902  0.00  0.00           C 0
+ATOM   8961  NH2 ARG A1141      25.878 -52.580  -9.278  0.43  9.84           N 0
+ATOM   8925    O GLU A1137      30.901 -51.432  -3.758  0.00  0.00           O 0
+ATOM   9768   CZ ARG A1238      30.229 -56.954  -8.853  0.00  0.00           C 0
+ATOM   9765   NE ARG A1238      29.345 -57.440  -9.715  0.43  3.28           N 0
+ATOM   9766  NH1 ARG A1238      30.839 -55.819  -9.024  0.54  4.37           N 0
+ATOM   8962   CZ ARG A1141      27.073 -52.054  -9.297  0.00  0.00           C 0
+ATOM   8957   CG ARG A1141      29.270 -50.444  -6.683  0.00  0.00           C 0
+TER
+END

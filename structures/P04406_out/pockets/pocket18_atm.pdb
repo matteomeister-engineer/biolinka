@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0235
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8939
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5299
+HEADER 5  - Mean B-factor of pocket residues  : 0.9978
+HEADER 6  - Hydrophobicity Score              : 60.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 125.5652
+HEADER 10 - Pocket volume (convex hull)       : 0.3554
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   2262   CB LEU A 303       5.942   2.724 -29.759  0.00  0.00           C 0
+ATOM   2250    O ILE A 301       4.979   6.033 -24.890  0.47  1.07           O 0
+ATOM   2252  CG2 ILE A 301       8.136   6.593 -24.564  0.00  0.00           C 0
+ATOM   2259    N LEU A 303       4.914   4.743 -28.830  0.65  3.28           N 0
+ATOM   2311    N LYS A 309       4.064   3.946 -23.255  0.00  0.00           N 0
+ATOM   1835  CG2 THR A 246       5.571  -1.007 -22.842  0.00  0.00           C 0
+ATOM   2306    C VAL A 308       3.205   3.029 -23.694  0.00  0.00           C 0
+ATOM   2301  CE1 PHE A 307       5.643  -1.311 -26.741  0.00  0.00           C 0
+ATOM   2299  CD1 PHE A 307       4.787  -0.549 -27.556  0.00  0.00           C 0
+ATOM   2314   CB LYS A 309       6.247   4.014 -22.190  0.00  0.00           C 0
+ATOM   2318   CE LYS A 309       9.064   2.773 -21.615  0.00  0.00           C 0
+ATOM   2297    O PHE A 307       2.992   2.812 -27.716  0.77  1.07           O 0
+TER
+END

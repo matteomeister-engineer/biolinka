@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0423
+HEADER 1  - Drug Score                        : 0.0064
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1138
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6728
+HEADER 5  - Mean B-factor of pocket residues  : 0.9666
+HEADER 6  - Hydrophobicity Score              : -14.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.8404
+HEADER 10 - Pocket volume (convex hull)       : 3.7904
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7000
+ATOM   1268   CB ARG A 159     -15.095  15.489  -9.296  0.00  0.00           C 0
+ATOM   1274  NH2 ARG A 159     -19.949  15.278  -8.537  0.00  0.00           N 0
+ATOM   1275   CZ ARG A 159     -18.894  15.051  -7.805  0.00  0.00           C 0
+ATOM   1279   CB SER A 160     -13.570  20.320 -10.469  0.00  0.00           C 0
+ATOM   1272   NE ARG A 159     -17.795  14.568  -8.355  0.00  0.00           N 0
+ATOM   1241   CG LYS A 156     -14.996  19.951  -5.323  0.00  0.00           C 0
+ATOM   1243   CE LYS A 156     -16.129  22.153  -5.283  0.00  0.00           C 0
+ATOM   1269    O ARG A 159     -14.353  16.598 -12.269  0.00  0.00           O 0
+ATOM   1273  NH1 ARG A 159     -18.972  15.297  -6.527  0.52  9.84           N 0
+ATOM   1240    O LYS A 156     -13.372  18.444  -7.668  0.00  0.00           O 0
+ATOM   1277   CA SER A 160     -13.524  19.108 -11.404  0.00  0.00           C 0
+ATOM   1237   CA LYS A 156     -13.902  17.674  -5.459  0.00  0.00           C 0
+ATOM   1276    N SER A 160     -13.446  17.849 -10.645  0.72  1.09           N 0
+ATOM   1267    C ARG A 159     -13.890  16.691 -11.134  0.00  0.00           C 0
+TER
+END

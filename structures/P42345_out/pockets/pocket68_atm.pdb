@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    68:
+HEADER 0  - Pocket Score                      : -0.0565
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8455
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5713
+HEADER 5  - Mean B-factor of pocket residues  : 0.7452
+HEADER 6  - Hydrophobicity Score              : 4.3333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.1329
+HEADER 10 - Pocket volume (convex hull)       : 11.0387
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM  10129  NH1 ARG A1285     -16.762 -21.613   1.996  0.00  0.00           N 0
+ATOM  10127   CD ARG A1285     -15.828 -19.681  -0.014  0.00  0.00           C 0
+ATOM  10333  ND2 ASN A1311     -12.946 -18.081   1.938  0.62  5.47           N 0
+ATOM  10128   NE ARG A1285     -15.049 -20.647   0.774  0.00  0.00           N 0
+ATOM  10098  OE2 GLU A1282     -19.043 -20.317   1.019  0.53  4.29           O 0
+ATOM   1397   CZ PHE A 182     -21.138 -20.944   4.095  0.00  0.00           C 0
+ATOM   1031    O GLY A 137     -15.330 -18.233   8.590  0.00  0.00           O 0
+ATOM   1036    O ASP A 138     -15.593 -21.464   7.804  0.50  4.29           O 0
+ATOM   1396  CE2 PHE A 182     -21.750 -20.451   5.257  0.00  0.00           C 0
+ATOM   1065    N ALA A 142     -19.038 -24.195   5.892  0.00  0.00           N 0
+ATOM   1063  CG2 THR A 141     -19.987 -22.209   9.087  0.00  0.00           C 0
+ATOM   1029   CA GLY A 137     -16.445 -18.071  10.701  0.00  0.00           C 0
+ATOM   1061   CB THR A 141     -18.583 -22.432   8.528  0.00  0.00           C 0
+ATOM   1064  OG1 THR A 141     -17.672 -21.975   9.499  0.67  2.14           O 0
+ATOM   1041   CA THR A 139     -13.824 -21.817   5.591  0.00  0.00           C 0
+ATOM  10131   CZ ARG A1285     -15.510 -21.528   1.641  0.00  0.00           C 0
+ATOM   1045  CG2 THR A 139     -12.209 -20.635   4.038  0.00  0.00           C 0
+ATOM   1040    N THR A 139     -13.540 -21.249   6.924  0.29  2.19           N 0
+TER
+END

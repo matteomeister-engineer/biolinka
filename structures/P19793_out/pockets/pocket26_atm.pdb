@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0598
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0048
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5679
+HEADER 5  - Mean B-factor of pocket residues  : 0.7153
+HEADER 6  - Hydrophobicity Score              : -2.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 353.6606
+HEADER 10 - Pocket volume (convex hull)       : 23.8315
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   1693   CA ALA A 226     -19.948  -2.471 -18.295  0.00  0.00           C 0
+ATOM   1664   CD GLU A 221     -16.996  -5.354 -23.449  0.00  0.00           C 0
+ATOM   1665  OE1 GLU A 221     -17.462  -6.306 -22.786  0.00  6.43           O 0
+ATOM   1663   CG GLU A 221     -17.992  -4.257 -23.857  0.00  0.00           C 0
+ATOM   1721  OD2 ASP A 229     -15.313  -6.121 -17.386  0.23  8.57           O 0
+ATOM   1690    O SER A 225     -20.995  -5.026 -18.656  0.61  2.14           O 0
+ATOM   1695   CB ALA A 226     -19.658  -0.978 -18.494  0.00  0.00           C 0
+ATOM   1666  OE2 GLU A 221     -15.806  -5.248 -23.820  0.27  8.57           O 0
+ATOM   3031   CB ALA A 398     -17.773   2.258 -14.887  0.00  0.00           C 0
+ATOM   3001   CA LYS A 395     -14.696  -0.811 -13.686  0.00  0.00           C 0
+ATOM   1696    O ALA A 226     -19.576  -2.943 -15.964  0.57  1.07           O 0
+ATOM   3005   CG LYS A 395     -13.957  -2.780 -15.212  0.00  0.00           C 0
+ATOM   3000    N LYS A 395     -13.401  -0.105 -13.718  0.00  0.00           N 0
+ATOM   2971    O ALA A 391     -10.912  -1.485 -14.527  0.61  2.14           O 0
+ATOM   2970   CB ALA A 391      -8.372  -2.439 -16.506  0.00  0.00           C 0
+ATOM   2999  OE2 GLU A 394      -9.790   2.459 -17.187  0.67  6.43           O 0
+ATOM   2994   CB GLU A 394     -11.244   2.008 -14.879  0.00  0.00           C 0
+ATOM   3007   CE LYS A 395     -12.953  -4.795 -16.415  0.00  0.00           C 0
+ATOM   2995    O GLU A 394     -14.301   1.954 -13.592  0.00  0.00           O 0
+TER
+END

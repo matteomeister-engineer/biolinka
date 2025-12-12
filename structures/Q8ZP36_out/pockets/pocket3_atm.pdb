@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1021
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.4855
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4137
+HEADER 5  - Mean B-factor of pocket residues  : 0.9806
+HEADER 6  - Hydrophobicity Score              : 13.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 58.3133
+HEADER 10 - Pocket volume (convex hull)       : 0.1322
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.9091
+ATOM   2344   CD ARG A 305       0.446   5.610  -8.528  0.00  0.00           C 0
+ATOM   2341   CB ARG A 305      -1.504   7.134  -9.055  0.00  0.00           C 0
+ATOM   2321   CA ALA A 302      -4.942   5.055  -7.072  0.00  0.00           C 0
+ATOM   2077   CZ PHE A 270      -3.394   4.785  -2.888  0.00  0.00           C 0
+ATOM   2075  CE1 PHE A 270      -2.051   4.735  -2.478  0.00  0.00           C 0
+ATOM   2073  CD1 PHE A 270      -1.376   5.921  -2.137  0.00  0.00           C 0
+ATOM   2346  NH1 ARG A 305       2.792   6.433  -7.032  0.00  0.00           N 0
+ATOM   2781   OG SER A 366       1.138   9.746  -4.990  0.00  0.00           O 0
+ATOM   2319    O GLY A 301      -4.544   7.796  -6.973  0.64  1.07           O 0
+ATOM   2076  CE2 PHE A 270      -4.058   6.022  -2.958  0.00  0.00           C 0
+ATOM   1342   CG ASN A 175      -0.230   2.671  -5.543  0.00  0.00           C 0
+ATOM   1344  OD1 ASN A 175       0.109   3.104  -4.458  0.69  1.07           O 0
+ATOM   2761   CA GLY A 363      -2.766  10.228  -5.978  0.00  0.00           C 0
+ATOM   2072   CG PHE A 270      -2.045   7.161  -2.201  0.00  0.00           C 0
+ATOM   2074  CD2 PHE A 270      -3.389   7.208  -2.611  0.00  0.00           C 0
+TER
+END

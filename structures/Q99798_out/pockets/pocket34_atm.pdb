@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : 0.0272
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7194
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4763
+HEADER 5  - Mean B-factor of pocket residues  : 0.9877
+HEADER 6  - Hydrophobicity Score              : 12.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 82.7031
+HEADER 10 - Pocket volume (convex hull)       : 0.4024
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM    271    N HIS A  36     -14.229  12.276 -22.723  0.00  0.00           N 0
+ATOM    267    C SER A  35     -14.915  13.021 -21.850  0.00  0.00           C 0
+ATOM    279  CE1 HIS A  36     -11.387  13.680 -26.059  0.00  0.00           C 0
+ATOM    278  ND1 HIS A  36     -12.609  13.121 -26.011  0.00  0.00           N 0
+ATOM   2382  OD2 ASP A 314     -12.733  19.467 -24.739  0.29  8.57           O 0
+ATOM   2360   CG ARG A 312      -8.730  14.735 -22.490  0.00  0.00           C 0
+ATOM    280  NE2 HIS A  36     -10.533  12.984 -25.296  0.00  0.00           N 0
+ATOM    266   CA SER A  35     -14.272  13.258 -20.476  0.00  0.00           C 0
+ATOM   2381  OD1 ASP A 314     -10.612  19.028 -24.254  0.00  0.00           O 0
+ATOM    256    O ALA A  33     -14.648  17.603 -20.202  0.42  1.07           O 0
+ATOM   2390  CD1 ILE A 315     -10.920  17.210 -19.876  0.00  0.00           C 0
+ATOM    255   CB ALA A  33     -17.168  16.864 -22.159  0.00  0.00           C 0
+ATOM    269    O SER A  35     -16.053  13.426 -22.098  0.86  2.14           O 0
+TER
+END

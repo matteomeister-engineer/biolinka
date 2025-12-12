@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0759
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0246
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5336
+HEADER 5  - Mean B-factor of pocket residues  : 0.9889
+HEADER 6  - Hydrophobicity Score              : -13.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 166.6970
+HEADER 10 - Pocket volume (convex hull)       : 1.5341
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   2685    N PRO A 343      -6.715  18.324  25.405  0.00  0.00           N 0
+ATOM   2382  OD1 ASN A 308      -0.941  14.279  28.560  0.00  0.00           O 0
+ATOM   2691   CD PRO A 343      -7.263  18.751  26.685  0.00  0.00           C 0
+ATOM   2690   CG PRO A 343      -8.398  17.774  26.978  0.00  0.00           C 0
+ATOM   2668    O TRP A 341      -2.053  19.846  26.979  0.64  8.57           O 0
+ATOM   2679   CA THR A 342      -4.575  19.567  25.647  0.00  0.00           C 0
+ATOM   2680    C THR A 342      -5.476  18.551  24.934  0.00  0.00           C 0
+ATOM   2659    O LYS A 340      -0.735  16.592  25.647  0.50  2.14           O 0
+ATOM   2658   CB LYS A 340      -2.412  14.837  23.986  0.00  0.00           C 0
+ATOM   2682    O THR A 342      -5.077  18.009  23.898  0.80  1.07           O 0
+ATOM   2371    O ASP A 307      -2.891  11.274  26.842  0.38  4.29           O 0
+ATOM   2686   CA PRO A 343      -7.657  17.434  24.722  0.00  0.00           C 0
+ATOM   2982   CB ASP A 380      -8.218  13.384  23.835  0.00  0.00           C 0
+ATOM   2661   CD LYS A 340      -3.629  12.623  23.651  0.00  0.00           C 0
+ATOM   2986  OD2 ASP A 380      -8.804  11.745  25.453  0.31  7.50           O 0
+TER
+END

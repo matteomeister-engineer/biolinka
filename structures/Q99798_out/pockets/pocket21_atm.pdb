@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0916
+HEADER 1  - Drug Score                        : 0.0058
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6891
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4299
+HEADER 5  - Mean B-factor of pocket residues  : 0.9432
+HEADER 6  - Hydrophobicity Score              : 37.7143
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 77.0748
+HEADER 10 - Pocket volume (convex hull)       : 0.3036
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   5970   CE MET A 775     -26.616   5.358   0.838  0.00  0.00           C 0
+ATOM   5939   CB LEU A 772     -26.430   0.132   3.725  0.00  0.00           C 0
+ATOM   5937   CA LEU A 772     -26.952   1.448   4.329  0.00  0.00           C 0
+ATOM   5942  CD1 LEU A 772     -27.499   0.444   1.425  0.00  0.00           C 0
+ATOM   1649  CG1 VAL A 214     -24.558   3.112  -1.778  0.00  0.00           C 0
+ATOM   1630    O ALA A 211     -21.060   4.466   0.683  0.00  0.00           O 0
+ATOM   5934   CB ALA A 771     -23.769   4.038   6.428  0.00  0.00           C 0
+ATOM   1657  OD1 ASP A 215     -23.280   6.863   2.011  0.53  2.14           O 0
+ATOM   5936    N LEU A 772     -25.991   1.918   5.329  0.00  0.00           N 0
+ATOM   1629   CB ALA A 211     -20.211   1.917   2.595  0.00  0.00           C 0
+ATOM    884  OE1 GLN A 109     -22.033  -1.147   1.960  0.53  1.07           O 0
+ATOM   1627   CA ALA A 211     -20.145   2.284   1.110  0.00  0.00           C 0
+ATOM   1647   CB VAL A 214     -23.026   3.152  -1.893  0.00  0.00           C 0
+TER
+END

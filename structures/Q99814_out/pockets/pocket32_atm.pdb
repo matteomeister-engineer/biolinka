@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0824
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9500
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6042
+HEADER 5  - Mean B-factor of pocket residues  : 0.0811
+HEADER 6  - Hydrophobicity Score              : 18.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 275.9519
+HEADER 10 - Pocket volume (convex hull)       : 6.1664
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   5800   CB ARG A 744       3.496 -47.052  10.757  0.00  0.00           C 0
+ATOM   5804   NE ARG A 744       1.562 -47.774  13.235  0.52  6.56           N 0
+ATOM   5807   CZ ARG A 744       0.890 -47.262  14.257  0.00  0.00           C 0
+ATOM   5806  NH2 ARG A 744      -0.412 -47.196  14.221  0.00  0.00           N 0
+ATOM   5802   CG ARG A 744       3.727 -46.912  12.282  0.00  0.00           C 0
+ATOM   5787  ND2 ASN A 742      -2.582 -47.983   7.371  0.78  8.75           N 0
+ATOM   5784   CB ASN A 742      -0.811 -48.921   5.998  0.00  0.00           C 0
+ATOM   5794   CG LEU A 743       4.019 -50.739   7.565  0.00  0.00           C 0
+ATOM   5796  CD2 LEU A 743       4.583 -50.967   8.967  0.00  0.00           C 0
+ATOM   5786   CG ASN A 742      -1.814 -47.830   6.318  0.00  0.00           C 0
+ATOM   5797    N ARG A 744       4.026 -45.993   8.505  0.39  5.47           N 0
+ATOM   5788  OD1 ASN A 742      -1.953 -46.845   5.626  0.00  0.00           O 0
+ATOM   5789    N LEU A 743       2.376 -48.010   6.286  0.48  2.19           N 0
+ATOM   5790   CA LEU A 743       3.409 -48.204   7.362  0.00  0.00           C 0
+ATOM   5785    O ASN A 742       1.900 -50.119   5.614  0.55  2.14           O 0
+TER
+END

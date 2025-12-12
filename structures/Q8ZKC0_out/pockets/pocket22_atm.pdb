@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0867
+HEADER 1  - Drug Score                        : 0.0190
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0136
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5885
+HEADER 5  - Mean B-factor of pocket residues  : 0.8652
+HEADER 6  - Hydrophobicity Score              : 73.8333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.5917
+HEADER 10 - Pocket volume (convex hull)       : 10.6710
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8889
+ATOM    347  CD2 LEU A  47       1.824  22.005  -4.976  0.00  0.00           C 0
+ATOM    309  CE3 TRP A  43       9.419  23.467  -3.395  0.00  0.00           C 0
+ATOM    346  CD1 LEU A  47       1.365  22.553  -2.606  0.00  0.00           C 0
+ATOM    343   CB LEU A  47       3.104  20.788  -3.215  0.00  0.00           C 0
+ATOM    304    O TRP A  43       6.286  20.183  -4.167  0.62  1.07           O 0
+ATOM    340    N LEU A  47       4.476  19.580  -1.605  0.00  0.00           N 0
+ATOM    303   CB TRP A  43       8.260  21.843  -6.097  0.00  0.00           C 0
+ATOM   1398  CD1 LEU A 186       3.801  20.862  -8.519  0.00  0.00           C 0
+ATOM   1399  CD2 LEU A 186       2.433  22.935  -8.608  0.00  0.00           C 0
+ATOM    336   CB PRO A  46       7.322  19.538  -0.244  0.00  0.00           C 0
+ATOM    371  CD1 ILE A  50       3.358  22.286   2.163  0.00  0.00           C 0
+ATOM    341   CA LEU A  47       3.148  20.151  -1.818  0.00  0.00           C 0
+ATOM    313  CZ3 TRP A  43      10.085  24.233  -2.419  0.00  0.00           C 0
+ATOM   1356  CD1 ILE A 181       7.796  25.701  -8.505  0.00  0.00           C 0
+ATOM    307  CD2 TRP A  43       9.881  23.435  -4.730  0.00  0.00           C 0
+ATOM    305   CG TRP A  43       9.433  22.755  -5.939  0.00  0.00           C 0
+TER
+END

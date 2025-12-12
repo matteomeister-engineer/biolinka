@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0057
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8056
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6219
+HEADER 5  - Mean B-factor of pocket residues  : 0.1030
+HEADER 6  - Hydrophobicity Score              : 50.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 267.1802
+HEADER 10 - Pocket volume (convex hull)       : 9.6340
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   5721  CD2 LEU A 735     -18.914 -55.516  -6.493  0.00  0.00           C 0
+ATOM   5722    N MET A 736     -17.830 -52.433  -4.541  0.00  0.00           N 0
+ATOM   5727   CG MET A 736     -17.062 -52.691  -1.634  0.00  0.00           C 0
+ATOM   5725   CB MET A 736     -16.090 -52.552  -2.809  0.00  0.00           C 0
+ATOM   5712  CE1 HIS A 734     -20.676 -55.188  -1.749  0.00  0.00           C 0
+ATOM   5728   SD MET A 736     -16.539 -53.948  -0.424  0.00  0.00           S 0
+ATOM   5740  NE1 TRP A 737     -13.043 -55.871  -6.294  0.67  5.47           N 0
+ATOM   5747   CB LYS A 738     -10.782 -51.151  -1.418  0.00  0.00           C 0
+ATOM   5729   CE MET A 736     -14.957 -53.288   0.151  0.00  0.00           C 0
+ATOM   5748    O LYS A 738      -8.562 -52.653  -2.650  0.60  4.29           O 0
+ATOM   5750   CD LYS A 738     -10.986 -51.303   1.065  0.00  0.00           C 0
+ATOM   5736  CD1 TRP A 737     -13.075 -54.625  -5.707  0.00  0.00           C 0
+ATOM   5731   CA TRP A 737     -13.001 -51.669  -4.971  0.00  0.00           C 0
+ATOM   5726    O MET A 736     -15.457 -52.923  -5.828  0.74  2.14           O 0
+ATOM   5744    N LYS A 738     -10.872 -51.320  -3.819  0.79  2.19           N 0
+TER
+END

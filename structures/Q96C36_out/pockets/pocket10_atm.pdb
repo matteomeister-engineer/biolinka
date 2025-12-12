@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0418
+HEADER 1  - Drug Score                        : 0.0198
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8084
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5161
+HEADER 5  - Mean B-factor of pocket residues  : 0.9498
+HEADER 6  - Hydrophobicity Score              : 75.6667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.7367
+HEADER 10 - Pocket volume (convex hull)       : 7.5150
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM    161    O ILE A  24      -3.607  13.468  13.070  0.00  0.00           O 0
+ATOM      8   CE MET A   1      -8.804  11.517  12.732  0.00  0.00           C 0
+ATOM    172  CD2 LEU A  25      -5.272  10.527  14.348  0.00  0.00           C 0
+ATOM      4   CB MET A   1      -9.762  11.899  15.956  0.00  0.00           C 0
+ATOM      5    O MET A   1      -7.490  10.551  17.452  0.28  3.21           O 0
+ATOM      1    N MET A   1      -9.425  12.472  18.334  0.00  0.00           N 0
+ATOM   1119    N LEU A 152      -9.295  13.137   6.522  0.00  0.00           N 0
+ATOM   1091  CD1 LEU A 148     -12.458  14.040  11.335  0.00  0.00           C 0
+ATOM   1122   CB LEU A 152      -9.099  11.126   7.879  0.00  0.00           C 0
+ATOM   1120   CA LEU A 152      -8.359  12.097   6.940  0.00  0.00           C 0
+ATOM   1089    O LEU A 148     -11.964  12.942   7.945  0.00  0.00           O 0
+ATOM   1113   CB GLN A 151     -10.368  16.069   6.686  0.00  0.00           C 0
+ATOM    162  CG1 ILE A  24      -4.677  14.440  10.027  0.00  0.00           C 0
+ATOM   1112    C GLN A 151      -8.915  14.224   5.844  0.00  0.00           C 0
+ATOM    164  CD1 ILE A  24      -4.580  15.971   9.993  0.00  0.00           C 0
+ATOM   1118  OE1 GLN A 151     -11.181  17.894   8.687  0.69  8.57           O 0
+ATOM   1125  CD1 LEU A 152      -7.033  10.422   9.201  0.00  0.00           C 0
+TER
+END

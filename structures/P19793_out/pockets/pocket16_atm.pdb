@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0053
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8215
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6671
+HEADER 5  - Mean B-factor of pocket residues  : 0.9431
+HEADER 6  - Hydrophobicity Score              : 29.3333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.3289
+HEADER 10 - Pocket volume (convex hull)       : 10.2619
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   2400  CE1 HIS A 315     -22.261   1.477   6.443  0.00  0.00           C 0
+ATOM   2425  CG2 ILE A 318     -23.690   6.130  10.456  0.00  0.00           C 0
+ATOM   2426  CD1 ILE A 318     -21.738   5.168   8.279  0.00  0.00           C 0
+ATOM   2753    O MET A 362     -23.878   4.321   4.480  0.00  0.00           O 0
+ATOM   2422   CB ILE A 318     -22.388   5.357  10.744  0.00  0.00           C 0
+ATOM   2396    O HIS A 315     -20.674   2.646  10.166  0.00  0.00           O 0
+ATOM   2427    N ALA A 319     -23.436   4.935  13.806  0.00  0.00           N 0
+ATOM   2430   CB ALA A 319     -25.333   3.817  14.823  0.00  0.00           C 0
+ATOM   2401  NE2 HIS A 315     -22.041   2.598   5.741  0.00  0.00           N 0
+ATOM   2406    O ARG A 316     -20.944   1.056  13.448  0.31  3.21           O 0
+ATOM   2407   CG ARG A 316     -19.387  -1.792  12.805  0.00  0.00           C 0
+ATOM   1830  OE1 GLU A 243     -22.822  -4.323   9.735  0.00  0.00           O 0
+ATOM   1854  OG1 THR A 246     -21.993  -5.236  15.779  0.63  5.36           O 0
+ATOM   2475  CD2 LEU A 325     -20.628  -1.831  17.139  0.00  0.00           C 0
+ATOM   2403   CA ARG A 316     -19.691   0.401  11.511  0.00  0.00           C 0
+ATOM   2772   CE LYS A 364     -22.783  -1.909   6.857  0.00  0.00           C 0
+ATOM   2773   NZ LYS A 364     -22.077  -3.002   7.546  0.55  5.47           N 0
+ATOM   2399  ND1 HIS A 315     -21.161   1.121   7.127  0.47  1.09           N 0
+TER
+END

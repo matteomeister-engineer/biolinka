@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.1424
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1794
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5124
+HEADER 5  - Mean B-factor of pocket residues  : 0.7515
+HEADER 6  - Hydrophobicity Score              : 37.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.9490
+HEADER 10 - Pocket volume (convex hull)       : 1.4372
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   3043   CB ALA A 400      19.230   4.155 -18.412  0.00  0.00           C 0
+ATOM   3042    C ALA A 400      19.415   4.638 -15.915  0.00  0.00           C 0
+ATOM   1208  CE1 PHE A 156      17.171  -4.259 -15.814  0.00  0.00           C 0
+ATOM   3051  OG1 THR A 401      22.851   2.512 -15.315  0.67  7.50           O 0
+ATOM   3049    O THR A 401      20.120   4.413 -12.193  0.79  1.07           O 0
+ATOM   1847   CB ALA A 242      21.887  -2.665 -12.281  0.00  0.00           C 0
+ATOM   3070   CB ALA A 404      16.815   2.802 -12.734  0.00  0.00           C 0
+ATOM   3050  CG2 THR A 401      23.039   2.787 -12.993  0.00  0.00           C 0
+ATOM   1888  NE2 GLN A 247      21.057  -0.832  -9.075  0.94  3.28           N 0
+ATOM   1887   CD GLN A 247      21.040   0.398  -8.608  0.00  0.00           C 0
+ATOM   3046   CA THR A 401      21.094   3.813 -14.292  0.00  0.00           C 0
+ATOM   1210   CZ PHE A 156      16.997  -4.305 -14.420  0.00  0.00           C 0
+ATOM   3044    O ALA A 400      18.481   4.506 -15.121  0.81  4.29           O 0
+ATOM   3045    N THR A 401      20.683   4.353 -15.598  0.00  0.00           N 0
+TER
+END

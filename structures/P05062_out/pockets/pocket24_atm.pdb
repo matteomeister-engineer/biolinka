@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0496
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.2924
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5122
+HEADER 5  - Mean B-factor of pocket residues  : 0.9867
+HEADER 6  - Hydrophobicity Score              : 20.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 305.7661
+HEADER 10 - Pocket volume (convex hull)       : 5.5515
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1304
+ATOM   1068   OH TYR A 138     -10.780  -8.917   2.296  0.65  8.57           O 0
+ATOM    633  ND1 HIS A  81     -11.076 -10.222   4.761  0.00  0.00           N 0
+ATOM    877  NE2 GLN A 111      -6.868 -14.350  -2.070  0.00  0.00           N 0
+ATOM    631   CG HIS A  81     -10.027 -10.355   5.638  0.00  0.00           C 0
+ATOM    875   CG GLN A 111      -4.869 -12.938  -2.194  0.00  0.00           C 0
+ATOM    849    O LYS A 108      -6.538  -6.552   1.055  0.43  6.43           O 0
+ATOM    866    O ASP A 110      -3.198  -9.524  -0.828  0.51  3.21           O 0
+ATOM    858    O LEU A 109      -5.904  -8.801  -2.820  0.00  0.00           O 0
+ATOM   1036  NH2 ARG A 134      -8.390  -9.620  -3.402  0.00  0.00           N 0
+ATOM   1037   CZ ARG A 134      -9.005 -10.720  -3.125  0.00  0.00           C 0
+ATOM   1035  NH1 ARG A 134      -8.305 -11.809  -3.078  0.70  1.09           N 0
+ATOM   1033   CD ARG A 134     -11.181 -11.747  -2.413  0.00  0.00           C 0
+ATOM    634  CE1 HIS A  81     -12.035 -11.093   5.106  0.00  0.00           C 0
+ATOM   1032   CG ARG A 134     -12.659 -11.309  -2.340  0.00  0.00           C 0
+ATOM   1034   NE ARG A 134     -10.295 -10.674  -2.897  0.00  0.00           N 0
+ATOM    629   CB HIS A  81      -8.731  -9.584   5.598  0.00  0.00           C 0
+ATOM    624  CE2 PHE A  80      -3.987  -9.648   5.292  0.00  0.00           C 0
+TER
+END

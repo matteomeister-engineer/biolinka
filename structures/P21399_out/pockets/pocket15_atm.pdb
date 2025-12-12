@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : 0.0794
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9002
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6518
+HEADER 5  - Mean B-factor of pocket residues  : 0.8082
+HEADER 6  - Hydrophobicity Score              : 9.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.3371
+HEADER 10 - Pocket volume (convex hull)       : 7.1536
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   4072  OD1 ASP A 525      23.125  21.170   2.776  0.00  0.00           O 0
+ATOM   4051  CG2 THR A 522      27.887  15.852   5.400  0.00  0.00           C 0
+ATOM   4047   CA THR A 522      27.622  16.399   2.925  0.00  0.00           C 0
+ATOM   4050    O THR A 522      28.074  18.657   3.555  0.00  0.00           O 0
+ATOM   4236   CG ARG A 547      18.361  16.970   1.438  0.00  0.00           C 0
+ATOM   4237   CD ARG A 547      18.798  18.367   1.907  0.00  0.00           C 0
+ATOM   4213    O PRO A 544      19.626  12.015   3.580  0.38  7.50           O 0
+ATOM   4044  CG2 ILE A 521      24.599  15.009  -0.215  0.00  0.00           C 0
+ATOM   4238   NE ARG A 547      19.828  18.961   1.037  0.00  0.00           N 0
+ATOM   4217   CA ASN A 545      21.395  11.556   1.463  0.00  0.00           C 0
+ATOM   4220    O ASN A 545      21.313  12.944  -0.474  0.74  1.07           O 0
+ATOM   4222  ND2 ASN A 545      24.182  11.463   3.066  0.59  2.19           N 0
+ATOM   4042    O ILE A 521      26.483  17.492   0.594  0.00  0.00           O 0
+ATOM   4067   CA ASP A 525      25.577  20.781   1.437  0.00  0.00           C 0
+ATOM   4241   CZ ARG A 547      20.504  20.077   1.257  0.00  0.00           C 0
+ATOM   4239  NH1 ARG A 547      20.302  20.899   2.238  0.65  3.28           N 0
+ATOM   4078    O LEU A 526      22.498  18.168  -1.058  0.00  0.00           O 0
+TER
+END

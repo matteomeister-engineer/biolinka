@@ -1,0 +1,71 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   104:
+HEADER 0  - Pocket Score                      : -0.1128
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    69
+HEADER 3  - Mean alpha-sphere radius          : 4.0704
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5909
+HEADER 5  - Mean B-factor of pocket residues  : 0.6588
+HEADER 6  - Hydrophobicity Score              : 6.0000
+HEADER 7  - Polarity Score                    :    12
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 790.0129
+HEADER 10 - Pocket volume (convex hull)       : 116.5934
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.3077
+HEADER 13 - Number of apolar alpha sphere     :    26
+HEADER 14 - Proportion of apolar alpha sphere : 0.3768
+ATOM   8399  CD1 TYR A1091      -1.296   4.045  28.289  0.00  0.00           C 0
+ATOM   8032  OE2 GLU A1046      -3.225   5.094  25.425  0.00  0.00           O 0
+ATOM   8401  CE1 TYR A1091      -1.329   5.107  29.217  0.00  0.00           C 0
+ATOM   7847   CA ASN A1022       1.047   6.055  23.024  0.00  0.00           C 0
+ATOM   7850    O ASN A1022       2.669   7.401  24.199  0.09  7.50           O 0
+ATOM   8585    O VAL A1117       5.859  -4.627  28.072  0.00  0.00           O 0
+ATOM   8599   CG LYS A1119      10.114  -4.702  31.997  0.00  0.00           C 0
+ATOM   8580    O ALA A1116       8.197  -7.533  29.115  0.00  0.00           O 0
+ATOM   8600   CD LYS A1119      11.594  -4.599  31.609  0.00  0.00           C 0
+ATOM   8621  NE2 HIS A1121       3.325   2.861  31.505  0.00  0.00           N 0
+ATOM   8606   CB GLU A1120       7.236   1.332  32.684  0.00  0.00           C 0
+ATOM   8618  CD2 HIS A1121       2.953   1.535  31.729  0.00  0.00           C 0
+ATOM   8611  OE2 GLU A1120       8.008   3.377  30.952  0.00  0.00           O 0
+ATOM   8593   OG SER A1118       3.651  -2.194  31.647  0.60  2.14           O 0
+ATOM   8589   CA SER A1118       5.109  -3.841  30.651  0.00  0.00           C 0
+ATOM   8591   CB SER A1118       3.669  -3.366  30.865  0.00  0.00           C 0
+ATOM   8006   CA ASP A1043      -3.983   9.153  29.333  0.00  0.00           C 0
+ATOM   7842    O ASN A1021      -0.761   8.229  22.987  0.41  4.29           O 0
+ATOM   8003  CG2 ILE A1042      -4.612   9.269  24.778  0.00  0.00           C 0
+ATOM   8404   CZ TYR A1091      -0.776   4.932  30.506  0.00  0.00           C 0
+ATOM   8400  CD2 TYR A1091      -0.153   2.647  29.929  0.00  0.00           C 0
+ATOM   8398   CG TYR A1091      -0.707   2.815  28.646  0.00  0.00           C 0
+ATOM   8608   CG GLU A1120       8.659   1.363  32.099  0.00  0.00           C 0
+ATOM   8594    N LYS A1119       7.243  -3.527  31.796  0.51  2.19           N 0
+ATOM   8609   CD GLU A1120       8.927   2.558  31.168  0.00  0.00           C 0
+ATOM   8610  OE1 GLU A1120      10.086   2.648  30.703  0.00  0.00           O 0
+ATOM   7906  NH1 ARG A1029       5.554  11.345  29.880  0.42  9.84           N 0
+ATOM   8620  CE1 HIS A1121       3.387   3.456  32.701  0.00  0.00           C 0
+ATOM   7907  NH2 ARG A1029       4.095  11.691  31.523  0.00  0.00           N 0
+ATOM   8403   OH TYR A1091      -0.774   5.930  31.430  0.42  9.64           O 0
+ATOM   8391    O SER A1090      -0.523  -0.975  29.502  0.52  3.21           O 0
+ATOM   8397    O TYR A1091      -0.737  -0.544  25.925  0.00  0.00           O 0
+ATOM   7853  OD1 ASN A1022       0.023   3.431  23.584  0.00  0.00           O 0
+ATOM   5960  OD1 ASN A 786       8.122  -2.001  23.385  0.00  7.50           O 0
+ATOM   8402  CE2 TYR A1091      -0.200   3.695  30.861  0.00  0.00           C 0
+ATOM   8603    N GLU A1120       7.261  -1.085  33.157  0.00  0.00           N 0
+ATOM   8597   CB LYS A1119       9.611  -3.337  32.487  0.00  0.00           C 0
+ATOM   8396   CB TYR A1091      -0.636   1.673  27.652  0.00  0.00           C 0
+ATOM   7870   CB MET A1025       1.846  11.555  27.820  0.00  0.00           C 0
+ATOM   8011  OD1 ASP A1043      -1.455   8.324  30.794  0.43  3.21           O 0
+ATOM   7851   CG ASN A1022       1.021   3.478  22.884  0.00  0.00           C 0
+ATOM   7849   CB ASN A1022       1.782   4.764  22.606  0.00  0.00           C 0
+ATOM   7852  ND2 ASN A1022       1.495   2.364  22.373  0.59  7.66           N 0
+ATOM   7872   CG MET A1025       0.430  11.512  28.405  0.00  0.00           C 0
+ATOM   7865   CB ALA A1024      -1.034  11.430  23.416  0.00  0.00           C 0
+ATOM   7980    O PRO A1039      -3.385  12.413  27.532  0.00  0.00           O 0
+ATOM   7867    N MET A1025       1.338  11.878  25.437  0.00  0.00           N 0
+ATOM   8005    N ASP A1043      -4.650   9.890  28.256  0.00  0.00           N 0
+ATOM   8008   CB ASP A1043      -2.868  10.040  29.897  0.00  0.00           C 0
+TER
+END

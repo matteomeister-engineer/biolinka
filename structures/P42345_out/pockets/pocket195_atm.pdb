@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   195:
+HEADER 0  - Pocket Score                      : -0.2167
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.3019
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6193
+HEADER 5  - Mean B-factor of pocket residues  : 0.4988
+HEADER 6  - Hydrophobicity Score              : 51.7143
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 270.2231
+HEADER 10 - Pocket volume (convex hull)       : 8.2884
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   3759    O MET A 476     -50.469 -17.522  47.507  0.62  3.21           O 0
+ATOM   3695  CE2 PHE A 468     -55.302 -15.649  52.266  0.00  0.00           C 0
+ATOM   3691   CG PHE A 468     -54.418 -14.703  54.333  0.00  0.00           C 0
+ATOM   3658   CB PRO A 464     -54.074 -12.754  49.882  0.00  0.00           C 0
+ATOM   3693  CD2 PHE A 468     -55.038 -14.533  53.081  0.00  0.00           C 0
+ATOM   3692  CD1 PHE A 468     -54.084 -15.999  54.774  0.00  0.00           C 0
+ATOM   3696   CZ PHE A 468     -54.972 -16.941  52.710  0.00  0.00           C 0
+ATOM   3758   CB MET A 476     -52.811 -18.974  48.476  0.00  0.00           C 0
+ATOM   3694  CE1 PHE A 468     -54.365 -17.118  53.966  0.00  0.00           C 0
+ATOM   4016    O ALA A 510     -49.788  -9.296  51.304  0.00  0.00           O 0
+ATOM   3689   CB PHE A 468     -54.168 -13.504  55.232  0.00  0.00           C 0
+ATOM   4018   CA VAL A 511     -48.863  -9.894  48.726  0.00  0.00           C 0
+ATOM   4021    O VAL A 511     -46.658 -10.660  49.314  0.00  0.00           O 0
+ATOM   3660   CG PRO A 464     -53.131 -11.839  49.101  0.00  0.00           C 0
+ATOM   4022  CG1 VAL A 511     -48.092 -11.336  46.732  0.00  0.00           C 0
+ATOM   3778  CG2 VAL A 478     -51.100 -14.381  45.373  0.00  0.00           C 0
+ATOM   4023  CG2 VAL A 511     -50.386 -10.468  46.777  0.00  0.00           C 0
+ATOM   3755    N MET A 476     -50.816 -19.722  49.659  0.60  5.47           N 0
+ATOM   3751   CA ALA A 475     -49.330 -20.564  51.399  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    58:
+HEADER 0  - Pocket Score                      : -0.0452
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7536
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5341
+HEADER 5  - Mean B-factor of pocket residues  : 0.8370
+HEADER 6  - Hydrophobicity Score              : 32.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.4815
+HEADER 10 - Pocket volume (convex hull)       : 5.7674
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM   9726   NE ARG A1270      -1.841 -18.103   3.259  0.45  1.09           N 0
+ATOM   3063   OG SER A 405      -6.028 -14.081   2.960  0.62  4.29           O 0
+ATOM   3061   CB SER A 405      -6.273 -14.039   4.349  0.00  0.00           C 0
+ATOM   3068    O ILE A 406      -2.340 -15.371   3.305  0.55  1.07           O 0
+ATOM   9701   OG SER A1267      -4.990 -15.180   7.447  0.00  0.00           O 0
+ATOM   9728  NH2 ARG A1270      -2.005 -18.285   1.033  0.58  1.09           N 0
+ATOM   9699   CB SER A1267      -4.475 -16.238   8.234  0.00  0.00           C 0
+ATOM   9724   CG ARG A1270      -1.566 -19.582   5.231  0.00  0.00           C 0
+ATOM   9725   CD ARG A1270      -1.247 -18.241   4.588  0.00  0.00           C 0
+ATOM   9697   CA SER A1267      -5.587 -17.234   8.576  0.00  0.00           C 0
+ATOM   9689    O PHE A1266      -8.325 -16.845   7.918  0.52  6.43           O 0
+ATOM   9718   OG SER A1269      -5.490 -21.271   5.903  0.72  5.36           O 0
+ATOM   4250  CD2 LEU A 563      -3.230 -22.819   1.396  0.00  0.00           C 0
+ATOM   9683  NE2 GLN A1265     -10.645 -15.585   5.542  0.63  5.47           N 0
+TER
+END

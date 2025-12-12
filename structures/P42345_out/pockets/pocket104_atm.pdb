@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   104:
+HEADER 0  - Pocket Score                      : -0.0911
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9526
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6209
+HEADER 5  - Mean B-factor of pocket residues  : 0.9479
+HEADER 6  - Hydrophobicity Score              : 19.2000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3000
+HEADER 9  - Pocket volume (Monte Carlo)       : 430.6776
+HEADER 10 - Pocket volume (convex hull)       : 49.9436
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.5000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4800
+ATOM  15780    O ASN A1992      41.440  24.820 -29.855  0.63  2.14           O 0
+ATOM  15783  OD1 ASN A1992      40.210  21.726 -32.819  0.00  0.00           O 0
+ATOM  15816   CE LYS A1996      45.532  24.211 -30.550  0.00  0.00           C 0
+ATOM  15814   CG LYS A1996      44.274  24.138 -28.400  0.00  0.00           C 0
+ATOM  15893  CG1 VAL A2006      39.805  17.648 -25.826  0.00  0.00           C 0
+ATOM  15925   CE MET A2010      38.388  16.747 -30.474  0.00  0.00           C 0
+ATOM  15839   SG CYS A1999      42.725  19.754 -24.998  0.00  0.00           S 0
+ATOM  15902  NE2 GLN A2007      43.905  15.708 -26.502  0.70  4.37           N 0
+ATOM  15779   CB ASN A1992      40.774  24.042 -32.880  0.00  0.00           C 0
+ATOM  15817   NZ LYS A1996      46.320  25.028 -31.504  0.00  0.00           N 0
+ATOM  15757  NE2 HIS A1988      41.227  23.271 -37.917  0.00  0.00           N 0
+ATOM  15765  OD1 ASN A1989      41.696  27.581 -37.722  0.85  8.57           O 0
+ATOM  15762    O ASN A1989      39.913  28.090 -33.308  0.68  2.14           O 0
+ATOM  15782  ND2 ASN A1992      40.121  22.666 -34.786  0.69  1.09           N 0
+ATOM  15759   CA ASN A1989      39.736  27.792 -35.682  0.00  0.00           C 0
+ATOM  15781   CG ASN A1992      40.347  22.725 -33.499  0.00  0.00           C 0
+ATOM  15804   CB LEU A1995      39.120  22.007 -28.187  0.00  0.00           C 0
+ATOM  15809    N LYS A1996      41.499  23.849 -26.917  0.00  0.00           N 0
+ATOM  15787   CB LYS A1993      40.634  28.980 -30.100  0.00  0.00           C 0
+ATOM  15785   CA LYS A1993      40.867  27.532 -29.645  0.00  0.00           C 0
+ATOM  15815   CD LYS A1996      44.999  25.055 -29.389  0.00  0.00           C 0
+ATOM  15789   CG LYS A1993      41.216  30.005 -29.119  0.00  0.00           C 0
+ATOM  15807  CD1 LEU A1995      37.780  20.719 -29.858  0.00  0.00           C 0
+ATOM  15803    C LEU A1995      40.607  22.985 -26.406  0.00  0.00           C 0
+ATOM  15784    N LYS A1993      40.382  26.612 -30.684  0.00  0.00           N 0
+ATOM  15778    C ASN A1992      40.651  25.300 -30.667  0.00  0.00           C 0
+TER
+END

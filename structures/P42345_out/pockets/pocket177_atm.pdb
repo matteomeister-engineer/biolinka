@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   177:
+HEADER 0  - Pocket Score                      : -0.1807
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9716
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5266
+HEADER 5  - Mean B-factor of pocket residues  : 0.9455
+HEADER 6  - Hydrophobicity Score              : 15.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 6.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 219.5139
+HEADER 10 - Pocket volume (convex hull)       : 5.8646
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7647
+ATOM  13491  CD1 TRP A1705      -9.487  41.213 -17.190  0.00  0.00           C 0
+ATOM  13898   CE LYS A1753      -3.712  40.058 -13.538  0.00  0.00           C 0
+ATOM  13465   CG LYS A1702      -7.919  40.672 -10.762  0.00  0.00           C 0
+ATOM  13463   CB LYS A1702      -9.307  40.038 -10.955  0.00  0.00           C 0
+ATOM  13899   NZ LYS A1753      -3.479  39.272 -14.769  0.00  0.00           N 0
+ATOM  13506   CE LYS A1706     -10.266  35.308 -15.220  0.00  0.00           C 0
+ATOM  13919  OE1 GLU A1756      -3.740  40.426 -17.122  0.44  4.29           O 0
+ATOM  13495  NE1 TRP A1705      -8.721  41.472 -18.309  0.58  6.56           N 0
+ATOM  13931  NE1 TRP A1757      -6.327  42.885 -16.007  0.79  1.09           N 0
+ATOM  13504   CG LYS A1706     -11.745  37.263 -15.727  0.00  0.00           C 0
+ATOM  13464    O LYS A1702     -11.473  39.631 -13.156  0.65  2.14           O 0
+ATOM  13933  CZ2 TRP A1757      -7.735  43.326 -13.929  0.00  0.00           C 0
+ATOM  13466   CD LYS A1702      -7.000  39.716  -9.990  0.00  0.00           C 0
+TER
+END

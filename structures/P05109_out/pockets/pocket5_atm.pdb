@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0284
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1071
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5320
+HEADER 5  - Mean B-factor of pocket residues  : 0.8321
+HEADER 6  - Hydrophobicity Score              : -0.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 335.0187
+HEADER 10 - Pocket volume (convex hull)       : 14.7420
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM    719  OE1 GLU A  88     -20.987  -3.208   6.114  0.00  0.00           O 0
+ATOM    684   CD LYS A  84     -18.885   0.617   6.488  0.00  0.00           C 0
+ATOM    403   NZ LYS A  48     -19.124  -0.987  -1.819  0.00  0.00           N 0
+ATOM    686   NZ LYS A  84     -20.928   1.297   5.226  0.00  0.00           N 0
+ATOM    685   CE LYS A  84     -20.395   0.446   6.311  0.00  0.00           C 0
+ATOM    368    O TYR A  45     -13.150  -2.508   0.331  0.35  6.43           O 0
+ATOM    693   CD LYS A  85     -17.770  -6.782   5.898  0.00  0.00           C 0
+ATOM    359    O GLN A  44     -13.704  -6.549   0.051  0.00  0.00           O 0
+ATOM    370  CD1 TYR A  45     -12.469  -5.440   4.188  0.00  0.00           C 0
+ATOM    365   CA TYR A  45     -12.185  -4.528   1.185  0.00  0.00           C 0
+ATOM    661   CB ALA A  81     -12.988  -0.764   3.833  0.00  0.00           C 0
+ATOM    662    O ALA A  81     -14.504  -2.389   6.339  0.64  3.21           O 0
+ATOM    659   CA ALA A  81     -13.373  -0.547   5.300  0.00  0.00           C 0
+ATOM    683   CG LYS A  84     -18.493  -0.267   7.670  0.00  0.00           C 0
+ATOM    687    N LYS A  85     -16.469  -3.442   8.322  0.68  1.09           N 0
+ATOM    690   CB LYS A  85     -15.955  -5.496   7.065  0.00  0.00           C 0
+ATOM    402   CE LYS A  48     -18.152  -1.747  -2.643  0.00  0.00           C 0
+ATOM    695   NZ LYS A  85     -19.754  -7.840   5.045  0.27  4.37           N 0
+ATOM    694   CE LYS A  85     -18.388  -8.123   5.545  0.00  0.00           C 0
+TER
+END

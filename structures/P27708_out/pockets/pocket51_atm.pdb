@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    51:
+HEADER 0  - Pocket Score                      : -0.0300
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.9527
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5921
+HEADER 5  - Mean B-factor of pocket residues  : 0.8382
+HEADER 6  - Hydrophobicity Score              : 24.7273
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.0909
+HEADER 9  - Pocket volume (Monte Carlo)       : 402.9527
+HEADER 10 - Pocket volume (convex hull)       : 52.1284
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2143
+ATOM  15282    N SER A1995       8.527  48.738  49.708  0.64  1.09           N 0
+ATOM  15269    O SER A1993      10.095  48.840  45.599  0.36  9.64           O 0
+ATOM  15308  OG1 THR A1998      12.268  48.913  50.659  0.56  4.29           O 0
+ATOM  15285   CB SER A1995       9.097  46.866  51.230  0.00  0.00           C 0
+ATOM  15094   CB PHE A1969       2.870  45.601  49.560  0.00  0.00           C 0
+ATOM  15275    O PHE A1994       6.556  48.203  48.751  0.00  0.00           O 0
+ATOM  15095    O PHE A1969       4.296  46.930  51.743  0.50  9.64           O 0
+ATOM  15128  CG1 VAL A1972       4.468  39.962  53.188  0.00  0.00           C 0
+ATOM  15124   CA VAL A1972       2.665  41.765  53.269  0.00  0.00           C 0
+ATOM  15166   OG SER A1977       4.297  42.147  45.750  0.32  8.57           O 0
+ATOM  15082   OG SER A1967       3.719  45.751  44.283  0.56  1.07           O 0
+ATOM  15081    O SER A1967       5.209  48.167  45.779  0.00  0.00           O 0
+ATOM  15268   CB SER A1993       9.310  46.052  44.609  0.00  0.00           C 0
+ATOM  15287   OG SER A1995      10.374  47.119  51.794  0.79  3.21           O 0
+ATOM  15267    C SER A1993       8.960  48.392  45.455  0.00  0.00           C 0
+ATOM  15273    C PHE A1994       7.653  48.768  48.700  0.00  0.00           C 0
+ATOM  15130    N SER A1973       1.835  40.537  51.314  0.77  2.19           N 0
+ATOM  15164   CB SER A1977       3.184  41.426  46.226  0.00  0.00           C 0
+ATOM  15137   CA THR A1974       2.800  36.904  48.428  0.00  0.00           C 0
+ATOM  15172   OG SER A1978       4.704  36.970  44.375  0.68  9.64           O 0
+ATOM  15129  CG2 VAL A1972       4.713  41.836  54.784  0.00  0.00           C 0
+ATOM  15134    O SER A1973       1.955  39.587  48.392  0.75  2.14           O 0
+ATOM  15136    N THR A1974       2.160  37.649  49.521  0.70  2.19           N 0
+ATOM  15132    C SER A1973       1.792  38.927  49.417  0.00  0.00           C 0
+ATOM  15142  OG1 THR A1974       3.807  35.568  50.158  0.53  5.36           O 0
+TER
+END

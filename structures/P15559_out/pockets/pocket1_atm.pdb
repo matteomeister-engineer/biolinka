@@ -1,0 +1,60 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.2962
+HEADER 1  - Drug Score                        : 0.8900
+HEADER 2  - Number of alpha spheres           :    57
+HEADER 3  - Mean alpha-sphere radius          : 3.9120
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4801
+HEADER 5  - Mean B-factor of pocket residues  : 0.9824
+HEADER 6  - Hydrophobicity Score              : 60.0714
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 527.1736
+HEADER 10 - Pocket volume (convex hull)       : 76.3415
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 36.1111
+HEADER 13 - Number of apolar alpha sphere     :    54
+HEADER 14 - Proportion of apolar alpha sphere : 0.9474
+ATOM   1061  CD1 TYR A 133      -4.326  10.110   7.061  0.00  0.00           C 0
+ATOM   1399  CD2 HIS A 178      -6.325   7.132   6.030  0.00  0.00           C 0
+ATOM   1372   OG SER A 174      -2.340   5.998   8.646  0.74  1.07           O 0
+ATOM   1772   CB PHE A 223      -7.659   4.900   8.354  0.00  0.00           C 0
+ATOM   1784    O ALA A 224      -9.128   8.549  10.556  0.53  4.29           O 0
+ATOM   1793   CA SER A 226     -10.313  12.893   9.965  0.00  0.00           C 0
+ATOM   1795   CB SER A 226      -9.835  13.680   8.743  0.00  0.00           C 0
+ATOM   1838  CD2 LEU A 231      -7.515  17.045  11.317  0.00  0.00           C 0
+ATOM   1062  CD2 TYR A 133      -4.851  12.273   8.061  0.00  0.00           C 0
+ATOM   2055  CE1 HIS A 258      -4.963   8.002  13.372  0.00  0.00           C 0
+ATOM   1340  CH2 TRP A 170      -3.463   4.139  11.463  0.00  0.00           C 0
+ATOM   1882  CD1 PHE A 237      -4.032  19.187  12.445  0.00  0.00           C 0
+ATOM   1053   SD MET A 132      -2.546  16.803   7.490  0.00  0.00           S 0
+ATOM   1883  CD2 PHE A 237      -2.538  20.376  13.955  0.00  0.00           C 0
+ATOM   1881   CG PHE A 237      -3.318  19.243  13.657  0.00  0.00           C 0
+ATOM   1054   CE MET A 132      -3.812  17.466   8.611  0.00  0.00           C 0
+ATOM   1879   CB PHE A 237      -3.398  18.084  14.628  0.00  0.00           C 0
+ATOM   1064  CE2 TYR A 133      -3.657  12.219   8.805  0.00  0.00           C 0
+ATOM   1065   OH TYR A 133      -1.662  11.032   9.416  0.00  0.00           O 0
+ATOM   1820  CE1 PHE A 229      -6.819  11.680  15.561  0.00  0.00           C 0
+ATOM   2056  NE2 HIS A 258      -4.559   8.810  14.361  0.00  0.00           N 0
+ATOM   1822   CZ PHE A 229      -7.407  10.701  14.740  0.00  0.00           C 0
+ATOM   1819  CD2 PHE A 229      -8.746  12.417  13.660  0.00  0.00           C 0
+ATOM   1817   CG PHE A 229      -8.179  13.400  14.494  0.00  0.00           C 0
+ATOM   1063  CE1 TYR A 133      -3.135  10.049   7.806  0.00  0.00           C 0
+ATOM   1031  CD1 TYR A 129       0.449  19.660   5.352  0.00  0.00           C 0
+ATOM   1028   CB TYR A 129      -1.561  21.205   5.264  0.00  0.00           C 0
+ATOM   1880    O PHE A 237      -4.667  15.897  15.992  0.69  4.29           O 0
+ATOM   1060   CG TYR A 133      -5.189  11.214   7.198  0.00  0.00           C 0
+ATOM   1821  CE2 PHE A 229      -8.364  11.071  13.780  0.00  0.00           C 0
+ATOM   1857   CZ PHE A 233       0.027  24.532  11.630  0.00  0.00           C 0
+ATOM   1030   CG TYR A 129      -0.094  20.914   5.003  0.00  0.00           C 0
+ATOM   1884  CE1 PHE A 237      -3.969  20.258  11.537  0.00  0.00           C 0
+ATOM   1029    O TYR A 129      -4.374  20.031   6.227  0.77  7.50           O 0
+ATOM   1818  CD1 PHE A 229      -7.201  13.028  15.434  0.00  0.00           C 0
+ATOM   1066   CZ TYR A 133      -2.804  11.100   8.686  0.00  0.00           C 0
+ATOM   1886   CZ PHE A 237      -3.191  21.389  11.840  0.00  0.00           C 0
+ATOM   1885  CE2 PHE A 237      -2.478  21.448  13.048  0.00  0.00           C 0
+TER
+END

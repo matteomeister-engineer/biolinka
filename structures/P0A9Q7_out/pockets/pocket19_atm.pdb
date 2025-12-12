@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0865
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1192
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5306
+HEADER 5  - Mean B-factor of pocket residues  : 0.9358
+HEADER 6  - Hydrophobicity Score              : 27.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.5534
+HEADER 10 - Pocket volume (convex hull)       : 3.1178
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   3079    O LYS A 412      22.042   2.016  -1.911  0.55  4.29           O 0
+ATOM    606   CB ALA A  79      26.239  -4.721  -3.784  0.00  0.00           C 0
+ATOM   3103   CD PRO A 415      25.592  -1.408  -5.570  0.00  0.00           C 0
+ATOM   3068    O PHE A 411      25.409   1.617   1.260  0.57  8.57           O 0
+ATOM   3034  OD1 ASP A 407      28.451   0.211  -1.880  0.30  8.57           O 0
+ATOM   3088    O LEU A 413      24.825   2.293  -4.601  0.00  0.00           O 0
+ATOM    604   CA ALA A  79      26.631  -5.705  -2.681  0.00  0.00           C 0
+ATOM   3077    C LYS A 412      22.902   2.838  -1.600  0.00  0.00           C 0
+ATOM   3093   CA ALA A 414      23.096   0.251  -5.476  0.00  0.00           C 0
+ATOM    607    O ALA A  79      24.658  -6.666  -1.720  0.00  0.00           O 0
+ATOM    616  CE1 TYR A  80      22.282  -5.568  -5.214  0.00  0.00           C 0
+ATOM   3095   CB ALA A 414      21.814  -0.480  -5.887  0.00  0.00           C 0
+TER
+END

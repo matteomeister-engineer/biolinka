@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   139:
+HEADER 0  - Pocket Score                      : -0.1278
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0535
+HEADER 4  - Mean alpha-sphere SA              : 0.5898
+HEADER 5  - Mean B-factor                     : 0.8176
+HEADER 6  - Hydrophobicity Score              : -15.1667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 4.1667
+HEADER 9  - Real volume (approximation)       : 242.5992
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1000
+ATOM      1    O STP   139      32.880 -70.283  -5.970    0.00     4.31
+ATOM      2    O STP   139      33.553 -66.246  -8.216    0.00     3.67
+ATOM      3    O STP   139      32.799 -65.864  -8.726    0.00     4.16
+ATOM      4    O STP   139      32.928 -66.995  -7.688    0.00     3.94
+ATOM      5    O STP   139      33.191 -67.868  -7.620    0.00     3.53
+ATOM      6    O STP   139      32.753 -68.143  -6.863    0.00     4.10
+ATOM      7    O STP   139      32.660 -65.685  -8.856    0.00     4.26
+ATOM      8    O STP   139      32.485 -65.551  -8.934    0.00     4.36
+ATOM      9    O STP   139      33.767 -66.186  -8.127    0.00     3.52
+ATOM     10    O STP   139      33.492 -68.662  -5.957    0.00     3.85
+ATOM     11    O STP   139      32.846 -67.202  -7.468    0.00     3.99
+ATOM     12    O STP   139      32.686 -68.142  -6.769    0.00     4.19
+ATOM     13    C STP   139      32.618 -68.969  -6.007    0.00     4.54
+ATOM     14    O STP   139      32.833 -68.909  -6.066    0.00     4.39
+ATOM     15    C STP   139      32.702 -68.303  -6.629    0.00     4.23
+ATOM     16    O STP   139      32.173 -64.456  -8.517    0.00     3.98
+ATOM     17    O STP   139      32.594 -65.598  -8.932    0.00     4.31
+ATOM     18    O STP   139      32.501 -65.547  -8.949    0.00     4.36
+ATOM     19    O STP   139      32.583 -64.086  -8.845    0.00     3.84
+ATOM     20    O STP   139      32.738 -63.301  -9.225    0.00     3.54
+TER
+END

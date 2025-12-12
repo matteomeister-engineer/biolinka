@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.1162
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9460
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5128
+HEADER 5  - Mean B-factor of pocket residues  : 0.6665
+HEADER 6  - Hydrophobicity Score              : 22.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 326.1909
+HEADER 10 - Pocket volume (convex hull)       : 9.5942
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1429
+ATOM   4413   CB LYS A 582     -11.838   9.285  12.645  0.00  0.00           C 0
+ATOM   4363    O ARG A 577     -12.118   1.897  11.416  0.00  0.00           O 0
+ATOM   4383    O ARG A 579     -12.963   5.722   7.947  0.59  6.43           O 0
+ATOM   4416   CD LYS A 582      -9.942   8.865  14.251  0.00  0.00           C 0
+ATOM   4415   CG LYS A 582     -11.451   8.742  14.029  0.00  0.00           C 0
+ATOM   4417   CE LYS A 582      -9.591   8.320  15.637  0.00  0.00           C 0
+ATOM   4382   CB ARG A 579     -15.809   5.280   9.395  0.00  0.00           C 0
+ATOM   4402    O TYR A 581     -15.311   8.138  10.664  0.75  3.21           O 0
+ATOM   4355    O ILE A 576     -16.152   2.275  12.885  0.59  4.29           O 0
+ATOM   4720  OD2 ASP A 624     -17.544   5.677  15.698  0.00  0.00           O 0
+ATOM   4419    N PHE A 583     -15.012   9.282  14.165  0.00  0.00           N 0
+ATOM   4423    O PHE A 583     -13.830  10.081  16.598  0.45  5.36           O 0
+ATOM   4422   CB PHE A 583     -16.680   8.874  15.914  0.00  0.00           C 0
+ATOM   4411   CA LYS A 582     -13.347   9.160  12.391  0.00  0.00           C 0
+ATOM   4379    N ARG A 579     -14.293   3.451   8.821  0.48  2.19           N 0
+ATOM   4385   CD ARG A 579     -17.814   5.138  10.810  0.00  0.00           C 0
+ATOM   4719  OD1 ASP A 624     -17.474   5.792  17.903  0.39  7.50           O 0
+TER
+END

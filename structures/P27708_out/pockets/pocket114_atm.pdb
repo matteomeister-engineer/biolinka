@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   114:
+HEADER 0  - Pocket Score                      : -0.1419
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.2182
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5250
+HEADER 5  - Mean B-factor of pocket residues  : 0.7521
+HEADER 6  - Hydrophobicity Score              : 6.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 290.2271
+HEADER 10 - Pocket volume (convex hull)       : 3.7605
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM  14940    O MET A1949      -3.176  32.047  24.682  0.63  4.29           O 0
+ATOM  14974   CD LYS A1953      -1.017  31.881  19.990  0.00  0.00           C 0
+ATOM  14971   CB LYS A1953      -0.434  31.515  22.408  0.00  0.00           C 0
+ATOM  14943   CE MET A1949      -7.500  29.426  23.921  0.00  0.00           C 0
+ATOM  14973   CG LYS A1953      -0.037  31.214  20.960  0.00  0.00           C 0
+ATOM   7943   CZ ARG A1033      -3.898  25.038  17.594  0.00  0.00           C 0
+ATOM  14975   CE LYS A1953      -0.599  31.561  18.552  0.00  0.00           C 0
+ATOM  14962   CB GLN A1952      -1.908  29.582  27.217  0.00  0.00           C 0
+ATOM  14967  OE1 GLN A1952      -4.552  28.801  27.965  0.68  6.43           O 0
+ATOM  14968    N LYS A1953      -0.088  30.954  24.745  0.00  0.00           N 0
+ATOM  14963    O GLN A1952       0.859  29.101  25.613  0.00  0.00           O 0
+ATOM  14969   CA LYS A1953       0.538  30.887  23.420  0.00  0.00           C 0
+ATOM  14961    C GLN A1952       0.103  30.060  25.727  0.00  0.00           C 0
+ATOM   7942  NH2 ARG A1033      -5.169  25.311  17.697  0.00  0.00           N 0
+ATOM   7941  NH1 ARG A1033      -3.273  25.485  16.543  0.00  0.00           N 0
+ATOM  14976   NZ LYS A1953      -1.454  32.268  17.567  0.00  0.00           N 0
+ATOM   7939   CD ARG A1033      -1.857  23.995  18.606  0.00  0.00           C 0
+ATOM   7940   NE ARG A1033      -3.298  24.317  18.526  0.00  0.00           N 0
+TER
+END

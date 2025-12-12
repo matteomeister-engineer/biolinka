@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.0467
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0498
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6590
+HEADER 5  - Mean B-factor of pocket residues  : 0.1352
+HEADER 6  - Hydrophobicity Score              : -14.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 245.2474
+HEADER 10 - Pocket volume (convex hull)       : 5.1035
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  19416    C ASN A2439      15.794  23.383 -65.951  0.00  0.00           C 0
+ATOM  19431    N ARG A2441      13.420  21.355 -68.863  0.00  0.00           N 0
+ATOM  19421  OD1 ASN A2439      15.522  26.752 -65.743  0.64  5.36           O 0
+ATOM  19418    O ASN A2439      16.614  23.849 -66.744  0.57  3.21           O 0
+ATOM  19453   CG ARG A2443      10.141  27.710 -72.905  0.00  0.00           C 0
+ATOM  19454   CD ARG A2443      11.177  28.236 -73.921  0.00  0.00           C 0
+ATOM  19451   CB ARG A2443       9.618  26.350 -73.396  0.00  0.00           C 0
+ATOM  19444    C SER A2442       9.047  24.274 -70.648  0.00  0.00           C 0
+ATOM  19446    O SER A2442       9.089  25.211 -69.859  0.57  4.29           O 0
+ATOM  19442    N SER A2442      10.391  22.642 -69.316  0.47  5.47           N 0
+ATOM  19448    N ARG A2443       8.853  24.461 -71.957  0.50  3.28           N 0
+ATOM  19432   CA ARG A2441      12.171  20.959 -69.578  0.00  0.00           C 0
+ATOM  19413    O GLY A2438      13.087  22.671 -64.343  0.33  5.36           O 0
+ATOM  19422    N LYS A2440      15.220  22.193 -66.190  0.00  0.00           N 0
+TER
+END

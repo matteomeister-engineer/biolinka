@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0724
+HEADER 1  - Drug Score                        : 0.3808
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8777
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7093
+HEADER 5  - Mean B-factor of pocket residues  : 0.5343
+HEADER 6  - Hydrophobicity Score              : 61.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 208.4800
+HEADER 10 - Pocket volume (convex hull)       : 3.2318
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8235
+ATOM     19   CG LEU A   3     -20.591 -56.269   1.963  0.00  0.00           C 0
+ATOM     27   CG LYS A   4     -22.734 -56.096  -3.636  0.00  0.00           C 0
+ATOM     51  CG2 VAL A   7     -18.908 -52.229  -0.077  0.00  0.00           C 0
+ATOM     21  CD2 LEU A   3     -19.768 -57.553   1.860  0.00  0.00           C 0
+ATOM     26    O LYS A   4     -23.049 -51.772  -2.350  0.00  0.00           O 0
+ATOM     58  CD1 LEU A   8     -24.112 -50.439  -5.380  0.00  0.00           C 0
+ATOM     25   CB LYS A   4     -23.597 -54.893  -3.213  0.00  0.00           C 0
+ATOM     28   CD LYS A   4     -23.266 -56.744  -4.928  0.00  0.00           C 0
+ATOM     50  CG1 VAL A   7     -18.331 -50.835  -2.031  0.00  0.00           C 0
+ATOM     48   CB VAL A   7     -19.485 -51.250  -1.109  0.00  0.00           C 0
+ATOM     57   CG LEU A   8     -23.037 -49.401  -5.057  0.00  0.00           C 0
+ATOM     23   CA LYS A   4     -23.021 -54.133  -2.004  0.00  0.00           C 0
+ATOM     22    N LYS A   4     -23.197 -54.904  -0.759  0.00  0.00           N 0
+ATOM     18    O LEU A   3     -21.989 -53.506   0.514  0.00  0.00           O 0
+ATOM     16    C LEU A   3     -22.665 -54.524   0.413  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0549
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9802
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5904
+HEADER 5  - Mean B-factor of pocket residues  : 0.9994
+HEADER 6  - Hydrophobicity Score              : 6.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.3709
+HEADER 10 - Pocket volume (convex hull)       : 6.3052
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1950   CG LYS A 256     -15.613  13.267   5.816  0.00  0.00           C 0
+ATOM   1978   CE MET A 259     -13.931  10.002  -0.535  0.00  0.00           C 0
+ATOM   1974   CB MET A 259     -11.894  10.371   1.896  0.00  0.00           C 0
+ATOM   1977   SD MET A 259     -14.306   9.256   1.069  0.00  0.00           S 0
+ATOM   2013   NZ LYS A 263     -12.315  13.843  -1.802  0.00  0.00           N 0
+ATOM   1631  CD2 HIS A 215     -18.308   9.682   4.345  0.00  0.00           C 0
+ATOM   1634  NE2 HIS A 215     -19.082  10.845   4.435  0.57  3.28           N 0
+ATOM   1607  OE1 GLN A 212     -16.802  10.872  -1.440  0.00  0.00           O 0
+ATOM   1949    O LYS A 256     -12.560  11.937   5.038  0.44  1.07           O 0
+ATOM   1985  OG1 THR A 260     -11.153  14.795   4.513  0.44  5.36           O 0
+ATOM   1952   CE LYS A 256     -16.634  15.554   6.146  0.00  0.00           C 0
+ATOM   1951   CD LYS A 256     -16.743  14.063   6.468  0.00  0.00           C 0
+ATOM   1953   NZ LYS A 256     -17.772  16.283   6.754  0.00  0.00           N 0
+ATOM   1633  CE1 HIS A 215     -19.961  10.779   3.415  0.00  0.00           C 0
+ATOM   1946   CA LYS A 256     -14.652  10.906   5.619  0.00  0.00           C 0
+TER
+END

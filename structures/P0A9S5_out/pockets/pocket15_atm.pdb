@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1078
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8830
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4386
+HEADER 5  - Mean B-factor of pocket residues  : 0.9576
+HEADER 6  - Hydrophobicity Score              : 10.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 328.5937
+HEADER 10 - Pocket volume (convex hull)       : 21.7351
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.5000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   2098    O LEU A 285       5.604   4.482 -24.285  0.00  0.00           O 0
+ATOM   2503    O PRO A 340      -1.036   3.520 -27.058  0.00  0.00           O 0
+ATOM   2548  NE2 GLN A 347       5.553  -0.283 -28.465  0.00  0.00           N 0
+ATOM   2513    O GLY A 342       0.824  -0.176 -25.899  0.58  6.43           O 0
+ATOM   2099   CG LEU A 285       4.969   1.829 -22.321  0.00  0.00           C 0
+ATOM   2498   CE MET A 339       1.112   4.092 -21.249  0.00  0.00           C 0
+ATOM   2494   CB MET A 339      -0.958   1.718 -22.624  0.00  0.00           C 0
+ATOM   2100  CD1 LEU A 285       5.840   0.911 -23.181  0.00  0.00           C 0
+ATOM   2105   CB GLU A 286       3.150   7.226 -22.379  0.00  0.00           C 0
+ATOM   2106    O GLU A 286       4.557   8.808 -24.452  0.26  7.50           O 0
+ATOM   2502   CB PRO A 340      -2.811   5.612 -26.014  0.00  0.00           C 0
+ATOM   2505   CD PRO A 340      -2.490   4.963 -23.736  0.00  0.00           C 0
+ATOM   2103   CA GLU A 286       4.338   6.755 -23.232  0.00  0.00           C 0
+ATOM   2504   CG PRO A 340      -3.008   6.119 -24.587  0.00  0.00           C 0
+ATOM   1365  NH1 ARG A 184      -0.813  11.778 -22.960  0.50  7.66           N 0
+ATOM   1363   CD ARG A 184      -3.488  10.805 -23.439  0.00  0.00           C 0
+ATOM   1360   CB ARG A 184      -5.345   9.223 -23.993  0.00  0.00           C 0
+TER
+END

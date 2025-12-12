@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0213
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9860
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7260
+HEADER 5  - Mean B-factor of pocket residues  : 0.9779
+HEADER 6  - Hydrophobicity Score              : 78.6667
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.5435
+HEADER 10 - Pocket volume (convex hull)       : 4.7608
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   2770  CD1 LEU A 364      -4.695  14.620 -11.228  0.00  0.00           C 0
+ATOM   2746  CD1 LEU A 360     -10.155  13.312  -7.828  0.00  0.00           C 0
+ATOM   2358   CB ALA A 307      -5.469  10.640 -13.967  0.00  0.00           C 0
+ATOM   2336   CB ALA A 304      -6.005  10.520  -8.820  0.00  0.00           C 0
+ATOM   2747  CD2 LEU A 360      -8.070  14.630  -7.823  0.00  0.00           C 0
+ATOM   2334   CA ALA A 304      -5.642   9.611  -9.995  0.00  0.00           C 0
+ATOM   2329    O LEU A 303      -5.625   7.448 -11.777  0.62  3.21           O 0
+ATOM   2327    C LEU A 303      -6.199   7.319 -10.690  0.00  0.00           C 0
+ATOM   2328   CB LEU A 303      -8.383   6.097 -10.416  0.00  0.00           C 0
+ATOM   2745   CG LEU A 360      -8.694  13.301  -7.379  0.00  0.00           C 0
+ATOM   2312    O ILE A 300      -7.918   8.457  -7.515  0.60  1.07           O 0
+ATOM   2311   CB ILE A 300     -10.824   8.671  -6.136  0.00  0.00           C 0
+ATOM   2309   CA ILE A 300      -9.841   7.528  -6.461  0.00  0.00           C 0
+ATOM   2331  CD1 LEU A 303     -10.642   5.051 -10.404  0.00  0.00           C 0
+ATOM   2314  CG2 ILE A 300     -12.271   8.170  -6.298  0.00  0.00           C 0
+ATOM   2333    N ALA A 304      -6.230   8.298  -9.783  0.00  0.00           N 0
+TER
+END

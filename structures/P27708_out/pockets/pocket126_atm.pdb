@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   126:
+HEADER 0  - Pocket Score                      : -0.1953
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    54
+HEADER 3  - Mean alpha-sphere radius          : 3.9637
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5643
+HEADER 5  - Mean B-factor of pocket residues  : 0.8926
+HEADER 6  - Hydrophobicity Score              : 26.3077
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4615
+HEADER 9  - Pocket volume (Monte Carlo)       : 718.1088
+HEADER 10 - Pocket volume (convex hull)       : 174.2090
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.5333
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   3498   CB GLN A 462     -26.470 -11.977  -9.357  0.00  0.00           C 0
+ATOM   3525   CD ARG A 465     -29.603 -12.285 -14.832  0.00  0.00           C 0
+ATOM   3499    O GLN A 462     -26.523  -9.530 -11.607  0.00  0.00           O 0
+ATOM   3496   CA GLN A 462     -25.945 -11.695 -10.773  0.00  0.00           C 0
+ATOM  11093   CB LEU A1449     -28.317 -10.015  -6.132  0.00  0.00           C 0
+ATOM   3503  OE1 GLN A 462     -28.622 -12.790  -7.584  0.00  0.00           O 0
+ATOM  11094    O LEU A1449     -31.110  -9.259  -5.315  0.00  0.00           O 0
+ATOM  11097  CD2 LEU A1449     -27.461  -8.555  -8.006  0.00  0.00           C 0
+ATOM   3501   CD GLN A 462     -28.220 -13.590  -8.407  0.00  0.00           C 0
+ATOM   3527  NH1 ARG A 465     -31.634 -14.270 -14.232  0.54  7.66           N 0
+ATOM   3502  NE2 GLN A 462     -28.974 -14.629  -8.680  0.56  7.66           N 0
+ATOM  13797   CB LEU A1800     -32.658  -5.821 -22.441  0.00  0.00           C 0
+ATOM  13738    O VAL A1792     -34.760  -5.428 -19.658  0.56  2.14           O 0
+ATOM  13798    O LEU A1800     -34.023  -7.668 -24.587  0.00  0.00           O 0
+ATOM  13733  OE2 GLU A1791     -36.649 -10.078 -17.395  0.00  0.00           O 0
+ATOM  13730   CG GLU A1791     -38.983  -9.513 -17.668  0.00  0.00           C 0
+ATOM  13731   CD GLU A1791     -37.836 -10.383 -17.113  0.00  0.00           C 0
+ATOM  13732  OE1 GLU A1791     -38.126 -11.386 -16.422  0.00  0.00           O 0
+ATOM  13836  CE2 TYR A1805     -41.246  -9.120 -21.699  0.00  0.00           C 0
+ATOM   3533   CB ASN A 466     -28.145  -6.627 -11.975  0.00  0.00           C 0
+ATOM   3530    N ASN A 466     -27.346  -7.772 -13.944  0.00  0.00           N 0
+ATOM   3524   CG ARG A 465     -28.882 -11.058 -15.398  0.00  0.00           C 0
+ATOM   3531   CA ASN A 466     -28.076  -6.582 -13.509  0.00  0.00           C 0
+ATOM   3526   NE ARG A 465     -31.004 -12.343 -15.306  0.46  8.75           N 0
+ATOM  13724    O GLY A1790     -38.292  -7.613 -13.883  0.65  5.36           O 0
+ATOM   3528  NH2 ARG A 465     -33.132 -13.154 -15.457  0.00  0.00           N 0
+ATOM   3556  NH2 ARG A 468     -29.298  -9.206 -19.493  0.00  0.00           N 0
+ATOM   3537  OD1 ASN A 466     -30.130  -5.339 -11.665  0.69  6.43           O 0
+ATOM  11113  CG2 VAL A1451     -29.547  -4.710  -7.759  0.00  0.00           C 0
+ATOM  13807  CG1 VAL A1801     -37.993  -6.440 -22.629  0.00  0.00           C 0
+ATOM  13815   CD PRO A1802     -37.406  -9.207 -26.029  0.00  0.00           C 0
+ATOM  13803   CA VAL A1801     -36.619  -6.666 -24.719  0.00  0.00           C 0
+ATOM  13834  CD2 TYR A1805     -41.194  -8.977 -23.099  0.00  0.00           C 0
+ATOM   3523    O ARG A 465     -28.262  -7.958 -16.005  0.28  3.21           O 0
+ATOM  13740  CG2 VAL A1792     -33.692  -5.167 -15.419  0.00  0.00           C 0
+ATOM  13728   CB GLU A1791     -38.573  -8.051 -17.926  0.00  0.00           C 0
+ATOM  13800  CD1 LEU A1800     -31.146  -5.509 -20.481  0.00  0.00           C 0
+ATOM  13734    N VAL A1792     -36.105  -6.014 -16.970  0.00  0.00           N 0
+ATOM  13737   CB VAL A1792     -33.816  -4.989 -16.939  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0067
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.8224
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5713
+HEADER 5  - Mean B-factor of pocket residues  : 0.8830
+HEADER 6  - Hydrophobicity Score              : -0.7778
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 370.4693
+HEADER 10 - Pocket volume (convex hull)       : 38.3380
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3000
+ATOM   8130   CG ASN A1027       7.706 -15.963 -57.763  0.00  0.00           C 0
+ATOM   8131  ND2 ASN A1027       6.414 -15.807 -57.919  0.00  0.00           N 0
+ATOM   8128   CB ASN A1027       8.608 -14.781 -58.081  0.00  0.00           C 0
+ATOM   8167  OE1 GLU A1031      11.572 -15.005 -62.553  0.00  0.00           O 0
+ATOM   8132  OD1 ASN A1027       8.147 -17.042 -57.384  0.67  2.14           O 0
+ATOM   8384   OG SER A1057       9.360 -19.588 -58.145  0.73  9.64           O 0
+ATOM   8349   CA GLY A1053       4.751 -22.088 -57.421  0.00  0.00           C 0
+ATOM   8345    O THR A1052       3.616 -19.623 -56.695  0.48  6.43           O 0
+ATOM   8406  CG2 THR A1060      14.950 -21.943 -61.732  0.00  0.00           C 0
+ATOM   8165   CG GLU A1031      13.507 -14.985 -61.167  0.00  0.00           C 0
+ATOM   8407  OG1 THR A1060      13.235 -23.413 -61.052  0.00  0.00           O 0
+ATOM   8129    O ASN A1027      11.961 -14.470 -58.088  0.00  0.00           O 0
+ATOM   8351    O GLY A1053       7.142 -21.986 -57.356  0.43  3.21           O 0
+ATOM   8152   CB PHE A1030      13.478 -17.135 -56.428  0.00  0.00           C 0
+ATOM   8434  NH2 ARG A1064      17.310 -17.913 -59.495  0.61  2.19           N 0
+ATOM   8160    N GLU A1031      14.878 -15.039 -58.418  0.00  0.00           N 0
+ATOM   8380   CA SER A1057      11.136 -21.214 -57.791  0.00  0.00           C 0
+ATOM   8404   CB THR A1060      14.270 -22.611 -60.535  0.00  0.00           C 0
+ATOM   8382   CB SER A1057      10.435 -19.941 -57.297  0.00  0.00           C 0
+ATOM   8379    N SER A1057      10.197 -22.342 -57.870  0.00  0.00           N 0
+ATOM   8374   CB ASP A1056       8.500 -24.595 -59.430  0.00  0.00           C 0
+ATOM   8373    C ASP A1056      10.533 -23.544 -58.356  0.00  0.00           C 0
+ATOM   8383    O SER A1057      13.477 -21.262 -57.266  0.71  1.07           O 0
+TER
+END

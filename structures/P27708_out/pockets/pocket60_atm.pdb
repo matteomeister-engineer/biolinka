@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.0469
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0752
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6291
+HEADER 5  - Mean B-factor of pocket residues  : 0.9281
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 300.0607
+HEADER 10 - Pocket volume (convex hull)       : 16.1994
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1579
+ATOM   7973   CB SER A1038      -6.440  17.334  26.465  0.00  0.00           C 0
+ATOM   7896  CE1 HIS A1028      -0.326  19.445  27.172  0.00  0.00           C 0
+ATOM   7991  OE2 GLU A1040      -3.479  17.177  28.461  0.00  0.00           O 0
+ATOM   7982   CD PRO A1039      -3.322  16.313  24.869  0.00  0.00           C 0
+ATOM   7971   CA SER A1038      -6.249  16.465  25.218  0.00  0.00           C 0
+ATOM   7948    O VAL A1034      -4.013  19.197  20.304  0.58  6.43           O 0
+ATOM   7962    O GLY A1036      -8.342  17.802  21.464  0.42  9.64           O 0
+ATOM   7919   CA GLN A1031       4.911  21.417  23.806  0.00  0.00           C 0
+ATOM   7931    O CYS A1032       1.602  19.313  21.644  0.66  2.14           O 0
+ATOM   7922    O GLN A1031       4.148  22.225  21.669  0.35  4.29           O 0
+ATOM   7920    C GLN A1031       4.459  21.243  22.342  0.00  0.00           C 0
+ATOM   7892    O HIS A1028       3.810  18.951  26.047  0.00  0.00           O 0
+ATOM   7925  NE2 GLN A1031       4.740  22.090  27.259  0.36  2.19           N 0
+ATOM   7926  OE1 GLN A1031       4.452  24.171  26.653  0.48  6.43           O 0
+ATOM   7895  ND1 HIS A1028      -0.042  18.613  26.156  0.22  3.28           N 0
+ATOM   7934   CA ARG A1033       0.159  20.911  19.846  0.00  0.00           C 0
+ATOM   7944    N VAL A1034      -1.190  18.916  20.139  0.45  1.09           N 0
+ATOM   7938   CG ARG A1033      -1.626  22.583  19.148  0.00  0.00           C 0
+TER
+END

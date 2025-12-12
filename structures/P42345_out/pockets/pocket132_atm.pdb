@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   132:
+HEADER 0  - Pocket Score                      : -0.1196
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0326
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5002
+HEADER 5  - Mean B-factor of pocket residues  : 0.9228
+HEADER 6  - Hydrophobicity Score              : 10.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.6002
+HEADER 10 - Pocket volume (convex hull)       : 6.9713
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3913
+ATOM  14147   CD ARG A1784      14.026  46.294  -4.031  0.00  0.00           C 0
+ATOM  14971   CZ ARG A1890      18.960  44.103  -9.832  0.00  0.00           C 0
+ATOM  14969  NH1 ARG A1890      18.611  45.208 -10.430  0.48  9.84           N 0
+ATOM  14149  NH1 ARG A1784      15.989  48.144  -2.959  0.00  0.00           N 0
+ATOM  14970  NH2 ARG A1890      20.116  44.088  -9.227  0.00  0.00           N 0
+ATOM  14148   NE ARG A1784      13.935  47.759  -3.920  0.53  1.09           N 0
+ATOM  14151   CZ ARG A1784      14.859  48.578  -3.449  0.00  0.00           C 0
+ATOM  14111    O THR A1780      10.827  46.299  -7.553  0.00  0.00           O 0
+ATOM  14210  CZ2 TRP A1790      14.066  44.814  -9.872  0.00  0.00           C 0
+ATOM  14146   CG ARG A1784      12.897  45.742  -4.905  0.00  0.00           C 0
+ATOM  14144   CB ARG A1784      12.985  44.211  -4.978  0.00  0.00           C 0
+ATOM  14967   CD ARG A1890      16.830  42.878 -10.395  0.00  0.00           C 0
+ATOM  14145    O ARG A1784      13.035  41.728  -6.779  0.19  7.50           O 0
+ATOM  14209  CH2 TRP A1790      14.593  45.665 -10.861  0.00  0.00           C 0
+ATOM  14113  OG1 THR A1780      10.662  47.497 -11.220  0.00  0.00           O 0
+ATOM  14119   CG GLU A1781      10.801  51.035  -8.026  0.00  0.00           C 0
+ATOM  14968   NE ARG A1890      18.192  43.024  -9.832  0.48  7.66           N 0
+ATOM  14115   CA GLU A1781      10.052  48.888  -6.881  0.00  0.00           C 0
+TER
+END

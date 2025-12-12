@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0616
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9876
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6237
+HEADER 5  - Mean B-factor of pocket residues  : 0.9971
+HEADER 6  - Hydrophobicity Score              : -12.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.3317
+HEADER 10 - Pocket volume (convex hull)       : 0.7485
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM    829  OD2 ASP A 102       5.310 -16.948  -2.044  0.00  0.00           O 0
+ATOM    804  OD1 ASP A  99       0.529 -14.813  -5.229  0.00  0.00           O 0
+ATOM    825   CB ASP A 102       5.345 -14.659  -2.633  0.00  0.00           C 0
+ATOM    861   NZ LYS A 106       7.499 -17.909  -3.362  0.00  0.00           N 0
+ATOM    233   CE LYS A  28       1.234 -14.129  -8.515  0.00  0.00           C 0
+ATOM    836  CG2 VAL A 103       4.210 -12.020  -6.888  0.00  0.00           C 0
+ATOM    871  NE2 HIS A 107       8.850 -14.794  -8.889  0.00  0.00           N 0
+ATOM    859   CD LYS A 106       9.046 -16.356  -4.577  0.00  0.00           C 0
+ATOM    831   CA VAL A 103       6.389 -11.496  -5.691  0.00  0.00           C 0
+ATOM    868  CD2 HIS A 107       8.702 -13.423  -8.625  0.00  0.00           C 0
+ATOM    824    C ASP A 102       6.773 -12.863  -3.662  0.00  0.00           C 0
+ATOM    830    N VAL A 103       5.963 -12.124  -4.427  0.00  0.00           N 0
+ATOM    826    O ASP A 102       7.940 -13.090  -3.982  0.00  0.00           O 0
+ATOM    802    O ASP A  99       2.909 -12.466  -3.891  0.00  0.00           O 0
+TER
+END

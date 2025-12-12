@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    50:
+HEADER 0  - Pocket Score                      : -0.0460
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0214
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4309
+HEADER 5  - Mean B-factor of pocket residues  : 0.9330
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.8362
+HEADER 10 - Pocket volume (convex hull)       : 6.3022
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5238
+ATOM   1359  CD1 ILE A 177     -33.046 -20.927  17.195  0.00  0.00           C 0
+ATOM   1326   NE ARG A 173     -34.319 -24.421  19.659  0.00  0.00           N 0
+ATOM   1329   CZ ARG A 173     -34.982 -23.952  20.689  0.00  0.00           C 0
+ATOM   1637    O ALA A 211     -37.644 -23.698  15.615  0.67  3.21           O 0
+ATOM   1657   CD ARG A 214     -40.401 -19.906  16.881  0.00  0.00           C 0
+ATOM   1327  NH1 ARG A 173     -36.184 -24.357  20.998  0.00  0.00           N 0
+ATOM   1328  NH2 ARG A 173     -34.399 -23.056  21.427  0.00  0.00           N 0
+ATOM   1636   CB ALA A 211     -38.760 -25.023  18.303  0.00  0.00           C 0
+ATOM   1659  NH1 ARG A 214     -41.334 -18.567  19.300  0.00  0.00           N 0
+ATOM   1656   CG ARG A 214     -40.079 -20.082  15.392  0.00  0.00           C 0
+ATOM   1665   CB ALA A 215     -35.485 -21.537  13.123  0.00  0.00           C 0
+ATOM   1357  CG1 ILE A 177     -32.652 -20.343  15.831  0.00  0.00           C 0
+ATOM   1688  CD1 ILE A 218     -38.820 -16.764  13.779  0.00  0.00           C 0
+ATOM   1663   CA ALA A 215     -36.679 -20.787  12.523  0.00  0.00           C 0
+ATOM   1658   NE ARG A 214     -40.205 -18.498  17.298  0.61  1.09           N 0
+ATOM   1661   CZ ARG A 214     -40.663 -17.912  18.394  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   188:
+HEADER 0  - Pocket Score                      : -0.1964
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9704
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5695
+HEADER 5  - Mean B-factor of pocket residues  : 0.9131
+HEADER 6  - Hydrophobicity Score              : 3.3333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 320.8972
+HEADER 10 - Pocket volume (convex hull)       : 7.8594
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM  11172   CB SER A1418     -24.304   9.496 -18.472  0.00  0.00           C 0
+ATOM  11148   CA SER A1415     -25.524   7.116 -21.881  0.00  0.00           C 0
+ATOM  11174   OG SER A1418     -24.437   9.501 -17.053  0.39  2.14           O 0
+ATOM  11450   NZ LYS A1452     -29.195  10.751 -19.067  0.64  7.66           N 0
+ATOM  11151    O SER A1415     -23.308   7.310 -20.999  0.00  0.00           O 0
+ATOM  11207   NZ LYS A1422     -24.332   7.601 -14.704  0.00  0.00           N 0
+ATOM  11180  CG1 ILE A1419     -21.491   5.317 -19.214  0.00  0.00           C 0
+ATOM  11150   CB SER A1415     -25.985   5.662 -22.001  0.00  0.00           C 0
+ATOM  11035   CE LYS A1400     -24.834   1.848 -23.005  0.00  0.00           C 0
+ATOM  10911   CG GLU A1385     -27.916  -1.716 -18.794  0.00  0.00           C 0
+ATOM  11036   NZ LYS A1400     -25.827   0.769 -23.206  0.38  6.56           N 0
+ATOM  10913  OE1 GLU A1385     -30.112  -1.853 -19.697  0.00  0.00           O 0
+ATOM  10906    N GLU A1385     -24.768  -2.188 -18.679  0.00  0.00           N 0
+ATOM  10905    O GLY A1384     -23.022  -0.912 -18.075  0.61  1.07           O 0
+ATOM  10904    C GLY A1384     -23.516  -1.747 -18.839  0.00  0.00           C 0
+ATOM  10907   CA GLU A1385     -25.648  -1.747 -17.585  0.00  0.00           C 0
+ATOM  10934   CB ALA A1388     -23.446   1.738 -16.053  0.00  0.00           C 0
+ATOM  11182  CD1 ILE A1419     -21.839   4.231 -20.242  0.00  0.00           C 0
+TER
+END

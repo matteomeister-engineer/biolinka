@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0020
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.9205
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5008
+HEADER 5  - Mean B-factor of pocket residues  : 0.7858
+HEADER 6  - Hydrophobicity Score              : 10.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.1252
+HEADER 10 - Pocket volume (convex hull)       : 6.4316
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2083
+ATOM    297  OE1 GLU A  37      -9.771 -16.991   6.889  0.66  8.57           O 0
+ATOM    856  OG1 THR A 109     -14.227 -11.936   2.690  0.00  0.00           O 0
+ATOM    819   CB SER A 105     -11.913 -17.148   1.019  0.00  0.00           C 0
+ATOM    298  OE2 GLU A  37     -10.893 -15.879   8.448  0.35  8.57           O 0
+ATOM    304  CG2 THR A  38     -11.985 -10.640   6.356  0.00  0.00           C 0
+ATOM    282   NZ LYS A  35     -16.320 -12.871   9.473  0.00  0.00           N 0
+ATOM    280   CD LYS A  35     -14.333 -11.463   9.944  0.00  0.00           C 0
+ATOM    296   CD GLU A  37      -9.932 -16.014   7.651  0.00  0.00           C 0
+ATOM    820    O SER A 105     -13.029 -14.059   0.714  0.62  5.36           O 0
+ATOM    822    N LEU A 106     -10.972 -14.361  -0.159  0.00  0.00           N 0
+ATOM    828  CD1 LEU A 106      -8.623 -11.305   1.825  0.00  0.00           C 0
+ATOM    821   OG SER A 105     -10.496 -17.114   0.989  0.64  8.57           O 0
+ATOM    818    C SER A 105     -12.182 -14.801   0.202  0.00  0.00           C 0
+ATOM    823   CA LEU A 106     -10.550 -12.978  -0.005  0.00  0.00           C 0
+ATOM    825   CB LEU A 106      -9.020 -12.884  -0.128  0.00  0.00           C 0
+ATOM    295   CG GLU A  37      -8.903 -14.874   7.555  0.00  0.00           C 0
+ATOM    294    O GLU A  37      -7.400 -11.878   6.442  0.56  1.07           O 0
+ATOM    292    C GLU A  37      -8.221 -11.839   7.358  0.00  0.00           C 0
+ATOM    300   CA THR A  38      -9.517 -10.093   6.194  0.00  0.00           C 0
+TER
+END

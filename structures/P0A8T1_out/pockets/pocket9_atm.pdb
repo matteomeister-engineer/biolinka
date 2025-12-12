@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0193
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8967
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6369
+HEADER 5  - Mean B-factor of pocket residues  : 0.9776
+HEADER 6  - Hydrophobicity Score              : 3.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 296.8392
+HEADER 10 - Pocket volume (convex hull)       : 9.8401
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2231   NZ LYS A 292      -0.838   1.065  20.699  0.87  3.28           N 0
+ATOM   2072   OG SER A 273       3.829  -3.773  20.775  0.00  0.00           O 0
+ATOM   2230   CE LYS A 292      -1.407  -0.235  21.101  0.00  0.00           C 0
+ATOM   1876    O SER A 244       1.302   0.460  18.962  0.60  2.14           O 0
+ATOM   1883  CG1 VAL A 245       3.852   3.184  21.331  0.00  0.00           C 0
+ATOM   1849    N PRO A 241       8.742   0.225  17.286  0.00  0.00           N 0
+ATOM   2041    O ALA A 269       7.858  -5.480  16.842  0.00  0.00           O 0
+ATOM   1855   CD PRO A 241      10.194   0.113  17.208  0.00  0.00           C 0
+ATOM   1854   CG PRO A 241      10.681   0.260  18.645  0.00  0.00           C 0
+ATOM   1847   CB ALA A 240       8.656  -2.390  15.226  0.00  0.00           C 0
+ATOM   1850   CA PRO A 241       8.361   0.898  18.532  0.00  0.00           C 0
+ATOM   2062   CB ASP A 272       5.870  -7.811  22.025  0.00  0.00           C 0
+ATOM   2066  OD2 ASP A 272       8.109  -8.376  22.560  0.00  0.00           O 0
+ATOM   1875   CB SER A 244       4.041  -0.888  18.246  0.00  0.00           C 0
+ATOM   1853    O PRO A 241       6.597   2.426  19.103  0.00  0.00           O 0
+ATOM   1877   OG SER A 244       4.634  -1.817  17.368  0.64  1.07           O 0
+ATOM   1846    C ALA A 240       7.820  -0.296  16.444  0.00  0.00           C 0
+ATOM   1848    O ALA A 240       6.617  -0.189  16.695  0.00  0.00           O 0
+TER
+END

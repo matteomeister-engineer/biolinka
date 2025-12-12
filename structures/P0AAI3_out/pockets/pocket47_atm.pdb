@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    47:
+HEADER 0  - Pocket Score                      : -0.1595
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2214
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5656
+HEADER 5  - Mean B-factor of pocket residues  : 0.3768
+HEADER 6  - Hydrophobicity Score              : 14.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 373.7163
+HEADER 10 - Pocket volume (convex hull)       : 12.8426
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   2023    N ALA A 262     -12.764  14.012  21.060  0.62  7.66           N 0
+ATOM   4057   CA GLY A 528      -6.607  17.030  19.857  0.00  0.00           C 0
+ATOM   2026   CB ALA A 262     -12.815  16.192  22.127  0.00  0.00           C 0
+ATOM   4059    O GLY A 528      -5.434  17.213  21.915  0.47  6.43           O 0
+ATOM   2012    O ARG A 260     -11.234  10.385  22.619  0.68  3.21           O 0
+ATOM   2007  OE1 GLN A 259      -7.196   6.565  22.558  0.00  0.00           O 0
+ATOM   4070   CZ ARG A 529      -1.558  12.124  24.972  0.00  0.00           C 0
+ATOM   4069  NH2 ARG A 529      -2.184  11.794  26.068  0.00  0.00           N 0
+ATOM   4068  NH1 ARG A 529      -0.454  11.488  24.696  0.00  0.00           N 0
+ATOM   4067   NE ARG A 529      -2.045  13.069  24.185  0.00  0.00           N 0
+ATOM   2006  NE2 GLN A 259      -7.643   6.627  24.679  0.00  0.00           N 0
+ATOM   4045  CE1 PHE A 526      -7.968  12.363  18.683  0.00  0.00           C 0
+ATOM   2020   CA GLY A 261     -12.067  11.769  20.312  0.00  0.00           C 0
+ATOM   4043  CD1 PHE A 526      -6.675  12.703  18.245  0.00  0.00           C 0
+ATOM   4058    C GLY A 528      -5.341  16.964  20.717  0.00  0.00           C 0
+ATOM   2005   CD GLN A 259      -8.039   6.513  23.431  0.00  0.00           C 0
+ATOM   4063   CB ARG A 529      -2.508  15.148  21.224  0.00  0.00           C 0
+ATOM   4066   CD ARG A 529      -1.475  13.529  22.901  0.00  0.00           C 0
+TER
+END

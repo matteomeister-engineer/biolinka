@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.2469
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.2574
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5318
+HEADER 5  - Mean B-factor of pocket residues  : 0.8559
+HEADER 6  - Hydrophobicity Score              : 38.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 519.1027
+HEADER 10 - Pocket volume (convex hull)       : 44.1741
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.8462
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6500
+ATOM   3041    O TRP A 393     -13.609   7.538 -11.750  0.59  3.21           O 0
+ATOM   3049  CZ2 TRP A 393     -16.339   9.855  -7.655  0.00  0.00           C 0
+ATOM   3081   CG GLU A 397     -17.925   9.725 -15.875  0.00  0.00           C 0
+ATOM   3075   CE MET A 396     -17.271   6.901 -10.713  0.00  0.00           C 0
+ATOM    271  CD1 LEU A  35     -19.316  15.866 -12.272  0.00  0.00           C 0
+ATOM   3082   CD GLU A 397     -19.271   8.987 -15.967  0.00  0.00           C 0
+ATOM   3084  OE2 GLU A 397     -19.924   9.006 -17.041  0.00  0.00           O 0
+ATOM    272  CD2 LEU A  35     -20.294  14.559 -10.408  0.00  0.00           C 0
+ATOM   3083  OE1 GLU A 397     -19.612   8.245 -15.022  0.00  0.00           O 0
+ATOM    270   CG LEU A  35     -20.534  15.734 -11.357  0.00  0.00           C 0
+ATOM   3048  CH2 TRP A 393     -17.293   8.838  -7.488  0.00  0.00           C 0
+ATOM   3433  OE1 GLN A 441     -24.121   8.839  -6.556  0.00  0.00           O 0
+ATOM   3421    O LEU A 440     -20.166   6.258  -7.787  0.61  7.50           O 0
+ATOM   3045  CE2 TRP A 393     -15.006   9.500  -7.904  0.00  0.00           C 0
+ATOM   3047  NE1 TRP A 393     -13.856  10.233  -8.101  0.00  0.00           N 0
+ATOM   3055    O ARG A 394     -12.083   9.212 -14.773  0.38  4.29           O 0
+ATOM   3052   CA ARG A 394     -11.328   8.993 -12.514  0.00  0.00           C 0
+ATOM   3434    N GLY A 442     -19.564   9.286  -4.839  0.40  5.47           N 0
+ATOM   3426   CA GLN A 441     -21.019   7.378  -5.364  0.00  0.00           C 0
+ATOM   3435   CA GLY A 442     -18.354   9.972  -4.366  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.0244
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    32
+HEADER 3  - Mean alpha-sphere radius          : 3.9933
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5274
+HEADER 5  - Mean B-factor of pocket residues  : 0.8401
+HEADER 6  - Hydrophobicity Score              : -12.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 341.3185
+HEADER 10 - Pocket volume (convex hull)       : 26.9491
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   5069    O ASP A 633      -8.189  33.196  21.347  0.63  2.14           O 0
+ATOM   5093   CB LYS A 636      -5.058  35.196  22.050  0.00  0.00           C 0
+ATOM   5095   CG LYS A 636      -3.958  35.139  23.113  0.00  0.00           C 0
+ATOM   5099    N GLU A 637      -5.434  32.214  20.766  0.00  0.00           N 0
+ATOM   5096   CD LYS A 636      -4.454  35.905  24.339  0.00  0.00           C 0
+ATOM   5065    N ASP A 633     -10.633  34.019  23.186  0.75  3.28           N 0
+ATOM   5060   CB ASP A 632     -11.717  34.146  26.129  0.00  0.00           C 0
+ATOM   5068   CB ASP A 633      -8.926  35.712  22.656  0.00  0.00           C 0
+ATOM   5098   NZ LYS A 636      -3.911  36.721  26.593  0.00  0.00           N 0
+ATOM   5072  OD2 ASP A 633      -7.454  37.459  22.003  0.15  9.64           O 0
+ATOM   5128   CE LYS A 640      -3.778  30.082  24.857  0.00  0.00           C 0
+ATOM   5129   NZ LYS A 640      -4.935  29.417  25.508  0.00  0.00           N 0
+ATOM   5097   CE LYS A 636      -3.393  35.953  25.436  0.00  0.00           C 0
+ATOM   5107  OE2 GLU A 637      -6.282  29.097  23.293  0.62  2.14           O 0
+ATOM   5055  CG2 ILE A 631     -10.271  30.247  22.364  0.00  0.00           C 0
+ATOM   5064  OD2 ASP A 632     -11.293  33.360  28.321  0.00  0.00           O 0
+ATOM   5057    N ASP A 632     -12.120  32.124  24.784  0.00  0.00           N 0
+ATOM   5048    O GLY A 630     -12.900  28.636  26.339  0.60  5.36           O 0
+ATOM   5050   CA ILE A 631     -12.258  29.856  23.902  0.00  0.00           C 0
+ATOM   5054  CG1 ILE A 631     -11.128  27.901  22.787  0.00  0.00           C 0
+TER
+END

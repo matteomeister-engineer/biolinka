@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0325
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0499
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6510
+HEADER 5  - Mean B-factor of pocket residues  : 0.7157
+HEADER 6  - Hydrophobicity Score              : 1.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 292.0746
+HEADER 10 - Pocket volume (convex hull)       : 10.5699
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM    161   NE ARG A  22     -41.948 -29.522  21.254  0.33  3.28           N 0
+ATOM    108  CD1 PHE A  16     -38.731 -33.465  21.742  0.00  0.00           C 0
+ATOM    163  NH2 ARG A  22     -39.892 -30.490  21.099  0.57  6.56           N 0
+ATOM    164   CZ ARG A  22     -40.885 -30.069  21.825  0.00  0.00           C 0
+ATOM    117    O ASP A  17     -41.340 -32.051  16.373  0.46  2.14           O 0
+ATOM    160   CD ARG A  22     -43.116 -28.912  21.920  0.00  0.00           C 0
+ATOM    159   CG ARG A  22     -44.317 -28.793  20.974  0.00  0.00           C 0
+ATOM    145  CG1 VAL A  20     -46.623 -33.244  17.761  0.00  0.00           C 0
+ATOM    155   CA ARG A  22     -46.847 -28.531  21.115  0.00  0.00           C 0
+ATOM    151    O PRO A  21     -48.485 -29.987  19.450  0.95  5.36           O 0
+ATOM    143   CB VAL A  20     -45.408 -32.916  16.879  0.00  0.00           C 0
+ATOM    144    O VAL A  20     -45.304 -29.932  17.530  0.46  4.29           O 0
+ATOM    113    N ASP A  17     -39.350 -34.276  16.646  0.69  3.28           N 0
+ATOM    116   CB ASP A  17     -41.116 -34.802  15.018  0.00  0.00           C 0
+ATOM     98    O ASP A  15     -37.918 -36.611  19.607  0.00  0.00           O 0
+ATOM    146  CG2 VAL A  20     -45.086 -34.168  16.055  0.00  0.00           C 0
+ATOM    103   CA PHE A  16     -37.967 -34.024  18.636  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.1119
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8595
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4245
+HEADER 5  - Mean B-factor of pocket residues  : 0.7256
+HEADER 6  - Hydrophobicity Score              : -1.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 165.1086
+HEADER 10 - Pocket volume (convex hull)       : 2.0847
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   3079  OE1 GLN A 409      -4.449  -2.290 -10.763  0.46  6.43           O 0
+ATOM   3080    N LYS A 410      -1.653  -5.980  -9.880  0.64  2.19           N 0
+ATOM   2817   NZ LYS A 373      -3.743  -4.831 -17.174  0.00  0.00           N 0
+ATOM   3074   CB GLN A 409      -1.663  -2.950 -10.297  0.00  0.00           C 0
+ATOM   3680  OD2 ASP A 485      -0.457  -1.482 -13.484  0.64  3.21           O 0
+ATOM   3087   CE LYS A 410      -6.967  -7.446 -10.406  0.00  0.00           C 0
+ATOM   3086   CD LYS A 410      -5.611  -8.119 -10.646  0.00  0.00           C 0
+ATOM   2816   CE LYS A 373      -2.345  -4.429 -17.451  0.00  0.00           C 0
+ATOM   3069   CB ALA A 408       1.627  -6.437 -12.901  0.00  0.00           C 0
+ATOM   3085   CG LYS A 410      -4.494  -7.279 -10.012  0.00  0.00           C 0
+ATOM   2781   CB SER A 369      -3.008  -0.268 -15.046  0.00  0.00           C 0
+ATOM   3071    N GLN A 409       0.359  -4.144 -10.956  0.44  1.09           N 0
+ATOM   3083   CB LYS A 410      -3.135  -7.963 -10.199  0.00  0.00           C 0
+ATOM   3056   OH TYR A 406       1.317  -3.868 -15.499  0.84  1.07           O 0
+TER
+END

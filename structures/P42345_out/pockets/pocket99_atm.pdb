@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    99:
+HEADER 0  - Pocket Score                      : -0.0893
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.0180
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5938
+HEADER 5  - Mean B-factor of pocket residues  : 0.7930
+HEADER 6  - Hydrophobicity Score              : -12.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 419.6935
+HEADER 10 - Pocket volume (convex hull)       : 25.2031
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.4545
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.4074
+ATOM  13795   CD GLN A1741       7.491  41.849   4.003  0.00  0.00           C 0
+ATOM  13759  NE2 GLN A1737      10.196  45.937   8.858  0.00  0.00           N 0
+ATOM  13757   CG GLN A1737       7.829  46.527   8.949  0.00  0.00           C 0
+ATOM  13797  OE1 GLN A1741       7.041  41.116   4.860  0.00  0.00           O 0
+ATOM  13756    O GLN A1737       5.279  45.581   7.297  0.00  0.00           O 0
+ATOM  13785   CG LYS A1740       4.311  49.410   4.662  0.00  0.00           C 0
+ATOM  13821  CD2 HIS A1744       5.612  48.683   1.188  0.00  0.00           C 0
+ATOM  13796  NE2 GLN A1741       8.677  41.564   3.515  0.00  0.00           N 0
+ATOM  13789    N GLN A1741       4.075  45.512   4.444  0.00  0.00           N 0
+ATOM  13766   CG GLN A1738       4.512  41.908  10.352  0.00  0.00           C 0
+ATOM  13761    N GLN A1738       4.314  44.716   9.136  0.00  0.00           N 0
+ATOM  13758   CD GLN A1737       9.239  46.535   9.534  0.00  0.00           C 0
+ATOM  13760  OE1 GLN A1737       9.536  47.082  10.577  0.54  8.57           O 0
+ATOM  13768  NE2 GLN A1738       4.967  40.222  12.068  0.00  0.00           N 0
+ATOM  13792   CB GLN A1741       5.660  43.627   4.316  0.00  0.00           C 0
+ATOM  13755   CB GLN A1737       6.714  46.854   9.960  0.00  0.00           C 0
+ATOM  13739    O GLU A1735       3.247  46.581  12.978  0.00  0.00           O 0
+ATOM  13762   CA GLN A1738       3.832  43.500   8.463  0.00  0.00           C 0
+ATOM  13790   CA GLN A1741       4.748  44.584   3.530  0.00  0.00           C 0
+ATOM  13794   CG GLN A1741       6.695  42.986   3.373  0.00  0.00           C 0
+TER
+END

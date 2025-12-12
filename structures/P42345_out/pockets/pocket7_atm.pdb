@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0485
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    33
+HEADER 3  - Mean alpha-sphere radius          : 3.6066
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4302
+HEADER 5  - Mean B-factor of pocket residues  : 0.9560
+HEADER 6  - Hydrophobicity Score              : 35.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 126.5842
+HEADER 10 - Pocket volume (convex hull)       : 3.5265
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM  16026  CD1 TRP A2023      36.371   2.953 -45.140  0.00  0.00           C 0
+ATOM  15986   CG ARG A2018      36.184   3.376 -38.557  0.00  0.00           C 0
+ATOM  16008    O ILE A2021      32.089   3.794 -42.135  0.60  2.14           O 0
+ATOM  15985    O ARG A2018      32.942   3.019 -39.206  0.55  2.14           O 0
+ATOM  16387   CG LYS A2066      34.640  -4.607 -41.765  0.00  0.00           C 0
+ATOM  16041  ND1 HIS A2024      33.274  -3.185 -45.882  0.55  3.28           N 0
+ATOM  16391    N GLU A2067      38.373  -2.916 -42.617  0.00  0.00           N 0
+ATOM  16384    C LYS A2066      37.646  -4.015 -42.818  0.00  0.00           C 0
+ATOM  16392   CA GLU A2067      38.999  -2.137 -43.701  0.00  0.00           C 0
+ATOM  16023   CB TRP A2023      35.426   1.050 -46.565  0.00  0.00           C 0
+ATOM  16386    O LYS A2066      37.372  -4.432 -43.944  0.00  0.00           O 0
+ATOM  16385   CB LYS A2066      35.914  -4.292 -40.960  0.00  0.00           C 0
+ATOM  16019  CD2 LEU A2022      31.949  -0.666 -40.895  0.00  0.00           C 0
+ATOM  16901  CG1 VAL A2126      33.288  -1.217 -37.587  0.00  0.00           C 0
+ATOM  16373  OG1 THR A2064      38.720  -1.156 -39.626  0.54  1.07           O 0
+ATOM  16900    O VAL A2126      36.297  -0.523 -36.789  0.70  1.07           O 0
+ATOM  16020    N TRP A2023      33.484   1.449 -45.100  0.59  1.09           N 0
+ATOM  16015   CB LEU A2022      31.308  -0.139 -43.320  0.00  0.00           C 0
+ATOM  16396   CG GLU A2067      38.598   0.159 -42.596  0.00  0.00           C 0
+ATOM  16013   CA LEU A2022      31.764   1.333 -43.349  0.00  0.00           C 0
+ATOM  16398  OE1 GLU A2067      38.676   1.462 -40.574  0.62  2.14           O 0
+TER
+END

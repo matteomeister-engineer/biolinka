@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0326
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9047
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6228
+HEADER 5  - Mean B-factor of pocket residues  : 0.8996
+HEADER 6  - Hydrophobicity Score              : -8.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.7648
+HEADER 10 - Pocket volume (convex hull)       : 4.4907
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    125    N PHE A  17      12.291  -0.041   0.627  0.00  0.00           N 0
+ATOM    117    N ASN A  16      13.506  -1.504   2.775  0.47  6.56           N 0
+ATOM    136    N ASP A  18      13.346   1.203  -1.713  0.56  2.19           N 0
+ATOM    106    O SER A  14      13.433   1.905   5.635  0.00  0.00           O 0
+ATOM    268   CB SER A  35      14.696   6.317  -0.639  0.00  0.00           C 0
+ATOM    128   CB PHE A  17      10.963   2.011   0.491  0.00  0.00           C 0
+ATOM    107   OG SER A  14      10.996   3.092   3.744  0.69  5.36           O 0
+ATOM    269    O SER A  35      13.932   7.813   2.032  0.00  0.00           O 0
+ATOM    118   CA ASN A  16      13.417  -2.094   1.434  0.00  0.00           C 0
+ATOM    139   CB ASP A  18      15.533   1.646  -2.830  0.00  0.00           C 0
+ATOM    144    N ASP A  19      14.008  -1.091  -3.319  0.00  0.00           N 0
+ATOM    149   CG ASP A  19      15.827  -3.680  -3.170  0.00  0.00           C 0
+ATOM    151  OD2 ASP A  19      16.333  -4.305  -2.220  0.73  4.29           O 0
+ATOM    150  OD1 ASP A  19      16.480  -3.238  -4.145  0.65  2.14           O 0
+ATOM    143  OD2 ASP A  18      17.006   1.005  -4.647  0.66  9.64           O 0
+ATOM    105   CB SER A  14      11.049   3.603   5.065  0.00  0.00           C 0
+ATOM    124  OD1 ASN A  16      14.834  -4.230   0.235  0.00  0.00           O 0
+TER
+END

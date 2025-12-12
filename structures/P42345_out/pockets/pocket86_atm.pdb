@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    86:
+HEADER 0  - Pocket Score                      : -0.0739
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8847
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5837
+HEADER 5  - Mean B-factor of pocket residues  : 0.9695
+HEADER 6  - Hydrophobicity Score              : 1.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.4882
+HEADER 10 - Pocket volume (convex hull)       : 3.2660
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5417
+ATOM  17146   CB PRO A2158      31.749  -7.398 -27.414  0.00  0.00           C 0
+ATOM  17148   CG PRO A2158      30.574  -7.877 -26.562  0.00  0.00           C 0
+ATOM  17153   CB SER A2159      27.997  -7.943 -30.837  0.00  0.00           C 0
+ATOM  16864   CD GLU A2122      31.855 -11.028 -33.934  0.00  0.00           C 0
+ATOM  16865  OE1 GLU A2122      31.108 -12.022 -34.033  0.00  0.00           O 0
+ATOM  17147    O PRO A2158      31.374  -6.569 -30.387  0.80  2.14           O 0
+ATOM  16881   CD GLN A2124      36.447 -10.486 -32.549  0.00  0.00           C 0
+ATOM  16882  NE2 GLN A2124      35.611 -11.435 -32.894  0.32  4.37           N 0
+ATOM  16883  OE1 GLN A2124      37.457 -10.797 -31.939  0.64  7.50           O 0
+ATOM  16940  CD2 LEU A2131      37.080  -6.312 -28.634  0.00  0.00           C 0
+ATOM  16878   CB GLN A2124      37.068  -8.024 -32.235  0.00  0.00           C 0
+ATOM  16880   CG GLN A2124      36.140  -9.038 -32.938  0.00  0.00           C 0
+ATOM  16866  OE2 GLU A2122      33.107 -11.073 -33.952  0.37  2.14           O 0
+ATOM  16875    N GLN A2124      35.604  -6.030 -32.423  0.00  0.00           N 0
+ATOM  16863   CG GLU A2122      31.184  -9.652 -33.840  0.00  0.00           C 0
+ATOM  16861   CB GLU A2122      32.208  -8.507 -33.860  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    47:
+HEADER 0  - Pocket Score                      : -0.1332
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2796
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5596
+HEADER 5  - Mean B-factor of pocket residues  : 0.9073
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 261.1270
+HEADER 10 - Pocket volume (convex hull)       : 1.5885
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   6175   NZ LYS A 793      -3.299  -0.894  31.353  0.70  6.56           N 0
+ATOM   6174   CE LYS A 793      -3.415   0.507  31.830  0.00  0.00           C 0
+ATOM   5153   CB LYS A 660     -11.463  -0.094  36.285  0.00  0.00           C 0
+ATOM   5156   CD LYS A 660     -10.713  -2.015  37.758  0.00  0.00           C 0
+ATOM   5170  CG1 ILE A 662      -8.330   4.915  32.422  0.00  0.00           C 0
+ATOM   5166   CA ILE A 662      -8.675   5.593  34.866  0.00  0.00           C 0
+ATOM   6172   CG LYS A 793      -4.282   2.810  31.274  0.00  0.00           C 0
+ATOM   5966   CB PRO A 765      -3.134   4.839  34.692  0.00  0.00           C 0
+ATOM   6173   CD LYS A 793      -4.250   1.334  30.854  0.00  0.00           C 0
+ATOM   5163    O SER A 661     -10.065   3.697  36.392  0.70  5.36           O 0
+ATOM   5173    N VAL A 663      -7.703   6.451  36.953  0.55  2.19           N 0
+ATOM   5968   CG PRO A 765      -3.366   5.486  36.058  0.00  0.00           C 0
+ATOM   5154    O LYS A 660     -11.582   2.049  33.993  0.65  8.57           O 0
+ATOM   5171  CG2 ILE A 662      -6.654   6.400  33.597  0.00  0.00           C 0
+TER
+END

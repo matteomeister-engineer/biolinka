@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   122:
+HEADER 0  - Pocket Score                      : -0.1055
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0920
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5600
+HEADER 5  - Mean B-factor of pocket residues  : 0.9177
+HEADER 6  - Hydrophobicity Score              : 36.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 267.0593
+HEADER 10 - Pocket volume (convex hull)       : 8.0914
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM  13975  NE2 GLN A1762      -6.191  54.127 -23.796  0.00  0.00           N 0
+ATOM  13544  CG1 ILE A1711     -13.156  50.244 -21.373  0.00  0.00           C 0
+ATOM  13545  CG2 ILE A1711     -13.230  52.191 -19.746  0.00  0.00           C 0
+ATOM  13546  CD1 ILE A1711     -14.063  50.869 -22.442  0.00  0.00           C 0
+ATOM  13576   CG GLN A1715     -11.753  54.259 -15.694  0.00  0.00           C 0
+ATOM  13568  CE1 PHE A1714      -6.453  52.626 -17.270  0.00  0.00           C 0
+ATOM  13578  NE2 GLN A1715     -12.985  55.657 -17.282  0.00  0.00           N 0
+ATOM  13606  OE1 GLN A1718      -6.895  55.286 -14.858  0.44  9.64           O 0
+ATOM  13963   CB LEU A1761      -7.497  48.890 -22.939  0.00  0.00           C 0
+ATOM  13973   CG GLN A1762      -5.605  52.053 -24.928  0.00  0.00           C 0
+ATOM  13964    O LEU A1761      -7.544  49.265 -26.114  0.43  8.57           O 0
+ATOM  13967  CD2 LEU A1761      -9.829  48.056 -22.336  0.00  0.00           C 0
+ATOM  13966  CD1 LEU A1761      -8.456  49.231 -20.642  0.00  0.00           C 0
+ATOM  13943  OE1 GLN A1758      -4.114  52.157 -20.024  0.88  3.21           O 0
+ATOM  13566  CD1 PHE A1714      -7.643  51.907 -17.074  0.00  0.00           C 0
+TER
+END

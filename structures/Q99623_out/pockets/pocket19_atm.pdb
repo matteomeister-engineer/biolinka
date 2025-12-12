@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.1269
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0575
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5011
+HEADER 5  - Mean B-factor of pocket residues  : 0.9024
+HEADER 6  - Hydrophobicity Score              : 25.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 412.1810
+HEADER 10 - Pocket volume (convex hull)       : 25.1315
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6316
+ATOM   1200  CD1 ILE A 154      11.378   3.838  -4.669  0.00  0.00           C 0
+ATOM   1171   CA SER A 151      13.380  -0.207  -4.432  0.00  0.00           C 0
+ATOM   1173   CB SER A 151      14.665  -0.600  -5.165  0.00  0.00           C 0
+ATOM   1521   OH TYR A 193      15.928   2.697  -2.468  0.00  0.00           O 0
+ATOM   1545  CG1 VAL A 197      15.724   6.771  -6.618  0.00  0.00           C 0
+ATOM   1196   CB ILE A 154       9.514   2.379  -5.672  0.00  0.00           C 0
+ATOM   1199  CG2 ILE A 154       9.154   3.259  -6.885  0.00  0.00           C 0
+ATOM   1174    O SER A 151      11.508  -0.770  -5.855  0.58  2.14           O 0
+ATOM   1546  CG2 VAL A 197      16.855   6.181  -4.513  0.00  0.00           C 0
+ATOM   1567   CD LYS A 200      21.660   4.745  -8.419  0.00  0.00           C 0
+ATOM   1569   NZ LYS A 200      22.081   2.301  -8.291  0.00  0.00           N 0
+ATOM   1206  CG2 THR A 155      10.518  -0.592  -9.269  0.00  0.00           C 0
+ATOM   1578  OE1 GLN A 201      15.901   6.121 -12.549  0.21  8.57           O 0
+ATOM   1599  OE1 GLN A 204      19.895   3.959 -13.621  0.82  3.21           O 0
+ATOM   1568   CE LYS A 200      22.190   3.507  -9.145  0.00  0.00           C 0
+ATOM   1566   CG LYS A 200      21.805   5.962  -9.334  0.00  0.00           C 0
+ATOM   1570    N GLN A 201      19.336   8.614 -10.772  0.76  1.09           N 0
+ATOM   1544    O VAL A 197      17.925   8.557  -8.250  0.66  2.14           O 0
+TER
+END

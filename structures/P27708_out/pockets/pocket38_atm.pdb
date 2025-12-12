@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0074
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8651
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5652
+HEADER 5  - Mean B-factor of pocket residues  : 0.9365
+HEADER 6  - Hydrophobicity Score              : -0.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.9998
+HEADER 10 - Pocket volume (convex hull)       : 5.9427
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   5132    O TYR A 678      19.061 -19.955 -15.023  0.70  4.29           O 0
+ATOM   4000  CD2 HIS A 528      18.385 -22.385 -20.050  0.00  0.00           C 0
+ATOM   5120   CA GLN A 677      23.770 -19.135 -14.490  0.00  0.00           C 0
+ATOM   5124   CG GLN A 677      23.163 -21.595 -14.365  0.00  0.00           C 0
+ATOM   5139   CZ TYR A 678      18.450 -15.931 -17.769  0.00  0.00           C 0
+ATOM   5136  CE1 TYR A 678      19.827 -15.949 -17.482  0.00  0.00           C 0
+ATOM   5138   OH TYR A 678      18.025 -15.611 -19.009  0.52  2.14           O 0
+ATOM   5134  CD1 TYR A 678      20.261 -16.231 -16.175  0.00  0.00           C 0
+ATOM   5114    O GLU A 676      23.753 -16.575 -15.461  0.81  6.43           O 0
+ATOM   3997   CB HIS A 528      16.522 -22.433 -18.277  0.00  0.00           C 0
+ATOM   3994    N HIS A 528      15.040 -20.780 -19.309  0.00  0.00           N 0
+ATOM   3992  OE1 GLU A 527      15.788 -15.801 -22.367  0.00  0.00           O 0
+ATOM   3993  OE2 GLU A 527      15.950 -16.900 -20.426  0.60  1.07           O 0
+ATOM   3984    O GLY A 526      16.816 -20.172 -23.136  0.00  0.00           O 0
+ATOM   5128    N TYR A 678      21.381 -18.645 -14.274  0.67  1.09           N 0
+ATOM   5137  CE2 TYR A 678      17.508 -16.228 -16.764  0.00  0.00           C 0
+TER
+END
