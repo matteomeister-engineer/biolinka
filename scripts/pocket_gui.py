@@ -1009,9 +1009,10 @@ st.markdown(
 
 # Free-text analyte input (still remembered in session_state)
 analyte_input = st.text_input(
-    "",
+    "Analyte",  # non-empty label for accessibility
     value=st.session_state["analyte_query"],
     placeholder="e.g. glucose, dopamine, cortisol, ibuprofen, custom drug name…",
+    label_visibility="collapsed",
 )
 
 raw_analyte = analyte_input.strip()
