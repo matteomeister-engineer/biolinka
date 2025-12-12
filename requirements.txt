@@ -3,4 +3,4 @@ pandas
 numpy
 requests
 py3Dmol
-st-aggrid
+streamlit-aggrid
