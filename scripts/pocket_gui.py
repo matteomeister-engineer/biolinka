@@ -30,6 +30,24 @@ def remove_pubmed_refs(text: str) -> str:
     text = re.sub(r"PubMed:\d+", "", text)
     return text
 
+def pill_html(label: str, value: str, color: str = "#111827", bg: str = "#F3F4F6") -> str:
+    return f"""
+    <span style="
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        padding:6px 12px;
+        border-radius:999px;
+        background:{bg};
+        color:{color};
+        font-size:0.85rem;
+        font-weight:600;
+        white-space:nowrap;
+    ">
+        <span style="opacity:0.75; font-weight:600;">{label}</span>
+        <span style="font-weight:800;">{value}</span>
+    </span>
+    """
 def to_streamlit_df(df: pd.DataFrame) -> pd.DataFrame:
     """
     Fix PyArrow object-type column errors for st.dataframe().
@@ -189,6 +207,38 @@ st.set_page_config(
     page_title="BioLinka",
     layout="wide",
 )
+
+st.markdown(
+    """
+    <style>
+      .dock-kpi-title {
+        color:#6B7280;
+        font-size:0.85rem;
+        margin-bottom:0.25rem;
+      }
+      .dock-kpi-value {
+        font-size:0.95rem;
+        font-weight:500;
+        margin-bottom:0.4rem;
+      }
+      .dock-pill {
+        display:inline-block;
+        padding:4px 10px;
+        border-radius:999px;
+        font-size:0.78rem;
+        font-weight:600;
+        color:white;
+      }
+      .dock-subtitle {
+        color:#6B7280;
+        font-size:0.9rem;
+        line-height:1.45;
+      }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.markdown(
     """
     <style>
@@ -1680,59 +1730,61 @@ with right_col:
 st.session_state["best_pocket"] = best_pocket
 
 st.markdown("---")
-# ---------------------------------------------------------------------
-# DOCKING PACKAGE + LIGAND 3D (below best pocket)
-# ---------------------------------------------------------------------
 
+# -----------------------------
+# Docking & ligand profile (UI)
+# -----------------------------
 
-dock_col, lig3d_col = st.columns([1.3, 1])
+st.markdown('<div class="dock-section">', unsafe_allow_html=True)
+st.subheader("Docking & ligand profile")
 
-with dock_col:
-    st.subheader("Docking package")
+# Choose values (from PubChem if available, else fall back gracefully)
+mw_val = mw_num if not np.isnan(mw_num) else None
+logp_val = xlogp_num if not np.isnan(xlogp_num) else None
+tpsa_val = tpsa_num if not np.isnan(tpsa_num) else None
+chg_val = charge_num if not np.isnan(charge_num) else None
 
-    if not analyte_for_docking:
-        st.info(
-            "Type or select an analyte (e.g. glucose, dopamine, cortisol) to enable docking."
-        )
-    else:
-        st.markdown(
-            "<span style='font-size:0.9rem; color:#6B7280;'>"
-            "Generate docking boxes, ligand 3D file and a summary CSV, "
-            "packaged as a single ZIP under <code>docking/</code>."
-            "</span>",
-            unsafe_allow_html=True,
-        )
+size_txt = describe_mw(mw_num) if mw_val is not None else "size: unknown"
+logp_txt = describe_logp(xlogp_num, (profile or {}).get("polarity")) if logp_val is not None or profile else "polarity: unknown"
+tpsa_txt = describe_tpsa(tpsa_num) if tpsa_val is not None else "H-bonding: unknown"
+chg_txt  = describe_charge(charge_num, (profile or {}).get("charge")) if chg_val is not None or profile else "charge: unknown"
 
-        if st.button("Download docking package (.zip)", use_container_width=True):
-            with st.spinner("Running docking setup and building package…"):
-                zip_bytes, log_text = build_docking_package_zip(analyte_for_docking)
+# Colors (you already have helpers)
+mw_color   = color_for_mw(mw_num)
+logp_color = color_for_logp(xlogp_num)
+tpsa_color = color_for_tpsa(tpsa_num)
+chg_color  = color_for_charge(charge_num if chg_val is not None else (profile or {}).get("charge", "neutral"))
 
-            if zip_bytes is None:
-                st.error("Docking setup failed — see log below.")
-                if log_text:
-                    st.code(log_text, language="bash")
-            else:
-                file_name = f"{analyte_folder_name}_docking_package.zip"
-                b64_zip = base64.b64encode(zip_bytes).decode("utf-8")
+k1, k2, k3, k4 = st.columns(4)
 
-                html = f"""
-                <html>
-                  <body>
-                    <a id="auto_dl" href="data:application/zip;base64,{b64_zip}"
-                       download="{file_name}"></a>
-                    <script>
-                      document.getElementById('auto_dl').click();
-                    </script>
-                  </body>
-                </html>
-                """
+with k1:
+    st.markdown('<div class="dock-kpi-title">Molecular weight (MW)</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="dock-kpi-value">{mw_val:.1f} Da</div>' if mw_val is not None else '<div class="dock-kpi-value">–</div>', unsafe_allow_html=True)
+    st.markdown(f'<span class="dock-pill" style="background:{mw_color};">{size_txt}</span>', unsafe_allow_html=True)
 
-                st.success(
-                    "Docking package ready — your download should start automatically."
-                )
-                components.html(html, height=0, width=0)
+with k2:
+    st.markdown('<div class="dock-kpi-title">Partition coefficient (logP)</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="dock-kpi-value">{logp_val:.2f}</div>' if logp_val is not None else '<div class="dock-kpi-value">–</div>', unsafe_allow_html=True)
+    st.markdown(f'<span class="dock-pill" style="background:{logp_color};">{logp_txt}</span>', unsafe_allow_html=True)
 
-with lig3d_col:
+with k3:
+    st.markdown('<div class="dock-kpi-title">Topological polar surface area (TPSA)</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="dock-kpi-value">{tpsa_val:.1f} Å²</div>' if tpsa_val is not None else '<div class="dock-kpi-value">–</div>', unsafe_allow_html=True)
+    st.markdown(f'<span class="dock-pill" style="background:{tpsa_color};">{tpsa_txt}</span>', unsafe_allow_html=True)
+
+with k4:
+    st.markdown('<div class="dock-kpi-title">Formal charge (pH ~7)</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="dock-kpi-value">{int(chg_val) if chg_val is not None else 0}</div>', unsafe_allow_html=True)
+    st.markdown(f'<span class="dock-pill" style="background:{chg_color};">{chg_txt}</span>', unsafe_allow_html=True)
+
+st.markdown("")  # small spacer
+
+# Bottom row: ligand 3D (left) + docking package (right)
+left, right = st.columns([1.2, 1])
+
+with left:
+    st.subheader("Ligand 3D structure")
+
     if analyte_for_docking:
         ligand_sdf_path = DOCKING_ROOT / "ligands" / f"{analyte_folder_name}.sdf"
         sdf_text: str | None = None
@@ -1747,17 +1799,55 @@ with lig3d_col:
             sdf_text = fetch_pubchem_sdf_by_name(analyte_for_docking)
 
         if sdf_text:
-            st.subheader("Ligand 3D structure")
             try:
-                lig_view = py3Dmol.view(width=450, height=260)
+                lig_view = py3Dmol.view(width=520, height=320)
                 lig_view.addModel(sdf_text, "sdf")
                 lig_view.setStyle({"stick": {"radius": 0.18}})
                 lig_view.addStyle({"sphere": {"scale": 0.25}})
                 lig_view.zoomTo()
                 lig_view.setBackgroundColor("0xFFFFFF")
-                lig_html = lig_view._make_html()
-                components.html(lig_html, height=280, scrolling=False)
+                components.html(lig_view._make_html(), height=340, scrolling=False)
             except Exception as e:
                 st.warning(f"Could not render ligand 3D view: {e}")
+        else:
+            st.info("No 3D structure available for this analyte yet.")
+    else:
+        st.info("Type an analyte above to render its 3D structure.")
 
-st.markdown("---")
+with right:
+    st.subheader("Docking package")
+    st.markdown(
+        """
+        <div class="dock-subtitle">
+          Generate docking boxes, ligand 3D file and a summary CSV, packaged as a single ZIP under
+          <span class="dock-code">docking/</span>.
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    if not analyte_for_docking:
+        st.info("Type an analyte above to enable docking export.")
+    else:
+        if st.button("Download docking package (.zip)", use_container_width=True):
+            with st.spinner("Running docking setup and building package…"):
+                zip_bytes, log_text = build_docking_package_zip(analyte_for_docking)
+
+            if zip_bytes is None:
+                st.error("Docking setup failed — see log below.")
+                if log_text:
+                    st.code(log_text, language="bash")
+            else:
+                file_name = f"{analyte_folder_name}_docking_package.zip"
+                b64_zip = base64.b64encode(zip_bytes).decode("utf-8")
+
+                html = f"""
+                <html><body>
+                  <a id="auto_dl" href="data:application/zip;base64,{b64_zip}" download="{file_name}"></a>
+                  <script>document.getElementById('auto_dl').click();</script>
+                </body></html>
+                """
+                st.success("Docking package ready — your download should start automatically.")
+                components.html(html, height=0, width=0)
+
+st.markdown("</div>", unsafe_allow_html=True)
