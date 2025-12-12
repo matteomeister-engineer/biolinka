@@ -931,6 +931,21 @@ else:
 # ---------------------------------------------------------------------
 # ANALYTE SELECTION
 # ---------------------------------------------------------------------
+st.markdown(
+    """
+    <style>
+    /* Hide anchor/link icons next to headers and metrics */
+    a[data-testid="stHeaderLink"],
+    a[data-testid="stMetricDelta"],
+    a[data-testid="stMetricValue"],
+    a[data-testid="stMetricLabel"],
+    svg[data-testid="stHeaderLinkIcon"] {
+        display: none !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.markdown(
     """
