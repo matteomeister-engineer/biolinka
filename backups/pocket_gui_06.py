@@ -15,251 +15,12 @@ import re
 from pathlib import Path
 from urllib.parse import quote
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
-from math import sqrt
 
 
 
 # ---------------------------------------------------------------------
 # SMALL HELPERS
 # ---------------------------------------------------------------------
-
-def design_priority_score(res: dict) -> float:
-    """
-    Heuristic score in [0,1] for how interesting a residue is to engineer.
-    Higher = better mutation candidate.
-    """
-    # distance term (closer = better)
-    d = res.get("min_dist_A", np.nan)
-    if np.isnan(d):
-        dist_score = 0.0
-    else:
-        dist_score = max(0.0, min(1.0, 1.0 - (d / 6.0)))
-
-    # interaction term
-    interaction = res.get("interaction", "other")
-    interaction_weights = {
-        "hydrophobic": 0.7,
-        "aromatic": 0.75,
-        "H-bond": 0.8,
-        "salt bridge": 0.9,
-        "special": 0.3,
-        "other": 0.5,
-    }
-    inter_score = interaction_weights.get(interaction, 0.5)
-
-    # risk term
-    risk = res.get("risk", "medium")
-    risk_weights = {
-        "low": 1.0,
-        "medium": 0.6,
-        "high": 0.2,
-    }
-    risk_score = risk_weights.get(risk, 0.6)
-
-    # penalize structural residues
-    resn = res.get("resn", "")
-    structural_penalty = 0.4 if resn in {"GLY", "PRO", "CYS"} else 1.0
-
-    score = (
-        0.4 * dist_score
-        + 0.3 * inter_score
-        + 0.3 * risk_score
-    ) * structural_penalty
-
-    return float(max(0.0, min(1.0, score)))
-
-AROMATIC = {"PHE", "TYR", "TRP"}
-SPECIAL  = {"GLY", "PRO", "CYS"}
-
-def residue_interaction_hint(resn: str, lig_charge: float | None = None) -> tuple[str, str, str]:
-    """
-    Returns (interaction, risk, notes)
-    interaction: hydrophobic / H-bond / salt bridge / aromatic / special / other
-    risk: low / medium / high
-    notes: short design hint
-    """
-    r = (resn or "").upper().strip()
-
-    # defaults
-    interaction = "other"
-    risk = "medium"
-    notes = ""
-
-    if r in HYDROPHOBIC:
-        interaction = "hydrophobic"
-        risk = "low"
-        notes = "Hydrophobic contact; tune pocket size/shape via mutations."
-        if r in {"PHE", "TRP"}:
-            risk = "medium"
-
-    if r in POLAR:
-        interaction = "H-bond"
-        risk = "medium"
-        notes = "Polar contact; mutations can change H-bond network."
-
-    if r in CHARGED_POS:
-        interaction = "salt bridge"
-        risk = "high"
-        notes = "Charged residue; likely key for binding specificity."
-        if lig_charge is not None and lig_charge < 0:
-            notes = "Cationic site; favorable for anionic ligand (salt bridge)."
-
-    if r in CHARGED_NEG:
-        interaction = "salt bridge"
-        risk = "high"
-        notes = "Charged residue; likely key for binding specificity."
-        if lig_charge is not None and lig_charge > 0:
-            notes = "Anionic site; favorable for cationic ligand (salt bridge)."
-
-    if r in AROMATIC:
-        interaction = "aromatic"
-        risk = "medium"
-        notes = "π-stacking / hydrophobic packing; mutations can strongly alter affinity."
-
-    if r in SPECIAL:
-        interaction = "special"
-        risk = "high" if r in {"CYS"} else "medium"
-        if r == "GLY":
-            notes = "Glycine: structural; mutations often destabilize."
-        elif r == "PRO":
-            notes = "Proline: backbone kink; mutations often destabilize."
-        elif r == "CYS":
-            notes = "Cysteine: reactive/disulfide risk; mutate with caution."
-
-    return interaction, risk, notes
-
-
-def risk_color(risk: str) -> tuple[str, str]:
-    """Return (bg, fg) for a small pill."""
-    r = (risk or "").lower()
-    if r == "low":
-        return ("#DCFCE7", "#166534")
-    if r == "medium":
-        return ("#FEF9C3", "#854D0E")
-    if r == "high":
-        return ("#FEE2E2", "#991B1B")
-    return ("#E5E7EB", "#374151")
-
-HYDROPHOBIC = {"ALA","VAL","LEU","ILE","MET","PHE","TRP","PRO"}
-POLAR       = {"SER","THR","ASN","GLN","TYR","CYS"}
-CHARGED_POS = {"LYS","ARG","HIS"}
-CHARGED_NEG = {"ASP","GLU"}
-
-def residue_class(resn: str) -> str:
-    r = (resn or "").upper()
-    if r in CHARGED_POS:
-        return "charged +"
-    if r in CHARGED_NEG:
-        return "charged -"
-    if r in POLAR:
-        return "polar"
-    if r in HYDROPHOBIC:
-        return "hydrophobic"
-    return "other"
-
-def parse_pdb_atoms(pdb_text: str):
-    """
-    Very small PDB parser.
-    Returns list of dicts with keys: chain, resi (int), resn, atom, x,y,z.
-    """
-    atoms = []
-    for line in pdb_text.splitlines():
-        if not (line.startswith("ATOM") or line.startswith("HETATM")):
-            continue
-        try:
-            atom = line[12:16].strip()
-            resn = line[17:20].strip()
-            chain = line[21].strip() or "A"
-            resi = int(line[22:26].strip())
-            x = float(line[30:38].strip())
-            y = float(line[38:46].strip())
-            z = float(line[46:54].strip())
-        except Exception:
-            continue
-        atoms.append(
-            {"chain": chain, "resi": resi, "resn": resn, "atom": atom, "x": x, "y": y, "z": z}
-        )
-    return atoms
-
-def centroid_xyz(atoms):
-    if not atoms:
-        return None
-    sx = sum(a["x"] for a in atoms)
-    sy = sum(a["y"] for a in atoms)
-    sz = sum(a["z"] for a in atoms)
-    n = len(atoms)
-    return (sx/n, sy/n, sz/n)
-
-def dist(a, b):
-    return sqrt((a[0]-b[0])**2 + (a[1]-b[1])**2 + (a[2]-b[2])**2)
-
-def ligand_center_from_pdbqt(pdbqt_path):
-    """
-    Compute ligand center from a docked pdbqt-like file (ATOM/HETATM coords).
-    Works even if it's pdbqt; coords are in the same columns.
-    """
-    try:
-        text = Path(pdbqt_path).read_text()
-    except Exception:
-        return None
-    atoms = parse_pdb_atoms(text)
-    return centroid_xyz(atoms)
-
-def compute_lining_residues(protein_pdb_path, pocket_pdb_path, center_xyz=None, cutoff=6.0):
-    """
-    Returns list of residues near pocket (within cutoff Å of ANY pocket atom),
-    plus a per-residue distance to center_xyz (ligand center if available, else pocket centroid).
-    """
-    protein_text = Path(protein_pdb_path).read_text()
-    pocket_text  = Path(pocket_pdb_path).read_text()
-
-    prot_atoms = parse_pdb_atoms(protein_text)
-    poc_atoms  = parse_pdb_atoms(pocket_text)
-
-    if not poc_atoms or not prot_atoms:
-        return [], None
-
-    pocket_center = centroid_xyz(poc_atoms)
-    use_center = center_xyz or pocket_center
-
-    pocket_pts = [(a["x"], a["y"], a["z"]) for a in poc_atoms]
-
-    # group atoms by residue
-    res_map = {}
-    for a in prot_atoms:
-        key = (a["chain"], a["resi"], a["resn"])
-        res_map.setdefault(key, []).append((a["x"], a["y"], a["z"]))
-
-    lining = []
-    for (chain, resi, resn), coords in res_map.items():
-        # min distance residue atoms -> pocket atoms
-        min_to_pocket = 1e9
-        for c in coords:
-            for p in pocket_pts:
-                d = dist(c, p)
-                if d < min_to_pocket:
-                    min_to_pocket = d
-                if min_to_pocket <= cutoff:
-                    break
-            if min_to_pocket <= cutoff:
-                break
-
-        if min_to_pocket <= cutoff:
-            # distance to ligand/pocket center (use min atom distance to center)
-            min_to_center = min(dist(c, use_center) for c in coords)
-            lining.append({
-                "chain": chain,
-                "resi": resi,
-                "resn": resn,
-                "label": f"{resn}{resi}",
-                "class": residue_class(resn),
-                "min_dist_A": float(min_to_center),
-            })
-
-    # sort closest first
-    lining.sort(key=lambda r: r["min_dist_A"])
-    return lining, use_center
-
 def remove_pubmed_refs(text: str) -> str:
     if not text:
         return text
@@ -1223,57 +984,7 @@ def interpret_pocket(row: pd.Series) -> str:
 # ---------------------------------------------------------------------
 # UI HEADER
 # ---------------------------------------------------------------------
-def render_best_pocket_info(best_pocket: pd.Series):
-    prot = best_pocket.get("protein_id", "–")
-    pocket_id = best_pocket.get("pocket_id", "–")
-    bios = best_pocket.get("biosensor_score", np.nan)
-    drugg = best_pocket.get("druggability_score", np.nan)
-    vol = best_pocket.get("volume", np.nan)
-    hyd = best_pocket.get("hydrophobicity_score", np.nan)
-    org = best_pocket.get("source_organism", "unknown")
-    pname = best_pocket.get("protein_name", "Unknown protein")
 
-    compat = best_pocket.get("ligand_compat_score", np.nan)
-    qshape = best_pocket.get("quickshape_score", np.nan)
-
-    bios_str = "–" if np.isnan(bios) else f"{bios*100:.2f}".rstrip("0").rstrip(".") + "%"
-    vol_str = "–" if np.isnan(vol) else f"{vol:.1f} Å³"
-    hyd_str = "–" if np.isnan(hyd) else f"{hyd:.1f}"
-    compat_str = "–" if np.isnan(compat) else f"{compat*100:.2f}".rstrip("0").rstrip(".") + "%"
-    qshape_str = "–" if np.isnan(qshape) else f"{qshape*100:.2f}".rstrip("0").rstrip(".") + "%"
-
-    af_url = f"https://alphafold.ebi.ac.uk/entry/AF-{prot}-F1"
-    up_url = f"https://www.uniprot.org/uniprotkb/{prot}/entry"
-
-    bg, fg = soft_color_for_compat(compat)
-
-    html = f"""
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px 22px; font-size:0.95rem;">
-      <div><b>Protein ID</b><br>{prot}<br>
-        <a href="{up_url}" target="_blank">UniProt →</a><br>
-        <a href="{af_url}" target="_blank">AlphaFold →</a>
-      </div>
-      <div><b>Ligand compatibility</b><br>
-        <span style="padding:3px 10px;border-radius:999px;background:{bg};color:{fg};font-weight:600;">
-          {compat_str}
-        </span>
-      </div>
-
-      <div><b>Protein name</b><br>{pname}</div>
-      <div><b>Biosensor score</b><br>{bios_str}</div>
-
-      <div><b>Source organism</b><br>{org}</div>
-      <div><b>QuickShape</b><br>{qshape_str}</div>
-
-      <div><b>Pocket ID</b><br>{pocket_id}</div>
-      <div><b>Hydrophobicity</b><br>{hyd_str}</div>
-
-      <div></div>
-      <div><b>Volume</b><br>{vol_str}</div>
-    </div>
-    """
-    st.markdown(html, unsafe_allow_html=True)
-    
 if LOGO_PATH.exists():
     with open(LOGO_PATH, "r") as f:
         svg_content = f.read()
@@ -1733,219 +1444,149 @@ if df_filtered.empty:
     st.stop()
 
 # ---------------------------------------------------------------------
-# INITIALIZE POCKET SELECTION STATE (ONCE)
+# RANK POCKETS ONCE (USED BY VIEWER + TABLE)
 # ---------------------------------------------------------------------
 
-# rank pockets once (no UI yet)
-df_ranked = (
-    df_filtered.sort_values(
+if (
+    "ligand_compat_score" in df_filtered.columns
+    and df_filtered["ligand_compat_score"].notna().any()
+):
+    df_ranked = df_filtered.sort_values(
         ["ligand_compat_score", "biosensor_score"], ascending=False
     )
-    if "ligand_compat_score" in df_filtered.columns
-       and df_filtered["ligand_compat_score"].notna().any()
-    else df_filtered.sort_values("biosensor_score", ascending=False)
-)
+else:
+    df_ranked = df_filtered.sort_values("biosensor_score", ascending=False)
 
 df_top = df_ranked.head(20).reset_index(drop=True)
 df_top["rank"] = df_top.index + 1
-df_top["pocket_key"] = (
-    df_top["protein_id"].astype(str) + "::" + df_top["pocket_id"].astype(str)
-)
 
-# initialize session state key ONCE
-if "best_pocket_key" not in st.session_state:
-    st.session_state["best_pocket_key"] = df_top.loc[0, "pocket_key"]
-
-# resolve current best pocket
-match = df_top[df_top["pocket_key"] == st.session_state["best_pocket_key"]]
-best_pocket = match.iloc[0] if not match.empty else df_top.iloc[0]
+# Choose current best pocket (session_state → default to top-ranked)
+best_pocket = st.session_state.get("best_pocket", df_top.iloc[0])
 
 # ---------------------------------------------------------------------
-# Small helper: vertical divider
+# BEST MATCHING POCKET + 3D VIEWER (ABOVE TABLE)
 # ---------------------------------------------------------------------
-def vertical_divider(height_px: int = 760, shrink: float = 0.8):
-    effective_height = int(height_px * shrink)
 
-    st.markdown(
-        f"""
-        <div style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: {height_px}px;
-        ">
-            <div style="
-                width: 1px;
-                height: {effective_height}px;
-                background: #E5E7EB;
-            "></div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+best_col, viewer_col = st.columns([1, 1])
 
-# ---------------------------------------------------------------------
-# Small helper: render lining table
-# ---------------------------------------------------------------------
-def render_lining_table(lining_res: list[dict], charge_num: float):
-    st.markdown("**Pocket lining residues (within 6 Å of pocket)**")
-
-    lig_charge_for_hint = None
-    try:
-        lig_charge_for_hint = float(charge_num) if not np.isnan(charge_num) else None
-    except Exception:
-        lig_charge_for_hint = None
-
-    for r in lining_res or []:
-        inter, risk, notes = residue_interaction_hint(
-            r.get("resn", ""),
-            lig_charge=lig_charge_for_hint,
-        )
-        r["interaction"] = inter
-        r["risk"] = risk
-        r["notes"] = notes
-        
-    for r in lining_res:
-        r["design_score"] = design_priority_score(r)
-
-    df_lining_raw = pd.DataFrame(lining_res or [])
-
-    if df_lining_raw.empty:
-        st.info("No pocket lining residues found within cutoff.")
-        return
-
-    df_lining_raw["resi"] = pd.to_numeric(df_lining_raw["resi"], errors="coerce")
-    df_lining_raw = df_lining_raw.sort_values("min_dist_A")
-
-    # keep one row per residue (chain + resi)
-    df_lining_raw = df_lining_raw.drop_duplicates(
-        subset=["chain", "resi"],
-        keep="first",
-    )
-
-    df_lining = df_lining_raw[
-        [
-            "label",
-            "resn",
-            "class",
-            "interaction",
-            "risk",
-            "min_dist_A",
-            "chain",
-            "resi",
-            "notes",
-        ]
-    ].rename(columns={
-        "label": "Residue",
-        "resn": "AA",
-        "class": "Type",
-        "interaction": "Likely interaction",
-        "risk": "Mutation risk",
-        "min_dist_A": "Min distance (Å)",
-        "chain": "Chain",
-        "resi": "Resi",
-        "notes": "Notes",
-    })
-
-    df_lining["Min distance (Å)"] = (
-        pd.to_numeric(df_lining["Min distance (Å)"], errors="coerce").round(2)
-    )
-
-    df_lining["Residue"] = df_lining["Residue"].astype(str)
-    df_lining["AA"] = df_lining["AA"].astype(str)
-    df_lining["Type"] = df_lining["Type"].astype(str)
-    df_lining["Chain"] = df_lining["Chain"].astype(str)
-    df_lining["Resi"] = pd.to_numeric(df_lining["Resi"], errors="coerce").astype("Int64")
-
-    gb = GridOptionsBuilder.from_dataframe(df_lining)
-    gb.configure_default_column(
-        sortable=True,
-        filter=True,
-        resizable=True,
-    )
-    gb.configure_grid_options(domLayout="normal")
-
-    AgGrid(
-        df_lining,
-        gridOptions=gb.build(),
-        theme="streamlit",
-        height=260,
-        fit_columns_on_grid_load=True,
-    )
-
-# ---------------------------------------------------------------------
-# Pre-compute paths + lining residues once (so we can display them in row 2)
-# ---------------------------------------------------------------------
-prot_id = str(best_pocket["protein_id"])
-pocket_num = str(best_pocket["pocket_id"])
-protein_pdb = STRUCT_DIR / f"{prot_id}.pdb"
-pocket_pdb = STRUCT_DIR / f"{prot_id}_out" / "pockets" / f"pocket{pocket_num}_atm.pdb"
-
-# Docked pose path (if exists)
-interpreted_name = st.session_state.get("interpreted_name", None)
-analyte_for_docking = (interpreted_name or analyte_for_docking or "").strip()
-analyte_folder_name = analyte_for_docking.replace(" ", "_") if analyte_for_docking else None
-
-docked_pose = None
-if analyte_folder_name:
-    docked_dir = BASE_DIR / "docking" / analyte_folder_name / "docked"
-    docked_pose = docked_dir / f"{prot_id}_pocket{pocket_num}_{analyte_folder_name}_out.pdbqt"
-
-lig_center = None
-if docked_pose is not None and docked_pose.exists():
-    lig_center = ligand_center_from_pdbqt(docked_pose)
-
-lining_res, used_center = [], None
-if protein_pdb.exists() and pocket_pdb.exists():
-    lining_res, used_center = compute_lining_residues(
-        protein_pdb_path=protein_pdb,
-        pocket_pdb_path=pocket_pdb,
-        center_xyz=lig_center,
-        cutoff=6.0,
-    )
-
-
-# ---------------------------------------------------------------------
-# ONE SPLIT LAYOUT (single vertical divider) + stacked content
-# ---------------------------------------------------------------------
-mainL, mainMid, mainR = st.columns([1, 0.02, 1])
-
-with mainMid:
-    # make it tall enough to cover both stacked blocks
-    vertical_divider(height_px=760)  # adjust if needed
-
-with mainL:
-    # ---- Top-left
+with best_col:
     st.subheader("Best Matching Pocket")
-    render_best_pocket_info(best_pocket)
 
-    st.markdown("<div style='height:14px;'></div>", unsafe_allow_html=True)
+    prot = best_pocket.get("protein_id", "–")
+    pocket_id = best_pocket.get("pocket_id", "–")
+    bios = best_pocket.get("biosensor_score", np.nan)
+    drugg = best_pocket.get("druggability_score", np.nan)
+    vol = best_pocket.get("volume", np.nan)
+    hyd = best_pocket.get("hydrophobicity_score", np.nan)
+    org = best_pocket.get("source_organism", "unknown")
+    pname = best_pocket.get("protein_name", "Unknown protein")
 
-    # ---- Bottom-left
-    st.subheader("Biological context & pocket interpretation")
-    interp_html = interpret_pocket(best_pocket)
-    st.markdown(
-        f"""
-        <div style="font-size: 0.92rem; line-height: 1.45;">
-          {interp_html}
-        </div>
-        """,
-        unsafe_allow_html=True,
+    compat = best_pocket.get("ligand_compat_score", np.nan)
+    qshape = best_pocket.get("quickshape_score", np.nan)
+
+    bios_str = "–" if np.isnan(bios) else f"{(bios * 100):.2f}".rstrip("0").rstrip(".") + "%"
+    drugg_str = "–" if np.isnan(drugg) else f"{drugg:.3f}"
+    vol_str = "–" if np.isnan(vol) else f"{vol:.1f} Å³"
+    hyd_str = "–" if np.isnan(hyd) else f"{hyd:.1f}"
+
+    compat_str = (
+        "–" if np.isnan(compat)
+        else f"{(compat * 100):.2f}".rstrip("0").rstrip(".") + "%"
+    )
+    qshape_str = (
+        "–" if np.isnan(qshape)
+        else f"{(qshape * 100):.2f}".rstrip("0").rstrip(".") + "%"
     )
 
-with mainR:
-    # ---- Top-right
+    af_entry_url = f"https://alphafold.ebi.ac.uk/entry/AF-{prot}-F1"
+    uniprot_url = f"https://www.uniprot.org/uniprotkb/{prot}/entry"
+
+    af_link_html = (
+        f"<a href='{af_entry_url}' target='_blank' "
+        "style='color:#2563EB; text-decoration:none; font-weight:500;'>"
+        "Open in AlphaFold →"
+        "</a>"
+    )
+    uniprot_link_html = (
+        f"<a href='{uniprot_url}' target='_blank' "
+        "style='color:#2563EB; text-decoration:none; font-weight:500; margin-right:12px;'>"
+        "Open in UniProt →"
+        "</a>"
+    )
+
+    bg, fg = soft_color_for_compat(compat)
+    compat_pill_html = (
+        f"<span style='"
+        "display:inline-block;"
+        "padding:3px 10px;"
+        "border-radius:999px;"
+        f"background:{bg};"
+        f"color:{fg};"
+        "font-size:0.82rem;"
+        "font-weight:600;"
+        "margin-top:3px;"
+        "white-space:nowrap;"
+        "'>"
+        f"{compat_str}"
+        "</span>"
+        if compat_str != "–" else "–"
+    )
+
+    pocket_info_html = (
+        "<div style='"
+        "display:grid;"
+        "grid-template-columns:1fr 1fr;"
+        "gap:14px 22px;"
+        "font-size:0.95rem;"
+        "line-height:1.25;"
+        "padding-top:6px;"
+        "'>"
+        f"<div><strong>Protein ID</strong><br>{prot}<br>{uniprot_link_html}<br>{af_link_html}</div>"
+        f"<div><strong>Ligand compatibility</strong><br>{compat_pill_html}</div>"
+        f"<div><strong>Protein name</strong><br>{pname}</div>"
+        f"<div><strong>Biosensor score</strong><br>{bios_str}</div>"
+        f"<div><strong>Source organism</strong><br>{org}</div>"
+        f"<div><strong>QuickShape (geom. fit)</strong><br>{qshape_str}</div>"
+        f"<div><strong>Pocket location</strong><br>{pocket_id}</div>"
+        f"<div><strong>Hydrophobicity</strong><br>{hyd_str}</div>"
+        f"<div></div>"
+        f"<div><strong>Volume</strong><br>{vol_str}</div>"
+        "</div>"
+    )
+
+    st.markdown(pocket_info_html, unsafe_allow_html=True)
+
+with viewer_col:
     st.subheader("3D viewer")
 
     vcol, lcol = st.columns([5, 1])
 
     with vcol:
+        prot_id = str(best_pocket["protein_id"])
+        pocket_num = str(best_pocket["pocket_id"])
+        protein_pdb = STRUCT_DIR / f"{prot_id}.pdb"
+        pocket_pdb = STRUCT_DIR / f"{prot_id}_out" / "pockets" / f"pocket{pocket_num}_atm.pdb"
+
+        interpreted_name = st.session_state.get("interpreted_name", None)
+        analyte_for_docking = (interpreted_name or analyte_for_docking or "").strip()
+        analyte_folder_name = (
+            analyte_for_docking.replace(" ", "_") if analyte_for_docking else None
+        )
+
+        docked_pose = None
+        if analyte_folder_name:
+            docked_dir = BASE_DIR / "docking" / analyte_folder_name / "docked"
+            docked_pose = (
+                docked_dir
+                / f"{prot_id}_pocket{pocket_num}_{analyte_folder_name}_out.pdbqt"
+            )
+
         show_ligand_pose = False
         if docked_pose is not None and docked_pose.exists():
             show_ligand_pose = st.checkbox(
                 "Show docked ligand pose (Vina)",
                 value=True,
-                key=f"show_docked_pose_{st.session_state['best_pocket_key']}",
+                key="show_docked_pose",
             )
 
         if not protein_pdb.exists():
@@ -1974,7 +1615,11 @@ with mainR:
                         },
                     )
 
-                if show_ligand_pose and docked_pose is not None and docked_pose.exists():
+                if (
+                    show_ligand_pose
+                    and docked_pose is not None
+                    and docked_pose.exists()
+                ):
                     model_index += 1
                     with open(docked_pose, "r") as f:
                         view.addModel(f.read(), "pdb")
@@ -1987,14 +1632,19 @@ with mainR:
                     )
                     view.zoomTo({"model": model_index})
                 else:
-                    view.zoomTo({"model": 1} if pocket_pdb.exists() else {})
+                    if pocket_pdb.exists():
+                        view.zoomTo({"model": 1})
+                    else:
+                        view.zoomTo()
 
                 view.setZoomLimits(10, 300)
                 view.setBackgroundColor("0xFFFFFF")
-                components.html(view._make_html(), height=340, scrolling=False)
+
+                html = view._make_html()
+                components.html(html, height=340, scrolling=False)
 
             except Exception as e:
-                st.warning(f"Viewer error: {e}")
+                st.warning(f"Could not render 3D view: {e}")
 
     with lcol:
         st.markdown(
@@ -2016,167 +1666,73 @@ with mainR:
             """,
             unsafe_allow_html=True,
         )
+# ---------------------------------------------------------------------
+# INTERPRETATION (LEFT) + TABLE (RIGHT)
+# ---------------------------------------------------------------------
 
-    st.markdown("<div style='height:14px;'></div>", unsafe_allow_html=True)
+left_col, right_col = st.columns([1, 1])
 
-    # ---- Bottom-right
-    render_lining_table(lining_res=lining_res, charge_num=charge_num)
+with left_col:
+    st.subheader("Biological context & pocket interpretation")
 
-    st.markdown("---")
-    st.subheader("Pocket design panel")
+    interp_html = interpret_pocket(best_pocket)
+    st.markdown(
+        f"""
+        <div style="
+        font-size: 0.92rem;
+        line-height: 1.45;
+        ">
+        {interp_html}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    if not lining_res:
-        st.info("No lining residues available for design analysis.")
+with right_col:
+    st.subheader("Matching pockets")
+
+    df_display = pd.DataFrame({
+        "Rank": df_top["rank"].astype(int),
+        "Protein ID": df_top["protein_id"].astype(str),
+        "Pocket ID": df_top["pocket_id"].astype(str),
+        "Biosensor (%)": (df_top["biosensor_score"] * 100).round(1),
+        "Ligand compat (%)": (df_top["ligand_compat_score"] * 100).round(1),
+        "QuickShape (%)": (df_top["quickshape_score"] * 100).round(1),
+        "Volume (Å³)": df_top["volume"].round(1),
+        "Hydrophobicity": df_top["hydrophobicity_score"].round(1),
+    })
+
+    gb = GridOptionsBuilder.from_dataframe(df_display)
+    gb.configure_selection("single", use_checkbox=True)
+    gb.configure_pagination(paginationAutoPageSize=False, paginationPageSize=20)
+    gb.configure_default_column(sortable=True, filter=True, resizable=True)
+    grid_options = gb.build()
+
+    grid_response = AgGrid(
+        df_display,
+        gridOptions=grid_options,
+        update_mode=GridUpdateMode.SELECTION_CHANGED,
+        theme="streamlit",
+        height=380,
+        fit_columns_on_grid_load=True,
+    )
+
+    selected = grid_response.get("selected_rows", None)
+
+    if isinstance(selected, pd.DataFrame) and not selected.empty:
+        row = selected.iloc[0]
+        rank = int(row["Rank"])
+        best_pocket = df_top.iloc[rank - 1]
+
+    elif isinstance(selected, list) and len(selected) > 0:
+        row = selected[0]
+        rank = int(row["Rank"])
+        best_pocket = df_top.iloc[rank - 1]
     else:
-        df_design = pd.DataFrame(lining_res)
+        best_pocket = st.session_state.get("best_pocket", df_top.iloc[0])
 
-        # ---- Filters
-        f1, f2, f3 = st.columns(3)
-
-        with f1:
-            allowed_risk = st.multiselect(
-                "Mutation risk",
-                ["low", "medium", "high"],
-                default=["low", "medium"],
-            )
-
-        with f2:
-            inter_types = sorted(df_design["interaction"].dropna().unique())
-            default_inter = inter_types if inter_types else []
-
-            allowed_inter = st.multiselect(
-                "Interaction type",
-                inter_types,
-                default=default_inter,
-            )
-
-        with f3:
-            min_score = st.slider(
-                "Min design priority",
-                0.0, 1.0, 0.3, step=0.05,
-            )
-
-
-        # ---- Apply filters
-        df_design_f = df_design[
-            (df_design["risk"].isin(allowed_risk))
-            & (df_design["interaction"].isin(allowed_inter))
-            & (df_design["design_score"] >= min_score)
-        ].copy()
-
-        df_design_f = df_design_f.sort_values(
-            "design_score", ascending=False
-        )
-
-        # ---- Display
-        display_cols = [
-            "label",
-            "resn",
-            "interaction",
-            "risk",
-            "min_dist_A",
-            "design_score",
-            "notes",
-        ]
-
-        df_show = df_design_f[display_cols].rename(columns={
-            "label": "Residue",
-            "resn": "AA",
-            "min_dist_A": "Dist (Å)",
-            "design_score": "Design priority",
-        })
-
-        # --- Safe formatting for AgGrid
-        df_show = df_show.copy()
-
-        df_show["Dist (Å)"] = pd.to_numeric(df_show["Dist (Å)"], errors="coerce").round(2)
-        df_show["Design priority"] = pd.to_numeric(df_show["Design priority"], errors="coerce").round(2)
-
-        # (Optional but recommended) ensure object cols are plain strings
-        for c in ["Residue", "AA", "interaction", "risk", "notes"]:
-            if c in df_show.columns:
-                df_show[c] = df_show[c].fillna("").astype(str)
-
-        gb2 = GridOptionsBuilder.from_dataframe(df_show)
-        gb2.configure_default_column(sortable=True, filter=True, resizable=True)
-
-        # Nice default sorting: best design priority first
-        gb2.configure_column("Design priority", sort="desc")
-
-        AgGrid(
-            df_show,
-            gridOptions=gb2.build(),
-            theme="streamlit",
-            height=280,
-            fit_columns_on_grid_load=True,
-        )
-
-
-# ---------------------------------------------------------------------
-# ROW 3 (FULL WIDTH): Matching pockets
-# ---------------------------------------------------------------------
-st.subheader("Matching pockets")
-
-df_display = pd.DataFrame({
-    "Rank": df_top["rank"].astype(int),
-    "Protein ID": df_top["protein_id"].astype(str),
-    "Pocket ID": df_top["pocket_id"].astype(str),
-    "Biosensor (%)": (df_top["biosensor_score"] * 100).round(1),
-    "Ligand compat (%)": (df_top["ligand_compat_score"] * 100).round(1),
-    "QuickShape (%)": (df_top["quickshape_score"] * 100).round(1),
-    "Volume (Å³)": df_top["volume"].round(1),
-    "Hydrophobicity": df_top["hydrophobicity_score"].round(1),
-
-    # hidden but critical
-    "pocket_key": df_top["pocket_key"].astype(str),
-})
-
-gb = GridOptionsBuilder.from_dataframe(df_display)
-gb.configure_selection("single", use_checkbox=True)
-gb.configure_pagination(paginationAutoPageSize=False, paginationPageSize=20)
-gb.configure_default_column(sortable=True, filter=True, resizable=True)
-
-gb.configure_column("pocket_key", hide=True)  # <- hide internal key
-
-grid_options = gb.build()
-
-grid_response = AgGrid(
-    df_display,
-    gridOptions=grid_options,
-    update_mode=GridUpdateMode.SELECTION_CHANGED,
-    theme="streamlit",
-    height=380,
-    fit_columns_on_grid_load=True,
-)
-
-selected = grid_response.get("selected_rows", None)
-
-new_key = None
-if isinstance(selected, pd.DataFrame) and not selected.empty:
-    new_key = str(selected.iloc[0]["pocket_key"])
-elif isinstance(selected, list) and len(selected) > 0:
-    new_key = str(selected[0]["pocket_key"])
-
-if new_key and new_key != st.session_state.get("best_pocket_key"):
-    st.session_state["best_pocket_key"] = new_key
-
-    # optional: reset viewer checkbox so it doesn't "stick" across pockets
-    st.session_state.pop("show_docked_pose", None)
-
-    st.rerun()
-
-if isinstance(selected, pd.DataFrame) and not selected.empty:
-    row = selected.iloc[0]
-    rank = int(row["Rank"])
-    best_pocket = df_top.iloc[rank - 1]
-
-elif isinstance(selected, list) and len(selected) > 0:
-    row = selected[0]
-    rank = int(row["Rank"])
-    best_pocket = df_top.iloc[rank - 1]
-else:
-    best_pocket = st.session_state.get("best_pocket", df_top.iloc[0])
-
+# Persist selection for next rerun (used by viewer above)
+st.session_state["best_pocket"] = best_pocket
 
 st.markdown("---")
 
