@@ -208,7 +208,7 @@ def fetch_uniprot_metadata(pid: str):
 FAVICON_PATH = Path(__file__).resolve().parents[1] / "assets" / "favicon.png"
 
 st.set_page_config(
-    page_title="BioLinka",
+    page_title="Biolinka",
     page_icon=str(FAVICON_PATH),
     layout="wide",
 )
