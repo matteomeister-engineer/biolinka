@@ -203,8 +203,13 @@ def fetch_uniprot_metadata(pid: str):
 # STREAMLIT CONFIG
 # ---------------------------------------------------------------------
 
+
+
+FAVICON_PATH = Path(__file__).resolve().parents[1] / "assets" / "favicon.png"
+
 st.set_page_config(
     page_title="BioLinka",
+    page_icon=str(FAVICON_PATH),
     layout="wide",
 )
 
