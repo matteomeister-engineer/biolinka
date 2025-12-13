@@ -18,6 +18,99 @@ from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 from math import sqrt
 
 
+# -----------------------------
+# MUTATION SUGGESTION ENGINE
+# -----------------------------
+
+AA3_TO_1 = {
+    "ALA":"A","ARG":"R","ASN":"N","ASP":"D","CYS":"C","GLN":"Q","GLU":"E","GLY":"G",
+    "HIS":"H","ILE":"I","LEU":"L","LYS":"K","MET":"M","PHE":"F","PRO":"P","SER":"S",
+    "THR":"T","TRP":"W","TYR":"Y","VAL":"V"
+}
+
+SAFE_SUBS = {
+    "hydrophobic": ["VAL","LEU","ILE","MET","ALA"],
+    "aromatic":    ["PHE","TYR","TRP"],
+    "H-bond":      ["SER","THR","ASN","GLN","TYR"],
+    "salt bridge": ["LYS","ARG","HIS","ASP","GLU"],  # filtered by charge sign below
+    "special":     ["ALA","SER","THR"],             # gentle alternatives
+    "other":       ["ALA","SER","THR","VAL","LEU"]
+}
+
+POS = {"LYS","ARG","HIS"}
+NEG = {"ASP","GLU"}
+
+def suggest_mutations(resn: str, interaction: str, lig_charge: float | None = None, top_n: int = 4):
+    """
+    Returns (safe_list, exploratory_list) where each list is a list of tuples:
+      (mut_aa3, rationale)
+    """
+    r = (resn or "").upper().strip()
+    interaction = (interaction or "other").strip()
+
+    # --- SAFE: keep same interaction class
+    pool = SAFE_SUBS.get(interaction, SAFE_SUBS["other"]).copy()
+
+    # If salt-bridge, keep the same charge by default
+    if interaction == "salt bridge":
+        if r in POS:
+            pool = [aa for aa in pool if aa in POS]
+        elif r in NEG:
+            pool = [aa for aa in pool if aa in NEG]
+
+    # Remove original, dedupe
+    safe = []
+    for aa in pool:
+        if aa == r:
+            continue
+        safe.append((aa, "Conservative: preserve interaction chemistry"))
+    safe = safe[:top_n]
+
+    # --- EXPLORATORY: pocket reshaping / polarity / charge flips
+    exploratory = []
+
+    # Pocket enlargement: mutate bulky → smaller
+    if r in {"TRP","PHE","TYR","LEU","ILE","MET"}:
+        exploratory.append(("ALA", "Exploratory: enlarge pocket / reduce steric bulk"))
+        exploratory.append(("GLY", "Exploratory: enlarge pocket (higher backbone risk)"))
+
+    # Add bulk: fill cavity / increase packing
+    if r in {"ALA","VAL","SER","THR"}:
+        exploratory.append(("LEU", "Exploratory: increase hydrophobic packing"))
+        exploratory.append(("PHE", "Exploratory: add aromatic packing / π contacts"))
+
+    # Polarity flips
+    if interaction == "hydrophobic":
+        exploratory.append(("SER", "Exploratory: introduce polarity / new H-bonding"))
+    if interaction == "H-bond":
+        exploratory.append(("VAL", "Exploratory: remove polarity / favor hydrophobic ligands"))
+
+    # Charge flips (guided by ligand charge if known)
+    if lig_charge is not None:
+        if lig_charge < 0:
+            # ligand anionic -> try adding positive
+            exploratory.append(("LYS", "Exploratory: add + charge (favor anionic ligand)"))
+            exploratory.append(("ARG", "Exploratory: add + charge (strong salt-bridge potential)"))
+        elif lig_charge > 0:
+            # ligand cationic -> try adding negative
+            exploratory.append(("ASP", "Exploratory: add – charge (favor cationic ligand)"))
+            exploratory.append(("GLU", "Exploratory: add – charge (salt-bridge potential)"))
+    else:
+        # unknown ligand charge -> generic flip options
+        exploratory.append(("LYS", "Exploratory: charge flip (+)"))
+        exploratory.append(("ASP", "Exploratory: charge flip (–)"))
+
+    # Remove original + dedupe, then trim
+    seen = set([r])
+    exp2 = []
+    for aa, why in exploratory:
+        if aa in seen:
+            continue
+        seen.add(aa)
+        exp2.append((aa, why))
+    exp2 = exp2[:top_n]
+
+    return safe, exp2
 
 # ---------------------------------------------------------------------
 # SMALL HELPERS
@@ -2069,6 +2162,38 @@ with mainR:
         )
 
         # ---- Display
+        # Compute ligand charge for suggestions (optional)
+        lig_charge_for_suggestions = None
+        try:
+            lig_charge_for_suggestions = float(charge_num) if not np.isnan(charge_num) else None
+        except Exception:
+            lig_charge_for_suggestions = None
+
+        # Build mutation suggestion columns
+        def _fmt_suggestions(sug_list):
+            # sug_list is list[(AA3, rationale)]
+            return ", ".join([f"{aa}" for aa, _ in sug_list])
+
+        def _fmt_rationales(sug_list):
+            return " | ".join([f"{aa}: {why}" for aa, why in sug_list])
+
+        safe_cols = []
+        exp_cols = []
+        safe_why = []
+        exp_why = []
+
+        for _, row in df_design_f.iterrows():
+            safe_sug, exp_sug = suggest_mutations(
+                resn=str(row.get("resn", "")),
+                interaction=str(row.get("interaction", "other")),
+                lig_charge=lig_charge_for_suggestions,
+                top_n=4,
+            )
+            safe_cols.append(_fmt_suggestions(safe_sug))
+            exp_cols.append(_fmt_suggestions(exp_sug))
+            safe_why.append(_fmt_rationales(safe_sug))
+            exp_why.append(_fmt_rationales(exp_sug))
+        
         display_cols = [
             "label",
             "resn",
@@ -2084,33 +2209,33 @@ with mainR:
             "resn": "AA",
             "min_dist_A": "Dist (Å)",
             "design_score": "Design priority",
-        })
+        }).copy()
 
-        # --- Safe formatting for AgGrid
-        df_show = df_show.copy()
+        df_show["SAFE mutations"] = safe_cols
+        df_show["EXPLORATORY mutations"] = exp_cols
 
-        df_show["Dist (Å)"] = pd.to_numeric(df_show["Dist (Å)"], errors="coerce").round(2)
-        df_show["Design priority"] = pd.to_numeric(df_show["Design priority"], errors="coerce").round(2)
+        # (Optional) keep rationales hidden but available for tooltips / future expansion
+        df_show["SAFE rationale"] = safe_why
+        df_show["EXPLORATORY rationale"] = exp_why
 
-        # (Optional but recommended) ensure object cols are plain strings
-        for c in ["Residue", "AA", "interaction", "risk", "notes"]:
-            if c in df_show.columns:
-                df_show[c] = df_show[c].fillna("").astype(str)
+        # Make columns Arrow-safe for AgGrid + consistency
+        for c in df_show.columns:
+            df_show[c] = df_show[c].apply(lambda x: "" if pd.isna(x) else str(x))
 
         gb2 = GridOptionsBuilder.from_dataframe(df_show)
         gb2.configure_default_column(sortable=True, filter=True, resizable=True)
 
-        # Nice default sorting: best design priority first
-        gb2.configure_column("Design priority", sort="desc")
+        # Hide rationale columns for now
+        gb2.configure_column("SAFE rationale", hide=True)
+        gb2.configure_column("EXPLORATORY rationale", hide=True)
 
         AgGrid(
             df_show,
             gridOptions=gb2.build(),
             theme="streamlit",
-            height=280,
+            height=320,
             fit_columns_on_grid_load=True,
         )
-
 
 # ---------------------------------------------------------------------
 # ROW 3 (FULL WIDTH): Matching pockets
