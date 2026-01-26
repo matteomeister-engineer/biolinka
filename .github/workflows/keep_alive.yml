@@ -9,8 +9,15 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Biolinka Streamlit app
+      - name: Keep-alive ping (no redirect loop)
         run: |
           set +e
-          curl -sS -L -o /dev/null -w "HTTP=%{http_code}\n" https://biolinka.streamlit.app/
+          URL="https://biolinka.streamlit.app/_stcore/health"
+
+          for i in 1 2 3; do
+            echo "Attempt $i..."
+            curl -sS -o /dev/null -w "HTTP=%{http_code}\n" --max-redirs 5 --connect-timeout 10 --max-time 20 "$URL"
+            sleep 10
+          done
+
           exit 0
