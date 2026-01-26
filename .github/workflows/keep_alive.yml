@@ -2,22 +2,15 @@ name: Keep Biolinka Awake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
 
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Keep-alive ping (no redirect loop)
+      - name: Wake Streamlit app (no redirects)
         run: |
           set +e
-          URL="https://biolinka.streamlit.app/_stcore/health"
-
-          for i in 1 2 3; do
-            echo "Attempt $i..."
-            curl -sS -o /dev/null -w "HTTP=%{http_code}\n" --max-redirs 5 --connect-timeout 10 --max-time 20 "$URL"
-            sleep 10
-          done
-
+          curl -sS -o /dev/null -w "HTTP=%{http_code}\n" https://biolinka.streamlit.app/
           exit 0
