@@ -11,6 +11,7 @@ import zipfile
 import io
 import base64
 import re
+import time
 
 from pathlib import Path
 from urllib.parse import quote
@@ -545,6 +546,68 @@ st.set_page_config(
     layout="wide",
 )
 
+def show_modern_loader(title="Loading Biolinka…", subtitle="Preparing data and UI…"):
+    box = st.empty()
+    progress = st.progress(0)
+    status = st.empty()
+
+    box.markdown(
+        f"""
+        <style>
+        .bio-loader {{
+            border-radius: 18px;
+            border: 1px solid #E5E7EB;
+            background: rgba(255,255,255,0.72);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+            padding: 16px 18px;
+            margin: 10px 0 8px 0;
+        }}
+        .bio-title {{
+            font-size: 1.05rem;
+            font-weight: 750;
+            margin-bottom: 2px;
+        }}
+        .bio-sub {{
+            color: #6B7280;
+            margin-bottom: 10px;
+        }}
+        .shimmer {{
+            background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 37%, #f3f4f6 63%);
+            background-size: 400% 100%;
+            animation: shimmer 1.2s ease-in-out infinite;
+            height: 14px;
+            border-radius: 999px;
+            margin: 10px 0;
+        }}
+        @keyframes shimmer {{
+            0%   {{ background-position: 100% 0; }}
+            100% {{ background-position: 0 0; }}
+        }}
+        </style>
+
+        <div class="bio-loader">
+          <div class="bio-title">{title}</div>
+          <div class="bio-sub">{subtitle}</div>
+          <div class="shimmer" style="width:65%"></div>
+          <div class="shimmer" style="width:92%"></div>
+          <div class="shimmer" style="width:78%"></div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    def step(pct: int, msg: str):
+        progress.progress(int(pct))
+        status.markdown(f"**{msg}**")
+
+    def done():
+        box.empty()
+        progress.empty()
+        status.empty()
+
+    return step, done
+
+
 st.markdown(
     """
     <style>
@@ -701,7 +764,6 @@ def load_pockets() -> pd.DataFrame:
     return df
 
 
-df_all = load_pockets()
 
 
 # ---------------------------------------------------------------------
@@ -1574,18 +1636,36 @@ pill_container = (
 )
 
 st.markdown(pill_container, unsafe_allow_html=True)
-# If no analyte yet: keep the landing page simple, show presets, and stop.
+
 # Stop here if nothing typed yet (clean landing page)
 if not aq:
     st.stop()
 
-# ---------------------------------------------------------------------
-# LIGAND INFO (PubChem) + ANALYTE PROFILE
-# ---------------------------------------------------------------------
-
-# Use free-text analyte + optional heuristic profile
+# -----------------------
+# Load heavy data + show loader ONCE per session
+# -----------------------
 profile = ANALYTE_PROFILES.get(aq, None)
-ligand_info = fetch_ligand_from_pubchem(raw_analyte) if raw_analyte else None
+
+if "df_all" not in st.session_state or st.session_state.get("ligand_name") != raw_analyte:
+    step, done = show_modern_loader(
+        title="Loading Biolinka…",
+        subtitle=f"Preparing pockets for: {raw_analyte}"
+    )
+
+    step(10, "Loading pocket dataset…")
+    if "df_all" not in st.session_state:
+        st.session_state["df_all"] = load_pockets()
+
+    step(35, "Fetching ligand properties (PubChem)…")
+    st.session_state["ligand_info"] = fetch_ligand_from_pubchem(raw_analyte) if raw_analyte else None
+    st.session_state["ligand_name"] = raw_analyte
+
+    step(100, "Ready.")
+    time.sleep(0.05)
+    done()
+
+df_all = st.session_state["df_all"]
+ligand_info = st.session_state.get("ligand_info", None)
 
 
 def _to_float(val):
@@ -1824,35 +1904,63 @@ st.markdown("---")
 if df_filtered.empty:
     st.warning("No pockets match these requirements. Relax the filters a bit.")
     st.stop()
-
 # ---------------------------------------------------------------------
 # INITIALIZE POCKET SELECTION STATE (ONCE)
 # ---------------------------------------------------------------------
 
-# rank pockets once (no UI yet)
 df_ranked = (
-    df_filtered.sort_values(
-        ["ligand_compat_score", "biosensor_score"], ascending=False
-    )
-    if "ligand_compat_score" in df_filtered.columns
-       and df_filtered["ligand_compat_score"].notna().any()
+    df_filtered.sort_values(["ligand_compat_score", "biosensor_score"], ascending=False)
+    if "ligand_compat_score" in df_filtered.columns and df_filtered["ligand_compat_score"].notna().any()
     else df_filtered.sort_values("biosensor_score", ascending=False)
 )
 
 df_top = df_ranked.head(20).reset_index(drop=True)
 df_top["rank"] = df_top.index + 1
-df_top["pocket_key"] = (
-    df_top["protein_id"].astype(str) + "::" + df_top["pocket_id"].astype(str)
-)
+df_top["pocket_key"] = df_top["protein_id"].astype(str) + "::" + df_top["pocket_id"].astype(str)
 
-# initialize session state key ONCE
 if "best_pocket_key" not in st.session_state:
     st.session_state["best_pocket_key"] = df_top.loc[0, "pocket_key"]
 
-# resolve current best pocket
+
+
+# ---------------------------------------------------------------------
+# NOW resolve best pocket (single source of truth)
+# ---------------------------------------------------------------------
 match = df_top[df_top["pocket_key"] == st.session_state["best_pocket_key"]]
 best_pocket = match.iloc[0] if not match.empty else df_top.iloc[0]
 
+# ---------------------------------------------------------------------
+# Pre-compute paths + lining residues (viewer + lining table + design panel)
+# ---------------------------------------------------------------------
+prot_id = str(best_pocket["protein_id"])
+pocket_num = str(best_pocket["pocket_id"])
+protein_pdb = STRUCT_DIR / f"{prot_id}.pdb"
+pocket_pdb = STRUCT_DIR / f"{prot_id}_out" / "pockets" / f"pocket{pocket_num}_atm.pdb"
+
+interpreted_name = st.session_state.get("interpreted_name", None)
+analyte_for_docking2 = (interpreted_name or analyte_for_docking or "").strip()
+analyte_folder_name2 = analyte_for_docking2.replace(" ", "_") if analyte_for_docking2 else None
+
+docked_pose = None
+if analyte_folder_name2:
+    docked_dir = BASE_DIR / "docking" / analyte_folder_name2 / "docked"
+    docked_pose = docked_dir / f"{prot_id}_pocket{pocket_num}_{analyte_folder_name2}_out.pdbqt"
+
+lig_center = None
+if docked_pose is not None and docked_pose.exists():
+    lig_center = ligand_center_from_pdbqt(docked_pose)
+
+lining_res, used_center = [], None
+if protein_pdb.exists() and pocket_pdb.exists():
+    lining_res, used_center = compute_lining_residues(
+        protein_pdb_path=protein_pdb,
+        pocket_pdb_path=pocket_pdb,
+        center_xyz=lig_center,
+        cutoff=6.0,
+    )
+
+if "viewer_nonce" not in st.session_state:
+    st.session_state["viewer_nonce"] = 0
 # ---------------------------------------------------------------------
 # Small helper: vertical divider
 # ---------------------------------------------------------------------
@@ -1966,36 +2074,6 @@ def render_lining_table(lining_res: list[dict], charge_num: float):
         fit_columns_on_grid_load=True,
     )
 
-# ---------------------------------------------------------------------
-# Pre-compute paths + lining residues once (so we can display them in row 2)
-# ---------------------------------------------------------------------
-prot_id = str(best_pocket["protein_id"])
-pocket_num = str(best_pocket["pocket_id"])
-protein_pdb = STRUCT_DIR / f"{prot_id}.pdb"
-pocket_pdb = STRUCT_DIR / f"{prot_id}_out" / "pockets" / f"pocket{pocket_num}_atm.pdb"
-
-# Docked pose path (if exists)
-interpreted_name = st.session_state.get("interpreted_name", None)
-analyte_for_docking = (interpreted_name or analyte_for_docking or "").strip()
-analyte_folder_name = analyte_for_docking.replace(" ", "_") if analyte_for_docking else None
-
-docked_pose = None
-if analyte_folder_name:
-    docked_dir = BASE_DIR / "docking" / analyte_folder_name / "docked"
-    docked_pose = docked_dir / f"{prot_id}_pocket{pocket_num}_{analyte_folder_name}_out.pdbqt"
-
-lig_center = None
-if docked_pose is not None and docked_pose.exists():
-    lig_center = ligand_center_from_pdbqt(docked_pose)
-
-lining_res, used_center = [], None
-if protein_pdb.exists() and pocket_pdb.exists():
-    lining_res, used_center = compute_lining_residues(
-        protein_pdb_path=protein_pdb,
-        pocket_pdb_path=pocket_pdb,
-        center_xyz=lig_center,
-        cutoff=6.0,
-    )
 
 
 # ---------------------------------------------------------------------
@@ -2067,6 +2145,36 @@ with mainR:
                         },
                     )
 
+                    # --------------------------------------------------
+                    # Highlight selected residue (from design panel)
+                    # --------------------------------------------------
+                    sel_chain = (st.session_state.get("selected_residue_chain") or "").strip()
+                    sel_resi  = st.session_state.get("selected_residue_resi")
+
+                    # Debug: show what is currently selected
+                    st.caption(f"Selected: chain={sel_chain!r} resi={sel_resi!r}")
+
+                    if sel_resi not in (None, "", "nan"):
+                        try:
+                            resi_int = int(float(sel_resi))
+
+                            # Try with chain, then without chain (handles blank-chain PDBs)
+                            if sel_chain:
+                                view.addStyle(
+                                    {"chain": sel_chain, "resi": resi_int},
+                                    {"stick": {"radius": 0.45, "color": "0x22C55E"},
+                                    "sphere": {"radius": 1.1, "color": "0x22C55E"}}
+                                )
+
+                            view.addStyle(
+                                {"resi": resi_int},
+                                {"stick": {"radius": 0.45, "color": "0x22C55E"},
+                                "sphere": {"radius": 1.1, "color": "0x22C55E"}}
+                            )
+
+                        except Exception:
+                            pass 
+
                 if show_ligand_pose and docked_pose is not None and docked_pose.exists():
                     model_index += 1
                     with open(docked_pose, "r") as f:
@@ -2084,7 +2192,15 @@ with mainR:
 
                 view.setZoomLimits(10, 300)
                 view.setBackgroundColor("0xFFFFFF")
-                components.html(view._make_html(), height=340, scrolling=False)
+
+                viewer_nonce = st.session_state.get("viewer_nonce", 0)
+
+                components.html(
+                    view._make_html() + f"<!-- nonce:{viewer_nonce} sel:{sel_chain}:{sel_resi} -->",
+                    height=340,
+                    scrolling=False,
+                )
+
 
             except Exception as e:
                 st.warning(f"Viewer error: {e}")
@@ -2118,11 +2234,13 @@ with mainR:
     st.markdown("---")
     st.subheader("Pocket design panel")
 
+    sel = None   
+
     if not lining_res:
         st.info("No lining residues available for design analysis.")
     else:
         df_design = pd.DataFrame(lining_res)
-
+        
         # ---- Filters
         f1, f2, f3 = st.columns(3)
 
@@ -2160,6 +2278,9 @@ with mainR:
         df_design_f = df_design_f.sort_values(
             "design_score", ascending=False
         )
+        for col in ["risk", "interaction", "design_score", "notes"]:
+            if col not in df_design.columns:
+                df_design[col] = ""
 
         # ---- Display
         # Compute ligand charge for suggestions (optional)
@@ -2202,6 +2323,8 @@ with mainR:
             "min_dist_A",
             "design_score",
             "notes",
+            "chain",
+            "resi",
         ]
 
         df_show = df_design_f[display_cols].rename(columns={
@@ -2209,6 +2332,8 @@ with mainR:
             "resn": "AA",
             "min_dist_A": "Dist (Å)",
             "design_score": "Design priority",
+            "chain": "Chain",
+            "resi": "Resi",
         }).copy()
 
         df_show["SAFE mutations"] = safe_cols
@@ -2228,15 +2353,109 @@ with mainR:
         # Hide rationale columns for now
         gb2.configure_column("SAFE rationale", hide=True)
         gb2.configure_column("EXPLORATORY rationale", hide=True)
+        gb2.configure_column("Chain", width=70)
+        gb2.configure_column("Resi", width=70)
 
-        AgGrid(
+        gb2.configure_selection("single", use_checkbox=True)
+
+        grid_resp = AgGrid(
             df_show,
             gridOptions=gb2.build(),
             theme="streamlit",
             height=320,
             fit_columns_on_grid_load=True,
+            update_mode=GridUpdateMode.SELECTION_CHANGED,
+            key=f"design_grid_{st.session_state['best_pocket_key']}",
         )
 
+        selected_rows = grid_resp.get("selected_rows", [])
+
+        if isinstance(selected_rows, list) and len(selected_rows) > 0:
+            sel = selected_rows[0]
+        else:
+            sel = None
+
+        st.write("sel from AgGrid:", sel)
+
+        # ✅ Persist selection across reruns
+        if sel:
+            new_chain = str(sel.get("Chain", "")).strip()
+            new_resi  = str(sel.get("Resi", "")).strip()
+
+            prev_chain = st.session_state.get("selected_residue_chain", "")
+            prev_resi  = st.session_state.get("selected_residue_resi", "")
+
+            st.session_state["selected_residue_chain"] = new_chain
+            st.session_state["selected_residue_resi"]  = new_resi
+
+            if new_chain != prev_chain or new_resi != prev_resi:
+                st.session_state["viewer_nonce"] = st.session_state.get("viewer_nonce", 0) + 1
+                st.rerun()
+
+
+    
+if sel:
+    import io
+
+    rows = []
+
+    def _parse_rationale(text, label):
+        if not text:
+            return []
+        out = []
+        for part in text.split("|"):
+            if ":" in part:
+                aa, why = part.split(":", 1)
+                out.append((aa.strip(), why.strip(), label))
+        return out
+
+    for aa, why, mode in _parse_rationale(sel["SAFE rationale"], "SAFE"):
+        rows.append({
+            "Residue": sel["Residue"],
+            "WT_AA": sel["AA"],
+            "Mutant": aa,
+            "Mode": mode,
+            "Rationale": why,
+        })
+
+    for aa, why, mode in _parse_rationale(sel["EXPLORATORY rationale"], "EXPLORATORY"):
+        rows.append({
+            "Residue": sel["Residue"],
+            "WT_AA": sel["AA"],
+            "Mutant": aa,
+            "Mode": mode,
+            "Rationale": why,
+        })
+
+    df_export = pd.DataFrame(rows)
+
+    csv_buf = io.StringIO()
+    df_export.to_csv(csv_buf, index=False)
+
+    st.download_button(
+        "⬇️ Download mutation library (CSV)",
+        csv_buf.getvalue(),
+        file_name=f"{sel['Residue']}_mutation_library.csv",
+        mime="text/csv",
+    )
+    st.markdown("---")
+    st.subheader(f"Mutation plan for {sel['Residue']} ({sel['AA']})")
+
+    colA, colB = st.columns(2)
+
+    with colA:
+        st.markdown("### 🟢 SAFE mutations")
+        st.markdown(
+            sel.get("SAFE rationale", "No safe mutations available."),
+            unsafe_allow_html=False,
+        )
+
+    with colB:
+        st.markdown("### 🟠 EXPLORATORY mutations")
+        st.markdown(
+            sel.get("EXPLORATORY rationale", "No exploratory mutations available."),
+            unsafe_allow_html=False,
+        )
 # ---------------------------------------------------------------------
 # ROW 3 (FULL WIDTH): Matching pockets
 # ---------------------------------------------------------------------
