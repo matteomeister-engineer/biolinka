@@ -11,6 +11,4 @@ jobs:
     steps:
       - name: Wake Streamlit app (no redirects)
         run: |
-          set +e
-          curl -sS --max-redirs 0 -o /dev/null -w "HTTP=%{http_code}\n" https://biolinka.streamlit.app/
-          exit 0
+          curl -sS --max-redirs 0 -o /dev/null -w "HTTP=%{http_code}\n" https://biolinka.streamlit.app/ || true
