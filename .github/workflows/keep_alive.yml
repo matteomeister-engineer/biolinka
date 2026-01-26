@@ -11,4 +11,6 @@ jobs:
     steps:
       - name: Ping Biolinka Streamlit app
         run: |
+          set +e
           curl -sS -L -o /dev/null -w "HTTP=%{http_code}\n" https://biolinka.streamlit.app/
+          exit 0
