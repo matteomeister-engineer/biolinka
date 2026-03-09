@@ -1,14 +1,17 @@
 name: Keep Biolinka Awake
 
+# Run on schedule and manual trigger
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"  # every 6 hours UTC
   workflow_dispatch:
 
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Wake Streamlit app (no redirects)
+      - name: Wake Streamlit app
         run: |
-          curl -sS --max-redirs 0 -o /dev/null -w "HTTP=%{http_code}\n" https://biolinka.streamlit.app/ || true
+          echo "Pinging Streamlit app..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://biolinka.streamlit.app || echo "000")
+          echo "HTTP response code: $HTTP_STATUS"
